@@ -1,0 +1,35 @@
+{
+  "model": "distilbert-base-uncased",
+  "n_pairs": {
+    "same": 36,
+    "related": 54,
+    "unrelated": 36
+  },
+  "mean_similarity": {
+    "s_spec": {
+      "same": -0.09129900630698463,
+      "related": -0.08812653872630151,
+      "unrelated": -0.09494307853880411
+    },
+    "s_alonecos": {
+      "same": 0.8563587968666169,
+      "related": 0.834229013611519,
+      "unrelated": 0.6885477735192275
+    },
+    "s_pool": {
+      "same": 0.9429084563224177,
+      "related": 0.9322577452374816,
+      "unrelated": 0.8589879220054376
+    }
+  },
+  "auc_same_vs_related": {
+    "s_spec": 0.4717078189300412,
+    "s_alonecos": 0.6383744855967077,
+    "s_pool": 0.6532921810699589
+  },
+  "auc_related_vs_unrelated": {
+    "s_spec": 0.5668724279835392,
+    "s_alonecos": 0.962962962962963,
+    "s_pool": 0.955761316872428
+  }
+}

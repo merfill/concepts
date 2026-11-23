@@ -1,0 +1,41 @@
+{
+  "model": "distilbert-base-uncased",
+  "n_pairs": {
+    "same": 48,
+    "diff": 48
+  },
+  "phase1_auc": {
+    "s_spec": 0.5980902777777777,
+    "s_alonecos": 0.9952256944444444,
+    "s_pool": 0.990017361111111,
+    "s_cross": 0.6401909722222222
+  },
+  "signal_corr": {
+    "s_spec_s_alonecos": 0.17590884427563758,
+    "s_spec_s_pool": 0.1521703743895822,
+    "s_spec_s_cross": -0.04930819316332067,
+    "s_alonecos_s_pool": 0.8799376017362994,
+    "s_alonecos_s_cross": 0.09477753662506781,
+    "s_pool_s_cross": 0.29620184481823114
+  },
+  "jaccard_corr": {
+    "s_spec": 0.17633903623079358,
+    "s_alonecos": 0.5512443746329558,
+    "s_pool": 0.5908049546756108,
+    "s_cross": 0.09062671816801174
+  },
+  "auc_controlling_confounds": {
+    "s_spec": 0.4895833333333333,
+    "s_alonecos": 0.9097222222222223,
+    "s_pool": 0.8585069444444444,
+    "s_cross": 0.6497395833333334
+  },
+  "phase2": {
+    "target": "s_pool",
+    "learned_cv_r": 0.9340748779164407,
+    "learned_cv_auc": 1.0,
+    "baseline_phi_spec_r": 0.1521703743895822,
+    "baseline_alone_cosine_r": 0.8799376017362994,
+    "baseline_unweighted_l2_r": 0.8672137818773737
+  }
+}

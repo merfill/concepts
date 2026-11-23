@@ -1,0 +1,28 @@
+{
+  "model": "distilbert-base-uncased",
+  "n_pairs": {
+    "same": 30,
+    "diff": 30
+  },
+  "content_jaccard_same_mean": 0.005555555555555555,
+  "content_jaccard_diff_mean": 0.0023809523809523807,
+  "phase1_auc": {
+    "s_spec": 0.5266666666666667,
+    "s_alonecos": 0.9955555555555555,
+    "s_pool": 1.0,
+    "s_cross": 0.5666666666666667
+  },
+  "lexical_auc": 0.5177777777777778,
+  "auc_controlling_confounds": {
+    "s_spec": 0.5977777777777777,
+    "s_alonecos": 0.99,
+    "s_pool": 0.98,
+    "s_cross": 0.5722222222222223
+  },
+  "phase2": {
+    "learned_cv_r": 0.9333148096693528,
+    "learned_cv_auc": 0.99,
+    "baseline_alone_cosine_r": 0.9051958877465964,
+    "baseline_phi_spec_r": 0.18038343984440125
+  }
+}

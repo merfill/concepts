@@ -1,0 +1,318 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "question": "It is a",
+  "samples_by_concept": {
+    "bee": [
+      [
+        "fact that if the temperature of",
+        "well-known fact that the stripes",
+        "fact that the bee's stomach",
+        "well-known fact that the number",
+        "long story, but it all",
+        "known fact that for every"
+      ],
+      [
+        "species of insect that can fly",
+        "very small creature, so it",
+        "species of insect. The female",
+        "common belief that honey was first",
+        "**syrup beetle**",
+        "type of:\n\nOPTIONS:\n-"
+      ],
+      [
+        "social insect, meaning the members",
+        "bee.",
+        "honey bee, or Apis",
+        "bee.\n\nBees are social",
+        "honey bee. Honey bees are",
+        "honey bee. Honey bees are"
+      ]
+    ],
+    "wasp": [
+      [
+        "very common sight to see yellow",
+        "kind of bee that belongs to",
+        "true bug, meaning it has",
+        "fly, but not the same",
+        "bee. It belongs to the",
+        "very common sight in our country"
+      ],
+      [
+        "bee. \n\nWhat is the",
+        ":\n\n  • bee",
+        "type of what?\n\nHorn",
+        "type of what? (Chicken",
+        "bee. How does this answer",
+        "kind of _______. (Fill"
+      ],
+      [
+        "common myth that the European honey",
+        "common assumption that bees are the",
+        "small, brownish-black was",
+        "very important part of the insect",
+        "very dangerous bird. If the",
+        "common misconception that wasps are"
+      ]
+    ],
+    "river": [
+      [
+        "clear, warm summer day.",
+        "typical day, and all goes",
+        "fact that ___________.",
+        "cold winter day. What might",
+        "sunny day, and you are",
+        "calm day and there are no"
+      ],
+      [
+        "fact that this type of river",
+        "fact that:\n\na. The",
+        "well-known fact that the average",
+        "long way from here, but",
+        "long, narrow river with many",
+        "very broad, deep, and"
+      ],
+      [
+        "stream, but not like you",
+        "natural stream, formed by the",
+        "river. It flows from north",
+        "river, but it flows in",
+        "natural occurrence that can be seen",
+        "place of beauty and wonder,"
+      ]
+    ],
+    "stream": [
+      [
+        "stream of photons, a beam",
+        "constant presence, an invisible thread",
+        "lowly stream, yet it",
+        "little boy. His name is",
+        "constant, almost unnoticed force.",
+        "strange smell, and it doesn"
+      ],
+      [
+        "beautiful and peaceful scene, with",
+        "small but mighty stream, its",
+        "lovely sight to see the water",
+        "river. \n\nIs the sentence",
+        "beautiful day, and I am",
+        "small river, but it is"
+      ],
+      [
+        "quiet, tranquil scene. You",
+        "common scene in the U.S",
+        "little like the way the stream",
+        "fact that all the rivers flow",
+        "place where the sun can warm",
+        "fact of life that all living"
+      ]
+    ],
+    "snow": [
+      [
+        "beautiful sight.  Snow",
+        "fact that the Earth’s climate",
+        "well-known fact that winter brings",
+        "winter wonderland. Trees are",
+        "common misconception that \"snow\"",
+        "common occurrence for snowflakes"
+      ],
+      [
+        "cold day. The air temperature",
+        "common observation that snowflakes",
+        "cold day. You wake up",
+        "common perception that winter means ice",
+        "fact that water can form in",
+        "cold day and you're out"
+      ],
+      [
+        "known fact that the ice cream",
+        "cold winter day and your children",
+        "fact that the world gets colder",
+        "fact that water freezes at",
+        "common sight in winter, especially",
+        "fact that you can see ice"
+      ]
+    ],
+    "hail": [
+      [
+        "fact that ice storms are dangerous",
+        "very cold day, and I",
+        "winter scene. The air is",
+        "very unusual weather phenomenon to see",
+        "cold day in mid-March",
+        "fact that ice storms can be"
+      ],
+      [
+        "fact that clouds carry electricity.",
+        "phenomenon which can be seen all",
+        "sight that has inspired artists and",
+        "phenomenon that some people call \"",
+        "fact that when you are out",
+        "phenomenon that has fascinated and intrigued"
+      ],
+      [
+        "phenomenon that occurs every year in",
+        "natural process called [glac",
+        "phenomenon known as a **th",
+        "rare, dramatic sight, but",
+        "very common sight in the Arctic",
+        "rare sight, but not unique"
+      ]
+    ],
+    "volcano": [
+      [
+        "form of igneous activity.",
+        "fact that the Earth's crust",
+        "fact that the temperature of mol",
+        "volcano's job to protect the",
+        "common misunderstanding that the earth's",
+        "fact that the Earth's surface"
+      ],
+      [
+        "scene that looks like a Hollywood",
+        "scene that has been replayed",
+        "common sight to see large amounts",
+        "common image, one that seems",
+        "phenomenon that occurs in places such",
+        "fact that:\n\n  • It"
+      ],
+      [
+        "natural phenomenon that occurs when the",
+        "common sight at Yellowstone National Park",
+        "natural wonder of nature, an",
+        "natural occurrence on the moon.",
+        "strange sight, but not unique",
+        "rare natural phenomenon, occurring only"
+      ]
+    ],
+    "geyser": [
+      [
+        "very common phenomenon on Earth,",
+        "fact that hot air rises.",
+        "fact that hot air rises,",
+        "fact that the hotter something gets",
+        "very common experience. In many",
+        "common sight. The water has"
+      ],
+      [
+        "known fact that when something explodes",
+        "simple question. Is it true",
+        "well-known fact that if you",
+        "typical scenario from science fiction,",
+        "1986 movie",
+        "very small amount of boiling liquid"
+      ],
+      [
+        "very large hole, the kind",
+        "sign of the boiling water that",
+        "known fact that steam is created",
+        "large hole, and it has",
+        "steam boiler. It has been",
+        "good idea to use water heaters"
+      ]
+    ],
+    "guitar": [
+      [
+        "type of bowed string instrument,",
+        "musical instrument with strings. It",
+        "type of musical instrument and also",
+        "bowed, or plucked string",
+        "musical instrument. It is played",
+        "musical instrument with strings. Strings"
+      ],
+      [
+        "simple mechanism, made up of",
+        "simple machine that can produce notes",
+        "3 note device, one",
+        "12-tone equal temperament",
+        "well-known fact that if you",
+        "three-cord instrument, but"
+      ],
+      [
+        "musical instrument called the harp",
+        "musical instrument used by the M",
+        "string, and not an instrument",
+        "guitar.\nYou are correct!",
+        "musical instrument, and it has",
+        "wind instrument that can produce a"
+      ]
+    ],
+    "violin": [
+      [
+        "musical instrument which can be used",
+        "stringed instrument that produces a",
+        "small, handheld instrument that produces",
+        "small but very powerful instrument that",
+        "musical instrument. The name \"",
+        "stringed musical instrument in which"
+      ],
+      [
+        "beautiful instrument, but it's",
+        "very old instrument. The earliest",
+        "21-string, finger",
+        "percussion instrument, which is played",
+        "percussion instrument called an ocar",
+        "member of the family of instruments"
+      ],
+      [
+        "stringed musical instrument in the",
+        "bowed stringed instrument and it",
+        "stringed musical instrument. The",
+        "stringed musical instrument. The",
+        "bowed stringed musical instrument and",
+        "stringed musical instrument, similar"
+      ]
+    ],
+    "shark": [
+      [
+        "predator that lives in the deep",
+        "shark, but not the usual",
+        "large, powerful creature that hunts",
+        "type of fish that can be",
+        "predator that feeds on other fish",
+        "large, powerful fish that can"
+      ],
+      [
+        "very fast predator, capable of",
+        "common question: \"Is there",
+        "large, carnivorous fish that",
+        "fish, and has an amazing",
+        "shark.  There are",
+        "creature that preys on fish"
+      ],
+      [
+        "type of shark known as a",
+        "very dangerous and frightening creature.",
+        "shark. What is its name",
+        "shark. Sharks have large,",
+        "type of what animal? shark",
+        "fish called the barracuda"
+      ]
+    ],
+    "dolphin": [
+      [
+        "well-known fact that dolphins can",
+        "fact of life that many people",
+        "curious fact about dolphins, or",
+        "very unique species of cetace",
+        "fact that the sound of a",
+        "type of animal. It lives"
+      ],
+      [
+        "small whale with a black or",
+        "member of the family that includes",
+        "large marine mammal that can",
+        "marine mammal, or cet",
+        "mammal that lives its whole",
+        "marine mammal. It has"
+      ],
+      [
+        "common sight to see the dolphin",
+        "small but fierce fish, with",
+        "fish that swims in the deep",
+        "small, roundish, and",
+        "common sight in the deep blue",
+        "type of fish that swims in"
+      ]
+    ]
+  }
+}
