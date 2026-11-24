@@ -1,0 +1,89 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "split": "eval",
+  "layers": [
+    12
+  ],
+  "m": 16,
+  "eps": 0.01,
+  "n_perm": 200,
+  "transient": 0,
+  "sets": [
+    {
+      "objects": "factorial",
+      "n_objects": 8,
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "layers": [
+        12
+      ],
+      "m_probes": 16,
+      "eps": 0.01,
+      "cross_type": [
+        {
+          "layer": 12,
+          "a": "open",
+          "b": "judge",
+          "type_a": "continuation",
+          "type_b": "judgment",
+          "op_rsa": 0.3711001642036125,
+          "op_rsa_partial": 0.20032840722495895,
+          "state_rsa": 0.10563765736179528,
+          "baseline": 0.45459369956330775,
+          "p": 0.1890547263681592,
+          "op_margin": -0.08349353535969523,
+          "delta_op_minus_state": 0.26546250684181727
+        },
+        {
+          "layer": 12,
+          "a": "completion",
+          "b": "judge",
+          "type_a": "continuation",
+          "type_b": "judgment",
+          "op_rsa": 0.5643130815544608,
+          "op_rsa_partial": 0.4641488779419814,
+          "state_rsa": 0.46688560481663927,
+          "baseline": 0.3377690064921646,
+          "p": 0.04477611940298507,
+          "op_margin": 0.22654407506229618,
+          "delta_op_minus_state": 0.09742747673782154
+        }
+      ],
+      "within_type": [
+        {
+          "layer": 12,
+          "a": "open",
+          "b": "completion",
+          "type_a": "continuation",
+          "type_b": "continuation",
+          "op_rsa": 0.41105637657361793,
+          "op_rsa_partial": 0.42255062944718114,
+          "state_rsa": 0.01477832512315271,
+          "baseline": 0.45459369956330775,
+          "p": 0.16417910447761194,
+          "op_margin": -0.04353732298968982,
+          "delta_op_minus_state": 0.39627805145046524
+        }
+      ],
+      "mean_op_rsa": 0.46770662287903664,
+      "mean_state_rsa": 0.28626163108921726,
+      "mean_margin": 0.07152526985130048,
+      "mean_delta": 0.1814449917898194,
+      "within_op_rsa": 0.41105637657361793,
+      "n_above_threshold": 1,
+      "probe_basis_stability": 0.9157088122605364,
+      "effective_dimension": {
+        "open": {
+          "12": 6.66749245811682
+        },
+        "completion": {
+          "12": 6.930039346309906
+        },
+        "judge": {
+          "12": 6.982337091160146
+        }
+      },
+      "transient": {},
+      "verdict": "H5b: no operator invariant"
+    }
+  ]
+}

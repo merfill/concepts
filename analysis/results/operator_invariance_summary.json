@@ -1,0 +1,171 @@
+{
+  "model": "distilgpt2",
+  "split": "eval",
+  "layers": [
+    3
+  ],
+  "m": 16,
+  "eps": 0.01,
+  "n_perm": 400,
+  "transient": 2,
+  "sets": [
+    {
+      "objects": "factorial",
+      "n_objects": 48,
+      "model": "distilgpt2",
+      "layers": [
+        3
+      ],
+      "m_probes": 16,
+      "eps": 0.01,
+      "cross_type": [
+        {
+          "layer": 3,
+          "a": "open",
+          "b": "judge",
+          "type_a": "continuation",
+          "type_b": "judgment",
+          "op_rsa": 0.4449712477012267,
+          "op_rsa_partial": 0.20779104030314974,
+          "state_rsa": 0.5822125166012423,
+          "baseline": 0.5637486007939624,
+          "p": 0.0024937655860349127,
+          "op_margin": -0.11877735309273568,
+          "delta_op_minus_state": -0.1372412689000156
+        },
+        {
+          "layer": 3,
+          "a": "completion",
+          "b": "judge",
+          "type_a": "continuation",
+          "type_b": "judgment",
+          "op_rsa": 0.3545732775731033,
+          "op_rsa_partial": 0.04683506326151195,
+          "state_rsa": 0.25558272707296203,
+          "baseline": 0.5637486007939624,
+          "p": 0.0024937655860349127,
+          "op_margin": -0.20917532322085908,
+          "delta_op_minus_state": 0.09899055050014127
+        }
+      ],
+      "within_type": [
+        {
+          "layer": 3,
+          "a": "open",
+          "b": "completion",
+          "type_a": "continuation",
+          "type_b": "continuation",
+          "op_rsa": 0.4029284822760363,
+          "op_rsa_partial": -0.003222258399012435,
+          "state_rsa": 0.1778770997980486,
+          "baseline": 0.4923703282653869,
+          "p": 0.0024937655860349127,
+          "op_margin": -0.08944184598935062,
+          "delta_op_minus_state": 0.22505138247798767
+        }
+      ],
+      "mean_op_rsa": 0.39977226263716503,
+      "mean_state_rsa": 0.41889762183710216,
+      "mean_margin": -0.16397633815679738,
+      "mean_delta": -0.01912535919993716,
+      "within_op_rsa": 0.4029284822760363,
+      "n_above_threshold": 0,
+      "probe_basis_stability": 0.7086933846912581,
+      "effective_dimension": {
+        "open": {
+          "3": 14.325017267723487
+        },
+        "completion": {
+          "3": 9.408381635126315
+        },
+        "judge": {
+          "3": 12.221031357596765
+        }
+      },
+      "transient": {
+        "1": 1.0,
+        "2": 1.0
+      },
+      "verdict": "H5b: no operator invariant"
+    },
+    {
+      "objects": "natural",
+      "n_objects": 30,
+      "model": "distilgpt2",
+      "layers": [
+        3
+      ],
+      "m_probes": 16,
+      "eps": 0.01,
+      "cross_type": [
+        {
+          "layer": 3,
+          "a": "open",
+          "b": "judge",
+          "type_a": "continuation",
+          "type_b": "judgment",
+          "op_rsa": 0.3438098542577525,
+          "op_rsa_partial": 0.21127640001924375,
+          "state_rsa": 0.362298432654894,
+          "baseline": 0.2758277497591128,
+          "p": 0.004987531172069825,
+          "op_margin": 0.06798210449863973,
+          "delta_op_minus_state": -0.018488578397141464
+        },
+        {
+          "layer": 3,
+          "a": "completion",
+          "b": "judge",
+          "type_a": "continuation",
+          "type_b": "judgment",
+          "op_rsa": 0.3297476298843771,
+          "op_rsa_partial": 0.294858274156373,
+          "state_rsa": 0.2612509603651647,
+          "baseline": 0.2758277497591128,
+          "p": 0.0024937655860349127,
+          "op_margin": 0.05391988012526433,
+          "delta_op_minus_state": 0.0684966695192124
+        }
+      ],
+      "within_type": [
+        {
+          "layer": 3,
+          "a": "open",
+          "b": "completion",
+          "type_a": "continuation",
+          "type_b": "continuation",
+          "op_rsa": 0.5719109772471815,
+          "op_rsa_partial": 0.5782054328604521,
+          "state_rsa": 0.33719991777670544,
+          "baseline": 0.2547186078412904,
+          "p": 0.0024937655860349127,
+          "op_margin": 0.31719236940589113,
+          "delta_op_minus_state": 0.2347110594704761
+        }
+      ],
+      "mean_op_rsa": 0.33677874207106484,
+      "mean_state_rsa": 0.3117746965100293,
+      "mean_margin": 0.06095099231195203,
+      "mean_delta": 0.02500404556103547,
+      "within_op_rsa": 0.5719109772471815,
+      "n_above_threshold": 0,
+      "probe_basis_stability": 0.8649435735351788,
+      "effective_dimension": {
+        "open": {
+          "3": 21.35942131364401
+        },
+        "completion": {
+          "3": 21.467161798961065
+        },
+        "judge": {
+          "3": 22.032133128073205
+        }
+      },
+      "transient": {
+        "1": 0.997649346805902,
+        "2": 0.9997916718299202
+      },
+      "verdict": "H5b: no operator invariant"
+    }
+  ]
+}
