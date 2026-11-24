@@ -1,0 +1,783 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "probe_primary": "It is a",
+  "probe_alt": "In short, it is a",
+  "k": 50,
+  "gen_per_seed": 3,
+  "unrelated": "clock",
+  "generated": {
+    "bee": [
+      "An insect with a pattern of stripes is collecting nectar and producing honey.",
+      "The colored bug consumes sweet sap and produces syrup.",
+      "A striped insect, in search of food, collects nectar from flowers to create its sweet substance known as honey."
+    ],
+    "river": [
+      "A substantial current of liquid descends towards the sea.",
+      "Water surges out into the vast expanse of the sea.",
+      "Water rushes towards the sea in a continuous flow."
+    ],
+    "snow": [
+      "Ice crystals descend from the sky during chilly conditions.",
+      "Ice crystals descend from the sky during chilly climates.",
+      "Snowflakes descend from the sky during chilly conditions."
+    ],
+    "volcano": [
+      "Hot magma spurts forth from a mountain and cascades down in liquid form.",
+      "A volcano spews magma, which cools and becomes liquid lava.",
+      "A fiery substance rises from a volcano and spreads as molten liquid."
+    ],
+    "guitar": [
+      "An instrument composed of strings, which is played by strumming them to create musical notes.",
+      "A musical instrument that involves strumming a series of strings in order to produce melody and harmony.",
+      "An acoustic musical device that involves strumming to create sound."
+    ],
+    "shark": [
+      "A sea creature equipped with keenly sharp teeth and agile fins.",
+      "An aggressive marine creature equipped with formidable jaws and streamlined appendages.",
+      "A carnivorous marine creature equipped with jagged jaws and flowing pectorals."
+    ]
+  },
+  "records": [
+    {
+      "seed": "bee",
+      "category": "human",
+      "text": "A small winged creature collects sweet fluid from blossoms and produces golden syrup.",
+      "js": 0.375523636507547,
+      "js_alt": 0.15366695818220263,
+      "tv": 0.7293370447706149,
+      "lexical": 0.05,
+      "len_delta": 6
+    },
+    {
+      "seed": "bee",
+      "category": "human",
+      "text": "This buzzing pollinator lives in a colony and stores food in wax cells.",
+      "js": 0.5092961083732397,
+      "js_alt": 0.1983574069065168,
+      "tv": 0.869301250660878,
+      "lexical": 0.05263157894736842,
+      "len_delta": 5
+    },
+    {
+      "seed": "bee",
+      "category": "near",
+      "text": "A slim stinging insect hunts other bugs and builds paper nests.",
+      "js": 0.388475691726024,
+      "js_alt": 0.28203955976076195,
+      "tv": 0.7499502451411086,
+      "lexical": 0.11764705882352941,
+      "len_delta": 3
+    },
+    {
+      "seed": "bee",
+      "category": "near",
+      "text": "This aggressive flyer has a painful sting and preys on smaller creatures.",
+      "js": 0.4913257115476904,
+      "js_alt": 0.328385700165207,
+      "tv": 0.8349972835697761,
+      "lexical": 0.05263157894736842,
+      "len_delta": 4
+    },
+    {
+      "seed": "bee",
+      "category": "near",
+      "text": "A yellow-jacketed hunter that feeds its young on captured insects.",
+      "js": 0.25327951442825203,
+      "js_alt": 0.2839511407068267,
+      "tv": 0.598135790592912,
+      "lexical": 0.0,
+      "len_delta": 4
+    },
+    {
+      "seed": "bee",
+      "category": "unrelated",
+      "text": "A device that shows the time with hands on a dial.",
+      "js": 0.5410899909479083,
+      "js_alt": 0.6291862497508213,
+      "tv": 0.863327695537284,
+      "lexical": 0.058823529411764705,
+      "len_delta": 2
+    },
+    {
+      "seed": "bee",
+      "category": "unrelated",
+      "text": "An instrument displays hours and minutes via moving pointers.",
+      "js": 0.4102266852952901,
+      "js_alt": 0.5679550608708234,
+      "tv": 0.7648354925262608,
+      "lexical": 0.0625,
+      "len_delta": 0
+    },
+    {
+      "seed": "bee",
+      "category": "unrelated",
+      "text": "This machine measures passing moments and marks them on a face.",
+      "js": 0.4514324828275994,
+      "js_alt": 0.5430270714949237,
+      "tv": 0.8012178864751229,
+      "lexical": 0.05555555555555555,
+      "len_delta": 2
+    },
+    {
+      "seed": "bee",
+      "category": "generated",
+      "text": "An insect with a pattern of stripes is collecting nectar and producing honey.",
+      "js": 0.06583558982805161,
+      "js_alt": 0.29897959529429324,
+      "tv": 0.2924199205362899,
+      "lexical": 0.23529411764705882,
+      "len_delta": 5
+    },
+    {
+      "seed": "bee",
+      "category": "generated",
+      "text": "The colored bug consumes sweet sap and produces syrup.",
+      "js": 0.10017638733959489,
+      "js_alt": 0.256915944386835,
+      "tv": 0.3759268059995777,
+      "lexical": 0.13333333333333333,
+      "len_delta": 0
+    },
+    {
+      "seed": "bee",
+      "category": "generated",
+      "text": "A striped insect, in search of food, collects nectar from flowers to create its sweet substance known as honey.",
+      "js": 0.03888839825054199,
+      "js_alt": 0.15618944994614709,
+      "tv": 0.20050764416456884,
+      "lexical": 0.17391304347826086,
+      "len_delta": 13
+    },
+    {
+      "seed": "river",
+      "category": "human",
+      "text": "A wide natural channel carries freshwater downhill to the sea.",
+      "js": 0.19723562636522804,
+      "js_alt": 0.18274545386184632,
+      "tv": 0.5147690370149332,
+      "lexical": 0.11764705882352941,
+      "len_delta": 1
+    },
+    {
+      "seed": "river",
+      "category": "human",
+      "text": "Flowing liquid runs across the land inside a long carved bed.",
+      "js": 0.2044106120389339,
+      "js_alt": 0.20502882529181632,
+      "tv": 0.5135823311286124,
+      "lexical": 0.1111111111111111,
+      "len_delta": 3
+    },
+    {
+      "seed": "river",
+      "category": "near",
+      "text": "A small narrow current trickles through the countryside.",
+      "js": 0.3101037062968586,
+      "js_alt": 0.25517154740159786,
+      "tv": 0.6612806329476729,
+      "lexical": 0.13333333333333333,
+      "len_delta": 0
+    },
+    {
+      "seed": "river",
+      "category": "near",
+      "text": "A little brook winds between the hills toward a larger body.",
+      "js": 0.19885916526711123,
+      "js_alt": 0.2318465174853969,
+      "tv": 0.5265815544496254,
+      "lexical": 0.1875,
+      "len_delta": 3
+    },
+    {
+      "seed": "river",
+      "category": "near",
+      "text": "Shallow moving water threads through fields and woods.",
+      "js": 0.16624353321857147,
+      "js_alt": 0.19723333664819898,
+      "tv": 0.4836050608218169,
+      "lexical": 0.0625,
+      "len_delta": 0
+    },
+    {
+      "seed": "river",
+      "category": "unrelated",
+      "text": "A device that shows the time with hands on a dial.",
+      "js": 0.5260839778666735,
+      "js_alt": 0.6277366553422703,
+      "tv": 0.8524322821247241,
+      "lexical": 0.11764705882352941,
+      "len_delta": 2
+    },
+    {
+      "seed": "river",
+      "category": "unrelated",
+      "text": "An instrument displays hours and minutes via moving pointers.",
+      "js": 0.5125657557687131,
+      "js_alt": 0.575838593045675,
+      "tv": 0.8613119013688525,
+      "lexical": 0.0,
+      "len_delta": 0
+    },
+    {
+      "seed": "river",
+      "category": "unrelated",
+      "text": "This machine measures passing moments and marks them on a face.",
+      "js": 0.39627513714057855,
+      "js_alt": 0.5342399928798337,
+      "tv": 0.7114720900454683,
+      "lexical": 0.05263157894736842,
+      "len_delta": 2
+    },
+    {
+      "seed": "river",
+      "category": "generated",
+      "text": "A substantial current of liquid descends towards the sea.",
+      "js": 0.143388435591283,
+      "js_alt": 0.10660484937922482,
+      "tv": 0.4552406801536232,
+      "lexical": 0.2,
+      "len_delta": 1
+    },
+    {
+      "seed": "river",
+      "category": "generated",
+      "text": "Water surges out into the vast expanse of the sea.",
+      "js": 0.14935089452239628,
+      "js_alt": 0.18411497412938907,
+      "tv": 0.4399405479460617,
+      "lexical": 0.2,
+      "len_delta": 3
+    },
+    {
+      "seed": "river",
+      "category": "generated",
+      "text": "Water rushes towards the sea in a continuous flow.",
+      "js": 0.325164437350123,
+      "js_alt": 0.10461874813770462,
+      "tv": 0.7096891621967589,
+      "lexical": 0.2,
+      "len_delta": 0
+    },
+    {
+      "seed": "snow",
+      "category": "human",
+      "text": "Ice crystals drift down from the sky during winter.",
+      "js": 0.02685117451509392,
+      "js_alt": 0.042056496052771175,
+      "tv": 0.19509084096458942,
+      "lexical": 0.0625,
+      "len_delta": 1
+    },
+    {
+      "seed": "snow",
+      "category": "human",
+      "text": "White frozen bits descend when the temperature drops below zero.",
+      "js": 0.029508050893231066,
+      "js_alt": 0.0723356871155039,
+      "tv": 0.2026815520976722,
+      "lexical": 0.058823529411764705,
+      "len_delta": 2
+    },
+    {
+      "seed": "snow",
+      "category": "near",
+      "text": "Hard icy pellets pelt the ground during a storm.",
+      "js": 0.1169776607769753,
+      "js_alt": 0.1548579225461894,
+      "tv": 0.4021267415536837,
+      "lexical": 0.0,
+      "len_delta": 2
+    },
+    {
+      "seed": "snow",
+      "category": "near",
+      "text": "Frozen balls of ice crash from thunderclouds in summer.",
+      "js": 0.1235362718742128,
+      "js_alt": 0.12364317482660594,
+      "tv": 0.422462176001669,
+      "lexical": 0.21428571428571427,
+      "len_delta": 3
+    },
+    {
+      "seed": "snow",
+      "category": "near",
+      "text": "Chunks of solid ice fall violently from towering clouds.",
+      "js": 0.2570341538820009,
+      "js_alt": 0.27031394014913107,
+      "tv": 0.6131522318195081,
+      "lexical": 0.21428571428571427,
+      "len_delta": 1
+    },
+    {
+      "seed": "snow",
+      "category": "unrelated",
+      "text": "A device that shows the time with hands on a dial.",
+      "js": 0.5288189555461004,
+      "js_alt": 0.6489065055232042,
+      "tv": 0.8682682813117002,
+      "lexical": 0.0,
+      "len_delta": 3
+    },
+    {
+      "seed": "snow",
+      "category": "unrelated",
+      "text": "An instrument displays hours and minutes via moving pointers.",
+      "js": 0.5225287720565464,
+      "js_alt": 0.6177258347384154,
+      "tv": 0.8714685439428176,
+      "lexical": 0.0,
+      "len_delta": 1
+    },
+    {
+      "seed": "snow",
+      "category": "unrelated",
+      "text": "This machine measures passing moments and marks them on a face.",
+      "js": 0.46492799263173235,
+      "js_alt": 0.5655092379055584,
+      "tv": 0.8116662064627698,
+      "lexical": 0.0,
+      "len_delta": 3
+    },
+    {
+      "seed": "snow",
+      "category": "generated",
+      "text": "Ice crystals descend from the sky during chilly conditions.",
+      "js": 0.037187364619295615,
+      "js_alt": 0.03659815555519552,
+      "tv": 0.21846152090853208,
+      "lexical": 0.0625,
+      "len_delta": 1
+    },
+    {
+      "seed": "snow",
+      "category": "generated",
+      "text": "Ice crystals descend from the sky during chilly climates.",
+      "js": 0.024337356762858475,
+      "js_alt": 0.02975432954918756,
+      "tv": 0.18321199862204074,
+      "lexical": 0.0625,
+      "len_delta": 1
+    },
+    {
+      "seed": "snow",
+      "category": "generated",
+      "text": "Snowflakes descend from the sky during chilly conditions.",
+      "js": 0.04046370148832805,
+      "js_alt": 0.03810944497822106,
+      "tv": 0.22540142621515027,
+      "lexical": 0.06666666666666667,
+      "len_delta": 2
+    },
+    {
+      "seed": "volcano",
+      "category": "human",
+      "text": "A hill of the crust spews hot melted stone outward.",
+      "js": 0.09799664095877474,
+      "js_alt": 0.34417479655300726,
+      "tv": 0.3370232122715609,
+      "lexical": 0.05263157894736842,
+      "len_delta": 2
+    },
+    {
+      "seed": "volcano",
+      "category": "human",
+      "text": "Burning liquid stone bursts from a peak through a vent.",
+      "js": 0.14872319226340347,
+      "js_alt": 0.19306856831692393,
+      "tv": 0.4376498396995696,
+      "lexical": 0.11764705882352941,
+      "len_delta": 2
+    },
+    {
+      "seed": "volcano",
+      "category": "near",
+      "text": "Hot water shoots upward from the ground in a tall column.",
+      "js": 0.1596317330922047,
+      "js_alt": 0.34878114133031246,
+      "tv": 0.420687108254178,
+      "lexical": 0.10526315789473684,
+      "len_delta": 2
+    },
+    {
+      "seed": "volcano",
+      "category": "near",
+      "text": "A spring violently ejects boiling liquid into the air.",
+      "js": 0.22215782194588976,
+      "js_alt": 0.39893554709043916,
+      "tv": 0.5333565519569583,
+      "lexical": 0.05555555555555555,
+      "len_delta": 3
+    },
+    {
+      "seed": "volcano",
+      "category": "near",
+      "text": "Steam and scalding fluid burst periodically from a hole.",
+      "js": 0.1851020558956727,
+      "js_alt": 0.40086460365446236,
+      "tv": 0.4804258397714253,
+      "lexical": 0.1875,
+      "len_delta": 2
+    },
+    {
+      "seed": "volcano",
+      "category": "unrelated",
+      "text": "A device that shows the time with hands on a dial.",
+      "js": 0.5058496788794005,
+      "js_alt": 0.6371636374291954,
+      "tv": 0.8352905286518558,
+      "lexical": 0.05263157894736842,
+      "len_delta": 2
+    },
+    {
+      "seed": "volcano",
+      "category": "unrelated",
+      "text": "An instrument displays hours and minutes via moving pointers.",
+      "js": 0.5482003928006257,
+      "js_alt": 0.6191904416705477,
+      "tv": 0.8824311209879845,
+      "lexical": 0.05555555555555555,
+      "len_delta": 4
+    },
+    {
+      "seed": "volcano",
+      "category": "unrelated",
+      "text": "This machine measures passing moments and marks them on a face.",
+      "js": 0.4136609553720007,
+      "js_alt": 0.5719214362765844,
+      "tv": 0.7399169895914125,
+      "lexical": 0.10526315789473684,
+      "len_delta": 2
+    },
+    {
+      "seed": "volcano",
+      "category": "generated",
+      "text": "Hot magma spurts forth from a mountain and cascades down in liquid form.",
+      "js": 0.24547711054673554,
+      "js_alt": 0.38157658260296745,
+      "tv": 0.5864578215891562,
+      "lexical": 0.21052631578947367,
+      "len_delta": 2
+    },
+    {
+      "seed": "volcano",
+      "category": "generated",
+      "text": "A volcano spews magma, which cools and becomes liquid lava.",
+      "js": 0.11266694293551625,
+      "js_alt": 0.08367034198638643,
+      "tv": 0.404043887389673,
+      "lexical": 0.17647058823529413,
+      "len_delta": 0
+    },
+    {
+      "seed": "volcano",
+      "category": "generated",
+      "text": "A fiery substance rises from a volcano and spreads as molten liquid.",
+      "js": 0.12251743978539609,
+      "js_alt": 0.1840672331278882,
+      "tv": 0.41552411477098544,
+      "lexical": 0.3125,
+      "len_delta": 0
+    },
+    {
+      "seed": "guitar",
+      "category": "human",
+      "text": "A wooden device with cords produces notes when strummed.",
+      "js": 0.2827084884078426,
+      "js_alt": 0.2654548585876605,
+      "tv": 0.6302650379840682,
+      "lexical": 0.058823529411764705,
+      "len_delta": 0
+    },
+    {
+      "seed": "guitar",
+      "category": "human",
+      "text": "Musicians play this six-corded object to create melodies.",
+      "js": 0.19484627852866207,
+      "js_alt": 0.13257717512312678,
+      "tv": 0.5224889441928776,
+      "lexical": 0.058823529411764705,
+      "len_delta": 1
+    },
+    {
+      "seed": "guitar",
+      "category": "near",
+      "text": "A bowed wooden instrument held under the chin.",
+      "js": 0.10829255109409577,
+      "js_alt": 0.2707789380773824,
+      "tv": 0.4099118961298548,
+      "lexical": 0.13333333333333333,
+      "len_delta": 3
+    },
+    {
+      "seed": "guitar",
+      "category": "near",
+      "text": "This small stringed tool sings when rubbed with a horsehair stick.",
+      "js": 0.21680504868790698,
+      "js_alt": 0.3491696442096845,
+      "tv": 0.5368077689334843,
+      "lexical": 0.1111111111111111,
+      "len_delta": 2
+    },
+    {
+      "seed": "guitar",
+      "category": "near",
+      "text": "A classical instrument with four strings played by drawing a bow.",
+      "js": 0.07101738234524989,
+      "js_alt": 0.20974662803187313,
+      "tv": 0.24916908565719076,
+      "lexical": 0.11764705882352941,
+      "len_delta": 0
+    },
+    {
+      "seed": "guitar",
+      "category": "unrelated",
+      "text": "A device that shows the time with hands on a dial.",
+      "js": 0.5129264506352724,
+      "js_alt": 0.6364028886561908,
+      "tv": 0.8395074440545973,
+      "lexical": 0.11764705882352941,
+      "len_delta": 0
+    },
+    {
+      "seed": "guitar",
+      "category": "unrelated",
+      "text": "An instrument displays hours and minutes via moving pointers.",
+      "js": 0.5611569387874145,
+      "js_alt": 0.6248314710537994,
+      "tv": 0.9024330363927144,
+      "lexical": 0.058823529411764705,
+      "len_delta": 2
+    },
+    {
+      "seed": "guitar",
+      "category": "unrelated",
+      "text": "This machine measures passing moments and marks them on a face.",
+      "js": 0.42212854216204265,
+      "js_alt": 0.5886878653677317,
+      "tv": 0.7571981424253653,
+      "lexical": 0.05263157894736842,
+      "len_delta": 0
+    },
+    {
+      "seed": "guitar",
+      "category": "generated",
+      "text": "An instrument composed of strings, which is played by strumming them to create musical notes.",
+      "js": 0.031090589248161084,
+      "js_alt": 0.049940984610122766,
+      "tv": 0.18007687314178916,
+      "lexical": 0.09090909090909091,
+      "len_delta": 7
+    },
+    {
+      "seed": "guitar",
+      "category": "generated",
+      "text": "A musical instrument that involves strumming a series of strings in order to produce melody and harmony.",
+      "js": 0.0852326007339134,
+      "js_alt": 0.07701937871513455,
+      "tv": 0.3230940710704745,
+      "lexical": 0.19047619047619047,
+      "len_delta": 8
+    },
+    {
+      "seed": "guitar",
+      "category": "generated",
+      "text": "An acoustic musical device that involves strumming to create sound.",
+      "js": 0.07932429535998241,
+      "js_alt": 0.0897210384598363,
+      "tv": 0.30341893453385854,
+      "lexical": 0.11764705882352941,
+      "len_delta": 1
+    },
+    {
+      "seed": "shark",
+      "category": "human",
+      "text": "A cartilaginous marine hunter with jagged jaws.",
+      "js": 0.05140562594906126,
+      "js_alt": 0.07563743865955065,
+      "tv": 0.25672486290826,
+      "lexical": 0.14285714285714285,
+      "len_delta": 2
+    },
+    {
+      "seed": "shark",
+      "category": "human",
+      "text": "This fearsome sea predator tears prey with rows of pointed blades.",
+      "js": 0.11907192130680698,
+      "js_alt": 0.10341221166991967,
+      "tv": 0.4099747722690796,
+      "lexical": 0.05263157894736842,
+      "len_delta": 3
+    },
+    {
+      "seed": "shark",
+      "category": "near",
+      "text": "A clever marine mammal that leaps and clicks underwater.",
+      "js": 0.2100463361407641,
+      "js_alt": 0.36760377240860825,
+      "tv": 0.5256664811745161,
+      "lexical": 0.125,
+      "len_delta": 1
+    },
+    {
+      "seed": "shark",
+      "category": "near",
+      "text": "This friendly oceanic swimmer breathes air and travels in pods.",
+      "js": 0.18892090097043443,
+      "js_alt": 0.3698682702540011,
+      "tv": 0.5035909847608666,
+      "lexical": 0.05555555555555555,
+      "len_delta": 4
+    },
+    {
+      "seed": "shark",
+      "category": "near",
+      "text": "A playful warm-blooded sea creature known for intelligence.",
+      "js": 0.1798098927822489,
+      "js_alt": 0.336933908154597,
+      "tv": 0.489022375376179,
+      "lexical": 0.058823529411764705,
+      "len_delta": 1
+    },
+    {
+      "seed": "shark",
+      "category": "unrelated",
+      "text": "A device that shows the time with hands on a dial.",
+      "js": 0.5536231260755587,
+      "js_alt": 0.661142665601427,
+      "tv": 0.8784527447611954,
+      "lexical": 0.11764705882352941,
+      "len_delta": 2
+    },
+    {
+      "seed": "shark",
+      "category": "unrelated",
+      "text": "An instrument displays hours and minutes via moving pointers.",
+      "js": 0.5682132285411619,
+      "js_alt": 0.6540315440847371,
+      "tv": 0.8960919840334858,
+      "lexical": 0.058823529411764705,
+      "len_delta": 0
+    },
+    {
+      "seed": "shark",
+      "category": "unrelated",
+      "text": "This machine measures passing moments and marks them on a face.",
+      "js": 0.4470244014227365,
+      "js_alt": 0.6149311313566403,
+      "tv": 0.7771811122333461,
+      "lexical": 0.1111111111111111,
+      "len_delta": 2
+    },
+    {
+      "seed": "shark",
+      "category": "generated",
+      "text": "A sea creature equipped with keenly sharp teeth and agile fins.",
+      "js": 0.08987225276657297,
+      "js_alt": 0.08573543955893516,
+      "tv": 0.32072990942095947,
+      "lexical": 0.42857142857142855,
+      "len_delta": 3
+    },
+    {
+      "seed": "shark",
+      "category": "generated",
+      "text": "An aggressive marine creature equipped with formidable jaws and streamlined appendages.",
+      "js": 0.11948212748472269,
+      "js_alt": 0.1521640601282749,
+      "tv": 0.4038453802508314,
+      "lexical": 0.1111111111111111,
+      "len_delta": 3
+    },
+    {
+      "seed": "shark",
+      "category": "generated",
+      "text": "A carnivorous marine creature equipped with jagged jaws and flowing pectorals.",
+      "js": 0.08660569735596702,
+      "js_alt": 0.1740209055299854,
+      "tv": 0.32546774866987155,
+      "lexical": 0.17647058823529413,
+      "len_delta": 6
+    }
+  ],
+  "summary": {
+    "categories": {
+      "human": {
+        "n": 12,
+        "js_mean": 0.18646477967565203,
+        "js_median": 0.17178473539603278,
+        "tv_mean": 0.46824072716355963,
+        "lex_mean": 0.07801064139105934,
+        "len_delta_mean": 2.3333333333333335
+      },
+      "generated": {
+        "n": 18,
+        "js_mean": 0.10539231233163557,
+        "js_median": 0.08823897506126999,
+        "tv_mean": 0.3535254693100112,
+        "lex_mean": 0.17493830740426286,
+        "len_delta_mean": 3.111111111111111
+      },
+      "near": {
+        "n": 18,
+        "js_mean": 0.21375661844289798,
+        "js_median": 0.19389003311877284,
+        "tv_mean": 0.5244961004951346,
+        "lex_mean": 0.10733181674229146,
+        "len_delta_mean": 2.111111111111111
+      },
+      "unrelated": {
+        "n": 18,
+        "js_mean": 0.4937074147087419,
+        "js_median": 0.5127461032019928,
+        "tv_mean": 0.8285835268292755,
+        "lex_mean": 0.05984954898138592,
+        "len_delta_mean": 1.6111111111111112
+      }
+    },
+    "auc_per_seed": {
+      "generated_vs_near": [
+        1.0,
+        0.6666666666666666,
+        1.0,
+        0.6666666666666666,
+        0.7777777777777779,
+        1.0
+      ],
+      "generated_vs_unrelated": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "generated_vs_different": [
+        1.0,
+        0.8333333333333333,
+        1.0,
+        0.8333333333333333,
+        0.888888888888889,
+        1.0
+      ],
+      "human_vs_different": [
+        0.5,
+        0.7500000000000001,
+        1.0,
+        1.0,
+        0.5833333333333334,
+        1.0
+      ]
+    },
+    "auc_mean": {
+      "generated_vs_near": 0.8518518518518517,
+      "generated_vs_unrelated": 1.0,
+      "generated_vs_different": 0.9259259259259259,
+      "human_vs_different": 0.8055555555555557
+    },
+    "dissociation_gap": -0.08107246734401646,
+    "frame_stability_spearman": 0.8316668406220645,
+    "js_vs_lexical_spearman": -0.39482204516037556,
+    "label_js_spearman": -0.6341254337251861,
+    "label_js_partial_lex_len": -0.5172295068367393
+  }
+}

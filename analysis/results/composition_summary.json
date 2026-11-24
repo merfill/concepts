@@ -1,0 +1,447 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "layers": [
+    8,
+    16,
+    20,
+    24
+  ],
+  "additivity": {
+    "8": {
+      "r2": 0.9568217152497768,
+      "r2_shuffle_null": 0.2931790548773261,
+      "main_effect_norm": {
+        "diet": 3.168575575197278,
+        "sociality": 3.0449499541231786,
+        "body": 1.1755714021876635,
+        "nest": 5.338966705123856
+      }
+    },
+    "16": {
+      "r2": 0.9351221045973648,
+      "r2_shuffle_null": 0.2803946799440752,
+      "main_effect_norm": {
+        "diet": 5.408262539052104,
+        "sociality": 4.614597192509325,
+        "body": 2.408987930879185,
+        "nest": 7.583798206969299
+      }
+    },
+    "20": {
+      "r2": 0.9236406713656432,
+      "r2_shuffle_null": 0.2679537057632567,
+      "main_effect_norm": {
+        "diet": 8.123569581762025,
+        "sociality": 5.666677794213851,
+        "body": 3.5138293697249208,
+        "nest": 8.165553350367995
+      }
+    },
+    "24": {
+      "r2": 0.9272556399211472,
+      "r2_shuffle_null": 0.27248961589435533,
+      "main_effect_norm": {
+        "diet": 16.43373858577089,
+        "sociality": 11.262696973215968,
+        "body": 7.726151277543464,
+        "nest": 13.672644499339215
+      }
+    }
+  },
+  "behavior": [
+    {
+      "values": {
+        "diet": 0,
+        "sociality": 0,
+        "body": 0,
+        "nest": 0
+      },
+      "n_wasp_traits": 0,
+      "p_bee": 0.5496862108156683,
+      "p_wasp": 0.14910639173408452,
+      "top": "bee",
+      "entropy": 1.1160080862383224,
+      "dist": {
+        "bee": 0.5497,
+        "wasp": 0.1491,
+        "ant": 0.0,
+        "fly": 0.0005,
+        "moth": 0.0005,
+        "beetle": 0.0023,
+        "hornet": 0.0412,
+        "bumblebee": 0.2565,
+        "cricket": 0.0001
+      }
+    },
+    {
+      "values": {
+        "diet": 0,
+        "sociality": 0,
+        "body": 0,
+        "nest": 1
+      },
+      "n_wasp_traits": 1,
+      "p_bee": 0.366377504798224,
+      "p_wasp": 0.24216074367459775,
+      "top": "bee",
+      "entropy": 1.2532828109817045,
+      "dist": {
+        "bee": 0.3664,
+        "wasp": 0.2422,
+        "ant": 0.0,
+        "fly": 0.0003,
+        "moth": 0.0008,
+        "beetle": 0.0017,
+        "hornet": 0.0524,
+        "bumblebee": 0.336,
+        "cricket": 0.0002
+      }
+    },
+    {
+      "values": {
+        "diet": 0,
+        "sociality": 0,
+        "body": 1,
+        "nest": 0
+      },
+      "n_wasp_traits": 1,
+      "p_bee": 0.569569329645481,
+      "p_wasp": 0.13318718079835098,
+      "top": "bee",
+      "entropy": 1.0825611449332238,
+      "dist": {
+        "bee": 0.5696,
+        "wasp": 0.1332,
+        "ant": 0.0,
+        "fly": 0.0005,
+        "moth": 0.0005,
+        "beetle": 0.0024,
+        "hornet": 0.0368,
+        "bumblebee": 0.257,
+        "cricket": 0.0001
+      }
+    },
+    {
+      "values": {
+        "diet": 0,
+        "sociality": 0,
+        "body": 1,
+        "nest": 1
+      },
+      "n_wasp_traits": 2,
+      "p_bee": 0.3688865638259183,
+      "p_wasp": 0.2272644191552636,
+      "top": "bee",
+      "entropy": 1.249017241377876,
+      "dist": {
+        "bee": 0.3689,
+        "wasp": 0.2273,
+        "ant": 0.0,
+        "fly": 0.0004,
+        "moth": 0.0009,
+        "beetle": 0.0019,
+        "hornet": 0.0523,
+        "bumblebee": 0.3482,
+        "cricket": 0.0001
+      }
+    },
+    {
+      "values": {
+        "diet": 0,
+        "sociality": 1,
+        "body": 0,
+        "nest": 0
+      },
+      "n_wasp_traits": 1,
+      "p_bee": 0.44139183916889413,
+      "p_wasp": 0.18256759812670112,
+      "top": "bee",
+      "entropy": 1.268352964657928,
+      "dist": {
+        "bee": 0.4414,
+        "wasp": 0.1826,
+        "ant": 0.0,
+        "fly": 0.0028,
+        "moth": 0.0049,
+        "beetle": 0.0103,
+        "hornet": 0.0456,
+        "bumblebee": 0.3121,
+        "cricket": 0.0004
+      }
+    },
+    {
+      "values": {
+        "diet": 0,
+        "sociality": 1,
+        "body": 0,
+        "nest": 1
+      },
+      "n_wasp_traits": 2,
+      "p_bee": 0.2977035214688713,
+      "p_wasp": 0.2796665769134297,
+      "top": "bumblebee",
+      "entropy": 1.3110038526269487,
+      "dist": {
+        "bee": 0.2977,
+        "wasp": 0.2797,
+        "ant": 0.0,
+        "fly": 0.0015,
+        "moth": 0.007,
+        "beetle": 0.0055,
+        "hornet": 0.0499,
+        "bumblebee": 0.3583,
+        "cricket": 0.0004
+      }
+    },
+    {
+      "values": {
+        "diet": 0,
+        "sociality": 1,
+        "body": 1,
+        "nest": 0
+      },
+      "n_wasp_traits": 2,
+      "p_bee": 0.4533306044792887,
+      "p_wasp": 0.15666686476817215,
+      "top": "bee",
+      "entropy": 1.248042794499167,
+      "dist": {
+        "bee": 0.4533,
+        "wasp": 0.1567,
+        "ant": 0.0,
+        "fly": 0.0025,
+        "moth": 0.0057,
+        "beetle": 0.0137,
+        "hornet": 0.0392,
+        "bumblebee": 0.3285,
+        "cricket": 0.0003
+      }
+    },
+    {
+      "values": {
+        "diet": 0,
+        "sociality": 1,
+        "body": 1,
+        "nest": 1
+      },
+      "n_wasp_traits": 3,
+      "p_bee": 0.26572273883767716,
+      "p_wasp": 0.2741576840183792,
+      "top": "bumblebee",
+      "entropy": 1.3166556095648707,
+      "dist": {
+        "bee": 0.2657,
+        "wasp": 0.2742,
+        "ant": 0.0,
+        "fly": 0.0015,
+        "moth": 0.0091,
+        "beetle": 0.008,
+        "hornet": 0.049,
+        "bumblebee": 0.3921,
+        "cricket": 0.0005
+      }
+    },
+    {
+      "values": {
+        "diet": 1,
+        "sociality": 0,
+        "body": 0,
+        "nest": 0
+      },
+      "n_wasp_traits": 1,
+      "p_bee": 0.44945559550699243,
+      "p_wasp": 0.22076517115315042,
+      "top": "bee",
+      "entropy": 1.2674508952689874,
+      "dist": {
+        "bee": 0.4495,
+        "wasp": 0.2208,
+        "ant": 0.0001,
+        "fly": 0.0011,
+        "moth": 0.0006,
+        "beetle": 0.0065,
+        "hornet": 0.0653,
+        "bumblebee": 0.256,
+        "cricket": 0.0003
+      }
+    },
+    {
+      "values": {
+        "diet": 1,
+        "sociality": 0,
+        "body": 0,
+        "nest": 1
+      },
+      "n_wasp_traits": 2,
+      "p_bee": 0.21239700860554098,
+      "p_wasp": 0.35569805309423363,
+      "top": "wasp",
+      "entropy": 1.3421996769419915,
+      "dist": {
+        "bee": 0.2124,
+        "wasp": 0.3557,
+        "ant": 0.0002,
+        "fly": 0.0007,
+        "moth": 0.0016,
+        "beetle": 0.0073,
+        "hornet": 0.0928,
+        "bumblebee": 0.3284,
+        "cricket": 0.0009
+      }
+    },
+    {
+      "values": {
+        "diet": 1,
+        "sociality": 0,
+        "body": 1,
+        "nest": 0
+      },
+      "n_wasp_traits": 2,
+      "p_bee": 0.4846447601407982,
+      "p_wasp": 0.2004577836558971,
+      "top": "bee",
+      "entropy": 1.2362971591668621,
+      "dist": {
+        "bee": 0.4846,
+        "wasp": 0.2005,
+        "ant": 0.0001,
+        "fly": 0.001,
+        "moth": 0.0005,
+        "beetle": 0.0079,
+        "hornet": 0.0583,
+        "bumblebee": 0.2468,
+        "cricket": 0.0003
+      }
+    },
+    {
+      "values": {
+        "diet": 1,
+        "sociality": 0,
+        "body": 1,
+        "nest": 1
+      },
+      "n_wasp_traits": 3,
+      "p_bee": 0.23184506728303095,
+      "p_wasp": 0.3480406680448208,
+      "top": "wasp",
+      "entropy": 1.3727614279537053,
+      "dist": {
+        "bee": 0.2318,
+        "wasp": 0.348,
+        "ant": 0.0002,
+        "fly": 0.0009,
+        "moth": 0.0023,
+        "beetle": 0.0115,
+        "hornet": 0.0937,
+        "bumblebee": 0.3103,
+        "cricket": 0.0012
+      }
+    },
+    {
+      "values": {
+        "diet": 1,
+        "sociality": 1,
+        "body": 0,
+        "nest": 0
+      },
+      "n_wasp_traits": 2,
+      "p_bee": 0.3820918310299113,
+      "p_wasp": 0.2839465383182355,
+      "top": "bee",
+      "entropy": 1.354616150942826,
+      "dist": {
+        "bee": 0.3821,
+        "wasp": 0.2839,
+        "ant": 0.0001,
+        "fly": 0.0038,
+        "moth": 0.0028,
+        "beetle": 0.015,
+        "hornet": 0.0651,
+        "bumblebee": 0.2465,
+        "cricket": 0.0006
+      }
+    },
+    {
+      "values": {
+        "diet": 1,
+        "sociality": 1,
+        "body": 0,
+        "nest": 1
+      },
+      "n_wasp_traits": 3,
+      "p_bee": 0.08762511868108575,
+      "p_wasp": 0.45912279420093577,
+      "top": "wasp",
+      "entropy": 1.3145700683720591,
+      "dist": {
+        "bee": 0.0876,
+        "wasp": 0.4591,
+        "ant": 0.0002,
+        "fly": 0.0025,
+        "moth": 0.0105,
+        "beetle": 0.0173,
+        "hornet": 0.0989,
+        "bumblebee": 0.3213,
+        "cricket": 0.0026
+      }
+    },
+    {
+      "values": {
+        "diet": 1,
+        "sociality": 1,
+        "body": 1,
+        "nest": 0
+      },
+      "n_wasp_traits": 3,
+      "p_bee": 0.40979868859473834,
+      "p_wasp": 0.25246964803527594,
+      "top": "bee",
+      "entropy": 1.362072751175986,
+      "dist": {
+        "bee": 0.4098,
+        "wasp": 0.2525,
+        "ant": 0.0001,
+        "fly": 0.0045,
+        "moth": 0.004,
+        "beetle": 0.0228,
+        "hornet": 0.0579,
+        "bumblebee": 0.2478,
+        "cricket": 0.0007
+      }
+    },
+    {
+      "values": {
+        "diet": 1,
+        "sociality": 1,
+        "body": 1,
+        "nest": 1
+      },
+      "n_wasp_traits": 4,
+      "p_bee": 0.08684227781512689,
+      "p_wasp": 0.43418407263951436,
+      "top": "wasp",
+      "entropy": 1.3764938535465459,
+      "dist": {
+        "bee": 0.0868,
+        "wasp": 0.4342,
+        "ant": 0.0002,
+        "fly": 0.0032,
+        "moth": 0.0171,
+        "beetle": 0.0319,
+        "hornet": 0.0879,
+        "bumblebee": 0.3346,
+        "cricket": 0.0041
+      }
+    }
+  ],
+  "behavior_summary": {
+    "rho_traits_vs_pwasp": 0.7439560391819494,
+    "rho_traits_vs_pbee": -0.7056077897395808,
+    "single_flip_dP_wasp": {
+      "diet": 0.0716587794190659,
+      "sociality": 0.0334612063926166,
+      "body": -0.015919210935733535,
+      "nest": 0.09305435194051323
+    }
+  }
+}

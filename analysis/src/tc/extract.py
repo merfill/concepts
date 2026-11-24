@@ -50,3 +50,15 @@ def last_layer(model) -> int:
 
 def token_count(text: str, tokenizer) -> int:
     return int(len(tokenizer(text).input_ids))
+
+
+def next_token_probs(model, tokenizer, text: str) -> np.ndarray:
+    """Full next-token probability vector at the last position of `text`.
+
+    This is the functional readout the protocol scores (experiment 001): the
+    distribution the loss is defined on, not the residual-stream geometry.
+    """
+    enc = tokenizer(text, return_tensors="pt")
+    with torch.no_grad():
+        out = model(**enc)
+    return torch.softmax(out.logits[0, -1], dim=-1).double().numpy()
