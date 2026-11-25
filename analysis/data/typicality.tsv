@@ -1,0 +1,201 @@
+category	item	typicality	source
+mammal	aardvark	0.053571	THINGSplus:typicality53_mean-ratings.tsv
+mammal	platypus	0.142045	THINGSplus:typicality53_mean-ratings.tsv
+mammal	mole	0.183730	THINGSplus:typicality53_mean-ratings.tsv
+mammal	walrus	0.236573	THINGSplus:typicality53_mean-ratings.tsv
+mammal	hedgehog	0.274206	THINGSplus:typicality53_mean-ratings.tsv
+mammal	antelope	0.304348	THINGSplus:typicality53_mean-ratings.tsv
+mammal	seal	0.330414	THINGSplus:typicality53_mean-ratings.tsv
+mammal	llama	0.345819	THINGSplus:typicality53_mean-ratings.tsv
+mammal	skunk	0.384683	THINGSplus:typicality53_mean-ratings.tsv
+mammal	guinea pig	0.434211	THINGSplus:typicality53_mean-ratings.tsv
+mammal	moose	0.450000	THINGSplus:typicality53_mean-ratings.tsv
+mammal	whale	0.486413	THINGSplus:typicality53_mean-ratings.tsv
+mammal	mouse	0.513889	THINGSplus:typicality53_mean-ratings.tsv
+mammal	polar bear	0.541944	THINGSplus:typicality53_mean-ratings.tsv
+mammal	squirrel	0.565051	THINGSplus:typicality53_mean-ratings.tsv
+mammal	sheep	0.601916	THINGSplus:typicality53_mean-ratings.tsv
+mammal	wolf	0.632143	THINGSplus:typicality53_mean-ratings.tsv
+mammal	pig	0.698554	THINGSplus:typicality53_mean-ratings.tsv
+mammal	bear	0.737179	THINGSplus:typicality53_mean-ratings.tsv
+mammal	dog	0.839147	THINGSplus:typicality53_mean-ratings.tsv
+bird	puffin	0.108972	THINGSplus:typicality53_mean-ratings.tsv
+bird	toucan	0.207386	THINGSplus:typicality53_mean-ratings.tsv
+bird	cockatoo	0.252660	THINGSplus:typicality53_mean-ratings.tsv
+bird	penguin	0.263587	THINGSplus:typicality53_mean-ratings.tsv
+bird	ostrich	0.285308	THINGSplus:typicality53_mean-ratings.tsv
+bird	vulture	0.304559	THINGSplus:typicality53_mean-ratings.tsv
+bird	flamingo	0.323413	THINGSplus:typicality53_mean-ratings.tsv
+bird	duckling	0.352614	THINGSplus:typicality53_mean-ratings.tsv
+bird	swan	0.404304	THINGSplus:typicality53_mean-ratings.tsv
+bird	peacock	0.416477	THINGSplus:typicality53_mean-ratings.tsv
+bird	cardinal	0.448171	THINGSplus:typicality53_mean-ratings.tsv
+bird	turkey	0.466270	THINGSplus:typicality53_mean-ratings.tsv
+bird	owl	0.497594	THINGSplus:typicality53_mean-ratings.tsv
+bird	rooster	0.514205	THINGSplus:typicality53_mean-ratings.tsv
+bird	hawk	0.561545	THINGSplus:typicality53_mean-ratings.tsv
+bird	crow	0.586742	THINGSplus:typicality53_mean-ratings.tsv
+bird	parrot	0.590805	THINGSplus:typicality53_mean-ratings.tsv
+bird	seagull	0.627703	THINGSplus:typicality53_mean-ratings.tsv
+bird	pigeon	0.669767	THINGSplus:typicality53_mean-ratings.tsv
+bird	eagle	0.700166	THINGSplus:typicality53_mean-ratings.tsv
+fruit	mulberry	0.071429	THINGSplus:typicality53_mean-ratings.tsv
+fruit	prune	0.145000	THINGSplus:typicality53_mean-ratings.tsv
+fruit	star fruit	0.145833	THINGSplus:typicality53_mean-ratings.tsv
+fruit	raisin	0.207298	THINGSplus:typicality53_mean-ratings.tsv
+fruit	pomegranate	0.280556	THINGSplus:typicality53_mean-ratings.tsv
+fruit	papaya	0.281359	THINGSplus:typicality53_mean-ratings.tsv
+fruit	kiwi	0.350583	THINGSplus:typicality53_mean-ratings.tsv
+fruit	plum	0.391865	THINGSplus:typicality53_mean-ratings.tsv
+fruit	cantaloupe	0.413889	THINGSplus:typicality53_mean-ratings.tsv
+fruit	lemon	0.448708	THINGSplus:typicality53_mean-ratings.tsv
+fruit	berry	0.460792	THINGSplus:typicality53_mean-ratings.tsv
+fruit	pear	0.479349	THINGSplus:typicality53_mean-ratings.tsv
+fruit	raspberry	0.530021	THINGSplus:typicality53_mean-ratings.tsv
+fruit	mango	0.531374	THINGSplus:typicality53_mean-ratings.tsv
+fruit	pineapple	0.592105	THINGSplus:typicality53_mean-ratings.tsv
+fruit	peach	0.592593	THINGSplus:typicality53_mean-ratings.tsv
+fruit	blueberry	0.606293	THINGSplus:typicality53_mean-ratings.tsv
+fruit	banana	0.734929	THINGSplus:typicality53_mean-ratings.tsv
+fruit	strawberry	0.737698	THINGSplus:typicality53_mean-ratings.tsv
+fruit	apple	0.836111	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	rhubarb	0.081395	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	gourd	0.151042	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	chickpea	0.171854	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	parsley	0.176630	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	leek	0.228659	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	okra	0.239067	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	garlic	0.279485	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	artichoke	0.342460	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	radish	0.359578	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	eggplant	0.376323	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	squash	0.485660	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	brussels sprouts	0.501165	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	asparagus	0.516640	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	zucchini	0.538690	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	pea	0.580745	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	potato	0.602827	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	onion	0.643297	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	lettuce	0.699848	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	corn	0.719562	THINGSplus:typicality53_mean-ratings.tsv
+vegetable	carrot	0.779255	THINGSplus:typicality53_mean-ratings.tsv
+furniture	lectern	0.082108	THINGSplus:typicality53_mean-ratings.tsv
+furniture	hammock	0.178977	THINGSplus:typicality53_mean-ratings.tsv
+furniture	closet	0.201637	THINGSplus:typicality53_mean-ratings.tsv
+furniture	air mattress	0.248377	THINGSplus:typicality53_mean-ratings.tsv
+furniture	rack	0.251623	THINGSplus:typicality53_mean-ratings.tsv
+furniture	bassinet	0.257890	THINGSplus:typicality53_mean-ratings.tsv
+furniture	filing cabinet	0.265957	THINGSplus:typicality53_mean-ratings.tsv
+furniture	highchair	0.332641	THINGSplus:typicality53_mean-ratings.tsv
+furniture	chest	0.414418	THINGSplus:typicality53_mean-ratings.tsv
+furniture	bunkbed	0.450622	THINGSplus:typicality53_mean-ratings.tsv
+furniture	ottoman	0.455150	THINGSplus:typicality53_mean-ratings.tsv
+furniture	shelf	0.466615	THINGSplus:typicality53_mean-ratings.tsv
+furniture	cabinet	0.473350	THINGSplus:typicality53_mean-ratings.tsv
+furniture	mattress	0.531250	THINGSplus:typicality53_mean-ratings.tsv
+furniture	sofa bed	0.583929	THINGSplus:typicality53_mean-ratings.tsv
+furniture	dresser	0.665653	THINGSplus:typicality53_mean-ratings.tsv
+furniture	desk	0.677326	THINGSplus:typicality53_mean-ratings.tsv
+furniture	recliner	0.706307	THINGSplus:typicality53_mean-ratings.tsv
+furniture	bed	0.764881	THINGSplus:typicality53_mean-ratings.tsv
+furniture	couch	0.796943	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	rocket	0.136772	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	sled	0.166802	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	hot-air balloon	0.188718	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	kayak	0.216146	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	canoe	0.250000	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	jetski	0.286161	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	seaplane	0.302052	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	tricycle	0.335714	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	bulldozer	0.382060	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	sailboat	0.400492	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	quad	0.420493	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	snowmobile	0.465639	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	helicopter	0.499084	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	boat	0.506473	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	humvee	0.558741	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	train	0.595365	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	firetruck	0.655869	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	jeep	0.737791	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	bus	0.786797	THINGSplus:typicality53_mean-ratings.tsv
+vehicle	car	0.861801	THINGSplus:typicality53_mean-ratings.tsv
+tool	quill	0.093750	THINGSplus:typicality53_mean-ratings.tsv
+tool	gavel	0.166160	THINGSplus:typicality53_mean-ratings.tsv
+tool	ladle	0.243012	THINGSplus:typicality53_mean-ratings.tsv
+tool	metal detector	0.268997	THINGSplus:typicality53_mean-ratings.tsv
+tool	marker	0.291667	THINGSplus:typicality53_mean-ratings.tsv
+tool	poker	0.306973	THINGSplus:typicality53_mean-ratings.tsv
+tool	rope	0.319402	THINGSplus:typicality53_mean-ratings.tsv
+tool	polisher	0.331575	THINGSplus:typicality53_mean-ratings.tsv
+tool	sweeper	0.349037	THINGSplus:typicality53_mean-ratings.tsv
+tool	mop	0.367695	THINGSplus:typicality53_mean-ratings.tsv
+tool	broom	0.399826	THINGSplus:typicality53_mean-ratings.tsv
+tool	brush	0.414452	THINGSplus:typicality53_mean-ratings.tsv
+tool	air pump	0.447534	THINGSplus:typicality53_mean-ratings.tsv
+tool	bottle opener	0.479863	THINGSplus:typicality53_mean-ratings.tsv
+tool	punch	0.511278	THINGSplus:typicality53_mean-ratings.tsv
+tool	staple gun	0.565767	THINGSplus:typicality53_mean-ratings.tsv
+tool	hoe	0.584077	THINGSplus:typicality53_mean-ratings.tsv
+tool	ratchet	0.656593	THINGSplus:typicality53_mean-ratings.tsv
+tool	tape measure	0.742321	THINGSplus:typicality53_mean-ratings.tsv
+tool	screwdriver	0.832321	THINGSplus:typicality53_mean-ratings.tsv
+weapon	boomerang	0.140244	THINGSplus:typicality53_mean-ratings.tsv
+weapon	whip	0.241149	THINGSplus:typicality53_mean-ratings.tsv
+weapon	blowgun	0.241758	THINGSplus:typicality53_mean-ratings.tsv
+weapon	dart	0.278968	THINGSplus:typicality53_mean-ratings.tsv
+weapon	razor blade	0.314560	THINGSplus:typicality53_mean-ratings.tsv
+weapon	dynamite	0.321719	THINGSplus:typicality53_mean-ratings.tsv
+weapon	slingshot	0.367754	THINGSplus:typicality53_mean-ratings.tsv
+weapon	flamethrower	0.370323	THINGSplus:typicality53_mean-ratings.tsv
+weapon	tank	0.436335	THINGSplus:typicality53_mean-ratings.tsv
+weapon	cannon	0.472826	THINGSplus:typicality53_mean-ratings.tsv
+weapon	brass knuckles	0.480114	THINGSplus:typicality53_mean-ratings.tsv
+weapon	machete	0.501612	THINGSplus:typicality53_mean-ratings.tsv
+weapon	spear	0.548280	THINGSplus:typicality53_mean-ratings.tsv
+weapon	crossbow	0.564829	THINGSplus:typicality53_mean-ratings.tsv
+weapon	grenade	0.587302	THINGSplus:typicality53_mean-ratings.tsv
+weapon	dagger	0.613222	THINGSplus:typicality53_mean-ratings.tsv
+weapon	bullet	0.651320	THINGSplus:typicality53_mean-ratings.tsv
+weapon	revolver	0.766640	THINGSplus:typicality53_mean-ratings.tsv
+weapon	rifle	0.771351	THINGSplus:typicality53_mean-ratings.tsv
+weapon	gun	0.845079	THINGSplus:typicality53_mean-ratings.tsv
+clothing	straightjacket	0.053156	THINGSplus:typicality53_mean-ratings.tsv
+clothing	tiara	0.105584	THINGSplus:typicality53_mean-ratings.tsv
+clothing	diaper	0.165144	THINGSplus:typicality53_mean-ratings.tsv
+clothing	stiletto	0.192100	THINGSplus:typicality53_mean-ratings.tsv
+clothing	turban	0.229684	THINGSplus:typicality53_mean-ratings.tsv
+clothing	sombrero	0.247751	THINGSplus:typicality53_mean-ratings.tsv
+clothing	kimono	0.280519	THINGSplus:typicality53_mean-ratings.tsv
+clothing	lab coat	0.356349	THINGSplus:typicality53_mean-ratings.tsv
+clothing	shawl	0.392587	THINGSplus:typicality53_mean-ratings.tsv
+clothing	flip-flop	0.422490	THINGSplus:typicality53_mean-ratings.tsv
+clothing	stockings	0.458851	THINGSplus:typicality53_mean-ratings.tsv
+clothing	tuxedo	0.482955	THINGSplus:typicality53_mean-ratings.tsv
+clothing	belt	0.519795	THINGSplus:typicality53_mean-ratings.tsv
+clothing	nightshirt	0.540873	THINGSplus:typicality53_mean-ratings.tsv
+clothing	turtleneck	0.587725	THINGSplus:typicality53_mean-ratings.tsv
+clothing	undershirt	0.626423	THINGSplus:typicality53_mean-ratings.tsv
+clothing	outfit	0.669297	THINGSplus:typicality53_mean-ratings.tsv
+clothing	underwear	0.729464	THINGSplus:typicality53_mean-ratings.tsv
+clothing	sweater	0.783941	THINGSplus:typicality53_mean-ratings.tsv
+clothing	jeans	0.838176	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	chime	0.109524	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	kazoo	0.153486	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	gong	0.164286	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	triangle	0.202839	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	bagpipe	0.276342	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	xylophone	0.298280	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	recorder	0.316460	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	harp	0.335354	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	accordion	0.343750	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	ukulele	0.372520	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	tambourine	0.430272	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	cello	0.449786	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	banjo	0.455688	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	harmonica	0.505098	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	clarinet	0.598007	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	saxophone	0.635382	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	flute	0.706712	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	trumpet	0.742624	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	violin	0.758408	THINGSplus:typicality53_mean-ratings.tsv
+musical instrument	guitar	0.837256	THINGSplus:typicality53_mean-ratings.tsv
