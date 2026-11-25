@@ -1,0 +1,520 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "dtype": "bfloat16",
+  "k": 50,
+  "min_words": 4,
+  "channels": {
+    "continuation": true,
+    "forced_choice_bidir": true,
+    "likert": true
+  },
+  "axes": [
+    {
+      "axis": "temperature",
+      "words": [
+        "cold",
+        "cool",
+        "warm",
+        "hot"
+      ],
+      "kept_words": [
+        "cold",
+        "cool",
+        "warm",
+        "hot"
+      ],
+      "token_counts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "single_token": true,
+      "dim": "hotter",
+      "opposite": "colder",
+      "continuation": {
+        "js_from_start": [
+          0.0,
+          0.016945002529925538,
+          0.02274458280609614,
+          0.024358671575519793
+        ],
+        "js_adjacent": [
+          0.016945002529925538,
+          0.01688883355614718,
+          0.009502116869912315
+        ],
+        "js_endpoints": 0.024358671575519793,
+        "js_from_start_monotonicity": 1.0
+      },
+      "likert_expected": [
+        2.116921269095182,
+        2.6507147296457427,
+        3.10077059869591,
+        3.9244027819776233
+      ],
+      "likert_expected_rev": [
+        3.0832012678288434,
+        2.7064102564102566,
+        2.8575367647058822,
+        2.9861892583120206
+      ],
+      "plausibility_trials": [
+        {
+          "pair": [
+            "cold",
+            "cool"
+          ],
+          "good": "cool is hotter than cold.",
+          "ll": [
+            -4.38671875,
+            -5.01142578125
+          ],
+          "ok": true
+        },
+        {
+          "pair": [
+            "cool",
+            "warm"
+          ],
+          "good": "warm is hotter than cool.",
+          "ll": [
+            -3.78115234375,
+            -4.30703125
+          ],
+          "ok": true
+        },
+        {
+          "pair": [
+            "warm",
+            "hot"
+          ],
+          "good": "hot is hotter than warm.",
+          "ll": [
+            -6.56875,
+            -3.69677734375
+          ],
+          "ok": false
+        }
+      ],
+      "order_raw": {
+        "fwd": "cold, cool, warm, hot. \n\nExplanation:\n- Cold is the col",
+        "rev": "Hot, warm, cool, cold. \n\nThis is because heat and temperature are"
+      },
+      "order_tau": {
+        "fwd": 1.0,
+        "rev": 1.0
+      },
+      "fc_bidir": 0.6666666666666666,
+      "likert_rho": 1.0,
+      "likert_rho_rev": -0.19999999999999998,
+      "anchor_ok": false,
+      "verdict": "valid (ordering fwd+rev)",
+      "channels": [
+        "ordering(fwd+rev)"
+      ],
+      "order_ok": true
+    },
+    {
+      "axis": "size",
+      "words": [
+        "tiny",
+        "small",
+        "medium",
+        "large",
+        "huge"
+      ],
+      "kept_words": [
+        "tiny",
+        "small",
+        "medium",
+        "large",
+        "huge"
+      ],
+      "token_counts": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "single_token": true,
+      "dim": "larger",
+      "opposite": "smaller",
+      "continuation": {
+        "js_from_start": [
+          0.0,
+          0.0133223096930821,
+          0.06338287405282224,
+          0.018916146875988134,
+          0.040012734953487825
+        ],
+        "js_adjacent": [
+          0.0133223096930821,
+          0.06706861096869023,
+          0.04611501541197642,
+          0.028886100996621644
+        ],
+        "js_endpoints": 0.040012734953487825,
+        "js_from_start_monotonicity": 0.7
+      },
+      "likert_expected": [
+        2.263237518910741,
+        2.212797619047619,
+        3.059772546945253,
+        3.996326530612245,
+        4.12655601659751
+      ],
+      "likert_expected_rev": [
+        2.6611683848797254,
+        2.7303839732888147,
+        3.0826032540675845,
+        3.5801980198019807,
+        3.5872679045092837
+      ],
+      "plausibility_trials": [
+        {
+          "pair": [
+            "tiny",
+            "small"
+          ],
+          "good": "small is larger than tiny.",
+          "ll": [
+            -5.448828125,
+            -4.65478515625
+          ],
+          "ok": false
+        },
+        {
+          "pair": [
+            "small",
+            "medium"
+          ],
+          "good": "medium is larger than small.",
+          "ll": [
+            -4.40390625,
+            -4.845703125
+          ],
+          "ok": true
+        },
+        {
+          "pair": [
+            "medium",
+            "large"
+          ],
+          "good": "large is larger than medium.",
+          "ll": [
+            -3.940234375,
+            -4.40234375
+          ],
+          "ok": true
+        },
+        {
+          "pair": [
+            "large",
+            "huge"
+          ],
+          "good": "huge is larger than large.",
+          "ll": [
+            -5.2125,
+            -4.841796875
+          ],
+          "ok": false
+        }
+      ],
+      "order_raw": {
+        "fwd": "tiny, small, medium, large, huge. \n\nThis is because \"tiny",
+        "rev": "Huge, Large, Medium, Small, Tiny. \n\nThis is because \"huge"
+      },
+      "order_tau": {
+        "fwd": 0.9999999999999999,
+        "rev": 0.9999999999999999
+      },
+      "fc_bidir": 0.5,
+      "likert_rho": 0.8999999999999998,
+      "likert_rho_rev": 0.9999999999999999,
+      "anchor_ok": false,
+      "verdict": "valid (ordering fwd+rev)",
+      "channels": [
+        "ordering(fwd+rev)"
+      ],
+      "order_ok": true
+    },
+    {
+      "axis": "quality",
+      "words": [
+        "bad",
+        "weak",
+        "fair",
+        "good",
+        "great"
+      ],
+      "kept_words": [
+        "bad",
+        "weak",
+        "fair",
+        "good",
+        "great"
+      ],
+      "token_counts": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "single_token": true,
+      "dim": "better",
+      "opposite": "worse",
+      "continuation": {
+        "js_from_start": [
+          0.0,
+          0.021427279308698515,
+          0.13401288561702068,
+          0.08658226424331734,
+          0.1579211065171449
+        ],
+        "js_adjacent": [
+          0.021427279308698515,
+          0.10581656043556507,
+          0.018146139201537608,
+          0.08376646206845927
+        ],
+        "js_endpoints": 0.1579211065171449,
+        "js_from_start_monotonicity": 0.8999999999999998
+      },
+      "likert_expected": [
+        2.1561643835616437,
+        2.223583815028902,
+        2.6987329892069454,
+        3.2703844528939583,
+        4.045122258633728
+      ],
+      "likert_expected_rev": [
+        2.4903448275862066,
+        2.4579896119767795,
+        2.702725296773115,
+        2.959290187891441,
+        3.4298642533936654
+      ],
+      "plausibility_trials": [
+        {
+          "pair": [
+            "bad",
+            "weak"
+          ],
+          "good": "weak is better than bad.",
+          "ll": [
+            -4.3125,
+            -5.04765625
+          ],
+          "ok": true
+        },
+        {
+          "pair": [
+            "weak",
+            "fair"
+          ],
+          "good": "fair is better than weak.",
+          "ll": [
+            -5.11328125,
+            -4.5375
+          ],
+          "ok": false
+        },
+        {
+          "pair": [
+            "fair",
+            "good"
+          ],
+          "good": "good is better than fair.",
+          "ll": [
+            -4.105859375,
+            -3.01953125
+          ],
+          "ok": false
+        },
+        {
+          "pair": [
+            "good",
+            "great"
+          ],
+          "good": "great is better than good.",
+          "ll": [
+            -3.599609375,
+            -3.799609375
+          ],
+          "ok": true
+        }
+      ],
+      "order_raw": {
+        "fwd": "bad, weak, poor, fair, good, great. \n\nExplanation:\n-",
+        "rev": "Great, Good, Fair, Weak, Bad. \n\nExplanation:\n- \"Great"
+      },
+      "order_tau": {
+        "fwd": 0.9999999999999999,
+        "rev": 0.9999999999999999
+      },
+      "fc_bidir": 0.5,
+      "likert_rho": 0.9999999999999999,
+      "likert_rho_rev": 0.8999999999999998,
+      "anchor_ok": false,
+      "verdict": "valid (ordering fwd+rev)",
+      "channels": [
+        "ordering(fwd+rev)"
+      ],
+      "order_ok": true
+    },
+    {
+      "axis": "loudness",
+      "words": [
+        "quiet",
+        "soft",
+        "loud",
+        "booming"
+      ],
+      "kept_words": [
+        "quiet",
+        "soft",
+        "loud"
+      ],
+      "token_counts": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "single_token": false,
+      "dim": "louder",
+      "opposite": "quieter",
+      "verdict": "insufficient single-token rungs"
+    },
+    {
+      "axis": "speed",
+      "words": [
+        "slow",
+        "steady",
+        "fast",
+        "rapid"
+      ],
+      "kept_words": [
+        "slow",
+        "steady",
+        "fast",
+        "rapid"
+      ],
+      "token_counts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "single_token": true,
+      "dim": "faster",
+      "opposite": "slower",
+      "continuation": {
+        "js_from_start": [
+          0.0,
+          0.050359741683577056,
+          0.029910505286972408,
+          0.03043935188089613
+        ],
+        "js_adjacent": [
+          0.050359741683577056,
+          0.06835179774164539,
+          0.009170493331614762
+        ],
+        "js_endpoints": 0.03043935188089613,
+        "js_from_start_monotonicity": 0.39999999999999997
+      },
+      "likert_expected": [
+        2.1932270916334664,
+        2.6518396485447555,
+        3.1553316540722083,
+        3.4749391727493917
+      ],
+      "likert_expected_rev": [
+        2.5743190661478597,
+        2.6060365369340746,
+        2.7873176206509536,
+        2.9381443298969074
+      ],
+      "plausibility_trials": [
+        {
+          "pair": [
+            "slow",
+            "steady"
+          ],
+          "good": "steady is faster than slow.",
+          "ll": [
+            -4.7375,
+            -4.804296875
+          ],
+          "ok": true
+        },
+        {
+          "pair": [
+            "steady",
+            "fast"
+          ],
+          "good": "fast is faster than steady.",
+          "ll": [
+            -5.81875,
+            -4.6171875
+          ],
+          "ok": false
+        },
+        {
+          "pair": [
+            "fast",
+            "rapid"
+          ],
+          "good": "rapid is faster than fast.",
+          "ll": [
+            -4.0642578125,
+            -5.58125
+          ],
+          "ok": true
+        }
+      ],
+      "order_raw": {
+        "fwd": "slow, steady, rapid, fast. \n\nThis is because \"slow\" and",
+        "rev": "rapid, fast, steady, slow. \n\nThis is because \"rapid\" means"
+      },
+      "order_tau": {
+        "fwd": 0.6666666666666669,
+        "rev": 1.0
+      },
+      "fc_bidir": 0.6666666666666666,
+      "likert_rho": 1.0,
+      "likert_rho_rev": 1.0,
+      "anchor_ok": false,
+      "verdict": "weak/unsupported",
+      "channels": [],
+      "order_ok": false
+    },
+    {
+      "axis": "brightness",
+      "words": [
+        "dim",
+        "bright",
+        "glowing",
+        "glaring"
+      ],
+      "kept_words": [
+        "dim",
+        "bright"
+      ],
+      "token_counts": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "single_token": false,
+      "dim": "brighter",
+      "opposite": "dimmer",
+      "verdict": "insufficient single-token rungs"
+    }
+  ]
+}
