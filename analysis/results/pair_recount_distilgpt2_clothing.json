@@ -1,0 +1,179 @@
+{
+  "model": "distilgpt2",
+  "category": "clothing",
+  "prefixes": [
+    "pair of"
+  ],
+  "prompts": {
+    "Name one item of clothing: a": {
+      "pearson_direct": {
+        "r": 0.08447682969780317,
+        "p": 0.7232639519251652
+      },
+      "pearson_combined": {
+        "r": 0.12163554342111506,
+        "p": 0.6094572226382098
+      },
+      "spearman_combined": {
+        "rho": 0.20751879699248119,
+        "p": 0.37999323699324694
+      },
+      "partial_combined": -0.16964090351662894,
+      "prototype_breakdown": {
+        "jeans": {
+          "direct": 1.5649686676253052e-05,
+          "pair of": 0.0003299102581763297
+        },
+        "sweater": {
+          "direct": 0.001097621180116954,
+          "pair of": 4.046987433389003e-06
+        },
+        "underwear": {
+          "direct": 1.6386222435131324e-05,
+          "pair of": 0.0001759058229296391
+        }
+      },
+      "prototype_combined": {
+        "jeans": 0.00034555994485258273,
+        "sweater": 0.0011016681675503428,
+        "underwear": 0.00019229204536477042
+      }
+    },
+    "An item of clothing people wear, such as a": {
+      "pearson_direct": {
+        "r": 0.17626819387115314,
+        "p": 0.45724669346423785
+      },
+      "pearson_combined": {
+        "r": 0.3242665057405787,
+        "p": 0.1630707764128754
+      },
+      "spearman_combined": {
+        "rho": 0.23609022556390977,
+        "p": 0.3162939707830972
+      },
+      "partial_combined": 0.041633264653470614,
+      "prototype_breakdown": {
+        "jeans": {
+          "direct": 0.0003577014004838539,
+          "pair of": 0.003278743454343139
+        },
+        "sweater": {
+          "direct": 0.0039433425702820515,
+          "pair of": 1.597667842986677e-05
+        },
+        "underwear": {
+          "direct": 0.000171810422939152,
+          "pair of": 0.000688697364505958
+        }
+      },
+      "prototype_combined": {
+        "jeans": 0.0036364448548269926,
+        "sweater": 0.0039593192487119185,
+        "underwear": 0.00086050778744511
+      }
+    },
+    "Something you wear on your body, such as a": {
+      "pearson_direct": {
+        "r": 0.3031297378400238,
+        "p": 0.19388476796498838
+      },
+      "pearson_combined": {
+        "r": 0.4235154398119648,
+        "p": 0.06277968078895338
+      },
+      "spearman_combined": {
+        "rho": 0.27518796992481204,
+        "p": 0.24028302808113727
+      },
+      "partial_combined": 0.16852374309578072,
+      "prototype_breakdown": {
+        "jeans": {
+          "direct": 0.0005932727588676895,
+          "pair of": 0.0032885558375439104
+        },
+        "sweater": {
+          "direct": 0.007612925497014007,
+          "pair of": 1.2519893374577659e-05
+        },
+        "underwear": {
+          "direct": 0.0001447822629199173,
+          "pair of": 0.00026220733890354545
+        }
+      },
+      "prototype_combined": {
+        "jeans": 0.0038818285964116,
+        "sweater": 0.007625445390388584,
+        "underwear": 0.00040698960182346277
+      }
+    },
+    "An everyday garment, such as a": {
+      "pearson_direct": {
+        "r": 0.26385981902003597,
+        "p": 0.2609694598362885
+      },
+      "pearson_combined": {
+        "r": 0.3709780026570655,
+        "p": 0.107330122395855
+      },
+      "spearman_combined": {
+        "rho": 0.1609022556390977,
+        "p": 0.4979744144247944
+      },
+      "partial_combined": 0.1121777776053896,
+      "prototype_breakdown": {
+        "jeans": {
+          "direct": 0.0007816889270545617,
+          "pair of": 0.002966588044464048
+        },
+        "sweater": {
+          "direct": 0.007162438651109623,
+          "pair of": 1.2176280242601414e-05
+        },
+        "underwear": {
+          "direct": 0.0001594313018302919,
+          "pair of": 0.00024013979468739808
+        }
+      },
+      "prototype_combined": {
+        "jeans": 0.0037482769715186095,
+        "sweater": 0.007174614931352225,
+        "underwear": 0.00039957109651769
+      }
+    },
+    "A piece of clothing, such as a": {
+      "pearson_direct": {
+        "r": 0.21018267857575185,
+        "p": 0.3737686500864085
+      },
+      "pearson_combined": {
+        "r": 0.3135122841247864,
+        "p": 0.1782957470697951
+      },
+      "spearman_combined": {
+        "rho": 0.17293233082706763,
+        "p": 0.46594008519241703
+      },
+      "partial_combined": 0.022541299748307198,
+      "prototype_breakdown": {
+        "jeans": {
+          "direct": 0.0002945735046633168,
+          "pair of": 0.002469175432344842
+        },
+        "sweater": {
+          "direct": 0.0053681059620895085,
+          "pair of": 1.3191399203051618e-05
+        },
+        "underwear": {
+          "direct": 0.00014494818614879692,
+          "pair of": 0.00038091178725225183
+        }
+      },
+      "prototype_combined": {
+        "jeans": 0.0027637489370081585,
+        "sweater": 0.00538129736129256,
+        "underwear": 0.0005258599734010487
+      }
+    }
+  }
+}

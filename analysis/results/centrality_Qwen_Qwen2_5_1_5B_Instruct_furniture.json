@@ -1,0 +1,566 @@
+{
+  "category": "furniture",
+  "descriptor": "piece of furniture",
+  "frames": [
+    "Name one piece of furniture: a",
+    "One example of a piece of furniture is a",
+    "A common piece of furniture is a",
+    "A piece of furniture, such as a"
+  ],
+  "scan": {
+    "Name one piece of furniture: a": {
+      "purity": 0.7218768155528386,
+      "n_members": 14
+    },
+    "One example of a piece of furniture is a": {
+      "purity": 0.6751590041795384,
+      "n_members": 13
+    },
+    "A common piece of furniture is a": {
+      "purity": 0.5785035444418478,
+      "n_members": 13
+    },
+    "A piece of furniture, such as a": {
+      "purity": 0.7295943621796216,
+      "n_members": 15
+    }
+  },
+  "chosen_frame": "A piece of furniture, such as a",
+  "purity": {
+    "window_mass": 0.9093856811523438,
+    "member_mass": 0.663482666015625,
+    "function_mass": 0.0022125244140625,
+    "other_mass": 0.24369049072265625,
+    "purity": 0.7295943621796216,
+    "members": [
+      {
+        "token": "table",
+        "lemma": "table",
+        "p": 0.30859375
+      },
+      {
+        "token": "sofa",
+        "lemma": "sofa",
+        "p": 0.11328125
+      },
+      {
+        "token": "bed",
+        "lemma": "bed",
+        "p": 0.078125
+      },
+      {
+        "token": "cabinet",
+        "lemma": "cabinet",
+        "p": 0.041748046875
+      },
+      {
+        "token": "desk",
+        "lemma": "desk",
+        "p": 0.036865234375
+      },
+      {
+        "token": "chair",
+        "lemma": "chair",
+        "p": 0.0286865234375
+      },
+      {
+        "token": "couch",
+        "lemma": "couch",
+        "p": 0.0196533203125
+      },
+      {
+        "token": "wardrobe",
+        "lemma": "wardrobe",
+        "p": 0.01055908203125
+      },
+      {
+        "token": "dresser",
+        "lemma": "dresser",
+        "p": 0.00823974609375
+      },
+      {
+        "token": "bench",
+        "lemma": "bench",
+        "p": 0.00726318359375
+      },
+      {
+        "token": "shelf",
+        "lemma": "shelf",
+        "p": 0.003021240234375
+      },
+      {
+        "token": "stool",
+        "lemma": "stool",
+        "p": 0.00250244140625
+      },
+      {
+        "token": "chest",
+        "lemma": "chest",
+        "p": 0.00250244140625
+      },
+      {
+        "token": "box",
+        "lemma": "box",
+        "p": 0.00125885009765625
+      },
+      {
+        "token": "console",
+        "lemma": "console",
+        "p": 0.00118255615234375
+      }
+    ],
+    "other": [
+      {
+        "token": "book",
+        "p": 0.060791015625
+      },
+      {
+        "token": "dining",
+        "p": 0.04736328125
+      },
+      {
+        "token": "wooden",
+        "p": 0.041748046875
+      },
+      {
+        "token": "coffee",
+        "p": 0.0135498046875
+      },
+      {
+        "token": "large",
+        "p": 0.00823974609375
+      },
+      {
+        "token": "door",
+        "p": 0.00640869140625
+      },
+      {
+        "token": "rectangular",
+        "p": 0.005645751953125
+      },
+      {
+        "token": "rocking",
+        "p": 0.005645751953125
+      },
+      {
+        "token": "piece",
+        "p": 0.004974365234375
+      },
+      {
+        "token": "TV",
+        "p": 0.003875732421875
+      },
+      {
+        "token": "bedside",
+        "p": 0.003875732421875
+      },
+      {
+        "token": "round",
+        "p": 0.003875732421875
+      },
+      {
+        "token": "te",
+        "p": 0.002838134765625
+      },
+      {
+        "token": "kitchen",
+        "p": 0.0026702880859375
+      },
+      {
+        "token": "cupboard",
+        "p": 0.00250244140625
+      },
+      {
+        "token": "piano",
+        "p": 0.00250244140625
+      },
+      {
+        "token": "ladder",
+        "p": 0.002349853515625
+      },
+      {
+        "token": "metal",
+        "p": 0.002349853515625
+      },
+      {
+        "token": "long",
+        "p": 0.0022125244140625
+      },
+      {
+        "token": "living",
+        "p": 0.0018310546875
+      },
+      {
+        "token": "folding",
+        "p": 0.001617431640625
+      },
+      {
+        "token": "dress",
+        "p": 0.00151824951171875
+      },
+      {
+        "token": "small",
+        "p": 0.00151824951171875
+      },
+      {
+        "token": "television",
+        "p": 0.00151824951171875
+      },
+      {
+        "token": "bedroom",
+        "p": 0.00142669677734375
+      },
+      {
+        "token": "wall",
+        "p": 0.0013427734375
+      },
+      {
+        "token": "side",
+        "p": 0.0013427734375
+      },
+      {
+        "token": "wood",
+        "p": 0.00125885009765625
+      },
+      {
+        "token": "grandfather",
+        "p": 0.00125885009765625
+      },
+      {
+        "token": "work",
+        "p": 0.00118255615234375
+      },
+      {
+        "token": "drawer",
+        "p": 0.0011138916015625
+      },
+      {
+        "token": "flat",
+        "p": 0.0011138916015625
+      },
+      {
+        "token": "custom",
+        "p": 0.0011138916015625
+      },
+      {
+        "token": "single",
+        "p": 0.0011138916015625
+      }
+    ]
+  },
+  "centrality": {
+    "pearson": {
+      "r": 0.5458428370879538,
+      "p": 0.01278792826036511
+    },
+    "spearman": {
+      "rho": 0.6511278195488721,
+      "p": 0.0018736439667456602
+    },
+    "partial_pearson": 0.44157159824109266,
+    "per_word": [
+      {
+        "word": "lectern",
+        "human": 0.082108,
+        "q": 1.4739199215286483e-05,
+        "n_tokens": 2,
+        "zipf": 2.44
+      },
+      {
+        "word": "hammock",
+        "human": 0.178977,
+        "q": 0.00010231032105679591,
+        "n_tokens": 2,
+        "zipf": 3.14
+      },
+      {
+        "word": "closet",
+        "human": 0.201637,
+        "q": 0.0003570981085762476,
+        "n_tokens": 1,
+        "zipf": 4.13
+      },
+      {
+        "word": "air mattress",
+        "human": 0.248377,
+        "q": 5.515933130022035e-09,
+        "n_tokens": 2,
+        "zipf": 3.66
+      },
+      {
+        "word": "rack",
+        "human": 0.251623,
+        "q": 0.00023055986759244163,
+        "n_tokens": 1,
+        "zipf": 3.9
+      },
+      {
+        "word": "bassinet",
+        "human": 0.25789,
+        "q": 2.295924415792108e-06,
+        "n_tokens": 2,
+        "zipf": 2.27
+      },
+      {
+        "word": "filing cabinet",
+        "human": 0.265957,
+        "q": 0.0002960447300568554,
+        "n_tokens": 2,
+        "zipf": 3.92
+      },
+      {
+        "word": "highchair",
+        "human": 0.332641,
+        "q": 9.223555183302818e-06,
+        "n_tokens": 2,
+        "zipf": 1.75
+      },
+      {
+        "word": "chest",
+        "human": 0.414418,
+        "q": 0.0024787521766663585,
+        "n_tokens": 1,
+        "zipf": 4.52
+      },
+      {
+        "word": "bunkbed",
+        "human": 0.450622,
+        "q": 4.289351508373543e-06,
+        "n_tokens": 2,
+        "zipf": 1.22
+      },
+      {
+        "word": "ottoman",
+        "human": 0.45515,
+        "q": 1.3975249912591275e-05,
+        "n_tokens": 2,
+        "zipf": 3.62
+      },
+      {
+        "word": "shelf",
+        "human": 0.466615,
+        "q": 0.0029899458563130603,
+        "n_tokens": 1,
+        "zipf": 4.02
+      },
+      {
+        "word": "cabinet",
+        "human": 0.47335,
+        "q": 0.04127492938579755,
+        "n_tokens": 1,
+        "zipf": 4.49
+      },
+      {
+        "word": "mattress",
+        "human": 0.53125,
+        "q": 0.0006671470977542673,
+        "n_tokens": 1,
+        "zipf": 3.67
+      },
+      {
+        "word": "sofa bed",
+        "human": 0.583929,
+        "q": 0.0002532204765281185,
+        "n_tokens": 2,
+        "zipf": 3.79
+      },
+      {
+        "word": "dresser",
+        "human": 0.665653,
+        "q": 0.008127515489292211,
+        "n_tokens": 1,
+        "zipf": 3.36
+      },
+      {
+        "word": "desk",
+        "human": 0.677326,
+        "q": 0.036424997337364234,
+        "n_tokens": 1,
+        "zipf": 4.43
+      },
+      {
+        "word": "recliner",
+        "human": 0.706307,
+        "q": 0.0002727291854009972,
+        "n_tokens": 2,
+        "zipf": 2.57
+      },
+      {
+        "word": "bed",
+        "human": 0.764881,
+        "q": 0.07711171996831671,
+        "n_tokens": 1,
+        "zipf": 5.07
+      },
+      {
+        "word": "couch",
+        "human": 0.796943,
+        "q": 0.019496896108597995,
+        "n_tokens": 1,
+        "zipf": 4.17
+      }
+    ]
+  },
+  "membership": {
+    "lectern": {
+      "mu": 0.8806301215497447,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "hammock": {
+      "mu": 0.705895485386522,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "closet": {
+      "mu": 0.3203236126865698,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "air mattress": {
+      "mu": 0.7319035409494756,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "rack": {
+      "mu": 0.8352992139369156,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "bassinet": {
+      "mu": 0.9324207894073849,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "filing cabinet": {
+      "mu": 0.952660782673518,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "highchair": {
+      "mu": 0.9464687802558277,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "chest": {
+      "mu": 0.09545090821794745,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "bunkbed": {
+      "mu": 0.8671907386842667,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "ottoman": {
+      "mu": 0.40784981591218383,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "shelf": {
+      "mu": 0.7984410463405783,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "cabinet": {
+      "mu": 0.32158814462306995,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "mattress": {
+      "mu": 0.9579669735862365,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "sofa bed": {
+      "mu": 0.881066485860437,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "dresser": {
+      "mu": 0.9740834326453733,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "desk": {
+      "mu": 0.9740832119322236,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "recliner": {
+      "mu": 0.9625829400652439,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "bed": {
+      "mu": 0.7546504425951186,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "couch": {
+      "mu": 0.9045547087148117,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "lion": {
+      "mu": 0.03303301923136479,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "cat": {
+      "mu": 0.10676373425819846,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "elephant": {
+      "mu": 0.04219915887492969,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "rabbit": {
+      "mu": 0.042035434478680196,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "bird": {
+      "mu": 0.06020806047264107,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "reptile": {
+      "mu": 0.06758387389050735,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "fish": {
+      "mu": 0.0678522589404131,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "insect": {
+      "mu": 0.06758482637097867,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "table": {
+      "mu": 0.7553886716426218,
+      "in_annotation": false,
+      "in_lexicon": true
+    },
+    "chair": {
+      "mu": 0.970646108630685,
+      "in_annotation": false,
+      "in_lexicon": true
+    },
+    "large": {
+      "mu": 0.3215822639736956,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "type": {
+      "mu": 0.32157906075547305,
+      "in_annotation": false,
+      "in_lexicon": false
+    }
+  }
+}

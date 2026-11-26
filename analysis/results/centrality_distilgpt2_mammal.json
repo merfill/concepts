@@ -1,0 +1,566 @@
+{
+  "category": "mammal",
+  "descriptor": "mammal",
+  "frames": [
+    "A mammal, such as a",
+    "Name one mammal: a"
+  ],
+  "scan": {
+    "A mammal, such as a": {
+      "purity": 0.47819240017857434,
+      "n_members": 21
+    },
+    "Name one mammal: a": {
+      "purity": 0.39197428878782375,
+      "n_members": 16
+    }
+  },
+  "chosen_frame": "A mammal, such as a",
+  "purity": {
+    "window_mass": 0.3460063408128917,
+    "member_mass": 0.1654576025903225,
+    "function_mass": 0.0,
+    "other_mass": 0.18054873822256923,
+    "purity": 0.47819240017857434,
+    "members": [
+      {
+        "token": "cat",
+        "lemma": "cat",
+        "p": 0.017542051151394844
+      },
+      {
+        "token": "dog",
+        "lemma": "dog",
+        "p": 0.013052217662334442
+      },
+      {
+        "token": "fox",
+        "lemma": "fox",
+        "p": 0.012594210915267467
+      },
+      {
+        "token": "rat",
+        "lemma": "rat",
+        "p": 0.012278039939701557
+      },
+      {
+        "token": "rabbit",
+        "lemma": "rabbit",
+        "p": 0.011134637519717216
+      },
+      {
+        "token": "mouse",
+        "lemma": "mouse",
+        "p": 0.010978163219988346
+      },
+      {
+        "token": "human",
+        "lemma": "human",
+        "p": 0.009658158756792545
+      },
+      {
+        "token": "deer",
+        "lemma": "deer",
+        "p": 0.00833977572619915
+      },
+      {
+        "token": "lion",
+        "lemma": "lion",
+        "p": 0.007899164222180843
+      },
+      {
+        "token": "dolphin",
+        "lemma": "dolphin",
+        "p": 0.0073132566176354885
+      },
+      {
+        "token": "wolf",
+        "lemma": "wolf",
+        "p": 0.006659405771642923
+      },
+      {
+        "token": "mammal",
+        "lemma": "mammal",
+        "p": 0.0056614745408296585
+      },
+      {
+        "token": "monkey",
+        "lemma": "monkey",
+        "p": 0.005567241460084915
+      },
+      {
+        "token": "horse",
+        "lemma": "horse",
+        "p": 0.005235428921878338
+      },
+      {
+        "token": "man",
+        "lemma": "man",
+        "p": 0.005095922388136387
+      },
+      {
+        "token": "bear",
+        "lemma": "bear",
+        "p": 0.004940776154398918
+      },
+      {
+        "token": "bull",
+        "lemma": "bull",
+        "p": 0.004662334453314543
+      },
+      {
+        "token": "squirrel",
+        "lemma": "squirrel",
+        "p": 0.0046523138880729675
+      },
+      {
+        "token": "tiger",
+        "lemma": "tiger",
+        "p": 0.004093766678124666
+      },
+      {
+        "token": "whale",
+        "lemma": "whale",
+        "p": 0.004067102912813425
+      },
+      {
+        "token": "sheep",
+        "lemma": "sheep",
+        "p": 0.004032159689813852
+      }
+    ],
+    "other": [
+      {
+        "token": "p",
+        "p": 0.011086066253483295
+      },
+      {
+        "token": "black",
+        "p": 0.009947764687240124
+      },
+      {
+        "token": "b",
+        "p": 0.009644167497754097
+      },
+      {
+        "token": "bird",
+        "p": 0.009055090136826038
+      },
+      {
+        "token": "rh",
+        "p": 0.00880200881510973
+      },
+      {
+        "token": "m",
+        "p": 0.00781270768493414
+      },
+      {
+        "token": "rac",
+        "p": 0.007368197664618492
+      },
+      {
+        "token": "l",
+        "p": 0.007305978797376156
+      },
+      {
+        "token": "c",
+        "p": 0.007130069192498922
+      },
+      {
+        "token": "chimpan",
+        "p": 0.006804286036640406
+      },
+      {
+        "token": "large",
+        "p": 0.006632405333220959
+      },
+      {
+        "token": "male",
+        "p": 0.006372947245836258
+      },
+      {
+        "token": "small",
+        "p": 0.006228501442819834
+      },
+      {
+        "token": "k",
+        "p": 0.005949083715677261
+      },
+      {
+        "token": "le",
+        "p": 0.005833818111568689
+      },
+      {
+        "token": "white",
+        "p": 0.005436824634671211
+      },
+      {
+        "token": "t",
+        "p": 0.005036398768424988
+      },
+      {
+        "token": "turtle",
+        "p": 0.004762186203151941
+      },
+      {
+        "token": "giant",
+        "p": 0.0047461725771427155
+      },
+      {
+        "token": "female",
+        "p": 0.004722243640571833
+      },
+      {
+        "token": "frog",
+        "p": 0.004698525182902813
+      },
+      {
+        "token": "sea",
+        "p": 0.004637571517378092
+      },
+      {
+        "token": "par",
+        "p": 0.004600165877491236
+      },
+      {
+        "token": "red",
+        "p": 0.004524046555161476
+      },
+      {
+        "token": "gir",
+        "p": 0.004491135478019714
+      },
+      {
+        "token": "pengu",
+        "p": 0.004487658850848675
+      },
+      {
+        "token": "por",
+        "p": 0.004304788541048765
+      },
+      {
+        "token": "duck",
+        "p": 0.004066948313266039
+      },
+      {
+        "token": "wild",
+        "p": 0.004060979466885328
+      }
+    ]
+  },
+  "centrality": {
+    "pearson": {
+      "r": 0.7120036461775964,
+      "p": 0.0004291689024111871
+    },
+    "spearman": {
+      "rho": 0.806015037593985,
+      "p": 1.783458905419523e-05
+    },
+    "partial_pearson": 0.22917337577110844,
+    "per_word": [
+      {
+        "word": "aardvark",
+        "human": 0.053571,
+        "q": 1.7347715441387951e-09,
+        "n_tokens": 4,
+        "zipf": 2.39
+      },
+      {
+        "word": "platypus",
+        "human": 0.142045,
+        "q": 0.0021648898935841456,
+        "n_tokens": 3,
+        "zipf": 2.69
+      },
+      {
+        "word": "mole",
+        "human": 0.18373,
+        "q": 0.000813487426040788,
+        "n_tokens": 1,
+        "zipf": 3.67
+      },
+      {
+        "word": "walrus",
+        "human": 0.236573,
+        "q": 0.001122016883848324,
+        "n_tokens": 2,
+        "zipf": 2.98
+      },
+      {
+        "word": "hedgehog",
+        "human": 0.274206,
+        "q": 0.0006146600318515632,
+        "n_tokens": 2,
+        "zipf": 3.25
+      },
+      {
+        "word": "antelope",
+        "human": 0.304348,
+        "q": 0.0001421903720146823,
+        "n_tokens": 2,
+        "zipf": 3.08
+      },
+      {
+        "word": "seal",
+        "human": 0.330414,
+        "q": 0.0013273594395926775,
+        "n_tokens": 1,
+        "zipf": 4.3
+      },
+      {
+        "word": "llama",
+        "human": 0.345819,
+        "q": 0.0015251913069340328,
+        "n_tokens": 2,
+        "zipf": 2.95
+      },
+      {
+        "word": "skunk",
+        "human": 0.384683,
+        "q": 0.00021731964316390522,
+        "n_tokens": 2,
+        "zipf": 3.1
+      },
+      {
+        "word": "guinea pig",
+        "human": 0.434211,
+        "q": 0.0008390553098159884,
+        "n_tokens": 3,
+        "zipf": 3.8
+      },
+      {
+        "word": "moose",
+        "human": 0.45,
+        "q": 0.0018145806076572746,
+        "n_tokens": 2,
+        "zipf": 3.61
+      },
+      {
+        "word": "whale",
+        "human": 0.486413,
+        "q": 0.00406710367129669,
+        "n_tokens": 1,
+        "zipf": 3.98
+      },
+      {
+        "word": "mouse",
+        "human": 0.513889,
+        "q": 0.010978164557708546,
+        "n_tokens": 1,
+        "zipf": 4.31
+      },
+      {
+        "word": "polar bear",
+        "human": 0.541944,
+        "q": 0.0032707593294477853,
+        "n_tokens": 2,
+        "zipf": 3.89
+      },
+      {
+        "word": "squirrel",
+        "human": 0.565051,
+        "q": 0.004652314621370353,
+        "n_tokens": 1,
+        "zipf": 3.69
+      },
+      {
+        "word": "sheep",
+        "human": 0.601916,
+        "q": 0.004032160240785818,
+        "n_tokens": 1,
+        "zipf": 4.19
+      },
+      {
+        "word": "wolf",
+        "human": 0.632143,
+        "q": 0.006659406257809346,
+        "n_tokens": 1,
+        "zipf": 4.35
+      },
+      {
+        "word": "pig",
+        "human": 0.698554,
+        "q": 0.0029679046441235435,
+        "n_tokens": 1,
+        "zipf": 4.14
+      },
+      {
+        "word": "bear",
+        "human": 0.737179,
+        "q": 0.004940777164965348,
+        "n_tokens": 1,
+        "zipf": 4.71
+      },
+      {
+        "word": "dog",
+        "human": 0.839147,
+        "q": 0.013052219377423058,
+        "n_tokens": 1,
+        "zipf": 5.1
+      }
+    ]
+  },
+  "membership": {
+    "aardvark": {
+      "mu": 0.6866637396286748,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "platypus": {
+      "mu": 0.6405005167817116,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "mole": {
+      "mu": 0.5946017360357823,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "walrus": {
+      "mu": 0.6735000362991358,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "hedgehog": {
+      "mu": 0.6892808991520679,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "antelope": {
+      "mu": 0.711421037806335,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "seal": {
+      "mu": 0.6530616337233971,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "llama": {
+      "mu": 0.6771902364130913,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "skunk": {
+      "mu": 0.6465477882884529,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "guinea pig": {
+      "mu": 0.6532554339811959,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "moose": {
+      "mu": 0.6495749410406364,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "whale": {
+      "mu": 0.6727143502006265,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "mouse": {
+      "mu": 0.6483379578968054,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "polar bear": {
+      "mu": 0.6270737302549608,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "squirrel": {
+      "mu": 0.6245586959450958,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "sheep": {
+      "mu": 0.6263329954661827,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "wolf": {
+      "mu": 0.6935170286782005,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "pig": {
+      "mu": 0.6002614860102682,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "bear": {
+      "mu": 0.6584326937645496,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "dog": {
+      "mu": 0.624131631139469,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "lion": {
+      "mu": 0.6319010674600715,
+      "in_annotation": false,
+      "in_lexicon": true
+    },
+    "cat": {
+      "mu": 0.6572076653106199,
+      "in_annotation": false,
+      "in_lexicon": true
+    },
+    "elephant": {
+      "mu": 0.6112317335940611,
+      "in_annotation": false,
+      "in_lexicon": true
+    },
+    "rabbit": {
+      "mu": 0.6452881642159153,
+      "in_annotation": false,
+      "in_lexicon": true
+    },
+    "bird": {
+      "mu": 0.662192586967279,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "reptile": {
+      "mu": 0.6613874817896527,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "fish": {
+      "mu": 0.6323594384442299,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "insect": {
+      "mu": 0.570393632017758,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "table": {
+      "mu": 0.5211682823113388,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "chair": {
+      "mu": 0.665563193109659,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "large": {
+      "mu": 0.6467127239489769,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "type": {
+      "mu": 0.6231866214011016,
+      "in_annotation": false,
+      "in_lexicon": false
+    }
+  }
+}

@@ -1,0 +1,569 @@
+{
+  "category": "tool",
+  "descriptor": "tool used for work",
+  "frames": [
+    "Name one tool used for work: a",
+    "One example of a tool used for work is a",
+    "A common tool used for work is a",
+    "A tool used for work, such as a"
+  ],
+  "scan": {
+    "Name one tool used for work: a": {
+      "purity": 0.47453490555073796,
+      "n_members": 10
+    },
+    "One example of a tool used for work is a": {
+      "purity": 0.5640810929925077,
+      "n_members": 11
+    },
+    "A common tool used for work is a": {
+      "purity": 0.2586439398025783,
+      "n_members": 8
+    },
+    "A tool used for work, such as a": {
+      "purity": 0.6040840410919152,
+      "n_members": 14
+    }
+  },
+  "chosen_frame": "A tool used for work, such as a",
+  "purity": {
+    "window_mass": 0.7887115478515625,
+    "member_mass": 0.47644805908203125,
+    "function_mass": 0.0,
+    "other_mass": 0.31226348876953125,
+    "purity": 0.6040840410919152,
+    "members": [
+      {
+        "token": "hammer",
+        "lemma": "hammer",
+        "p": 0.2197265625
+      },
+      {
+        "token": "wrench",
+        "lemma": "wrench",
+        "p": 0.1171875
+      },
+      {
+        "token": "drill",
+        "lemma": "drill",
+        "p": 0.0380859375
+      },
+      {
+        "token": "saw",
+        "lemma": "saw",
+        "p": 0.0296630859375
+      },
+      {
+        "token": "knife",
+        "lemma": "knife",
+        "p": 0.0179443359375
+      },
+      {
+        "token": "tool",
+        "lemma": "tool",
+        "p": 0.015869140625
+      },
+      {
+        "token": "file",
+        "lemma": "file",
+        "p": 0.0140380859375
+      },
+      {
+        "token": "plane",
+        "lemma": "plane",
+        "p": 0.005859375
+      },
+      {
+        "token": "jack",
+        "lemma": "jack",
+        "p": 0.005157470703125
+      },
+      {
+        "token": "hacks",
+        "lemma": "hack",
+        "p": 0.0035400390625
+      },
+      {
+        "token": "pick",
+        "lemma": "pick",
+        "p": 0.002593994140625
+      },
+      {
+        "token": "tap",
+        "lemma": "tap",
+        "p": 0.002593994140625
+      },
+      {
+        "token": "shovel",
+        "lemma": "shovel",
+        "p": 0.002288818359375
+      },
+      {
+        "token": "brush",
+        "lemma": "brush",
+        "p": 0.00189971923828125
+      }
+    ],
+    "other": [
+      {
+        "token": "screw",
+        "p": 0.1328125
+      },
+      {
+        "token": "lat",
+        "p": 0.0262451171875
+      },
+      {
+        "token": "machine",
+        "p": 0.015869140625
+      },
+      {
+        "token": "hand",
+        "p": 0.0140380859375
+      },
+      {
+        "token": "measuring",
+        "p": 0.01239013671875
+      },
+      {
+        "token": "ruler",
+        "p": 0.00750732421875
+      },
+      {
+        "token": "pencil",
+        "p": 0.006622314453125
+      },
+      {
+        "token": "pen",
+        "p": 0.005859375
+      },
+      {
+        "token": "ch",
+        "p": 0.005859375
+      },
+      {
+        "token": "cutting",
+        "p": 0.005157470703125
+      },
+      {
+        "token": "s",
+        "p": 0.005157470703125
+      },
+      {
+        "token": "crow",
+        "p": 0.005157470703125
+      },
+      {
+        "token": "pair",
+        "p": 0.005157470703125
+      },
+      {
+        "token": "computer",
+        "p": 0.004547119140625
+      },
+      {
+        "token": "nail",
+        "p": 0.004547119140625
+      },
+      {
+        "token": "pl",
+        "p": 0.004547119140625
+      },
+      {
+        "token": "bro",
+        "p": 0.0040283203125
+      },
+      {
+        "token": "metal",
+        "p": 0.0040283203125
+      },
+      {
+        "token": "span",
+        "p": 0.0035400390625
+      },
+      {
+        "token": "tape",
+        "p": 0.003326416015625
+      },
+      {
+        "token": "r",
+        "p": 0.0031280517578125
+      },
+      {
+        "token": "piece",
+        "p": 0.002593994140625
+      },
+      {
+        "token": "bolt",
+        "p": 0.002593994140625
+      },
+      {
+        "token": "pipe",
+        "p": 0.002593994140625
+      },
+      {
+        "token": "work",
+        "p": 0.00244140625
+      },
+      {
+        "token": "car",
+        "p": 0.00244140625
+      },
+      {
+        "token": "press",
+        "p": 0.002288818359375
+      },
+      {
+        "token": "power",
+        "p": 0.002288818359375
+      },
+      {
+        "token": "carp",
+        "p": 0.002288818359375
+      },
+      {
+        "token": "board",
+        "p": 0.0021514892578125
+      },
+      {
+        "token": "mach",
+        "p": 0.00201416015625
+      },
+      {
+        "token": "crane",
+        "p": 0.00201416015625
+      },
+      {
+        "token": "paint",
+        "p": 0.00189971923828125
+      },
+      {
+        "token": "mechanical",
+        "p": 0.0017852783203125
+      },
+      {
+        "token": "lever",
+        "p": 0.00167083740234375
+      },
+      {
+        "token": "flat",
+        "p": 0.00167083740234375
+      }
+    ]
+  },
+  "centrality": {
+    "pearson": {
+      "r": 0.5404529868590413,
+      "p": 0.013886042573819025
+    },
+    "spearman": {
+      "rho": 0.7002633063850878,
+      "p": 0.0005860464431193253
+    },
+    "partial_pearson": 0.5909465060447812,
+    "per_word": [
+      {
+        "word": "quill",
+        "human": 0.09375,
+        "q": 4.559307346148803e-06,
+        "n_tokens": 2,
+        "zipf": 3.11
+      },
+      {
+        "word": "gavel",
+        "human": 0.16616,
+        "q": 6.339250589820928e-06,
+        "n_tokens": 2,
+        "zipf": 2.66
+      },
+      {
+        "word": "ladle",
+        "human": 0.243012,
+        "q": 6.605650802868481e-05,
+        "n_tokens": 2,
+        "zipf": 2.66
+      },
+      {
+        "word": "metal detector",
+        "human": 0.268997,
+        "q": 2.21261586517673e-05,
+        "n_tokens": 2,
+        "zipf": 3.68
+      },
+      {
+        "word": "marker",
+        "human": 0.291667,
+        "q": 9.61116520613947e-05,
+        "n_tokens": 1,
+        "zipf": 3.87
+      },
+      {
+        "word": "poker",
+        "human": 0.306973,
+        "q": 6.605650802868481e-05,
+        "n_tokens": 1,
+        "zipf": 3.97
+      },
+      {
+        "word": "rope",
+        "human": 0.319402,
+        "q": 0.00027810828659249914,
+        "n_tokens": 1,
+        "zipf": 4.06
+      },
+      {
+        "word": "polisher",
+        "human": 0.331575,
+        "q": 9.51634225407686e-06,
+        "n_tokens": 2,
+        "zipf": 2.18
+      },
+      {
+        "word": "sweeper",
+        "human": 0.349037,
+        "q": 5.683161206047222e-06,
+        "n_tokens": 2,
+        "zipf": 2.89
+      },
+      {
+        "word": "mop",
+        "human": 0.367695,
+        "q": 6.205434652598976e-05,
+        "n_tokens": 1,
+        "zipf": 3.39
+      },
+      {
+        "word": "broom",
+        "human": 0.399826,
+        "q": 0.00405509168050255,
+        "n_tokens": 2,
+        "zipf": 3.42
+      },
+      {
+        "word": "brush",
+        "human": 0.414452,
+        "q": 0.0019304541362277093,
+        "n_tokens": 1,
+        "zipf": 4.23
+      },
+      {
+        "word": "air pump",
+        "human": 0.447534,
+        "q": 4.993718107117558e-08,
+        "n_tokens": 2,
+        "zipf": 4.25
+      },
+      {
+        "word": "bottle opener",
+        "human": 0.479863,
+        "q": 0.00024832274915834434,
+        "n_tokens": 2,
+        "zipf": 3.8
+      },
+      {
+        "word": "punch",
+        "human": 0.511278,
+        "q": 0.0008566338301859405,
+        "n_tokens": 1,
+        "zipf": 4.32
+      },
+      {
+        "word": "staple gun",
+        "human": 0.565767,
+        "q": 0.00038385933983297373,
+        "n_tokens": 2,
+        "zipf": 3.66
+      },
+      {
+        "word": "hoe",
+        "human": 0.584077,
+        "q": 0.0014123504170288816,
+        "n_tokens": 1,
+        "zipf": 3.25
+      },
+      {
+        "word": "ratchet",
+        "human": 0.656593,
+        "q": 0.0029522274891290398,
+        "n_tokens": 2,
+        "zipf": 3.15
+      },
+      {
+        "word": "tape measure",
+        "human": 0.742321,
+        "q": 0.003335932829642831,
+        "n_tokens": 2,
+        "zipf": 4.23
+      },
+      {
+        "word": "screwdriver",
+        "human": 0.832321,
+        "q": 0.13018244889927338,
+        "n_tokens": 2,
+        "zipf": 3.13
+      }
+    ]
+  },
+  "membership": {
+    "quill": {
+      "mu": 0.8932438062261971,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "gavel": {
+      "mu": 0.9467000536529935,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "ladle": {
+      "mu": 0.8806290908105031,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "metal detector": {
+      "mu": 0.9241322597718012,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "marker": {
+      "mu": 0.5625070417989286,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "poker": {
+      "mu": 0.3203228696376511,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "rope": {
+      "mu": 0.7058885244994988,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "polisher": {
+      "mu": 0.7773470781822359,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "sweeper": {
+      "mu": 0.6223148673229588,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "mop": {
+      "mu": 0.893242572611599,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "broom": {
+      "mu": 0.9045539841425522,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "brush": {
+      "mu": 0.8671912056466113,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "air pump": {
+      "mu": 0.9324196728733561,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "bottle opener": {
+      "mu": 0.9324207165983983,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "punch": {
+      "mu": 0.5312618598087824,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "staple gun": {
+      "mu": 0.7553889546914372,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "hoe": {
+      "mu": 0.4677297163276462,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "ratchet": {
+      "mu": 0.46772020123294705,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "tape measure": {
+      "mu": 0.9579671199625279,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "screwdriver": {
+      "mu": 0.9526601329870098,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "lion": {
+      "mu": 0.1647122376199518,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "cat": {
+      "mu": 0.531259891509202,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "elephant": {
+      "mu": 0.20157913363648094,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "rabbit": {
+      "mu": 0.1647133098849327,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "bird": {
+      "mu": 0.18200405151085472,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "reptile": {
+      "mu": 0.18280059689067976,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "fish": {
+      "mu": 0.2691726487944008,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "insect": {
+      "mu": 0.1193799713376441,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "table": {
+      "mu": 0.5625083083533532,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "chair": {
+      "mu": 0.5921675576215542,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "large": {
+      "mu": 0.5921727834641408,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "type": {
+      "mu": 0.531260494950953,
+      "in_annotation": false,
+      "in_lexicon": false
+    }
+  }
+}

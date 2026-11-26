@@ -1,0 +1,575 @@
+{
+  "category": "weapon",
+  "descriptor": "weapon",
+  "frames": [
+    "Name one weapon: a",
+    "One example of a weapon is a",
+    "A common weapon is a",
+    "A weapon, such as a"
+  ],
+  "scan": {
+    "Name one weapon: a": {
+      "purity": 0.6221537051311431,
+      "n_members": 20
+    },
+    "One example of a weapon is a": {
+      "purity": 0.6933610063529828,
+      "n_members": 19
+    },
+    "A common weapon is a": {
+      "purity": 0.30087338528319646,
+      "n_members": 11
+    },
+    "A weapon, such as a": {
+      "purity": 0.7702242377379783,
+      "n_members": 19
+    }
+  },
+  "chosen_frame": "Name one weapon: a",
+  "purity": {
+    "window_mass": 0.7324371337890625,
+    "member_mass": 0.4556884765625,
+    "function_mass": 0.0,
+    "other_mass": 0.2767486572265625,
+    "purity": 0.6221537051311431,
+    "members": [
+      {
+        "token": "sword",
+        "lemma": "sword",
+        "p": 0.173828125
+      },
+      {
+        "token": "bow",
+        "lemma": "bow",
+        "p": 0.07275390625
+      },
+      {
+        "token": "gun",
+        "lemma": "gun",
+        "p": 0.056640625
+      },
+      {
+        "token": "spear",
+        "lemma": "spear",
+        "p": 0.034423828125
+      },
+      {
+        "token": "rifle",
+        "lemma": "rifle",
+        "p": 0.0162353515625
+      },
+      {
+        "token": "saber",
+        "lemma": "saber",
+        "p": 0.01263427734375
+      },
+      {
+        "token": "knife",
+        "lemma": "knife",
+        "p": 0.01116943359375
+      },
+      {
+        "token": "pistol",
+        "lemma": "pistol",
+        "p": 0.00982666015625
+      },
+      {
+        "token": "sam",
+        "lemma": "sam",
+        "p": 0.00982666015625
+      },
+      {
+        "token": "shotgun",
+        "lemma": "shotgun",
+        "p": 0.00921630859375
+      },
+      {
+        "token": "firearm",
+        "lemma": "firearm",
+        "p": 0.0081787109375
+      },
+      {
+        "token": "dagger",
+        "lemma": "dagger",
+        "p": 0.007659912109375
+      },
+      {
+        "token": "cannon",
+        "lemma": "cannon",
+        "p": 0.00634765625
+      },
+      {
+        "token": "grenade",
+        "lemma": "grenade",
+        "p": 0.005950927734375
+      },
+      {
+        "token": "revolver",
+        "lemma": "revolver",
+        "p": 0.005615234375
+      },
+      {
+        "token": "bullet",
+        "lemma": "bullet",
+        "p": 0.00384521484375
+      },
+      {
+        "token": "whip",
+        "lemma": "whip",
+        "p": 0.0031890869140625
+      },
+      {
+        "token": "weapon",
+        "lemma": "weapon",
+        "p": 0.0031890869140625
+      },
+      {
+        "token": "tank",
+        "lemma": "tank",
+        "p": 0.0028228759765625
+      },
+      {
+        "token": "dart",
+        "lemma": "dart",
+        "p": 0.0023345947265625
+      }
+    ],
+    "other": [
+      {
+        "token": "kat",
+        "p": 0.056640625
+      },
+      {
+        "token": "cross",
+        "p": 0.050048828125
+      },
+      {
+        "token": "long",
+        "p": 0.0208740234375
+      },
+      {
+        "token": "sniper",
+        "p": 0.0162353515625
+      },
+      {
+        "token": "sab",
+        "p": 0.01263427734375
+      },
+      {
+        "token": "machine",
+        "p": 0.01116943359375
+      },
+      {
+        "token": "mach",
+        "p": 0.0081787109375
+      },
+      {
+        "token": "flam",
+        "p": 0.007659912109375
+      },
+      {
+        "token": "laser",
+        "p": 0.0072021484375
+      },
+      {
+        "token": "catapult",
+        "p": 0.0072021484375
+      },
+      {
+        "token": "club",
+        "p": 0.006744384765625
+      },
+      {
+        "token": "sc",
+        "p": 0.006744384765625
+      },
+      {
+        "token": "s",
+        "p": 0.00634765625
+      },
+      {
+        "token": "baseball",
+        "p": 0.0052490234375
+      },
+      {
+        "token": "rocket",
+        "p": 0.0052490234375
+      },
+      {
+        "token": "baz",
+        "p": 0.00494384765625
+      },
+      {
+        "token": "shield",
+        "p": 0.004638671875
+      },
+      {
+        "token": "hammer",
+        "p": 0.004364013671875
+      },
+      {
+        "token": "sl",
+        "p": 0.00408935546875
+      },
+      {
+        "token": "short",
+        "p": 0.0034027099609375
+      },
+      {
+        "token": "bay",
+        "p": 0.0031890869140625
+      },
+      {
+        "token": "medieval",
+        "p": 0.0030059814453125
+      },
+      {
+        "token": "bo",
+        "p": 0.0030059814453125
+      },
+      {
+        "token": "bomb",
+        "p": 0.0028228759765625
+      },
+      {
+        "token": "Kat",
+        "p": 0.0028228759765625
+      },
+      {
+        "token": "bl",
+        "p": 0.0026397705078125
+      },
+      {
+        "token": "gl",
+        "p": 0.0024871826171875
+      },
+      {
+        "token": "broad",
+        "p": 0.0024871826171875
+      },
+      {
+        "token": "rap",
+        "p": 0.0023345947265625
+      },
+      {
+        "token": "har",
+        "p": 0.0023345947265625
+      }
+    ]
+  },
+  "centrality": {
+    "pearson": {
+      "r": 0.5490915665654965,
+      "p": 0.01216065758974537
+    },
+    "spearman": {
+      "rho": 0.6842105263157895,
+      "p": 0.0008772646601370122
+    },
+    "partial_pearson": 0.49060359391243624,
+    "per_word": [
+      {
+        "word": "boomerang",
+        "human": 0.140244,
+        "q": 0.002793748340100622,
+        "n_tokens": 3,
+        "zipf": 3.06
+      },
+      {
+        "word": "whip",
+        "human": 0.241149,
+        "q": 0.003182780796509667,
+        "n_tokens": 1,
+        "zipf": 4.01
+      },
+      {
+        "word": "blowgun",
+        "human": 0.241758,
+        "q": 0.00012340980408667956,
+        "n_tokens": 2,
+        "zipf": 1.62
+      },
+      {
+        "word": "dart",
+        "human": 0.278968,
+        "q": 0.0023285721742377138,
+        "n_tokens": 1,
+        "zipf": 3.52
+      },
+      {
+        "word": "razor blade",
+        "human": 0.31456,
+        "q": 4.298378957396587e-05,
+        "n_tokens": 2,
+        "zipf": 3.59
+      },
+      {
+        "word": "dynamite",
+        "human": 0.321719,
+        "q": 0.00011593278203827863,
+        "n_tokens": 2,
+        "zipf": 3.59
+      },
+      {
+        "word": "slingshot",
+        "human": 0.367754,
+        "q": 0.00405509168050255,
+        "n_tokens": 3,
+        "zipf": 2.95
+      },
+      {
+        "word": "flamethrower",
+        "human": 0.370323,
+        "q": 0.007172507245008699,
+        "n_tokens": 4,
+        "zipf": 2.64
+      },
+      {
+        "word": "tank",
+        "human": 0.436335,
+        "q": 0.0028087941945255128,
+        "n_tokens": 1,
+        "zipf": 4.57
+      },
+      {
+        "word": "cannon",
+        "human": 0.472826,
+        "q": 0.006329715427485747,
+        "n_tokens": 1,
+        "zipf": 4.02
+      },
+      {
+        "word": "brass knuckles",
+        "human": 0.480114,
+        "q": 0.00010774511273035542,
+        "n_tokens": 3,
+        "zipf": 3.25
+      },
+      {
+        "word": "machete",
+        "human": 0.501612,
+        "q": 0.008064512767606844,
+        "n_tokens": 2,
+        "zipf": 3.15
+      },
+      {
+        "word": "spear",
+        "human": 0.54828,
+        "q": 0.03421811831166603,
+        "n_tokens": 1,
+        "zipf": 3.7
+      },
+      {
+        "word": "crossbow",
+        "human": 0.564829,
+        "q": 0.049787068367863944,
+        "n_tokens": 2,
+        "zipf": 3.05
+      },
+      {
+        "word": "grenade",
+        "human": 0.587302,
+        "q": 0.005946217356472094,
+        "n_tokens": 1,
+        "zipf": 3.65
+      },
+      {
+        "word": "dagger",
+        "human": 0.613222,
+        "q": 0.007635094218859962,
+        "n_tokens": 1,
+        "zipf": 3.54
+      },
+      {
+        "word": "bullet",
+        "human": 0.65132,
+        "q": 0.0038391664740261636,
+        "n_tokens": 1,
+        "zipf": 4.24
+      },
+      {
+        "word": "revolver",
+        "human": 0.76664,
+        "q": 0.0055859542589981,
+        "n_tokens": 1,
+        "zipf": 3.41
+      },
+      {
+        "word": "rifle",
+        "human": 0.771351,
+        "q": 0.016163494588165874,
+        "n_tokens": 1,
+        "zipf": 4.18
+      },
+      {
+        "word": "gun",
+        "human": 0.845079,
+        "q": 0.05641613950377735,
+        "n_tokens": 1,
+        "zipf": 4.96
+      }
+    ]
+  },
+  "membership": {
+    "boomerang": {
+      "mu": 0.3215834621261391,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "whip": {
+      "mu": 0.6510004344956601,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "blowgun": {
+      "mu": 0.8810605060424084,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "dart": {
+      "mu": 0.7059007457489432,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "razor blade": {
+      "mu": 0.6784447857056916,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "dynamite": {
+      "mu": 0.7984370982014701,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "slingshot": {
+      "mu": 0.5921717411095998,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "flamethrower": {
+      "mu": 0.9324223069913515,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "tank": {
+      "mu": 0.8359422994795528,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "cannon": {
+      "mu": 0.9464685418368705,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "brass knuckles": {
+      "mu": 0.6784453160295844,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "machete": {
+      "mu": 0.8932458672627978,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "spear": {
+      "mu": 0.9397962150709097,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "crossbow": {
+      "mu": 0.9526613449883542,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "grenade": {
+      "mu": 0.904555419303344,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "dagger": {
+      "mu": 0.8806307877899255,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "bullet": {
+      "mu": 0.6223218657008244,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "revolver": {
+      "mu": 0.9241335571999124,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "rifle": {
+      "mu": 0.8932450055539292,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "gun": {
+      "mu": 0.9149599546422615,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "lion": {
+      "mu": 0.18200720248799188,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "cat": {
+      "mu": 0.26812020272688164,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "elephant": {
+      "mu": 0.14793603221972002,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "rabbit": {
+      "mu": 0.20157849134426736,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "bird": {
+      "mu": 0.32158932344884616,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "reptile": {
+      "mu": 0.3490315424862249,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "fish": {
+      "mu": 0.3779835486249622,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "insect": {
+      "mu": 0.3779771673759075,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "table": {
+      "mu": 0.13334370890874234,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "chair": {
+      "mu": 0.2446370668614954,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "large": {
+      "mu": 0.32158741243697425,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "type": {
+      "mu": 0.3490391423631181,
+      "in_annotation": false,
+      "in_lexicon": false
+    }
+  }
+}

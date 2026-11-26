@@ -1,0 +1,575 @@
+{
+  "category": "vegetable",
+  "descriptor": "vegetable",
+  "frames": [
+    "Name one vegetable: a",
+    "One example of a vegetable is a",
+    "A common vegetable is a",
+    "A vegetable, such as a"
+  ],
+  "scan": {
+    "Name one vegetable: a": {
+      "purity": 0.12544227549664302,
+      "n_members": 7
+    },
+    "One example of a vegetable is a": {
+      "purity": 0.6487856186651367,
+      "n_members": 16
+    },
+    "A common vegetable is a": {
+      "purity": 0.07020246478873239,
+      "n_members": 3
+    },
+    "A vegetable, such as a": {
+      "purity": 0.7256860553171541,
+      "n_members": 20
+    }
+  },
+  "chosen_frame": "A vegetable, such as a",
+  "purity": {
+    "window_mass": 0.846282958984375,
+    "member_mass": 0.6141357421875,
+    "function_mass": 0.0,
+    "other_mass": 0.232147216796875,
+    "purity": 0.7256860553171541,
+    "members": [
+      {
+        "token": "tomato",
+        "lemma": "tomato",
+        "p": 0.20703125
+      },
+      {
+        "token": "potato",
+        "lemma": "potato",
+        "p": 0.076171875
+      },
+      {
+        "token": "carrot",
+        "lemma": "carrot",
+        "p": 0.0673828125
+      },
+      {
+        "token": "cucumber",
+        "lemma": "cucumber",
+        "p": 0.052490234375
+      },
+      {
+        "token": "bean",
+        "lemma": "bean",
+        "p": 0.0361328125
+      },
+      {
+        "token": "cabbage",
+        "lemma": "cabbage",
+        "p": 0.0361328125
+      },
+      {
+        "token": "green",
+        "lemma": "green",
+        "p": 0.0247802734375
+      },
+      {
+        "token": "pepper",
+        "lemma": "pepper",
+        "p": 0.019287109375
+      },
+      {
+        "token": "vegetable",
+        "lemma": "vegetable",
+        "p": 0.0169677734375
+      },
+      {
+        "token": "beet",
+        "lemma": "beet",
+        "p": 0.0150146484375
+      },
+      {
+        "token": "pumpkin",
+        "lemma": "pumpkin",
+        "p": 0.01171875
+      },
+      {
+        "token": "lettuce",
+        "lemma": "lettuce",
+        "p": 0.00909423828125
+      },
+      {
+        "token": "pea",
+        "lemma": "pea",
+        "p": 0.007568359375
+      },
+      {
+        "token": "cauliflower",
+        "lemma": "cauliflower",
+        "p": 0.00665283203125
+      },
+      {
+        "token": "broccoli",
+        "lemma": "broccoli",
+        "p": 0.00665283203125
+      },
+      {
+        "token": "mushroom",
+        "lemma": "mushroom",
+        "p": 0.005523681640625
+      },
+      {
+        "token": "spinach",
+        "lemma": "spinach",
+        "p": 0.0048828125
+      },
+      {
+        "token": "squash",
+        "lemma": "squash",
+        "p": 0.004302978515625
+      },
+      {
+        "token": "chili",
+        "lemma": "chili",
+        "p": 0.003570556640625
+      },
+      {
+        "token": "kale",
+        "lemma": "kale",
+        "p": 0.002777099609375
+      }
+    ],
+    "other": [
+      {
+        "token": "rad",
+        "p": 0.052490234375
+      },
+      {
+        "token": "leaf",
+        "p": 0.0247802734375
+      },
+      {
+        "token": "c",
+        "p": 0.0218505859375
+      },
+      {
+        "token": "z",
+        "p": 0.01324462890625
+      },
+      {
+        "token": "turn",
+        "p": 0.010986328125
+      },
+      {
+        "token": "water",
+        "p": 0.01031494140625
+      },
+      {
+        "token": "head",
+        "p": 0.00970458984375
+      },
+      {
+        "token": "plant",
+        "p": 0.008544921875
+      },
+      {
+        "token": "bell",
+        "p": 0.008056640625
+      },
+      {
+        "token": "sweet",
+        "p": 0.007110595703125
+      },
+      {
+        "token": "le",
+        "p": 0.006256103515625
+      },
+      {
+        "token": "cruc",
+        "p": 0.005889892578125
+      },
+      {
+        "token": "red",
+        "p": 0.0048828125
+      },
+      {
+        "token": "small",
+        "p": 0.004302978515625
+      },
+      {
+        "token": "mel",
+        "p": 0.004058837890625
+      },
+      {
+        "token": "par",
+        "p": 0.004058837890625
+      },
+      {
+        "token": "br",
+        "p": 0.004058837890625
+      },
+      {
+        "token": "sun",
+        "p": 0.003570556640625
+      },
+      {
+        "token": "flower",
+        "p": 0.003143310546875
+      },
+      {
+        "token": "cherry",
+        "p": 0.002960205078125
+      },
+      {
+        "token": "banana",
+        "p": 0.002777099609375
+      },
+      {
+        "token": "p",
+        "p": 0.0026092529296875
+      },
+      {
+        "token": "type",
+        "p": 0.0024566650390625
+      },
+      {
+        "token": "ch",
+        "p": 0.0023040771484375
+      },
+      {
+        "token": "spr",
+        "p": 0.0023040771484375
+      },
+      {
+        "token": "ub",
+        "p": 0.0020294189453125
+      },
+      {
+        "token": "large",
+        "p": 0.0019073486328125
+      },
+      {
+        "token": "piece",
+        "p": 0.0019073486328125
+      },
+      {
+        "token": "Brussels",
+        "p": 0.00179290771484375
+      },
+      {
+        "token": "bulb",
+        "p": 0.00179290771484375
+      }
+    ]
+  },
+  "centrality": {
+    "pearson": {
+      "r": 0.39627315993194956,
+      "p": 0.08368194233403445
+    },
+    "spearman": {
+      "rho": 0.3714285714285714,
+      "p": 0.10687070696592824
+    },
+    "partial_pearson": 0.314807296329852,
+    "per_word": [
+      {
+        "word": "rhubarb",
+        "human": 0.081395,
+        "q": 0.00045539930179702796,
+        "n_tokens": 3,
+        "zipf": 2.97
+      },
+      {
+        "word": "gourd",
+        "human": 0.151042,
+        "q": 0.0008812407613211101,
+        "n_tokens": 2,
+        "zipf": 2.82
+      },
+      {
+        "word": "chickpea",
+        "human": 0.171854,
+        "q": 0.0004208671385947659,
+        "n_tokens": 3,
+        "zipf": 2.5
+      },
+      {
+        "word": "parsley",
+        "human": 0.17663,
+        "q": 0.0005530843701478336,
+        "n_tokens": 1,
+        "zipf": 3.27
+      },
+      {
+        "word": "leek",
+        "human": 0.228659,
+        "q": 0.006634294614320378,
+        "n_tokens": 2,
+        "zipf": 2.87
+      },
+      {
+        "word": "okra",
+        "human": 0.239067,
+        "q": 2.127916820380449e-05,
+        "n_tokens": 2,
+        "zipf": 2.63
+      },
+      {
+        "word": "garlic",
+        "human": 0.279485,
+        "q": 0.0004046451693262645,
+        "n_tokens": 1,
+        "zipf": 3.92
+      },
+      {
+        "word": "artichoke",
+        "human": 0.34246,
+        "q": 1.2219225328134202e-05,
+        "n_tokens": 3,
+        "zipf": 2.73
+      },
+      {
+        "word": "radish",
+        "human": 0.359578,
+        "q": 0.05641613950377735,
+        "n_tokens": 2,
+        "zipf": 2.78
+      },
+      {
+        "word": "eggplant",
+        "human": 0.376323,
+        "q": 0.00010641187720980082,
+        "n_tokens": 2,
+        "zipf": 3.01
+      },
+      {
+        "word": "squash",
+        "human": 0.48566,
+        "q": 0.004350345551108769,
+        "n_tokens": 1,
+        "zipf": 3.63
+      },
+      {
+        "word": "brussels sprouts",
+        "human": 0.501165,
+        "q": 2.1112928077808185e-05,
+        "n_tokens": 4,
+        "zipf": 3.16
+      },
+      {
+        "word": "asparagus",
+        "human": 0.51664,
+        "q": 6.605650802868481e-05,
+        "n_tokens": 2,
+        "zipf": 3.25
+      },
+      {
+        "word": "zucchini",
+        "human": 0.53869,
+        "q": 0.012588142242433998,
+        "n_tokens": 2,
+        "zipf": 2.96
+      },
+      {
+        "word": "pea",
+        "human": 0.580745,
+        "q": 0.007635094218859962,
+        "n_tokens": 1,
+        "zipf": 3.54
+      },
+      {
+        "word": "potato",
+        "human": 0.602827,
+        "q": 0.07711171996831671,
+        "n_tokens": 1,
+        "zipf": 4.11
+      },
+      {
+        "word": "onion",
+        "human": 0.643297,
+        "q": 0.000315137974737356,
+        "n_tokens": 1,
+        "zipf": 3.89
+      },
+      {
+        "word": "lettuce",
+        "human": 0.699848,
+        "q": 0.00920968160396814,
+        "n_tokens": 1,
+        "zipf": 3.56
+      },
+      {
+        "word": "corn",
+        "human": 0.719562,
+        "q": 0.001703619795802574,
+        "n_tokens": 1,
+        "zipf": 4.19
+      },
+      {
+        "word": "carrot",
+        "human": 0.779255,
+        "q": 0.0680508540250102,
+        "n_tokens": 1,
+        "zipf": 3.62
+      }
+    ]
+  },
+  "membership": {
+    "rhubarb": {
+      "mu": 0.9820270933833417,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "gourd": {
+      "mu": 0.8806287543042437,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "chickpea": {
+      "mu": 0.9150712136585295,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "parsley": {
+      "mu": 0.7984412225055101,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "leek": {
+      "mu": 0.9770395034034215,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "okra": {
+      "mu": 0.9859392957817281,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "garlic": {
+      "mu": 0.9045506664372261,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "artichoke": {
+      "mu": 0.9628186270327276,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "radish": {
+      "mu": 0.9820272887074057,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "eggplant": {
+      "mu": 0.9706458122208074,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "squash": {
+      "mu": 0.5625114147995279,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "brussels sprouts": {
+      "mu": 0.9890055844894668,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "asparagus": {
+      "mu": 0.9940682514008268,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "zucchini": {
+      "mu": 0.9914278466162747,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "pea": {
+      "mu": 0.7984337907994751,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "potato": {
+      "mu": 0.9627051083862607,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "onion": {
+      "mu": 0.7984351537965324,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "lettuce": {
+      "mu": 0.9875700388680307,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "corn": {
+      "mu": 0.8932434977757734,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "carrot": {
+      "mu": 0.9625832519616048,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "lion": {
+      "mu": 0.01406063449865374,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "cat": {
+      "mu": 0.037417982124719584,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "elephant": {
+      "mu": 0.014060465993300247,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "rabbit": {
+      "mu": 0.06020660952686199,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "bird": {
+      "mu": 0.020328647309507814,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "reptile": {
+      "mu": 0.033032225340549386,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "fish": {
+      "mu": 0.029351015183151658,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "insect": {
+      "mu": 0.029236319066974013,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "table": {
+      "mu": 0.0675819628042501,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "chair": {
+      "mu": 0.02296091457784001,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "large": {
+      "mu": 0.4078546239640131,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "type": {
+      "mu": 0.3776967950714921,
+      "in_annotation": false,
+      "in_lexicon": false
+    }
+  }
+}

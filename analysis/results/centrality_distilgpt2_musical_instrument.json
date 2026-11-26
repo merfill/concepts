@@ -1,0 +1,539 @@
+{
+  "category": "musical instrument",
+  "descriptor": "instrument used to make music",
+  "frames": [
+    "Name one instrument used to make music: a",
+    "One example of an instrument used to make music is a",
+    "A common instrument used to make music is a",
+    "An instrument used to make music, such as a"
+  ],
+  "scan": {
+    "Name one instrument used to make music: a": {
+      "purity": 0.34005209926539054,
+      "n_members": 8
+    },
+    "One example of an instrument used to make music is a": {
+      "purity": 0.20273682110249236,
+      "n_members": 5
+    },
+    "A common instrument used to make music is a": {
+      "purity": 0.22230792048762255,
+      "n_members": 7
+    },
+    "An instrument used to make music, such as a": {
+      "purity": 0.5260514859463776,
+      "n_members": 7
+    }
+  },
+  "chosen_frame": "Name one instrument used to make music: a",
+  "purity": {
+    "window_mass": 0.2686786425765604,
+    "member_mass": 0.0913647364359349,
+    "function_mass": 0.0180315722245723,
+    "other_mass": 0.15928233391605318,
+    "purity": 0.34005209926539054,
+    "members": [
+      {
+        "token": "piano",
+        "lemma": "piano",
+        "p": 0.02785840444266796
+      },
+      {
+        "token": "guitar",
+        "lemma": "guitar",
+        "p": 0.02358780801296234
+      },
+      {
+        "token": "violin",
+        "lemma": "violin",
+        "p": 0.01373043842613697
+      },
+      {
+        "token": "drum",
+        "lemma": "drum",
+        "p": 0.009702821262180805
+      },
+      {
+        "token": "string",
+        "lemma": "string",
+        "p": 0.008771421387791634
+      },
+      {
+        "token": "sax",
+        "lemma": "sax",
+        "p": 0.0030651362612843513
+      },
+      {
+        "token": "bass",
+        "lemma": "bass",
+        "p": 0.002336890669539571
+      },
+      {
+        "token": "instrument",
+        "lemma": "instrument",
+        "p": 0.0023118159733712673
+      }
+    ],
+    "other": [
+      {
+        "token": "musical",
+        "p": 0.011881072074174881
+      },
+      {
+        "token": "sound",
+        "p": 0.011597792617976665
+      },
+      {
+        "token": "single",
+        "p": 0.010898278094828129
+      },
+      {
+        "token": "song",
+        "p": 0.007279868237674236
+      },
+      {
+        "token": "synthes",
+        "p": 0.007194094359874725
+      },
+      {
+        "token": "simple",
+        "p": 0.006674269214272499
+      },
+      {
+        "token": "new",
+        "p": 0.0060419486835598946
+      },
+      {
+        "token": "music",
+        "p": 0.005985287018120289
+      },
+      {
+        "token": "set",
+        "p": 0.005334829445928335
+      },
+      {
+        "token": "keyboard",
+        "p": 0.005205069202929735
+      },
+      {
+        "token": "small",
+        "p": 0.005127402953803539
+      },
+      {
+        "token": "MIDI",
+        "p": 0.005107822362333536
+      },
+      {
+        "token": "number",
+        "p": 0.00476270355284214
+      },
+      {
+        "token": "computer",
+        "p": 0.004725729580968618
+      },
+      {
+        "token": "piece",
+        "p": 0.003931061364710331
+      },
+      {
+        "token": "recording",
+        "p": 0.0038677542470395565
+      },
+      {
+        "token": "record",
+        "p": 0.003398897824808955
+      },
+      {
+        "token": "device",
+        "p": 0.003302276600152254
+      },
+      {
+        "token": "b",
+        "p": 0.003301949007436633
+      },
+      {
+        "token": "cell",
+        "p": 0.003234935225918889
+      },
+      {
+        "token": "sample",
+        "p": 0.0032003221567720175
+      },
+      {
+        "token": "tool",
+        "p": 0.0031296592205762863
+      },
+      {
+        "token": "large",
+        "p": 0.002952045062556863
+      },
+      {
+        "token": "collection",
+        "p": 0.0027770111337304115
+      },
+      {
+        "token": "band",
+        "p": 0.002680996200069785
+      },
+      {
+        "token": "key",
+        "p": 0.0026521787513047457
+      },
+      {
+        "token": "melody",
+        "p": 0.002648397581651807
+      },
+      {
+        "token": "chord",
+        "p": 0.0024583255872130394
+      },
+      {
+        "token": "machine",
+        "p": 0.0023754576686769724
+      },
+      {
+        "token": "microphone",
+        "p": 0.0022783807944506407
+      },
+      {
+        "token": "great",
+        "p": 0.002251596190035343
+      },
+      {
+        "token": "percussion",
+        "p": 0.0022341508883982897
+      },
+      {
+        "token": "car",
+        "p": 0.0022325492464005947
+      },
+      {
+        "token": "t",
+        "p": 0.002190963365137577
+      },
+      {
+        "token": "classical",
+        "p": 0.002184070646762848
+      },
+      {
+        "token": "m",
+        "p": 0.0021831877529621124
+      }
+    ]
+  },
+  "centrality": {
+    "pearson": {
+      "r": 0.6314692989932582,
+      "p": 0.0028245327095379478
+    },
+    "spearman": {
+      "rho": 0.801503759398496,
+      "p": 2.1549902693691416e-05
+    },
+    "partial_pearson": 0.4856785199611775,
+    "per_word": [
+      {
+        "word": "chime",
+        "human": 0.109524,
+        "q": 1.3994862245501683e-05,
+        "n_tokens": 2,
+        "zipf": 3.14
+      },
+      {
+        "word": "kazoo",
+        "human": 0.153486,
+        "q": 6.746153085152853e-06,
+        "n_tokens": 3,
+        "zipf": 2.35
+      },
+      {
+        "word": "gong",
+        "human": 0.164286,
+        "q": 1.4117302051982702e-05,
+        "n_tokens": 2,
+        "zipf": 3.45
+      },
+      {
+        "word": "triangle",
+        "human": 0.202839,
+        "q": 0.00012359059477068233,
+        "n_tokens": 1,
+        "zipf": 3.93
+      },
+      {
+        "word": "bagpipe",
+        "human": 0.276342,
+        "q": 6.6687925138847495e-06,
+        "n_tokens": 2,
+        "zipf": 2.35
+      },
+      {
+        "word": "xylophone",
+        "human": 0.29828,
+        "q": 1.4795040751092775e-06,
+        "n_tokens": 3,
+        "zipf": 2.37
+      },
+      {
+        "word": "recorder",
+        "human": 0.31646,
+        "q": 0.0011722684245971727,
+        "n_tokens": 1,
+        "zipf": 3.71
+      },
+      {
+        "word": "harp",
+        "human": 0.335354,
+        "q": 0.0005299132297160641,
+        "n_tokens": 2,
+        "zipf": 3.4
+      },
+      {
+        "word": "accordion",
+        "human": 0.34375,
+        "q": 3.6400537267700703e-05,
+        "n_tokens": 2,
+        "zipf": 3.09
+      },
+      {
+        "word": "ukulele",
+        "human": 0.37252,
+        "q": 1.4062810716002228e-05,
+        "n_tokens": 4,
+        "zipf": 3.01
+      },
+      {
+        "word": "tambourine",
+        "human": 0.430272,
+        "q": 5.3946124597541846e-05,
+        "n_tokens": 4,
+        "zipf": 2.64
+      },
+      {
+        "word": "cello",
+        "human": 0.449786,
+        "q": 0.0015286340273739309,
+        "n_tokens": 2,
+        "zipf": 3.29
+      },
+      {
+        "word": "banjo",
+        "human": 0.455688,
+        "q": 0.00018344389497850546,
+        "n_tokens": 2,
+        "zipf": 3.27
+      },
+      {
+        "word": "harmonica",
+        "human": 0.505098,
+        "q": 0.0004661339888102529,
+        "n_tokens": 2,
+        "zipf": 2.97
+      },
+      {
+        "word": "clarinet",
+        "human": 0.598007,
+        "q": 0.00029581365212078345,
+        "n_tokens": 2,
+        "zipf": 3.12
+      },
+      {
+        "word": "saxophone",
+        "human": 0.635382,
+        "q": 0.002753085730660336,
+        "n_tokens": 2,
+        "zipf": 3.15
+      },
+      {
+        "word": "flute",
+        "human": 0.706712,
+        "q": 0.0008907857718902464,
+        "n_tokens": 2,
+        "zipf": 3.52
+      },
+      {
+        "word": "trumpet",
+        "human": 0.742624,
+        "q": 0.0021066509280466897,
+        "n_tokens": 1,
+        "zipf": 3.58
+      },
+      {
+        "word": "violin",
+        "human": 0.758408,
+        "q": 0.013730436102841002,
+        "n_tokens": 1,
+        "zipf": 3.74
+      },
+      {
+        "word": "guitar",
+        "human": 0.837256,
+        "q": 0.023587809396882403,
+        "n_tokens": 1,
+        "zipf": 4.48
+      }
+    ]
+  },
+  "membership": {
+    "chime": {
+      "mu": 0.6234616237059076,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "kazoo": {
+      "mu": 0.7046757456834354,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "gong": {
+      "mu": 0.6568682879589421,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "triangle": {
+      "mu": 0.6184742032769035,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "bagpipe": {
+      "mu": 0.5394453818409386,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "xylophone": {
+      "mu": 0.748428641131139,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "recorder": {
+      "mu": 0.564776819314593,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "harp": {
+      "mu": 0.6966883598304877,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "accordion": {
+      "mu": 0.5882180681126012,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "ukulele": {
+      "mu": 0.6994484888972334,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "tambourine": {
+      "mu": 0.6271850324391519,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "cello": {
+      "mu": 0.5981565972969909,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "banjo": {
+      "mu": 0.5949260177525537,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "harmonica": {
+      "mu": 0.5864886855433802,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "clarinet": {
+      "mu": 0.6219000489698024,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "saxophone": {
+      "mu": 0.7121209553337454,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "flute": {
+      "mu": 0.5859726405541994,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "trumpet": {
+      "mu": 0.6276274552926272,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "violin": {
+      "mu": 0.5413003266862607,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "guitar": {
+      "mu": 0.6476906105650794,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "lion": {
+      "mu": 0.5992591719114809,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "cat": {
+      "mu": 0.603556892860817,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "elephant": {
+      "mu": 0.565465539070672,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "rabbit": {
+      "mu": 0.6127360567272795,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "bird": {
+      "mu": 0.6254768073137121,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "reptile": {
+      "mu": 0.6242682156729592,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "fish": {
+      "mu": 0.5955791587033392,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "insect": {
+      "mu": 0.5282073969353651,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "table": {
+      "mu": 0.5033083172530718,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "chair": {
+      "mu": 0.620905765467441,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "large": {
+      "mu": 0.6164973791344545,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "type": {
+      "mu": 0.582608962210916,
+      "in_annotation": false,
+      "in_lexicon": false
+    }
+  }
+}

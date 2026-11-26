@@ -1,0 +1,568 @@
+{
+  "category": "fruit",
+  "descriptor": "fruit",
+  "frames": [
+    "Name one fruit: a",
+    "One example of a fruit is a",
+    "A common fruit is a",
+    "A fruit, such as a"
+  ],
+  "scan": {
+    "Name one fruit: a": {
+      "purity": 0.48247900376484215,
+      "n_members": 8
+    },
+    "One example of a fruit is a": {
+      "purity": 0.6682030444538783,
+      "n_members": 14
+    },
+    "A common fruit is a": {
+      "purity": 0.3106879396122834,
+      "n_members": 8
+    },
+    "A fruit, such as a": {
+      "purity": 0.7925946361690743,
+      "n_members": 17
+    }
+  },
+  "chosen_frame": "A fruit, such as a",
+  "purity": {
+    "window_mass": 0.91259765625,
+    "member_mass": 0.7233200073242188,
+    "function_mass": 0.0015716552734375,
+    "other_mass": 0.18770599365234375,
+    "purity": 0.7925946361690743,
+    "members": [
+      {
+        "token": "banana",
+        "lemma": "banana",
+        "p": 0.28125
+      },
+      {
+        "token": "peach",
+        "lemma": "peach",
+        "p": 0.09130859375
+      },
+      {
+        "token": "strawberry",
+        "lemma": "strawberry",
+        "p": 0.08056640625
+      },
+      {
+        "token": "lemon",
+        "lemma": "lemon",
+        "p": 0.0712890625
+      },
+      {
+        "token": "pear",
+        "lemma": "pear",
+        "p": 0.06298828125
+      },
+      {
+        "token": "mango",
+        "lemma": "mango",
+        "p": 0.0296630859375
+      },
+      {
+        "token": "plum",
+        "lemma": "plum",
+        "p": 0.026123046875
+      },
+      {
+        "token": "cherry",
+        "lemma": "cherry",
+        "p": 0.0203857421875
+      },
+      {
+        "token": "grape",
+        "lemma": "grape",
+        "p": 0.0203857421875
+      },
+      {
+        "token": "pineapple",
+        "lemma": "pineapple",
+        "p": 0.0179443359375
+      },
+      {
+        "token": "fruit",
+        "lemma": "fruit",
+        "p": 0.005157470703125
+      },
+      {
+        "token": "coconut",
+        "lemma": "coconut",
+        "p": 0.004547119140625
+      },
+      {
+        "token": "lime",
+        "lemma": "lime",
+        "p": 0.003326416015625
+      },
+      {
+        "token": "citrus",
+        "lemma": "citrus",
+        "p": 0.0027618408203125
+      },
+      {
+        "token": "raspberry",
+        "lemma": "raspberry",
+        "p": 0.0024261474609375
+      },
+      {
+        "token": "fig",
+        "lemma": "fig",
+        "p": 0.00189208984375
+      },
+      {
+        "token": "date",
+        "lemma": "date",
+        "p": 0.00130462646484375
+      }
+    ],
+    "other": [
+      {
+        "token": "tomato",
+        "p": 0.0380859375
+      },
+      {
+        "token": "water",
+        "p": 0.03369140625
+      },
+      {
+        "token": "ki",
+        "p": 0.0296630859375
+      },
+      {
+        "token": "mel",
+        "p": 0.0123291015625
+      },
+      {
+        "token": "p",
+        "p": 0.00848388671875
+      },
+      {
+        "token": "piece",
+        "p": 0.0062255859375
+      },
+      {
+        "token": "red",
+        "p": 0.005828857421875
+      },
+      {
+        "token": "small",
+        "p": 0.004852294921875
+      },
+      {
+        "token": "ripe",
+        "p": 0.004547119140625
+      },
+      {
+        "token": "blue",
+        "p": 0.0037689208984375
+      },
+      {
+        "token": "cant",
+        "p": 0.0031280517578125
+      },
+      {
+        "token": "cucumber",
+        "p": 0.0029296875
+      },
+      {
+        "token": "gu",
+        "p": 0.002593994140625
+      },
+      {
+        "token": "pl",
+        "p": 0.0021514892578125
+      },
+      {
+        "token": "pap",
+        "p": 0.0021514892578125
+      },
+      {
+        "token": "le",
+        "p": 0.00201416015625
+      },
+      {
+        "token": "tree",
+        "p": 0.00201416015625
+      },
+      {
+        "token": "large",
+        "p": 0.00189208984375
+      },
+      {
+        "token": "bunch",
+        "p": 0.00189208984375
+      },
+      {
+        "token": "t",
+        "p": 0.00177764892578125
+      },
+      {
+        "token": "pers",
+        "p": 0.00177764892578125
+      },
+      {
+        "token": "potato",
+        "p": 0.00177764892578125
+      },
+      {
+        "token": "pom",
+        "p": 0.00167083740234375
+      },
+      {
+        "token": "pe",
+        "p": 0.00167083740234375
+      },
+      {
+        "token": "single",
+        "p": 0.0015716552734375
+      },
+      {
+        "token": "pine",
+        "p": 0.00147247314453125
+      },
+      {
+        "token": "star",
+        "p": 0.0013885498046875
+      },
+      {
+        "token": "green",
+        "p": 0.00130462646484375
+      },
+      {
+        "token": "sweet",
+        "p": 0.00130462646484375
+      },
+      {
+        "token": "carrot",
+        "p": 0.00130462646484375
+      },
+      {
+        "token": "l",
+        "p": 0.001220703125
+      },
+      {
+        "token": "black",
+        "p": 0.001220703125
+      }
+    ]
+  },
+  "centrality": {
+    "pearson": {
+      "r": 0.4724059772937621,
+      "p": 0.03544243040394641
+    },
+    "spearman": {
+      "rho": 0.6060150375939849,
+      "p": 0.0046226146707220635
+    },
+    "partial_pearson": 0.3784264040334987,
+    "per_word": [
+      {
+        "word": "mulberry",
+        "human": 0.071429,
+        "q": 8.481823524646916e-05,
+        "n_tokens": 2,
+        "zipf": 3.15
+      },
+      {
+        "word": "prune",
+        "human": 0.145,
+        "q": 0.0005360677530166963,
+        "n_tokens": 1,
+        "zipf": 2.96
+      },
+      {
+        "word": "star fruit",
+        "human": 0.145833,
+        "q": 0.0003570981085762476,
+        "n_tokens": 2,
+        "zipf": 4.48
+      },
+      {
+        "word": "raisin",
+        "human": 0.207298,
+        "q": 0.0006883246199401248,
+        "n_tokens": 2,
+        "zipf": 3.01
+      },
+      {
+        "word": "pomegranate",
+        "human": 0.280556,
+        "q": 0.008857134536485336,
+        "n_tokens": 4,
+        "zipf": 2.93
+      },
+      {
+        "word": "papaya",
+        "human": 0.281359,
+        "q": 0.002256929540148032,
+        "n_tokens": 2,
+        "zipf": 2.87
+      },
+      {
+        "word": "kiwi",
+        "human": 0.350583,
+        "q": 0.02192094952706404,
+        "n_tokens": 2,
+        "zipf": 3.33
+      },
+      {
+        "word": "plum",
+        "human": 0.391865,
+        "q": 0.025829190807190754,
+        "n_tokens": 1,
+        "zipf": 3.55
+      },
+      {
+        "word": "cantaloupe",
+        "human": 0.413889,
+        "q": 0.003283813104313592,
+        "n_tokens": 4,
+        "zipf": 2.53
+      },
+      {
+        "word": "lemon",
+        "human": 0.448708,
+        "q": 0.07021102001498804,
+        "n_tokens": 1,
+        "zipf": 4.1
+      },
+      {
+        "word": "berry",
+        "human": 0.460792,
+        "q": 0.0010015064124832178,
+        "n_tokens": 1,
+        "zipf": 3.97
+      },
+      {
+        "word": "pear",
+        "human": 0.479349,
+        "q": 0.061961007690531984,
+        "n_tokens": 1,
+        "zipf": 3.47
+      },
+      {
+        "word": "raspberry",
+        "human": 0.530021,
+        "q": 0.002402488989655613,
+        "n_tokens": 1,
+        "zipf": 3.5
+      },
+      {
+        "word": "mango",
+        "human": 0.531374,
+        "q": 0.029268307607136092,
+        "n_tokens": 1,
+        "zipf": 3.56
+      },
+      {
+        "word": "pineapple",
+        "human": 0.592105,
+        "q": 0.01775212592162854,
+        "n_tokens": 1,
+        "zipf": 3.58
+      },
+      {
+        "word": "peach",
+        "human": 0.592593,
+        "q": 0.09015273423081638,
+        "n_tokens": 1,
+        "zipf": 3.77
+      },
+      {
+        "word": "blueberry",
+        "human": 0.606293,
+        "q": 0.0039303296255916,
+        "n_tokens": 2,
+        "zipf": 3.3
+      },
+      {
+        "word": "banana",
+        "human": 0.734929,
+        "q": 0.27986792038923625,
+        "n_tokens": 1,
+        "zipf": 4.0
+      },
+      {
+        "word": "strawberry",
+        "human": 0.737698,
+        "q": 0.07955950871822769,
+        "n_tokens": 1,
+        "zipf": 3.72
+      },
+      {
+        "word": "apple",
+        "human": 0.836111,
+        "q": 0.0007799739782929635,
+        "n_tokens": 1,
+        "zipf": 4.76
+      }
+    ]
+  },
+  "membership": {
+    "mulberry": {
+      "mu": 0.8359410905354551,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "prune": {
+      "mu": 0.7058881052975655,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "star fruit": {
+      "mu": 0.9397958840849022,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "raisin": {
+      "mu": 0.8523969533718896,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "pomegranate": {
+      "mu": 0.9770397443426849,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "papaya": {
+      "mu": 0.985939866127113,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "kiwi": {
+      "mu": 0.9770403980021711,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "plum": {
+      "mu": 0.9466991777230146,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "cantaloupe": {
+      "mu": 0.977039946247452,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "lemon": {
+      "mu": 0.9324197775818113,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "berry": {
+      "mu": 0.9324218023781319,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "pear": {
+      "mu": 0.9706461218997907,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "raspberry": {
+      "mu": 0.977039660530827,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "mango": {
+      "mu": 0.9770400096073067,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "pineapple": {
+      "mu": 0.8669997966371167,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "peach": {
+      "mu": 0.9740831904600098,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "blueberry": {
+      "mu": 0.9524752044554559,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "banana": {
+      "mu": 0.9740836527115985,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "strawberry": {
+      "mu": 0.9467007240351767,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "apple": {
+      "mu": 0.9796721846208482,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "lion": {
+      "mu": 0.01586589131530344,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "cat": {
+      "mu": 0.03741874131694393,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "elephant": {
+      "mu": 0.020328543025824524,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "rabbit": {
+      "mu": 0.03303260494338503,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "bird": {
+      "mu": 0.042200283965512154,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "reptile": {
+      "mu": 0.06020814590763337,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "fish": {
+      "mu": 0.03733013455081647,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "insect": {
+      "mu": 0.08538276221111606,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "table": {
+      "mu": 0.06020699610225205,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "chair": {
+      "mu": 0.02024934885678547,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "large": {
+      "mu": 0.4375116353287839,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "type": {
+      "mu": 0.5322978100678619,
+      "in_annotation": false,
+      "in_lexicon": false
+    }
+  }
+}

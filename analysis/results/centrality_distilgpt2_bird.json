@@ -1,0 +1,559 @@
+{
+  "category": "bird",
+  "descriptor": "bird",
+  "frames": [
+    "Name one bird: a",
+    "One example of a bird is a",
+    "A common bird is a",
+    "A bird, such as a"
+  ],
+  "scan": {
+    "Name one bird: a": {
+      "purity": 0.3284410899996829,
+      "n_members": 3
+    },
+    "One example of a bird is a": {
+      "purity": 0.4283344983439401,
+      "n_members": 6
+    },
+    "A common bird is a": {
+      "purity": 0.10067386642127807,
+      "n_members": 2
+    },
+    "A bird, such as a": {
+      "purity": 0.3257179979106942,
+      "n_members": 8
+    }
+  },
+  "chosen_frame": "A bird, such as a",
+  "purity": {
+    "window_mass": 0.28917211503721774,
+    "member_mass": 0.09418856236152351,
+    "function_mass": 0.0035369039978832006,
+    "other_mass": 0.19144664867781103,
+    "purity": 0.3257179979106942,
+    "members": [
+      {
+        "token": "bird",
+        "lemma": "bird",
+        "p": 0.054715510457754135
+      },
+      {
+        "token": "hawk",
+        "lemma": "hawk",
+        "p": 0.011087331920862198
+      },
+      {
+        "token": "pigeon",
+        "lemma": "pigeon",
+        "p": 0.006898582447320223
+      },
+      {
+        "token": "duck",
+        "lemma": "duck",
+        "p": 0.005380702205002308
+      },
+      {
+        "token": "turkey",
+        "lemma": "turkey",
+        "p": 0.004797101020812988
+      },
+      {
+        "token": "crow",
+        "lemma": "crow",
+        "p": 0.0044578504748642445
+      },
+      {
+        "token": "cock",
+        "lemma": "cock",
+        "p": 0.004004444926977158
+      },
+      {
+        "token": "chicken",
+        "lemma": "chicken",
+        "p": 0.002847038907930255
+      }
+    ],
+    "other": [
+      {
+        "token": "black",
+        "p": 0.012313637882471085
+      },
+      {
+        "token": "small",
+        "p": 0.0093324463814497
+      },
+      {
+        "token": "cat",
+        "p": 0.008896492421627045
+      },
+      {
+        "token": "red",
+        "p": 0.007412965875118971
+      },
+      {
+        "token": "p",
+        "p": 0.007291554473340511
+      },
+      {
+        "token": "large",
+        "p": 0.007137986831367016
+      },
+      {
+        "token": "white",
+        "p": 0.007123352959752083
+      },
+      {
+        "token": "dog",
+        "p": 0.0069066924042999744
+      },
+      {
+        "token": "great",
+        "p": 0.006639745086431503
+      },
+      {
+        "token": "young",
+        "p": 0.0065114451572299
+      },
+      {
+        "token": "wild",
+        "p": 0.004964902065694332
+      },
+      {
+        "token": "c",
+        "p": 0.004790646024048328
+      },
+      {
+        "token": "peac",
+        "p": 0.004725792910903692
+      },
+      {
+        "token": "golden",
+        "p": 0.004602762404829264
+      },
+      {
+        "token": "man",
+        "p": 0.004516923800110817
+      },
+      {
+        "token": "par",
+        "p": 0.0042497687973082066
+      },
+      {
+        "token": "b",
+        "p": 0.004122522659599781
+      },
+      {
+        "token": "giant",
+        "p": 0.003850493347272277
+      },
+      {
+        "token": "fox",
+        "p": 0.0037215484771877527
+      },
+      {
+        "token": "flying",
+        "p": 0.0036832320038229227
+      },
+      {
+        "token": "m",
+        "p": 0.003672877326607704
+      },
+      {
+        "token": "blue",
+        "p": 0.0036352972965687513
+      },
+      {
+        "token": "k",
+        "p": 0.003622589400038123
+      },
+      {
+        "token": "deer",
+        "p": 0.0036111788358539343
+      },
+      {
+        "token": "rare",
+        "p": 0.0035979922395199537
+      },
+      {
+        "token": "female",
+        "p": 0.003546510124579072
+      },
+      {
+        "token": "ch",
+        "p": 0.0034703470300883055
+      },
+      {
+        "token": "bald",
+        "p": 0.003421083092689514
+      },
+      {
+        "token": "male",
+        "p": 0.0033467579632997513
+      },
+      {
+        "token": "lion",
+        "p": 0.00332530215382576
+      },
+      {
+        "token": "rabbit",
+        "p": 0.0032293929252773523
+      },
+      {
+        "token": "big",
+        "p": 0.0031369319185614586
+      },
+      {
+        "token": "l",
+        "p": 0.0031021602917462587
+      },
+      {
+        "token": "human",
+        "p": 0.0030922829173505306
+      },
+      {
+        "token": "fly",
+        "p": 0.0030707477126270533
+      },
+      {
+        "token": "squirrel",
+        "p": 0.0030397693626582623
+      },
+      {
+        "token": "ro",
+        "p": 0.002991717541590333
+      },
+      {
+        "token": "yellow",
+        "p": 0.0029660474974662066
+      },
+      {
+        "token": "fal",
+        "p": 0.0029563328716903925
+      },
+      {
+        "token": "common",
+        "p": 0.0029488990548998117
+      },
+      {
+        "token": "fish",
+        "p": 0.0028675191570073366
+      }
+    ]
+  },
+  "centrality": {
+    "pearson": {
+      "r": 0.45785260374940034,
+      "p": 0.04235649532095397
+    },
+    "spearman": {
+      "rho": 0.5518796992481202,
+      "p": 0.011642373367085755
+    },
+    "partial_pearson": 0.287752148792368,
+    "per_word": [
+      {
+        "word": "puffin",
+        "human": 0.108972,
+        "q": 0.00012956667737233909,
+        "n_tokens": 2,
+        "zipf": 2.66
+      },
+      {
+        "word": "toucan",
+        "human": 0.207386,
+        "q": 0.0003627724688072199,
+        "n_tokens": 2,
+        "zipf": 2.36
+      },
+      {
+        "word": "cockatoo",
+        "human": 0.25266,
+        "q": 0.00016850723397803682,
+        "n_tokens": 3,
+        "zipf": 2.52
+      },
+      {
+        "word": "penguin",
+        "human": 0.263587,
+        "q": 0.0014817382300842804,
+        "n_tokens": 2,
+        "zipf": 3.78
+      },
+      {
+        "word": "ostrich",
+        "human": 0.285308,
+        "q": 0.00021788393281033043,
+        "n_tokens": 2,
+        "zipf": 3.05
+      },
+      {
+        "word": "vulture",
+        "human": 0.304559,
+        "q": 0.0003378755992162095,
+        "n_tokens": 2,
+        "zipf": 3.18
+      },
+      {
+        "word": "flamingo",
+        "human": 0.323413,
+        "q": 0.0011931633491611435,
+        "n_tokens": 2,
+        "zipf": 3.06
+      },
+      {
+        "word": "duckling",
+        "human": 0.352614,
+        "q": 3.864658178710649e-05,
+        "n_tokens": 2,
+        "zipf": 2.66
+      },
+      {
+        "word": "swan",
+        "human": 0.404304,
+        "q": 0.000642369009573804,
+        "n_tokens": 2,
+        "zipf": 3.84
+      },
+      {
+        "word": "peacock",
+        "human": 0.416477,
+        "q": 0.004709787343678257,
+        "n_tokens": 2,
+        "zipf": 3.44
+      },
+      {
+        "word": "cardinal",
+        "human": 0.448171,
+        "q": 9.558960921622332e-05,
+        "n_tokens": 1,
+        "zipf": 3.9
+      },
+      {
+        "word": "turkey",
+        "human": 0.46627,
+        "q": 0.004797100461099219,
+        "n_tokens": 1,
+        "zipf": 4.56
+      },
+      {
+        "word": "owl",
+        "human": 0.497594,
+        "q": 0.00037926894902993156,
+        "n_tokens": 1,
+        "zipf": 3.87
+      },
+      {
+        "word": "rooster",
+        "human": 0.514205,
+        "q": 0.001201197667215188,
+        "n_tokens": 2,
+        "zipf": 3.31
+      },
+      {
+        "word": "hawk",
+        "human": 0.561545,
+        "q": 0.011087331028017695,
+        "n_tokens": 1,
+        "zipf": 3.81
+      },
+      {
+        "word": "crow",
+        "human": 0.586742,
+        "q": 0.004457849524958606,
+        "n_tokens": 1,
+        "zipf": 3.8
+      },
+      {
+        "word": "parrot",
+        "human": 0.590805,
+        "q": 0.0029723406503356802,
+        "n_tokens": 2,
+        "zipf": 3.49
+      },
+      {
+        "word": "seagull",
+        "human": 0.627703,
+        "q": 0.0006535064898948029,
+        "n_tokens": 3,
+        "zipf": 3.02
+      },
+      {
+        "word": "pigeon",
+        "human": 0.669767,
+        "q": 0.00689858144626205,
+        "n_tokens": 1,
+        "zipf": 3.61
+      },
+      {
+        "word": "eagle",
+        "human": 0.700166,
+        "q": 0.0004169587944934083,
+        "n_tokens": 1,
+        "zipf": 4.13
+      }
+    ]
+  },
+  "membership": {
+    "puffin": {
+      "mu": 0.6060117178000098,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "toucan": {
+      "mu": 0.6353056576065701,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "cockatoo": {
+      "mu": 0.6025664523549067,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "penguin": {
+      "mu": 0.5553611063502601,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "ostrich": {
+      "mu": 0.5828606995323031,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "vulture": {
+      "mu": 0.6506895390939959,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "flamingo": {
+      "mu": 0.5620710419652147,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "duckling": {
+      "mu": 0.5489536684318892,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "swan": {
+      "mu": 0.6499766124087983,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "peacock": {
+      "mu": 0.6602776678010462,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "cardinal": {
+      "mu": 0.5917883685125943,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "turkey": {
+      "mu": 0.6156494957457289,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "owl": {
+      "mu": 0.6133150295497224,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "rooster": {
+      "mu": 0.6075446844934268,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "hawk": {
+      "mu": 0.5895345146639441,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "crow": {
+      "mu": 0.5574705733949785,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "parrot": {
+      "mu": 0.5958967423981382,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "seagull": {
+      "mu": 0.5999370495852544,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "pigeon": {
+      "mu": 0.6055835855568965,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "eagle": {
+      "mu": 0.611843305394086,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "lion": {
+      "mu": 0.6000435234928972,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "cat": {
+      "mu": 0.6079564326922812,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "elephant": {
+      "mu": 0.5757257948289018,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "rabbit": {
+      "mu": 0.6129169563155338,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "bird": {
+      "mu": 0.6278900743552811,
+      "in_annotation": false,
+      "in_lexicon": true
+    },
+    "reptile": {
+      "mu": 0.6242639664450225,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "fish": {
+      "mu": 0.6088486883912008,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "insect": {
+      "mu": 0.523550910883049,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "table": {
+      "mu": 0.4895693959676961,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "chair": {
+      "mu": 0.6053914430063506,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "large": {
+      "mu": 0.6184711103197194,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "type": {
+      "mu": 0.5856131377728556,
+      "in_annotation": false,
+      "in_lexicon": false
+    }
+  }
+}

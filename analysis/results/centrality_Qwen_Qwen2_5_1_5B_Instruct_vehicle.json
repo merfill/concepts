@@ -1,0 +1,554 @@
+{
+  "category": "vehicle",
+  "descriptor": "vehicle for transport",
+  "frames": [
+    "Name one vehicle for transport: a",
+    "One example of a vehicle for transport is a",
+    "A common vehicle for transport is a",
+    "A vehicle for transport, such as a"
+  ],
+  "scan": {
+    "Name one vehicle for transport: a": {
+      "purity": 0.9345609743580972,
+      "n_members": 27
+    },
+    "One example of a vehicle for transport is a": {
+      "purity": 0.7556610741795927,
+      "n_members": 21
+    },
+    "A common vehicle for transport is a": {
+      "purity": 0.6978070285613805,
+      "n_members": 22
+    },
+    "A vehicle for transport, such as a": {
+      "purity": 0.8397735027758821,
+      "n_members": 23
+    }
+  },
+  "chosen_frame": "Name one vehicle for transport: a",
+  "purity": {
+    "window_mass": 0.8920135498046875,
+    "member_mass": 0.8336410522460938,
+    "function_mass": 0.0204315185546875,
+    "other_mass": 0.03794097900390625,
+    "purity": 0.9345609743580972,
+    "members": [
+      {
+        "token": "car",
+        "lemma": "car",
+        "p": 0.390625
+      },
+      {
+        "token": "boat",
+        "lemma": "boat",
+        "p": 0.0771484375
+      },
+      {
+        "token": "bus",
+        "lemma": "bus",
+        "p": 0.06787109375
+      },
+      {
+        "token": "bicycle",
+        "lemma": "bicycle",
+        "p": 0.06787109375
+      },
+      {
+        "token": "train",
+        "lemma": "train",
+        "p": 0.046630859375
+      },
+      {
+        "token": "plane",
+        "lemma": "plane",
+        "p": 0.041259765625
+      },
+      {
+        "token": "truck",
+        "lemma": "truck",
+        "p": 0.036376953125
+      },
+      {
+        "token": "motorcycle",
+        "lemma": "motorcycle",
+        "p": 0.0194091796875
+      },
+      {
+        "token": "bike",
+        "lemma": "bike",
+        "p": 0.01513671875
+      },
+      {
+        "token": "ship",
+        "lemma": "ship",
+        "p": 0.01177978515625
+      },
+      {
+        "token": "tractor",
+        "lemma": "tractor",
+        "p": 0.00811767578125
+      },
+      {
+        "token": "spaceship",
+        "lemma": "spaceship",
+        "p": 0.006317138671875
+      },
+      {
+        "token": "submarine",
+        "lemma": "submarine",
+        "p": 0.005584716796875
+      },
+      {
+        "token": "helicopter",
+        "lemma": "helicopter",
+        "p": 0.004913330078125
+      },
+      {
+        "token": "van",
+        "lemma": "van",
+        "p": 0.004608154296875
+      },
+      {
+        "token": "cat",
+        "lemma": "cat",
+        "p": 0.0038299560546875
+      },
+      {
+        "token": "taxi",
+        "lemma": "taxi",
+        "p": 0.00360107421875
+      },
+      {
+        "token": "scooter",
+        "lemma": "scooter",
+        "p": 0.00360107421875
+      },
+      {
+        "token": "jet",
+        "lemma": "jet",
+        "p": 0.0033721923828125
+      },
+      {
+        "token": "sedan",
+        "lemma": "sedan",
+        "p": 0.00262451171875
+      },
+      {
+        "token": "skateboard",
+        "lemma": "skateboard",
+        "p": 0.00262451171875
+      },
+      {
+        "token": "vehicle",
+        "lemma": "vehicle",
+        "p": 0.002471923828125
+      },
+      {
+        "token": "yacht",
+        "lemma": "yacht",
+        "p": 0.0021820068359375
+      },
+      {
+        "token": "airplane",
+        "lemma": "airplane",
+        "p": 0.002044677734375
+      },
+      {
+        "token": "rocket",
+        "lemma": "rocket",
+        "p": 0.00150299072265625
+      },
+      {
+        "token": "canoe",
+        "lemma": "canoe",
+        "p": 0.00116729736328125
+      },
+      {
+        "token": "ferry",
+        "lemma": "ferry",
+        "p": 0.00096893310546875
+      }
+    ],
+    "other": [
+      {
+        "token": "horse",
+        "p": 0.00811767578125
+      },
+      {
+        "token": "motor",
+        "p": 0.00433349609375
+      },
+      {
+        "token": "school",
+        "p": 0.0038299560546875
+      },
+      {
+        "token": "dog",
+        "p": 0.00262451171875
+      },
+      {
+        "token": "toy",
+        "p": 0.0023193359375
+      },
+      {
+        "token": "Ferrari",
+        "p": 0.0023193359375
+      },
+      {
+        "token": "red",
+        "p": 0.002044677734375
+      },
+      {
+        "token": "house",
+        "p": 0.001922607421875
+      },
+      {
+        "token": "Toyota",
+        "p": 0.00180816650390625
+      },
+      {
+        "token": "bird",
+        "p": 0.00141143798828125
+      },
+      {
+        "token": "Boeing",
+        "p": 0.00141143798828125
+      },
+      {
+        "token": "subway",
+        "p": 0.00131988525390625
+      },
+      {
+        "token": "sports",
+        "p": 0.00124359130859375
+      },
+      {
+        "token": "b",
+        "p": 0.00116729736328125
+      },
+      {
+        "token": "l",
+        "p": 0.0010986328125
+      },
+      {
+        "token": "small",
+        "p": 0.00096893310546875
+      }
+    ]
+  },
+  "centrality": {
+    "pearson": {
+      "r": 0.5667775468354004,
+      "p": 0.009167270521968928
+    },
+    "spearman": {
+      "rho": 0.3157894736842105,
+      "p": 0.1749941354156349
+    },
+    "partial_pearson": 0.45259137877005867,
+    "per_word": [
+      {
+        "word": "rocket",
+        "human": 0.136772,
+        "q": 0.0015511634759303816,
+        "n_tokens": 1,
+        "zipf": 4.31
+      },
+      {
+        "word": "sled",
+        "human": 0.166802,
+        "q": 0.00016868120253849865,
+        "n_tokens": 1,
+        "zipf": 3.23
+      },
+      {
+        "word": "hot-air balloon",
+        "human": 0.188718,
+        "q": 1.2509377656285976e-05,
+        "n_tokens": 3,
+        "zipf": 3.86
+      },
+      {
+        "word": "kayak",
+        "human": 0.216146,
+        "q": 0.0006883246199401248,
+        "n_tokens": 1,
+        "zipf": 3.24
+      },
+      {
+        "word": "canoe",
+        "human": 0.25,
+        "q": 0.0012080473297263435,
+        "n_tokens": 1,
+        "zipf": 3.5
+      },
+      {
+        "word": "jetski",
+        "human": 0.286161,
+        "q": 4.7402218206065e-07,
+        "n_tokens": 2,
+        "zipf": 2.1
+      },
+      {
+        "word": "seaplane",
+        "human": 0.302052,
+        "q": 4.6477976444231686e-05,
+        "n_tokens": 3,
+        "zipf": 2.54
+      },
+      {
+        "word": "tricycle",
+        "human": 0.335714,
+        "q": 0.0008855542170537199,
+        "n_tokens": 2,
+        "zipf": 2.79
+      },
+      {
+        "word": "bulldozer",
+        "human": 0.38206,
+        "q": 0.00016608631586002942,
+        "n_tokens": 3,
+        "zipf": 2.88
+      },
+      {
+        "word": "sailboat",
+        "human": 0.400492,
+        "q": 0.0006366739221003536,
+        "n_tokens": 2,
+        "zipf": 2.95
+      },
+      {
+        "word": "quad",
+        "human": 0.420493,
+        "q": 9.61116520613947e-05,
+        "n_tokens": 1,
+        "zipf": 3.7
+      },
+      {
+        "word": "snowmobile",
+        "human": 0.465639,
+        "q": 9.108559059536798e-05,
+        "n_tokens": 2,
+        "zipf": 2.75
+      },
+      {
+        "word": "helicopter",
+        "human": 0.499084,
+        "q": 0.00477791987398702,
+        "n_tokens": 1,
+        "zipf": 4.13
+      },
+      {
+        "word": "boat",
+        "human": 0.506473,
+        "q": 0.0846906561847805,
+        "n_tokens": 1,
+        "zipf": 4.71
+      },
+      {
+        "word": "humvee",
+        "human": 0.558741,
+        "q": 3.6326799385133336e-07,
+        "n_tokens": 3,
+        "zipf": 2.49
+      },
+      {
+        "word": "train",
+        "human": 0.595365,
+        "q": 0.045331641611676264,
+        "n_tokens": 1,
+        "zipf": 4.96
+      },
+      {
+        "word": "firetruck",
+        "human": 0.655869,
+        "q": 2.9312397751078144e-05,
+        "n_tokens": 2,
+        "zipf": 2.08
+      },
+      {
+        "word": "jeep",
+        "human": 0.737791,
+        "q": 0.0007799739782929635,
+        "n_tokens": 1,
+        "zipf": 3.72
+      },
+      {
+        "word": "bus",
+        "human": 0.786797,
+        "q": 0.06595714935553817,
+        "n_tokens": 1,
+        "zipf": 4.83
+      },
+      {
+        "word": "car",
+        "human": 0.861801,
+        "q": 0.3810427330152126,
+        "n_tokens": 1,
+        "zipf": 5.45
+      }
+    ]
+  },
+  "membership": {
+    "rocket": {
+      "mu": 0.8806291766647807,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "sled": {
+      "mu": 0.6223222583528271,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "hot-air balloon": {
+      "mu": 0.8806282861189433,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "kayak": {
+      "mu": 0.5000186006442293,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "canoe": {
+      "mu": 0.26811630705869577,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "jetski": {
+      "mu": 0.9669684988313934,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "seaplane": {
+      "mu": 0.9045538535871973,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "tricycle": {
+      "mu": 0.9241314006492548,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "bulldozer": {
+      "mu": 0.8359413996220418,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "sailboat": {
+      "mu": 0.6509861674151466,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "quad": {
+      "mu": 0.622319391593285,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "snowmobile": {
+      "mu": 0.914957993876635,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "helicopter": {
+      "mu": 0.6235451208017574,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "boat": {
+      "mu": 0.7984397478797923,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "humvee": {
+      "mu": 0.9466997638731639,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "train": {
+      "mu": 0.9045528820707525,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "firetruck": {
+      "mu": 0.9149568664215447,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "jeep": {
+      "mu": 0.852402117568699,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "bus": {
+      "mu": 0.8666681481490347,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "car": {
+      "mu": 0.9466994223972399,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "lion": {
+      "mu": 0.16471355521908823,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "cat": {
+      "mu": 0.14761414391871192,
+      "in_annotation": false,
+      "in_lexicon": true
+    },
+    "elephant": {
+      "mu": 0.14818821773748495,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "rabbit": {
+      "mu": 0.1827205969403724,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "bird": {
+      "mu": 0.20236948040814012,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "reptile": {
+      "mu": 0.18200266170757642,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "fish": {
+      "mu": 0.5315185172998296,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "insect": {
+      "mu": 0.29413648776672663,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "table": {
+      "mu": 0.09545164580639007,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "chair": {
+      "mu": 0.14761287494892764,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "large": {
+      "mu": 0.56190505133915,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "type": {
+      "mu": 0.438133997631392,
+      "in_annotation": false,
+      "in_lexicon": false
+    }
+  }
+}

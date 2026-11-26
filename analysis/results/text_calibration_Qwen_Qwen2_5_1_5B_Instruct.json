@@ -1,0 +1,84 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "categories": {
+    "tool": {
+      "rating": {
+        "rho": -0.03199049566457977,
+        "parsed": 20,
+        "output": "broom: 2  \ntape measure: 3  \nhoe: 4  \npunch: 5  \nquill: 6  \nratchet: 7  \nbrush: 2  \nladle: 3  \nmetal detector: 8  \nmop: 2  \npoker: 5  \npolisher: 6  \nmarker: 7  \nscrewdriver: 4  \nrope: 2  \nstaple gun: 5  \nsweeper: 2  \ngavel: 3  \nbottle opener: 4  \nair pump: 9",
+        "white_box_rho": 0.7002633063850878
+      },
+      "list": {
+        "matched": [
+          "hammer",
+          "screwdriver",
+          "wrench",
+          "pliers",
+          "saw"
+        ],
+        "unmatched": [
+          "钳子 (Chisel)",
+          "measuring tape",
+          "hammer drill",
+          "utility knife"
+        ],
+        "output": "Hammer, Screwdriver, wrench,钳子 (Chisel), Pliers, measuring tape, hammer drill, utility knife, hammer, saw",
+        "human_top3_ranks": {
+          "screwdriver": 2
+        }
+      }
+    },
+    "clothing": {
+      "rating": {
+        "rho": -0.15789473684210525,
+        "parsed": 20,
+        "output": "stockings: 1  \nsweater: 2  \noutfit: 3  \nturtleneck: 4  \nstraightjacket: 5  \nunderwear: 6  \ntuxedo: 7  \ndiaper: 8  \nstiletto: 9  \nflip-flop: 10  \nsombrero: 11  \nlab coat: 12  \nturban: 13  \njeans: 14  \nkimono: 15  \nundershirt: 16  \nshawl: 17  \ntiara: 18  \nnightshirt: 19  \nbelt: 20",
+        "white_box_rho": 0.38345864661654133
+      },
+      "list": {
+        "matched": [
+          "jeans",
+          "t-shirt",
+          "sweater",
+          "blouse",
+          "skirt",
+          "dress",
+          "coat"
+        ],
+        "unmatched": [
+          "hoodie"
+        ],
+        "output": "jeans, t-shirt, sweater, blouse, skirt, jeans, dress, coat, blouse, hoodie",
+        "human_top3_ranks": {
+          "jeans": 1,
+          "sweater": 3
+        }
+      }
+    },
+    "mammal": {
+      "rating": {
+        "rho": 0.38167235737380545,
+        "parsed": 17,
+        "output": "mammal: 7\nbear: 6\nwolf: 5\nsquirrel: 4\naardvark: 3\npig: 2\nwhale: 1\nmole: 1\nwalrus: 1\nguinea_pig: 1\nantelope: 1\nllama: 1\nhedgehog: 1\ndog: 1\nseal: 1\nsheep: 1\nskunk: 1\nplatypus: 1\npolar_bear: 1\nmouse: 1",
+        "white_box_rho": 0.7178331603199286
+      },
+      "list": {
+        "matched": [
+          "elephant",
+          "gorilla",
+          "lion",
+          "elephant_seal",
+          "meerkat",
+          "hippopotamus",
+          "armadillo",
+          "platypus",
+          "kangaroo",
+          "hedgehog"
+        ],
+        "unmatched": [],
+        "output": "Elephant, gorilla, lion, elephant seal, meerkat, hippopotamus, armadillo, platypus, kangaroo, hedgehog",
+        "human_top3_ranks": {}
+      }
+    }
+  }
+}

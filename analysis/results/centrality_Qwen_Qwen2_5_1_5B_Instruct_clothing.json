@@ -1,0 +1,569 @@
+{
+  "category": "clothing",
+  "descriptor": "item of clothing",
+  "frames": [
+    "Name one item of clothing: a",
+    "One example of an item of clothing is a",
+    "A common item of clothing is a",
+    "An item of clothing, such as a"
+  ],
+  "scan": {
+    "Name one item of clothing: a": {
+      "purity": 0.630366946451516,
+      "n_members": 22
+    },
+    "One example of an item of clothing is a": {
+      "purity": 0.5348541748407227,
+      "n_members": 21
+    },
+    "A common item of clothing is a": {
+      "purity": 0.5171186672662925,
+      "n_members": 20
+    },
+    "An item of clothing, such as a": {
+      "purity": 0.7144440432909883,
+      "n_members": 19
+    }
+  },
+  "chosen_frame": "Name one item of clothing: a",
+  "purity": {
+    "window_mass": 0.9144134521484375,
+    "member_mass": 0.576416015625,
+    "function_mass": 0.0027008056640625,
+    "other_mass": 0.335296630859375,
+    "purity": 0.630366946451516,
+    "members": [
+      {
+        "token": "jacket",
+        "lemma": "jacket",
+        "p": 0.1005859375
+      },
+      {
+        "token": "shirt",
+        "lemma": "shirt",
+        "p": 0.1005859375
+      },
+      {
+        "token": "sweater",
+        "lemma": "sweater",
+        "p": 0.06884765625
+      },
+      {
+        "token": "dress",
+        "lemma": "dress",
+        "p": 0.06103515625
+      },
+      {
+        "token": "hat",
+        "lemma": "hat",
+        "p": 0.06103515625
+      },
+      {
+        "token": "coat",
+        "lemma": "coat",
+        "p": 0.036865234375
+      },
+      {
+        "token": "blue",
+        "lemma": "blue",
+        "p": 0.019775390625
+      },
+      {
+        "token": "scarf",
+        "lemma": "scarf",
+        "p": 0.019775390625
+      },
+      {
+        "token": "suit",
+        "lemma": "suit",
+        "p": 0.0174560546875
+      },
+      {
+        "token": "skirt",
+        "lemma": "skirt",
+        "p": 0.0174560546875
+      },
+      {
+        "token": "black",
+        "lemma": "black",
+        "p": 0.01361083984375
+      },
+      {
+        "token": "vest",
+        "lemma": "vest",
+        "p": 0.01361083984375
+      },
+      {
+        "token": "blouse",
+        "lemma": "blouse",
+        "p": 0.00933837890625
+      },
+      {
+        "token": "tie",
+        "lemma": "tie",
+        "p": 0.00933837890625
+      },
+      {
+        "token": "white",
+        "lemma": "white",
+        "p": 0.00726318359375
+      },
+      {
+        "token": "belt",
+        "lemma": "belt",
+        "p": 0.00726318359375
+      },
+      {
+        "token": "top",
+        "lemma": "top",
+        "p": 0.0028533935546875
+      },
+      {
+        "token": "jumper",
+        "lemma": "jumper",
+        "p": 0.0025177001953125
+      },
+      {
+        "token": "sock",
+        "lemma": "sock",
+        "p": 0.0022125244140625
+      },
+      {
+        "token": "cap",
+        "lemma": "cap",
+        "p": 0.00183868408203125
+      },
+      {
+        "token": "jersey",
+        "lemma": "jersey",
+        "p": 0.00162506103515625
+      },
+      {
+        "token": "denim",
+        "lemma": "denim",
+        "p": 0.00152587890625
+      }
+    ],
+    "other": [
+      {
+        "token": "pair",
+        "p": 0.146484375
+      },
+      {
+        "token": "t",
+        "p": 0.06884765625
+      },
+      {
+        "token": "T",
+        "p": 0.019775390625
+      },
+      {
+        "token": "hoodie",
+        "p": 0.0174560546875
+      },
+      {
+        "token": "red",
+        "p": 0.015380859375
+      },
+      {
+        "token": "bl",
+        "p": 0.01055908203125
+      },
+      {
+        "token": "long",
+        "p": 0.00823974609375
+      },
+      {
+        "token": "rain",
+        "p": 0.00640869140625
+      },
+      {
+        "token": "button",
+        "p": 0.0038909912109375
+      },
+      {
+        "token": "leather",
+        "p": 0.0038909912109375
+      },
+      {
+        "token": "watch",
+        "p": 0.0034332275390625
+      },
+      {
+        "token": "baseball",
+        "p": 0.0034332275390625
+      },
+      {
+        "token": "card",
+        "p": 0.0026702880859375
+      },
+      {
+        "token": "piece",
+        "p": 0.0025177001953125
+      },
+      {
+        "token": "yellow",
+        "p": 0.0025177001953125
+      },
+      {
+        "token": "necklace",
+        "p": 0.0025177001953125
+      },
+      {
+        "token": "sweat",
+        "p": 0.0025177001953125
+      },
+      {
+        "token": "green",
+        "p": 0.0020904541015625
+      },
+      {
+        "token": "tank",
+        "p": 0.00183868408203125
+      },
+      {
+        "token": "backpack",
+        "p": 0.00183868408203125
+      },
+      {
+        "token": "trench",
+        "p": 0.00162506103515625
+      },
+      {
+        "token": "purple",
+        "p": 0.00162506103515625
+      },
+      {
+        "token": "winter",
+        "p": 0.00152587890625
+      },
+      {
+        "token": "wool",
+        "p": 0.001434326171875
+      },
+      {
+        "token": "light",
+        "p": 0.001434326171875
+      },
+      {
+        "token": "swims",
+        "p": 0.0013427734375
+      }
+    ]
+  },
+  "centrality": {
+    "pearson": {
+      "r": 0.37615941240223005,
+      "p": 0.10213258512607719
+    },
+    "spearman": {
+      "rho": 0.38345864661654133,
+      "p": 0.09512441358281754
+    },
+    "partial_pearson": 0.30826924571759917,
+    "per_word": [
+      {
+        "word": "straightjacket",
+        "human": 0.053156,
+        "q": 7.194133030325383e-09,
+        "n_tokens": 3,
+        "zipf": 1.81
+      },
+      {
+        "word": "tiara",
+        "human": 0.105584,
+        "q": 1.0699837725828086e-05,
+        "n_tokens": 2,
+        "zipf": 2.98
+      },
+      {
+        "word": "diaper",
+        "human": 0.165144,
+        "q": 4.8327973667425135e-05,
+        "n_tokens": 1,
+        "zipf": 3.49
+      },
+      {
+        "word": "stiletto",
+        "human": 0.1921,
+        "q": 1.6571727123537028e-05,
+        "n_tokens": 3,
+        "zipf": 2.73
+      },
+      {
+        "word": "turban",
+        "human": 0.229684,
+        "q": 2.6500947308379628e-05,
+        "n_tokens": 2,
+        "zipf": 2.95
+      },
+      {
+        "word": "sombrero",
+        "human": 0.247751,
+        "q": 2.127916820380449e-05,
+        "n_tokens": 2,
+        "zipf": 2.57
+      },
+      {
+        "word": "kimono",
+        "human": 0.280519,
+        "q": 0.00027810828659249914,
+        "n_tokens": 2,
+        "zipf": 2.95
+      },
+      {
+        "word": "lab coat",
+        "human": 0.356349,
+        "q": 7.427159488079494e-05,
+        "n_tokens": 2,
+        "zipf": 4.09
+      },
+      {
+        "word": "shawl",
+        "human": 0.392587,
+        "q": 0.00034543601578633667,
+        "n_tokens": 2,
+        "zipf": 3.17
+      },
+      {
+        "word": "flip-flop",
+        "human": 0.42249,
+        "q": 1.7787551153335876e-05,
+        "n_tokens": 3,
+        "zipf": 3.47
+      },
+      {
+        "word": "stockings",
+        "human": 0.458851,
+        "q": 7.338215190190347e-07,
+        "n_tokens": 1,
+        "zipf": 3.47
+      },
+      {
+        "word": "tuxedo",
+        "human": 0.482955,
+        "q": 0.0010172778436147007,
+        "n_tokens": 3,
+        "zipf": 3.11
+      },
+      {
+        "word": "belt",
+        "human": 0.519795,
+        "q": 0.007172507245008699,
+        "n_tokens": 1,
+        "zipf": 4.42
+      },
+      {
+        "word": "nightshirt",
+        "human": 0.540873,
+        "q": 0.00020466406608316828,
+        "n_tokens": 2,
+        "zipf": 1.87
+      },
+      {
+        "word": "turtleneck",
+        "human": 0.587725,
+        "q": 0.0024403226861474305,
+        "n_tokens": 3,
+        "zipf": 2.62
+      },
+      {
+        "word": "undershirt",
+        "human": 0.626423,
+        "q": 2.4112456532689855e-05,
+        "n_tokens": 3,
+        "zipf": 2.28
+      },
+      {
+        "word": "outfit",
+        "human": 0.669297,
+        "q": 1.670170079024566e-05,
+        "n_tokens": 1,
+        "zipf": 4.22
+      },
+      {
+        "word": "underwear",
+        "human": 0.729464,
+        "q": 2.7264777043563346e-06,
+        "n_tokens": 1,
+        "zipf": 3.96
+      },
+      {
+        "word": "sweater",
+        "human": 0.783941,
+        "q": 0.06699582332279769,
+        "n_tokens": 1,
+        "zipf": 3.78
+      },
+      {
+        "word": "jeans",
+        "human": 0.838176,
+        "q": 0.0002454297015009895,
+        "n_tokens": 1,
+        "zipf": 4.09
+      }
+    ]
+  },
+  "membership": {
+    "straightjacket": {
+      "mu": 0.06020725810529662,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "tiara": {
+      "mu": 0.10676306254904128,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "diaper": {
+      "mu": 0.7058901992208813,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "stiletto": {
+      "mu": 0.5921667113452006,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "turban": {
+      "mu": 0.7984380173373806,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "sombrero": {
+      "mu": 0.24462756742436856,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "kimono": {
+      "mu": 0.9579674385365442,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "lab coat": {
+      "mu": 0.8806294451305222,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "shawl": {
+      "mu": 0.880629613102794,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "flip-flop": {
+      "mu": 0.29412809441178767,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "stockings": {
+      "mu": 0.5921673843557224,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "tuxedo": {
+      "mu": 0.8806286379316942,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "belt": {
+      "mu": 0.8180100350628013,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "nightshirt": {
+      "mu": 0.8932440910649082,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "turtleneck": {
+      "mu": 0.9324195025750817,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "undershirt": {
+      "mu": 0.9397948902286241,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "outfit": {
+      "mu": 0.6509888640677726,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "underwear": {
+      "mu": 0.9045535236085512,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "sweater": {
+      "mu": 0.8932440984273,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "jeans": {
+      "mu": 0.9324206624585811,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "lion": {
+      "mu": 0.07587210295869617,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "cat": {
+      "mu": 0.1333389794945192,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "elephant": {
+      "mu": 0.07571487045734868,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "rabbit": {
+      "mu": 0.07587192560641634,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "bird": {
+      "mu": 0.11894721273459485,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "reptile": {
+      "mu": 0.10676174261582196,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "fish": {
+      "mu": 0.1194553536516301,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "insect": {
+      "mu": 0.11895010494219845,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "table": {
+      "mu": 0.07587192186243959,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "chair": {
+      "mu": 0.04734222896792884,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "large": {
+      "mu": 0.34903544349787186,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "type": {
+      "mu": 0.3777005754907805,
+      "in_annotation": false,
+      "in_lexicon": false
+    }
+  }
+}

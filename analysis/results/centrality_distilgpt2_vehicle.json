@@ -1,0 +1,575 @@
+{
+  "category": "vehicle",
+  "descriptor": "vehicle for transport",
+  "frames": [
+    "Name one vehicle for transport: a",
+    "One example of a vehicle for transport is a",
+    "A common vehicle for transport is a",
+    "A vehicle for transport, such as a"
+  ],
+  "scan": {
+    "Name one vehicle for transport: a": {
+      "purity": 0.4991771377005681,
+      "n_members": 14
+    },
+    "One example of a vehicle for transport is a": {
+      "purity": 0.4915236949653023,
+      "n_members": 12
+    },
+    "A common vehicle for transport is a": {
+      "purity": 0.35344768433516627,
+      "n_members": 11
+    },
+    "A vehicle for transport, such as a": {
+      "purity": 0.5546556901456272,
+      "n_members": 20
+    }
+  },
+  "chosen_frame": "A vehicle for transport, such as a",
+  "purity": {
+    "window_mass": 0.39809757471084595,
+    "member_mass": 0.22080708504654467,
+    "function_mass": 0.0,
+    "other_mass": 0.17729048966430128,
+    "purity": 0.5546556901456272,
+    "members": [
+      {
+        "token": "car",
+        "lemma": "car",
+        "p": 0.03313838317990303
+      },
+      {
+        "token": "bus",
+        "lemma": "bus",
+        "p": 0.029696444049477577
+      },
+      {
+        "token": "truck",
+        "lemma": "truck",
+        "p": 0.0258367657661438
+      },
+      {
+        "token": "vehicle",
+        "lemma": "vehicle",
+        "p": 0.02140832133591175
+      },
+      {
+        "token": "taxi",
+        "lemma": "taxi",
+        "p": 0.016082730144262314
+      },
+      {
+        "token": "train",
+        "lemma": "train",
+        "p": 0.013746006414294243
+      },
+      {
+        "token": "van",
+        "lemma": "van",
+        "p": 0.011752471327781677
+      },
+      {
+        "token": "bicycle",
+        "lemma": "bicycle",
+        "p": 0.0116146644577384
+      },
+      {
+        "token": "tractor",
+        "lemma": "tractor",
+        "p": 0.010416243225336075
+      },
+      {
+        "token": "motorcycle",
+        "lemma": "motorcycle",
+        "p": 0.008921525441110134
+      },
+      {
+        "token": "pickup",
+        "lemma": "pickup",
+        "p": 0.005958952941000462
+      },
+      {
+        "token": "helicopter",
+        "lemma": "helicopter",
+        "p": 0.004439752083271742
+      },
+      {
+        "token": "boat",
+        "lemma": "boat",
+        "p": 0.004224047530442476
+      },
+      {
+        "token": "trailer",
+        "lemma": "trailer",
+        "p": 0.004048953298479319
+      },
+      {
+        "token": "semi",
+        "lemma": "semi",
+        "p": 0.00391421327367425
+      },
+      {
+        "token": "plane",
+        "lemma": "plane",
+        "p": 0.003458025399595499
+      },
+      {
+        "token": "ferry",
+        "lemma": "ferry",
+        "p": 0.003321645548567176
+      },
+      {
+        "token": "coach",
+        "lemma": "coach",
+        "p": 0.0032349114771932364
+      },
+      {
+        "token": "Jeep",
+        "lemma": "jeep",
+        "p": 0.0028444507624953985
+      },
+      {
+        "token": "tank",
+        "lemma": "tank",
+        "p": 0.0027485773898661137
+      }
+    ],
+    "other": [
+      {
+        "token": "motor",
+        "p": 0.02076485939323902
+      },
+      {
+        "token": "passenger",
+        "p": 0.01828819140791893
+      },
+      {
+        "token": "small",
+        "p": 0.010920627973973751
+      },
+      {
+        "token": "cargo",
+        "p": 0.010438519529998302
+      },
+      {
+        "token": "private",
+        "p": 0.010364084504544735
+      },
+      {
+        "token": "freight",
+        "p": 0.009317491203546524
+      },
+      {
+        "token": "commercial",
+        "p": 0.008029728196561337
+      },
+      {
+        "token": "light",
+        "p": 0.006207260303199291
+      },
+      {
+        "token": "police",
+        "p": 0.005043927114456892
+      },
+      {
+        "token": "transport",
+        "p": 0.004815225955098867
+      },
+      {
+        "token": "min",
+        "p": 0.004801468923687935
+      },
+      {
+        "token": "school",
+        "p": 0.004637191537767649
+      },
+      {
+        "token": "road",
+        "p": 0.004459986463189125
+      },
+      {
+        "token": "Toyota",
+        "p": 0.004377394448965788
+      },
+      {
+        "token": "military",
+        "p": 0.004366153851151466
+      },
+      {
+        "token": "personal",
+        "p": 0.004111146088689566
+      },
+      {
+        "token": "mobile",
+        "p": 0.004039264749735594
+      },
+      {
+        "token": "lim",
+        "p": 0.00388102768920362
+      },
+      {
+        "token": "new",
+        "p": 0.003530185902491212
+      },
+      {
+        "token": "T",
+        "p": 0.003493186319246888
+      },
+      {
+        "token": "driver",
+        "p": 0.0034721686970442533
+      },
+      {
+        "token": "rental",
+        "p": 0.00339347030967474
+      },
+      {
+        "token": "commuter",
+        "p": 0.003372589824721217
+      },
+      {
+        "token": "BMW",
+        "p": 0.003261676523834467
+      },
+      {
+        "token": "gas",
+        "p": 0.003232493530958891
+      },
+      {
+        "token": "large",
+        "p": 0.0031799757853150368
+      },
+      {
+        "token": "utility",
+        "p": 0.003045323770493269
+      },
+      {
+        "token": "single",
+        "p": 0.0028884727507829666
+      },
+      {
+        "token": "public",
+        "p": 0.0027992194518446922
+      },
+      {
+        "token": "Mercedes",
+        "p": 0.00275817746296525
+      }
+    ]
+  },
+  "centrality": {
+    "pearson": {
+      "r": 0.7017933823430449,
+      "p": 0.0005631899413304296
+    },
+    "spearman": {
+      "rho": 0.5052631578947367,
+      "p": 0.023059229474174218
+    },
+    "partial_pearson": 0.6677035502622393,
+    "per_word": [
+      {
+        "word": "rocket",
+        "human": 0.136772,
+        "q": 0.0006821579370446662,
+        "n_tokens": 1,
+        "zipf": 4.31
+      },
+      {
+        "word": "sled",
+        "human": 0.166802,
+        "q": 9.807871937329946e-05,
+        "n_tokens": 1,
+        "zipf": 3.23
+      },
+      {
+        "word": "hot-air balloon",
+        "human": 0.188718,
+        "q": 1.6526316249644127e-07,
+        "n_tokens": 4,
+        "zipf": 3.86
+      },
+      {
+        "word": "kayak",
+        "human": 0.216146,
+        "q": 0.0002860683403823311,
+        "n_tokens": 2,
+        "zipf": 3.24
+      },
+      {
+        "word": "canoe",
+        "human": 0.25,
+        "q": 0.00025101902069531466,
+        "n_tokens": 1,
+        "zipf": 3.5
+      },
+      {
+        "word": "jetski",
+        "human": 0.286161,
+        "q": 2.3776360343577113e-08,
+        "n_tokens": 2,
+        "zipf": 2.1
+      },
+      {
+        "word": "seaplane",
+        "human": 0.302052,
+        "q": 9.350837422048335e-05,
+        "n_tokens": 2,
+        "zipf": 2.54
+      },
+      {
+        "word": "tricycle",
+        "human": 0.335714,
+        "q": 0.0007622254034790967,
+        "n_tokens": 2,
+        "zipf": 2.79
+      },
+      {
+        "word": "bulldozer",
+        "human": 0.38206,
+        "q": 0.00042328377156696103,
+        "n_tokens": 2,
+        "zipf": 2.88
+      },
+      {
+        "word": "sailboat",
+        "human": 0.400492,
+        "q": 0.00022257299072957388,
+        "n_tokens": 2,
+        "zipf": 2.95
+      },
+      {
+        "word": "quad",
+        "human": 0.420493,
+        "q": 0.00021272523834522995,
+        "n_tokens": 1,
+        "zipf": 3.7
+      },
+      {
+        "word": "snowmobile",
+        "human": 0.465639,
+        "q": 0.0003669126091873321,
+        "n_tokens": 2,
+        "zipf": 2.75
+      },
+      {
+        "word": "helicopter",
+        "human": 0.499084,
+        "q": 0.004439752282520412,
+        "n_tokens": 1,
+        "zipf": 4.13
+      },
+      {
+        "word": "boat",
+        "human": 0.506473,
+        "q": 0.004224047937428327,
+        "n_tokens": 1,
+        "zipf": 4.71
+      },
+      {
+        "word": "humvee",
+        "human": 0.558741,
+        "q": 2.63321868443933e-06,
+        "n_tokens": 3,
+        "zipf": 2.49
+      },
+      {
+        "word": "train",
+        "human": 0.595365,
+        "q": 0.013746007577783388,
+        "n_tokens": 1,
+        "zipf": 4.96
+      },
+      {
+        "word": "firetruck",
+        "human": 0.655869,
+        "q": 1.5483265593659718e-06,
+        "n_tokens": 3,
+        "zipf": 2.08
+      },
+      {
+        "word": "jeep",
+        "human": 0.737791,
+        "q": 0.00272582404964719,
+        "n_tokens": 2,
+        "zipf": 3.72
+      },
+      {
+        "word": "bus",
+        "human": 0.786797,
+        "q": 0.02969644538488108,
+        "n_tokens": 1,
+        "zipf": 4.83
+      },
+      {
+        "word": "car",
+        "human": 0.861801,
+        "q": 0.03313838478346797,
+        "n_tokens": 1,
+        "zipf": 5.45
+      }
+    ]
+  },
+  "membership": {
+    "rocket": {
+      "mu": 0.6566704753033751,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "sled": {
+      "mu": 0.612087713806425,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "hot-air balloon": {
+      "mu": 0.5754257287874504,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "kayak": {
+      "mu": 0.7029830993990638,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "canoe": {
+      "mu": 0.6187289996969032,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "jetski": {
+      "mu": 0.6719465949265635,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "seaplane": {
+      "mu": 0.6240764829646068,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "tricycle": {
+      "mu": 0.5455941393039118,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "bulldozer": {
+      "mu": 0.6270578046958786,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "sailboat": {
+      "mu": 0.6356242419014355,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "quad": {
+      "mu": 0.5813312762565416,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "snowmobile": {
+      "mu": 0.7277472540776944,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "helicopter": {
+      "mu": 0.6180779075872279,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "boat": {
+      "mu": 0.5829444095009441,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "humvee": {
+      "mu": 0.6001834883043502,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "train": {
+      "mu": 0.5545413556081039,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "firetruck": {
+      "mu": 0.5238441213917838,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "jeep": {
+      "mu": 0.6398750412166427,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "bus": {
+      "mu": 0.601136205798622,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "car": {
+      "mu": 0.581119556476967,
+      "in_annotation": true,
+      "in_lexicon": true
+    },
+    "lion": {
+      "mu": 0.6028981566998264,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "cat": {
+      "mu": 0.6036588256010745,
+      "in_annotation": false,
+      "in_lexicon": true
+    },
+    "elephant": {
+      "mu": 0.5618665258078006,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "rabbit": {
+      "mu": 0.6099811720608767,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "bird": {
+      "mu": 0.6283496086689838,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "reptile": {
+      "mu": 0.6182665922205077,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "fish": {
+      "mu": 0.6030390261240408,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "insect": {
+      "mu": 0.5255691463056555,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "table": {
+      "mu": 0.5102488163469684,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "chair": {
+      "mu": 0.6195819085240636,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "large": {
+      "mu": 0.6247228356901476,
+      "in_annotation": false,
+      "in_lexicon": false
+    },
+    "type": {
+      "mu": 0.5991859687681393,
+      "in_annotation": false,
+      "in_lexicon": false
+    }
+  }
+}
