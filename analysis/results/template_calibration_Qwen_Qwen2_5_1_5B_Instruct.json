@@ -1,0 +1,209 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "data": "/home/mefrill/dev/concepts/analysis/data/hierarchy_triads.tsv",
+  "vocab_readable": [
+    "animal",
+    "apple",
+    "bed",
+    "bird",
+    "blade",
+    "bottle",
+    "cap",
+    "car",
+    "carrot",
+    "cat",
+    "chair",
+    "clothing",
+    "container",
+    "cot",
+    "dagger",
+    "desk",
+    "dog",
+    "duck",
+    "fish",
+    "flask",
+    "flower",
+    "fruit",
+    "furniture",
+    "gun",
+    "hammer",
+    "hat",
+    "horse",
+    "knife",
+    "motorcycle",
+    "oak",
+    "pickup",
+    "plant",
+    "pony",
+    "rifle",
+    "rose",
+    "saw",
+    "scooter",
+    "sedan",
+    "sword",
+    "table",
+    "tool",
+    "tree",
+    "trout",
+    "truck",
+    "vegetable",
+    "vehicle",
+    "weapon",
+    "wrench"
+  ],
+  "vocab_unreadable": [
+    "armchair",
+    "crabapple",
+    "hacksaw",
+    "macaw",
+    "mallard",
+    "mallet",
+    "parrot",
+    "poodle",
+    "siamese",
+    "spanner"
+  ],
+  "gate": {
+    "mi_norm_min": 0.2,
+    "agreement_min": 0.5,
+    "nonce_leak_max": 1.0,
+    "entailment_diff_min": 0.05,
+    "entailment_coverage_min": 0.1
+  },
+  "descent": {
+    "templates": {
+      "types_include": {
+        "prompt_example": "The types of dog include",
+        "mi": 1.9285123499370944,
+        "mi_norm": 0.6068218012927595,
+        "candidate_mass_real": 0.020104826200167736,
+        "candidate_mass_nonce": 0.0028813717945013195,
+        "nonce_leak": 0.14331741870403636,
+        "agreement_max": 0.34545454545454546,
+        "pass": false
+      },
+      "examples_include": {
+        "prompt_example": "Examples of things in the category dog include",
+        "mi": 1.438083340114636,
+        "mi_norm": 0.4525043995108129,
+        "candidate_mass_real": 0.028315252958539833,
+        "candidate_mass_nonce": 0.002598714316263795,
+        "nonce_leak": 0.09177789511783355,
+        "agreement_max": 0.9515151515151514,
+        "pass": true
+      },
+      "such_as": {
+        "prompt_example": "Dog, such as",
+        "mi": 1.6434240322528837,
+        "mi_norm": 0.5171164870020327,
+        "candidate_mass_real": 0.02362573788135099,
+        "candidate_mass_nonce": 0.0027578082808759063,
+        "nonce_leak": 0.11672897984078569,
+        "agreement_max": 0.9151515151515152,
+        "pass": true
+      },
+      "can_be": {
+        "prompt_example": "Dog can be a",
+        "mi": 0.9209606982190279,
+        "mi_norm": 0.28978763337001046,
+        "candidate_mass_real": 0.029194175397151412,
+        "candidate_mass_nonce": 0.007124923531591776,
+        "nonce_leak": 0.24405291242742147,
+        "agreement_max": 0.34545454545454546,
+        "pass": false
+      },
+      "kinds_are": {
+        "prompt_example": "The kinds of dog are",
+        "mi": 1.8053159939431238,
+        "mi_norm": 0.5680570847176213,
+        "candidate_mass_real": 0.004370888197854583,
+        "candidate_mass_nonce": 0.0015815723745618016,
+        "nonce_leak": 0.36184233111661473,
+        "agreement_max": 0.9151515151515152,
+        "pass": true
+      },
+      "category_includes": {
+        "prompt_example": "The category dog includes",
+        "mi": 1.8396743978827714,
+        "mi_norm": 0.5788682307125542,
+        "candidate_mass_real": 0.013688721490628572,
+        "candidate_mass_nonce": 0.005532360199140385,
+        "nonce_leak": 0.4041546321859124,
+        "agreement_max": 0.9515151515151514,
+        "pass": true
+      }
+    },
+    "agreement": {
+      "types_include": {
+        "examples_include": 0.24848484848484845,
+        "such_as": 0.07878787878787878,
+        "can_be": -0.4424242424242424,
+        "kinds_are": 0.34545454545454546,
+        "category_includes": 0.2121212121212121
+      },
+      "examples_include": {
+        "types_include": 0.24848484848484845,
+        "such_as": 0.4787878787878787,
+        "can_be": 0.34545454545454546,
+        "kinds_are": 0.3939393939393939,
+        "category_includes": 0.9515151515151514
+      },
+      "such_as": {
+        "types_include": 0.07878787878787878,
+        "examples_include": 0.4787878787878787,
+        "can_be": 0.0303030303030303,
+        "kinds_are": 0.9151515151515152,
+        "category_includes": 0.4424242424242424
+      },
+      "can_be": {
+        "types_include": -0.4424242424242424,
+        "examples_include": 0.34545454545454546,
+        "such_as": 0.0303030303030303,
+        "kinds_are": -0.05454545454545454,
+        "category_includes": 0.29696969696969694
+      },
+      "kinds_are": {
+        "types_include": 0.34545454545454546,
+        "examples_include": 0.3939393939393939,
+        "such_as": 0.9151515151515152,
+        "can_be": -0.05454545454545454,
+        "category_includes": 0.38181818181818183
+      },
+      "category_includes": {
+        "types_include": 0.2121212121212121,
+        "examples_include": 0.9515151515151514,
+        "such_as": 0.4424242424242424,
+        "can_be": 0.29696969696969694,
+        "kinds_are": 0.38181818181818183
+      }
+    }
+  },
+  "entailment": {
+    "templates": {
+      "is_a": {
+        "prompt_example": "Is a dog a animal? Answer Yes or No.\nAnswer:",
+        "mean_true": 0.9272038552225359,
+        "mean_false": 0.5288256877913893,
+        "diff": 0.3983781674311466,
+        "coverage": 0.9969552357991537,
+        "pass": true
+      },
+      "every_is_a": {
+        "prompt_example": "Is every dog a animal? Answer Yes or No.\nAnswer:",
+        "mean_true": 0.8479061892656053,
+        "mean_false": 0.1908502380806738,
+        "diff": 0.6570559511849315,
+        "coverage": 0.9974161783854166,
+        "pass": true
+      },
+      "kind_of": {
+        "prompt_example": "Is dog a kind of animal? Answer Yes or No.\nAnswer:",
+        "mean_true": 0.9385299371651942,
+        "mean_false": 0.29359214367396086,
+        "diff": 0.6449377934912333,
+        "coverage": 0.9967600504557291,
+        "pass": true
+      }
+    }
+  }
+}

@@ -4,7 +4,9 @@
 (этап 0 «калибровка прибора»; закрыт на `distilgpt2`, Qwen — smoke). 006 (этап 4.0, валидация
 интерполяции) — **smoke на `distilgpt2`, не закрыт**. 008 (этап 4.0a, валидация оси) —
 **Qwen, оси подтверждены**. 009 (Этап 1, типичность/прототип) — **Qwen + distilgpt2,
-прогон полный; частичный сигнал только в judgment**. Постановка и детали — в файлах-протоколах:
+прогон полный; частичный сигнал только в judgment**. 010/011 (Этап 1) — **закрыты**
+(центральность через называние). 012 (Этап 3, иерархия) — **рука (a) подтверждена на Qwen**
+(спуск 6/6 + entailment 3/3; distilgpt2 absent). Постановка и детали — в файлах-протоколах:
 [`experiment-001-2026-11-24-channel-dissociation.md`](experiment-001-2026-11-24-channel-dissociation.md),
 [`experiment-002-2026-11-24-attribute-localization.md`](experiment-002-2026-11-24-attribute-localization.md),
 [`experiment-003-2026-11-24-compositionality.md`](experiment-003-2026-11-24-compositionality.md),
@@ -39,6 +41,7 @@
 | 009 (Этап 1) | Qwen2.5-1.5B-Instruct + distilgpt2 | есть ли градиент типичности и прототип категории (внешний эталон THINGSplus) | **частично**: judgment `ρ=0.421` (p=0.001), partial `0.417`, margin `+0.110` → **P1b only**; ranking и сигнатурный прототип — нет. **Позже (010) показано: сигнатурный «absent» — артефакт прибора** |
 | 010 (Этап 1) | Qwen2.5-1.5B-Instruct + distilgpt2 | центральность через **называние** (`A {C}, such as a`), purity/cover, membership; 10 категорий | **закрыто**: Pearson(q) `+.38…+.66` (8/10 p<.05), частная `+.23…+.59`; Qwen устойчива, distilgpt2 — 8/10 (провалы `tool`, `clothing`); membership валиден только на instruct |
 | 011 (Этап 1) | Qwen + distilgpt2 | поверхность vs смысл: переформулировки, «pair of X», цикл слоёв 2–4 | `tool`: Qwen устойчива (+.53…+.57), distilgpt2 — только «hand» (+.49); `clothing` «pair of» → +.38→+.58; цикл слоёв **не работает** (размывает в общий аттрактор) |
+| 012 (Этап 3) | Qwen2.5-1.5B-Instruct + distilgpt2 | восстанавливает ли модель иерархию: спуск на уровень ниже в правильную ветку + entailment | **подтверждено на Qwen (рука a)**: спуск G 6/6 (AUC `.83–.95`, margin над частотой `0.31–0.43`, nonce/shuffle ≈ шанс); entailment E 3/3 (AUC `.91–.96`); distilgpt2 — **absent** (G 0/6, E 0/3) |
 
 ---
 
@@ -538,6 +541,47 @@ Haarer (2025, CogSci; DOI `10.48448/p7mm-j872`) на GPT-4o-mini, 5 языков
 `analysis/scripts/build_typicality_subset.py`, `analysis/tests/test_typicality.py`;
 `analysis/data/typicality.tsv`; `analysis/results/typicality_distilgpt2.json`,
 `analysis/results/typicality_Qwen_Qwen2_5_1_5B_Instruct.json`.
+
+## Эксперимент 012 / Этап 3 — иерархия (спуск + entailment, рука a)
+
+**Статус:** рука (a) — курированные триады; пред-регистрация — 
+[`experiment-012-2026-11-26-hierarchy.md`](experiment-012-2026-11-26-hierarchy.md).
+**Вопрос:** при подстановке понятия ответ модели **спускается на уровень ниже в правильную
+ветку**, а не остаётся тем же и не уходит к предку/в чужую ветку? Всё чтение — по
+**ограниченному candidate-set** (не свободный top-k; урок 009/011).
+
+**Данные.** 24 триады `super/basic/sub` (8 calibration + 16 main). Для концепта — ~10
+кандидатов с метками: `desc` (истинный ребёнок, ровно +1), `anc` (родитель),
+`desc_wrong_level` (ветка, но −2), `sib_branch` (тот же уровень, чужая ветка), `unrelated`.
+Многотокенные слова читаются по последовательности (`word_probability`).
+
+**Канал G (спуск), Qwen:** **6/6** шаблонов прошли. AUC(потомок vs прочее) `.83–.95`;
+масса на потомке `.31–.64`; top-1 = правильный ребёнок в `38–81%`; margin над частотным
+baseline (`freq-AUC .479`) `.31–.43`. Контроли: nonce-AUC `.42–.52`, shuffle-AUC
+`.50–.54` — на уровне шанса.
+
+| шаблон | AUC | desc_mass | top% | freq | margin | nonce | shuffle |
+|---|---|---|---|---|---|---|---|
+| `types_include` | .953 | .639 | 81 | .479 | .432 | .424 | .503 |
+| `examples_include` | .885 | .421 | 53 | .479 | .365 | .443 | .512 |
+| `such_as` | .943 | .583 | 72 | .479 | .422 | .455 | .531 |
+| `can_be` | .830 | .307 | 38 | .479 | .309 | .524 | .514 |
+| `kinds_are` | .894 | .389 | 47 | .479 | .373 | .406 | .535 |
+| `category_includes` | .875 | .346 | 44 | .479 | .354 | .432 | .524 |
+
+**Канал E (entailment), Qwen:** **3/3**, AUC `.914–.962` (верные пары `X⊂Y` vs ложные).
+
+**distilgpt2 (контроль):** G **0/6** (AUC `.65–.80`), E **0/3** (AUC `.47–.54`) → **absent**
+(согласуется с 009/011: малая модель поверхностна).
+
+**Вердикт (Qwen, рука a): hierarchy-confirmed** — (G 6/6 ∧ E 3/3) с margin над частотой,
+nonce и shuffle на уровне шанса. **Ограничения:** одна instruct-модель; рука **(b)**
+(WordNet-дистанция, масштаб) ещё не прогнана; английский; CPU.
+
+Артефакты: `analysis/src/tc/hierarchy.py`,
+`analysis/scripts/run_template_calibration.py`, `analysis/scripts/run_hierarchy.py`,
+`analysis/tests/test_hierarchy.py`, `analysis/data/hierarchy_triads.tsv`,
+`analysis/results/template_calibration_*.json`, `analysis/results/hierarchy_main_*.json`.
 
 ## Главное (по четырём закрытым экспериментам)
 

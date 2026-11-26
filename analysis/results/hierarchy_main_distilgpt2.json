@@ -1,0 +1,105 @@
+{
+  "model": "distilgpt2",
+  "data": "/home/mefrill/dev/concepts/analysis/data/hierarchy_triads.tsv",
+  "split": "main",
+  "gate": {
+    "g_auc_min": 0.8,
+    "g_margin_min": 0.05,
+    "e_auc_min": 0.8,
+    "templates_min": 2
+  },
+  "descent": {
+    "templates": {
+      "types_include": {
+        "prompt_example": "The types of cat include",
+        "auc": 0.7986111111111112,
+        "desc_mass": 0.33931788357678366,
+        "top_is_desc": 0.46875,
+        "freq_auc": 0.47916666666666663,
+        "margin": 0.2777777777777778,
+        "nonce_auc": 0.4618055555555556,
+        "shuffle_auc": 0.5104166666666667,
+        "pass": false
+      },
+      "examples_include": {
+        "prompt_example": "Examples of things in the category cat include",
+        "auc": 0.7048611111111112,
+        "desc_mass": 0.2658147038203403,
+        "top_is_desc": 0.28125,
+        "freq_auc": 0.47916666666666663,
+        "margin": 0.1840277777777778,
+        "nonce_auc": 0.4791666666666667,
+        "shuffle_auc": 0.5381944444444444,
+        "pass": false
+      },
+      "such_as": {
+        "prompt_example": "Cat, such as",
+        "auc": 0.6979166666666667,
+        "desc_mass": 0.19327243511315445,
+        "top_is_desc": 0.375,
+        "freq_auc": 0.47916666666666663,
+        "margin": 0.17708333333333337,
+        "nonce_auc": 0.4409722222222222,
+        "shuffle_auc": 0.5069444444444444,
+        "pass": false
+      },
+      "can_be": {
+        "prompt_example": "Cat can be a",
+        "auc": 0.6944444444444444,
+        "desc_mass": 0.1778076400720705,
+        "top_is_desc": 0.34375,
+        "freq_auc": 0.47916666666666663,
+        "margin": 0.17361111111111105,
+        "nonce_auc": 0.5034722222222223,
+        "shuffle_auc": 0.5416666666666667,
+        "pass": false
+      },
+      "kinds_are": {
+        "prompt_example": "The kinds of cat are",
+        "auc": 0.6527777777777778,
+        "desc_mass": 0.1922759533576129,
+        "top_is_desc": 0.15625,
+        "freq_auc": 0.47916666666666663,
+        "margin": 0.13194444444444442,
+        "nonce_auc": 0.4409722222222222,
+        "shuffle_auc": 0.5590277777777779,
+        "pass": false
+      },
+      "category_includes": {
+        "prompt_example": "The category cat includes",
+        "auc": 0.7604166666666666,
+        "desc_mass": 0.31525520590375955,
+        "top_is_desc": 0.34375,
+        "freq_auc": 0.47916666666666663,
+        "margin": 0.23958333333333326,
+        "nonce_auc": 0.47916666666666674,
+        "shuffle_auc": 0.53125,
+        "pass": false
+      }
+    }
+  },
+  "entailment": {
+    "templates": {
+      "is_a": {
+        "prompt_example": "Is a dog a animal? Answer Yes or No.\nAnswer:",
+        "auc": 0.5421006944444444,
+        "pass": false
+      },
+      "every_is_a": {
+        "prompt_example": "Is every dog a animal? Answer Yes or No.\nAnswer:",
+        "auc": 0.5069444444444444,
+        "pass": false
+      },
+      "kind_of": {
+        "prompt_example": "Is dog a kind of animal? Answer Yes or No.\nAnswer:",
+        "auc": 0.4735243055555555,
+        "pass": false
+      }
+    }
+  },
+  "summary": {
+    "g_pass": 0,
+    "e_pass": 0,
+    "verdict": "absent"
+  }
+}
