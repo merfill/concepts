@@ -147,3 +147,85 @@ def test_descendant_metrics_mass_and_top():
     assert out["desc_mass"] == pytest.approx(0.6)
     assert out["top"] == "dog" and out["top_is_desc"]
     assert out["auc"] == pytest.approx(1.0)
+
+
+# --------------------------------------------------------------------------- #
+# WordNet fragment graph core (no nltk: synthetic fragment)
+# --------------------------------------------------------------------------- #
+
+def _fragment():
+    from tc.hierarchy import build_fragment
+
+    edges = [
+        ("animal", "dog"), ("animal", "cat"), ("animal", "horse"),
+        ("dog", "poodle"), ("dog", "beagle"), ("cat", "siamese"),
+        ("vehicle", "car"), ("vehicle", "truck"), ("car", "sedan"),
+    ]
+    words = {n: n for n in {"animal", "dog", "cat", "horse", "poodle",
+                            "beagle", "siamese", "vehicle", "car", "truck",
+                            "sedan"}}
+    return build_fragment(edges, words, ["animal", "vehicle"])
+
+
+def test_build_fragment_depth_and_root():
+    frag = _fragment()
+    assert frag["nodes"]["animal"]["depth"] == 0
+    assert frag["nodes"]["dog"]["depth"] == 1
+    assert frag["nodes"]["poodle"]["depth"] == 2
+    assert frag["nodes"]["car"]["root"] == "vehicle"
+    assert frag["nodes"]["sedan"]["depth"] == 2
+
+
+def test_fragment_descendants_and_ancestors():
+    from tc.hierarchy import fragment_ancestors, fragment_descendants
+
+    frag = _fragment()
+    assert fragment_descendants(frag, "animal") == {
+        "dog", "cat", "horse", "poodle", "beagle", "siamese"}
+    assert fragment_ancestors(frag, "poodle") == {"dog", "animal"}
+
+
+def test_fragment_concepts_excludes_roots_and_leaves():
+    from tc.hierarchy import fragment_concepts
+
+    concepts = fragment_concepts(_fragment())
+    assert "animal" not in concepts and "vehicle" not in concepts
+    assert "dog" in concepts
+    # leaves have no children, so they cannot be descent targets
+    assert "poodle" not in concepts
+
+
+def test_labelled_candidates_roles_do_not_overlap():
+    from tc.hierarchy import labelled_candidates
+
+    labels = labelled_candidates(_fragment(), "dog", n_desc=4, n_anc=2,
+                                 n_wrong=2, n_sib=4, n_unrel=4, seed=0)
+    assert labels["poodle"] == "desc" and labels["beagle"] == "desc"
+    assert labels["animal"] == "anc"
+    assert labels["cat"] == "sib_branch"
+    assert labels["car"] == "unrelated"
+    # exactly one label per word, and no descendant is also a distractor
+    assert len(labels) == len(set(labels))
+
+
+def test_fragment_entailment_pairs_true_and_reverse():
+    from tc.hierarchy import fragment_entailment_pairs
+
+    pairs = fragment_entailment_pairs(_fragment(), max_distance=2)
+    by_pair = {(x, y): (t, d) for x, y, t, d in pairs}
+    assert by_pair[("poodle", "dog")] == (1, 1)
+    assert by_pair[("poodle", "animal")] == (1, 2)
+    assert by_pair[("dog", "animal")] == (1, 1)
+    assert by_pair[("animal", "dog")] == (0, 0)
+
+
+def test_write_and_load_fragment_roundtrip(tmp_path):
+    from tc.hierarchy import load_fragment, write_fragment
+
+    frag = _fragment()
+    path = tmp_path / "frag.tsv"
+    write_fragment(frag, path)
+    loaded = load_fragment(path)
+    assert set(loaded["nodes"]) == set(frag["nodes"])
+    assert loaded["nodes"]["poodle"]["depth"] == 2
+    assert loaded["nodes"]["car"]["root"] == "vehicle"

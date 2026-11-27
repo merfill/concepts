@@ -1,0 +1,181 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "arm": "wordnet",
+  "source": "/home/mefrill/dev/concepts/analysis/data/wordnet_fragment.tsv",
+  "gate": {
+    "g_auc_min": 0.8,
+    "g_margin_min": 0.05,
+    "e_auc_min": 0.8,
+    "templates_min": 2
+  },
+  "descent": {
+    "templates": {
+      "types_include": {
+        "prompt_example": "The types of attempt include",
+        "valid_pairs": 37,
+        "total_pairs": 39,
+        "auc": 0.7119193544193546,
+        "desc_mass": 0.6568449086463014,
+        "top_is_desc": 0.7027027027027027,
+        "freq_auc": 0.43042906542906545,
+        "margin": 0.14234841984842006,
+        "nonce_auc": 0.433975013975014,
+        "shuffle_auc": 0.5293489918489919,
+        "step_median": 1.0,
+        "monotonic": 0.5300621476967783,
+        "pass": false
+      },
+      "examples_include": {
+        "prompt_example": "Examples of things in the category attempt include",
+        "valid_pairs": 36,
+        "total_pairs": 39,
+        "auc": 0.655649417454973,
+        "desc_mass": 0.5307772507073415,
+        "top_is_desc": 0.5833333333333334,
+        "freq_auc": 0.4409965394687617,
+        "margin": 0.09664595692373468,
+        "nonce_auc": 0.3975817032761477,
+        "shuffle_auc": 0.49416586499919835,
+        "step_median": 1.0,
+        "monotonic": 0.7312813719963441,
+        "pass": false
+      },
+      "such_as": {
+        "prompt_example": "Attempt, such as",
+        "valid_pairs": 39,
+        "total_pairs": 39,
+        "auc": 0.6975353350353352,
+        "desc_mass": 0.6184930869752923,
+        "top_is_desc": 0.6666666666666666,
+        "freq_auc": 0.43342700509367166,
+        "margin": 0.13096234012900687,
+        "nonce_auc": 0.4249222382555716,
+        "shuffle_auc": 0.5255936039269373,
+        "step_median": 1.0,
+        "monotonic": 0.7008353478763236,
+        "pass": false
+      },
+      "can_be": {
+        "prompt_example": "Attempt can be a",
+        "valid_pairs": 35,
+        "total_pairs": 39,
+        "auc": 0.5306299044870473,
+        "desc_mass": 0.3175800843933066,
+        "top_is_desc": 0.2571428571428571,
+        "freq_auc": 0.44398948670377236,
+        "margin": -0.02538060880918036,
+        "nonce_auc": 0.43582419432419434,
+        "shuffle_auc": 0.5082747199890055,
+        "step_median": 0.0,
+        "monotonic": 0.5315448381310917,
+        "pass": false
+      },
+      "kinds_are": {
+        "prompt_example": "The kinds of attempt are",
+        "valid_pairs": 36,
+        "total_pairs": 39,
+        "auc": 0.6787060419004864,
+        "desc_mass": 0.5253670168126239,
+        "top_is_desc": 0.4722222222222222,
+        "freq_auc": 0.43405209502431724,
+        "margin": 0.11275813692480363,
+        "nonce_auc": 0.4526468053551387,
+        "shuffle_auc": 0.5423364598364597,
+        "step_median": 1.0,
+        "monotonic": 0.6760227913011687,
+        "pass": false
+      },
+      "category_includes": {
+        "prompt_example": "The category attempt includes",
+        "valid_pairs": 36,
+        "total_pairs": 39,
+        "auc": 0.6452825209769655,
+        "desc_mass": 0.5456390284017903,
+        "top_is_desc": 0.6111111111111112,
+        "freq_auc": 0.4336111779167335,
+        "margin": 0.07889369889369902,
+        "nonce_auc": 0.43885121051787723,
+        "shuffle_auc": 0.5114817821067821,
+        "step_median": 1.0,
+        "monotonic": 0.5701183566602451,
+        "pass": false
+      }
+    }
+  },
+  "entailment": {
+    "templates": {
+      "is_a": {
+        "prompt_example": "Is a dog a animal? Answer Yes or No.\nAnswer:",
+        "pairs": 201,
+        "auc": 0.8159602649006622,
+        "gradient": 0.08539785601096529,
+        "coverage": 0.9946155453202736,
+        "pass": true
+      },
+      "every_is_a": {
+        "prompt_example": "Is every dog a animal? Answer Yes or No.\nAnswer:",
+        "pairs": 201,
+        "auc": 0.7815231788079471,
+        "gradient": 0.18775732483871518,
+        "coverage": 0.9950175878420398,
+        "pass": false
+      },
+      "kind_of": {
+        "prompt_example": "Is dog a kind of animal? Answer Yes or No.\nAnswer:",
+        "pairs": 201,
+        "auc": 0.7785430463576158,
+        "gradient": 0.1473283554880685,
+        "coverage": 0.9949362076337065,
+        "pass": false
+      }
+    }
+  },
+  "summary": {
+    "g_pass": 0,
+    "e_pass": 1,
+    "verdict": "absent"
+  },
+  "fragment": "/home/mefrill/dev/concepts/analysis/data/wordnet_fragment.tsv",
+  "concepts": [
+    "attempt.n.01",
+    "care.n.01",
+    "material.n.01",
+    "payment.n.01",
+    "weapon.n.01",
+    "machine.n.01",
+    "change.n.01",
+    "happening.n.01",
+    "fear.n.01",
+    "emotion.n.01",
+    "list.n.01",
+    "meeting.n.01",
+    "region.n.01",
+    "collection.n.01",
+    "man.n.01",
+    "people.n.01",
+    "woman.n.01",
+    "awareness.n.01",
+    "advantage.n.01",
+    "dimension.n.01",
+    "substance.n.01",
+    "section.n.01",
+    "location.n.01",
+    "series.n.01",
+    "association.n.01",
+    "adult.n.01",
+    "expert.n.01",
+    "friend.n.01",
+    "leader.n.01",
+    "lover.n.01",
+    "peer.n.01",
+    "unfortunate.n.01",
+    "worker.n.01",
+    "power.n.01",
+    "part.n.01",
+    "explanation.n.01",
+    "building.n.01",
+    "commerce.n.01",
+    "farm.n.01"
+  ],
+  "min_children": 3
+}
