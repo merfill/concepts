@@ -1,0 +1,6196 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "d": 1536,
+  "V": 151936,
+  "length": 40,
+  "topm": 8,
+  "tstar_positions": [
+    2,
+    10,
+    18,
+    26,
+    34
+  ],
+  "lags": [
+    5,
+    10
+  ],
+  "n_prompts": 8,
+  "n_branches": 280,
+  "per_prompt": [
+    {
+      "prompt": "The cat",
+      "base_tokens": [
+        374,
+        264,
+        4185,
+        6753,
+        304,
+        1657,
+        28839,
+        13,
+        1084,
+        374,
+        264,
+        2613,
+        11,
+        74419,
+        9864,
+        429,
+        374,
+        3545,
+        8604,
+        438,
+        264,
+        21741,
+        13,
+        50749,
+        525,
+        3881,
+        369,
+        862,
+        23665,
+        323,
+        862,
+        5726,
+        311,
+        19073,
+        2613,
+        9898,
+        13,
+        2379,
+        525,
+        1083
+      ],
+      "base_entropy_mean": 2.2014449996909073,
+      "cloud": {
+        "pr_p": 29.823324789112025,
+        "n": 256
+      },
+      "records": [
+        {
+          "prompt": "The cat",
+          "tstar": 2,
+          "rank": 2,
+          "token_id": 12728,
+          "token": " domestic",
+          "n_steps": 38,
+          "js_end": 0.38306005232297213,
+          "js_lag": {
+            "5": 0.6320780513704866,
+            "10": 0.4625833272315753
+          },
+          "survival_after": 0.08108108108108109,
+          "base_entropy": 5.583883501883524,
+          "base_maxp": 0.08006240427494049,
+          "entropy_after": 2.0718811633613115,
+          "dom_share": 0.13513513513513514,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 2,
+          "rank": 3,
+          "token_id": 282,
+          "token": " f",
+          "n_steps": 38,
+          "js_end": 0.6925977061246715,
+          "js_lag": {
+            "5": 0.6578905932760641,
+            "10": 0.6655268673970327
+          },
+          "survival_after": 0.0,
+          "base_entropy": 5.583883501883524,
+          "base_maxp": 0.08006240427494049,
+          "entropy_after": 1.508929075255699,
+          "dom_share": 0.16216216216216217,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 2,
+          "rank": 4,
+          "token_id": 7735,
+          "token": " symbol",
+          "n_steps": 38,
+          "js_end": 0.6649535502305484,
+          "js_lag": {
+            "5": 0.572418633498118,
+            "10": 0.68297959558193
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 5.583883501883524,
+          "base_maxp": 0.08006240427494049,
+          "entropy_after": 2.4446811225402287,
+          "dom_share": 0.16216216216216217,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 2,
+          "rank": 5,
+          "token_id": 1602,
+          "token": " very",
+          "n_steps": 38,
+          "js_end": 0.693149084236595,
+          "js_lag": {
+            "5": 0.6873588552489069,
+            "10": 0.5214148268191607
+          },
+          "survival_after": 0.0,
+          "base_entropy": 5.583883501883524,
+          "base_maxp": 0.08006240427494049,
+          "entropy_after": 1.8649675414756337,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 2,
+          "rank": 6,
+          "token_id": 5411,
+          "token": " popular",
+          "n_steps": 38,
+          "js_end": 0.0998810143110608,
+          "js_lag": {
+            "5": 0.030985623934899932,
+            "10": 0.4715465742903493
+          },
+          "survival_after": 0.32432432432432434,
+          "base_entropy": 5.583883501883524,
+          "base_maxp": 0.08006240427494049,
+          "entropy_after": 2.189397105223875,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 2,
+          "rank": 7,
+          "token_id": 2613,
+          "token": " small",
+          "n_steps": 38,
+          "js_end": 0.690204209719705,
+          "js_lag": {
+            "5": 0.6821862207486555,
+            "10": 0.6868703605292179
+          },
+          "survival_after": 0.0,
+          "base_entropy": 5.583883501883524,
+          "base_maxp": 0.08006240427494049,
+          "entropy_after": 1.6860124215971455,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 2,
+          "rank": 8,
+          "token_id": 4462,
+          "token": " member",
+          "n_steps": 38,
+          "js_end": 0.693146035923915,
+          "js_lag": {
+            "5": 0.6931396326649217,
+            "10": 0.6915374716073938
+          },
+          "survival_after": 0.0,
+          "base_entropy": 5.583883501883524,
+          "base_maxp": 0.08006240427494049,
+          "entropy_after": 1.398676483912022,
+          "dom_share": 0.10810810810810811,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 10,
+          "rank": 2,
+          "token_id": 1083,
+          "token": " also",
+          "n_steps": 30,
+          "js_end": 0.6924028683943835,
+          "js_lag": {
+            "5": 0.5680351388660154,
+            "10": 0.6925266274860308
+          },
+          "survival_after": 0.0,
+          "base_entropy": 3.659115898834363,
+          "base_maxp": 0.28853344917297363,
+          "entropy_after": 2.5428193086310964,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 10,
+          "rank": 3,
+          "token_id": 3545,
+          "token": " often",
+          "n_steps": 30,
+          "js_end": 0.6914078636294586,
+          "js_lag": {
+            "5": 0.591443634470243,
+            "10": 0.6913698787746827
+          },
+          "survival_after": 0.0,
+          "base_entropy": 3.659115898834363,
+          "base_maxp": 0.28853344917297363,
+          "entropy_after": 1.843158873627306,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 10,
+          "rank": 4,
+          "token_id": 3881,
+          "token": " known",
+          "n_steps": 30,
+          "js_end": 0.6826720106770794,
+          "js_lag": {
+            "5": 0.6805030203488602,
+            "10": 0.693104966646813
+          },
+          "survival_after": 0.034482758620689655,
+          "base_entropy": 3.659115898834363,
+          "base_maxp": 0.28853344917297363,
+          "entropy_after": 1.6955335371034526,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 10,
+          "rank": 5,
+          "token_id": 458,
+          "token": " an",
+          "n_steps": 30,
+          "js_end": 0.6721283066215709,
+          "js_lag": {
+            "5": 0.6540447156801978,
+            "10": 0.6664308299775987
+          },
+          "survival_after": 0.0,
+          "base_entropy": 3.659115898834363,
+          "base_maxp": 0.28853344917297363,
+          "entropy_after": 2.4913333431417093,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 10,
+          "rank": 6,
+          "token_id": 279,
+          "token": " the",
+          "n_steps": 30,
+          "js_end": 0.6631981003733005,
+          "js_lag": {
+            "5": 0.688961468074732,
+            "10": 0.6921712094526512
+          },
+          "survival_after": 0.0,
+          "base_entropy": 3.659115898834363,
+          "base_maxp": 0.28853344917297363,
+          "entropy_after": 1.9503851984395097,
+          "dom_share": 0.06896551724137931,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 10,
+          "rank": 7,
+          "token_id": 8789,
+          "token": " generally",
+          "n_steps": 30,
+          "js_end": 0.6927979896839587,
+          "js_lag": {
+            "5": 0.6931155738948608,
+            "10": 0.6930612966704746
+          },
+          "survival_after": 0.0,
+          "base_entropy": 3.659115898834363,
+          "base_maxp": 0.28853344917297363,
+          "entropy_after": 1.6689713830778596,
+          "dom_share": 0.1724137931034483,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 10,
+          "rank": 8,
+          "token_id": 5990,
+          "token": " usually",
+          "n_steps": 30,
+          "js_end": 0.5646208887978026,
+          "js_lag": {
+            "5": 0.6157205183625851,
+            "10": 0.6917305507785294
+          },
+          "survival_after": 0.0,
+          "base_entropy": 3.659115898834363,
+          "base_maxp": 0.28853344917297363,
+          "entropy_after": 1.8774451188720056,
+          "dom_share": 0.06896551724137931,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 18,
+          "rank": 2,
+          "token_id": 5815,
+          "token": " associated",
+          "n_steps": 22,
+          "js_end": 0.607697744172925,
+          "js_lag": {
+            "5": 0.6926761945483562,
+            "10": 0.689452809656691
+          },
+          "survival_after": 0.19047619047619047,
+          "base_entropy": 2.374428466472238,
+          "base_maxp": 0.4754580855369568,
+          "entropy_after": 1.4909561035740697,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 18,
+          "rank": 3,
+          "token_id": 1730,
+          "token": " found",
+          "n_steps": 22,
+          "js_end": 0.5965469270617723,
+          "js_lag": {
+            "5": 0.6926690625091212,
+            "10": 0.6929762962929262
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.374428466472238,
+          "base_maxp": 0.4754580855369568,
+          "entropy_after": 1.612542541229397,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 18,
+          "rank": 4,
+          "token_id": 3884,
+          "token": " seen",
+          "n_steps": 22,
+          "js_end": 0.6926618338127499,
+          "js_lag": {
+            "5": 0.6908717641345843,
+            "10": 0.6906008923327642
+          },
+          "survival_after": 0.09523809523809523,
+          "base_entropy": 2.374428466472238,
+          "base_maxp": 0.4754580855369568,
+          "entropy_after": 1.5402560637986102,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 18,
+          "rank": 5,
+          "token_id": 10245,
+          "token": " loved",
+          "n_steps": 22,
+          "js_end": 0.6930560180159666,
+          "js_lag": {
+            "5": 0.6928559574007432,
+            "10": 0.6907077374865346
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.374428466472238,
+          "base_maxp": 0.4754580855369568,
+          "entropy_after": 1.2632201194791848,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 18,
+          "rank": 6,
+          "token_id": 1483,
+          "token": " used",
+          "n_steps": 22,
+          "js_end": 0.5434900245522605,
+          "js_lag": {
+            "5": 0.6923244924538223,
+            "10": 0.6930989745456968
+          },
+          "survival_after": 0.14285714285714285,
+          "base_entropy": 2.374428466472238,
+          "base_maxp": 0.4754580855369568,
+          "entropy_after": 1.4121582770724428,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 18,
+          "rank": 7,
+          "token_id": 56069,
+          "token": " playful",
+          "n_steps": 22,
+          "js_end": 0.6890633178251744,
+          "js_lag": {
+            "5": 0.6927386398304358,
+            "10": 0.6929222334252811
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.374428466472238,
+          "base_maxp": 0.4754580855369568,
+          "entropy_after": 1.4221576121870523,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 18,
+          "rank": 8,
+          "token_id": 6509,
+          "token": " considered",
+          "n_steps": 22,
+          "js_end": 0.6892391708919594,
+          "js_lag": {
+            "5": 0.6930131165472507,
+            "10": 0.6381912288877657
+          },
+          "survival_after": 0.047619047619047616,
+          "base_entropy": 2.374428466472238,
+          "base_maxp": 0.4754580855369568,
+          "entropy_after": 1.7206473688927528,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 26,
+          "rank": 2,
+          "token_id": 311,
+          "token": " to",
+          "n_steps": 14,
+          "js_end": 0.6408279860526301,
+          "js_lag": {
+            "5": 0.6931386890892948,
+            "10": 0.6929620785682841
+          },
+          "survival_after": 0.07692307692307693,
+          "base_entropy": 0.12043906409698026,
+          "base_maxp": 0.9754508137702942,
+          "entropy_after": 1.2891859913976496,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 26,
+          "rank": 3,
+          "token_id": 438,
+          "token": " as",
+          "n_steps": 14,
+          "js_end": 0.6396873154268004,
+          "js_lag": {
+            "5": 0.6931303255041057,
+            "10": 0.6927690338261694
+          },
+          "survival_after": 0.07692307692307693,
+          "base_entropy": 0.12043906409698026,
+          "base_maxp": 0.9754508137702942,
+          "entropy_after": 1.457969315883056,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 26,
+          "rank": 4,
+          "token_id": 537,
+          "token": " not",
+          "n_steps": 14,
+          "js_end": 0.6903366265489753,
+          "js_lag": {
+            "5": 0.6926618122945989,
+            "10": 0.689478906327331
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.12043906409698026,
+          "base_maxp": 0.9754508137702942,
+          "entropy_after": 1.4798840428526812,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 26,
+          "rank": 5,
+          "token_id": 553,
+          "token": " by",
+          "n_steps": 14,
+          "js_end": 0.6927656566769427,
+          "js_lag": {
+            "5": 0.6858239158040269,
+            "10": 0.6365640624115109
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.12043906409698026,
+          "base_maxp": 0.9754508137702942,
+          "entropy_after": 1.3504797776700432,
+          "dom_share": 0.23076923076923078,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 26,
+          "rank": 6,
+          "token_id": 198,
+          "token": "\n",
+          "n_steps": 14,
+          "js_end": 0.6928810936866643,
+          "js_lag": {
+            "5": 0.33528077099029135,
+            "10": 0.42228020856686954
+          },
+          "survival_after": 0.15384615384615385,
+          "base_entropy": 0.12043906409698026,
+          "base_maxp": 0.9754508137702942,
+          "entropy_after": 1.1659996360341505,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 26,
+          "rank": 7,
+          "token_id": 6814,
+          "token": " throughout",
+          "n_steps": 14,
+          "js_end": 0.691714857896309,
+          "js_lag": {
+            "5": 0.4672764772625853,
+            "10": 0.6920592581431472
+          },
+          "survival_after": 0.07692307692307693,
+          "base_entropy": 0.12043906409698026,
+          "base_maxp": 0.9754508137702942,
+          "entropy_after": 1.5339565415135479,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 26,
+          "rank": 8,
+          "token_id": 15245,
+          "token": " worldwide",
+          "n_steps": 14,
+          "js_end": 0.5809705527648763,
+          "js_lag": {
+            "5": 0.37710648634609545,
+            "10": 0.690641013110636
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.12043906409698026,
+          "base_maxp": 0.9754508137702942,
+          "entropy_after": 1.7525794250122297,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 34,
+          "rank": 2,
+          "token_id": 862,
+          "token": " their",
+          "n_steps": 6,
+          "js_end": 0.5437372861931602,
+          "js_lag": {
+            "5": 0.5437372861931602,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.05199371016154,
+          "base_maxp": 0.3813023865222931,
+          "entropy_after": 0.8322759240345935,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 34,
+          "rank": 3,
+          "token_id": 13,
+          "token": ".",
+          "n_steps": 6,
+          "js_end": 0.6930642013171086,
+          "js_lag": {
+            "5": 0.6930642013171086,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.05199371016154,
+          "base_maxp": 0.3813023865222931,
+          "entropy_after": 1.1293301430830944,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 34,
+          "rank": 4,
+          "token_id": 23627,
+          "token": " mice",
+          "n_steps": 6,
+          "js_end": 0.6925419982259926,
+          "js_lag": {
+            "5": 0.6925419982259926,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.05199371016154,
+          "base_maxp": 0.3813023865222931,
+          "entropy_after": 0.8060017059194952,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 34,
+          "rank": 5,
+          "token_id": 323,
+          "token": " and",
+          "n_steps": 6,
+          "js_end": 0.6926647970355244,
+          "js_lag": {
+            "5": 0.6926647970355244,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.05199371016154,
+          "base_maxp": 0.3813023865222931,
+          "entropy_after": 1.1466382972210667,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 34,
+          "rank": 6,
+          "token_id": 93109,
+          "token": " rodents",
+          "n_steps": 6,
+          "js_end": 0.5785895808595851,
+          "js_lag": {
+            "5": 0.5785895808595851,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.05199371016154,
+          "base_maxp": 0.3813023865222931,
+          "entropy_after": 1.3004669235513702,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 34,
+          "rank": 7,
+          "token_id": 11,
+          "token": ",",
+          "n_steps": 6,
+          "js_end": 0.680611183508119,
+          "js_lag": {
+            "5": 0.680611183508119,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.05199371016154,
+          "base_maxp": 0.3813023865222931,
+          "entropy_after": 1.5107905275124156,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The cat",
+          "tstar": 34,
+          "rank": 8,
+          "token_id": 36593,
+          "token": " prey",
+          "n_steps": 6,
+          "js_end": 0.5827361153841557,
+          "js_lag": {
+            "5": 0.5827361153841557,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.05199371016154,
+          "base_maxp": 0.3813023865222931,
+          "entropy_after": 1.2635921947824267,
+          "dom_share": 0.2,
+          "tail_period": 0
+        }
+      ]
+    },
+    {
+      "prompt": "In the garden",
+      "base_tokens": [
+        11,
+        1052,
+        525,
+        220,
+        16,
+        17,
+        6978,
+        315,
+        19281,
+        13,
+        8886,
+        2802,
+        702,
+        220,
+        16,
+        15,
+        19281,
+        13,
+        1416,
+        1817,
+        22351,
+        3880,
+        220,
+        17,
+        92866,
+        315,
+        3015,
+        11,
+        1246,
+        1657,
+        92866,
+        315,
+        3015,
+        525,
+        4362,
+        311,
+        3015,
+        678,
+        279,
+        19281
+      ],
+      "base_entropy_mean": 0.857755196835639,
+      "cloud": {
+        "pr_p": 31.426625116888697,
+        "n": 256
+      },
+      "records": [
+        {
+          "prompt": "In the garden",
+          "tstar": 2,
+          "rank": 2,
+          "token_id": 374,
+          "token": " is",
+          "n_steps": 38,
+          "js_end": 0.6931390130525621,
+          "js_lag": {
+            "5": 0.6733862215878939,
+            "10": 0.693138764874605
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.5008331292707725,
+          "base_maxp": 0.8770341277122498,
+          "entropy_after": 0.8710674433877422,
+          "dom_share": 0.05405405405405406,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 2,
+          "rank": 3,
+          "token_id": 1033,
+          "token": " were",
+          "n_steps": 38,
+          "js_end": 0.6931465788427036,
+          "js_lag": {
+            "5": 0.6918132455018473,
+            "10": 0.6923902285120549
+          },
+          "survival_after": 0.10810810810810811,
+          "base_entropy": 0.5008331292707725,
+          "base_maxp": 0.8770341277122498,
+          "entropy_after": 1.0390217148559584,
+          "dom_share": 0.10810810810810811,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 2,
+          "rank": 4,
+          "token_id": 594,
+          "token": "'s",
+          "n_steps": 38,
+          "js_end": 0.6931388145904323,
+          "js_lag": {
+            "5": 0.6727601463099858,
+            "10": 0.6931375803307824
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.5008331292707725,
+          "base_maxp": 0.8770341277122498,
+          "entropy_after": 0.8922649421151803,
+          "dom_share": 0.05405405405405406,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 2,
+          "rank": 5,
+          "token_id": 572,
+          "token": " was",
+          "n_steps": 38,
+          "js_end": 0.6931224588850733,
+          "js_lag": {
+            "5": 0.6383901464124413,
+            "10": 0.692628628472717
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 0.5008331292707725,
+          "base_maxp": 0.8770341277122498,
+          "entropy_after": 1.15665717962771,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 2,
+          "rank": 6,
+          "token_id": 748,
+          "token": "’s",
+          "n_steps": 38,
+          "js_end": 0.6931372871018286,
+          "js_lag": {
+            "5": 0.6548838455537013,
+            "10": 0.6931356303815853
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.5008331292707725,
+          "base_maxp": 0.8770341277122498,
+          "entropy_after": 1.0634792045005543,
+          "dom_share": 0.05405405405405406,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 2,
+          "rank": 7,
+          "token_id": 646,
+          "token": " can",
+          "n_steps": 38,
+          "js_end": 0.6931469188114487,
+          "js_lag": {
+            "5": 0.6754633381146307,
+            "10": 0.6930871146756037
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.5008331292707725,
+          "base_maxp": 0.8770341277122498,
+          "entropy_after": 1.3105137621840623,
+          "dom_share": 0.10810810810810811,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 2,
+          "rank": 8,
+          "token_id": 13352,
+          "token": " stands",
+          "n_steps": 38,
+          "js_end": 0.6931471372777889,
+          "js_lag": {
+            "5": 0.6923903966557443,
+            "10": 0.6928299274876788
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.5008331292707725,
+          "base_maxp": 0.8770341277122498,
+          "entropy_after": 1.4339517378298363,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 10,
+          "rank": 2,
+          "token_id": 1416,
+          "token": " If",
+          "n_steps": 30,
+          "js_end": 0.6931472024530692,
+          "js_lag": {
+            "5": 0.43310749723036135,
+            "10": 0.6931312154861535
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.6335535446721441,
+          "base_maxp": 0.8505162596702576,
+          "entropy_after": 0.4312234804801421,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 10,
+          "rank": 3,
+          "token_id": 758,
+          "token": " In",
+          "n_steps": 30,
+          "js_end": 0.6931426592829688,
+          "js_lag": {
+            "5": 0.6931224543379856,
+            "10": 0.6917320754626294
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.6335535446721441,
+          "base_maxp": 0.8505162596702576,
+          "entropy_after": 0.5848845541161106,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 10,
+          "rank": 4,
+          "token_id": 576,
+          "token": " The",
+          "n_steps": 30,
+          "js_end": 0.6931414799271676,
+          "js_lag": {
+            "5": 0.29197113720466356,
+            "10": 0.6840056284235446
+          },
+          "survival_after": 0.06896551724137931,
+          "base_entropy": 0.6335535446721441,
+          "base_maxp": 0.8505162596702576,
+          "entropy_after": 0.49167972818877526,
+          "dom_share": 0.13793103448275862,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 10,
+          "rank": 5,
+          "token_id": 2619,
+          "token": " There",
+          "n_steps": 30,
+          "js_end": 0.6931469767007822,
+          "js_lag": {
+            "5": 0.6865462093684793,
+            "10": 0.6930493522766951
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.6335535446721441,
+          "base_maxp": 0.8505162596702576,
+          "entropy_after": 0.3766369653276296,
+          "dom_share": 0.13793103448275862,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 10,
+          "rank": 6,
+          "token_id": 7209,
+          "token": " Every",
+          "n_steps": 30,
+          "js_end": 4.128333348836469e-05,
+          "js_lag": {
+            "5": 0.0018299201351069884,
+            "10": 0.0027699271141625017
+          },
+          "survival_after": 1.0,
+          "base_entropy": 0.6335535446721441,
+          "base_maxp": 0.8505162596702576,
+          "entropy_after": 0.6186403974301309,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 10,
+          "rank": 7,
+          "token_id": 2585,
+          "token": " How",
+          "n_steps": 30,
+          "js_end": 0.6931471745013632,
+          "js_lag": {
+            "5": 0.6929290106284296,
+            "10": 0.6926775440176978
+          },
+          "survival_after": 0.034482758620689655,
+          "base_entropy": 0.6335535446721441,
+          "base_maxp": 0.8505162596702576,
+          "entropy_after": 0.51339175250938,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 10,
+          "rank": 8,
+          "token_id": 362,
+          "token": " A",
+          "n_steps": 30,
+          "js_end": 0.6931467083433968,
+          "js_lag": {
+            "5": 0.692915439225191,
+            "10": 0.6891971784830724
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.6335535446721441,
+          "base_maxp": 0.8505162596702576,
+          "entropy_after": 1.199231380099938,
+          "dom_share": 0.06896551724137931,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 18,
+          "rank": 2,
+          "token_id": 2585,
+          "token": " How",
+          "n_steps": 22,
+          "js_end": 0.693147170635664,
+          "js_lag": {
+            "5": 0.6931464167080074,
+            "10": 0.6929740832583702
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.7858580962571293,
+          "base_maxp": 0.5817924737930298,
+          "entropy_after": 0.17865783009367553,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 18,
+          "rank": 3,
+          "token_id": 4636,
+          "token": " After",
+          "n_steps": 22,
+          "js_end": 0.6931432852391637,
+          "js_lag": {
+            "5": 0.14551770639785103,
+            "10": 0.6926760895899087
+          },
+          "survival_after": 0.047619047619047616,
+          "base_entropy": 1.7858580962571293,
+          "base_maxp": 0.5817924737930298,
+          "entropy_after": 0.7207113425271869,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 18,
+          "rank": 4,
+          "token_id": 576,
+          "token": " The",
+          "n_steps": 22,
+          "js_end": 0.6931470897186836,
+          "js_lag": {
+            "5": 0.6931473467153577,
+            "10": 0.6775891727108128
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.7858580962571293,
+          "base_maxp": 0.5817924737930298,
+          "entropy_after": 0.8636318318132288,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 18,
+          "rank": 5,
+          "token_id": 758,
+          "token": " In",
+          "n_steps": 22,
+          "js_end": 0.6931432435515641,
+          "js_lag": {
+            "5": 0.6931462623034534,
+            "10": 0.6615012880657071
+          },
+          "survival_after": 0.047619047619047616,
+          "base_entropy": 1.7858580962571293,
+          "base_maxp": 0.5817924737930298,
+          "entropy_after": 0.7643499550175308,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 18,
+          "rank": 6,
+          "token_id": 8886,
+          "token": " Each",
+          "n_steps": 22,
+          "js_end": 0.6931450266246055,
+          "js_lag": {
+            "5": 0.6751818742607878,
+            "10": 0.692631331464638
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.7858580962571293,
+          "base_maxp": 0.5817924737930298,
+          "entropy_after": 0.7941075199240327,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 18,
+          "rank": 7,
+          "token_id": 4354,
+          "token": " However",
+          "n_steps": 22,
+          "js_end": 0.6931367790960449,
+          "js_lag": {
+            "5": 0.693147179875794,
+            "10": 0.692745506672199
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.7858580962571293,
+          "base_maxp": 0.5817924737930298,
+          "entropy_after": 0.8740069881071089,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 18,
+          "rank": 8,
+          "token_id": 3555,
+          "token": " What",
+          "n_steps": 22,
+          "js_end": 0.6931471341216229,
+          "js_lag": {
+            "5": 0.6931464774604328,
+            "10": 0.6927537944641778
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.7858580962571293,
+          "base_maxp": 0.5817924737930298,
+          "entropy_after": 0.22069319907444043,
+          "dom_share": 0.19047619047619047,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 26,
+          "rank": 2,
+          "token_id": 72741,
+          "token": " watering",
+          "n_steps": 14,
+          "js_end": 4.274333614941796e-05,
+          "js_lag": {
+            "5": 0.006866961747357939,
+            "10": 6.73923007466189e-05
+          },
+          "survival_after": 1.0,
+          "base_entropy": 0.0025154178367539043,
+          "base_maxp": 0.9997764229774475,
+          "entropy_after": 0.22640097081285498,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 26,
+          "rank": 3,
+          "token_id": 17171,
+          "token": " soil",
+          "n_steps": 14,
+          "js_end": 0.6931465039202184,
+          "js_lag": {
+            "5": 0.6931461428442416,
+            "10": 0.6931452558737283
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.0025154178367539043,
+          "base_maxp": 0.9997764229774475,
+          "entropy_after": 0.4079545962862249,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 26,
+          "rank": 4,
+          "token_id": 64291,
+          "token": " fertilizer",
+          "n_steps": 14,
+          "js_end": 0.6462390645607843,
+          "js_lag": {
+            "5": 0.0001835322179337046,
+            "10": 0.6931465889697043
+          },
+          "survival_after": 0.6153846153846154,
+          "base_entropy": 0.0025154178367539043,
+          "base_maxp": 0.9997764229774475,
+          "entropy_after": 0.43376054661289953,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 26,
+          "rank": 5,
+          "token_id": 3281,
+          "token": " special",
+          "n_steps": 14,
+          "js_end": 0.693146439390275,
+          "js_lag": {
+            "5": 0.6930584470318659,
+            "10": 0.693144555693824
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.0025154178367539043,
+          "base_maxp": 0.9997764229774475,
+          "entropy_after": 0.45125250637095227,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 26,
+          "rank": 6,
+          "token_id": 264,
+          "token": " a",
+          "n_steps": 14,
+          "js_end": 0.693146532771334,
+          "js_lag": {
+            "5": 0.6931463362090302,
+            "10": 0.6931436677307053
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.0025154178367539043,
+          "base_maxp": 0.9997764229774475,
+          "entropy_after": 0.566889538787593,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 26,
+          "rank": 7,
+          "token_id": 11174,
+          "token": " rain",
+          "n_steps": 14,
+          "js_end": 0.6931465079362504,
+          "js_lag": {
+            "5": 0.6930317214783688,
+            "10": 0.6908953402973136
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.0025154178367539043,
+          "base_maxp": 0.9997764229774475,
+          "entropy_after": 0.5784858698761502,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 26,
+          "rank": 8,
+          "token_id": 3550,
+          "token": " space",
+          "n_steps": 14,
+          "js_end": 0.6931433262119129,
+          "js_lag": {
+            "5": 0.0013090974105087261,
+            "10": 0.6931421696017395
+          },
+          "survival_after": 0.5384615384615384,
+          "base_entropy": 0.0025154178367539043,
+          "base_maxp": 0.9997764229774475,
+          "entropy_after": 0.41375057838440843,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 34,
+          "rank": 2,
+          "token_id": 2567,
+          "token": " required",
+          "n_steps": 6,
+          "js_end": 2.5218734558329467e-07,
+          "js_lag": {
+            "5": 2.5218734558329467e-07,
+            "10": null
+          },
+          "survival_after": 1.0,
+          "base_entropy": 0.061808447978368826,
+          "base_maxp": 0.9896042346954346,
+          "entropy_after": 0.09395462721606988,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 34,
+          "rank": 3,
+          "token_id": 1483,
+          "token": " used",
+          "n_steps": 6,
+          "js_end": 4.037543742160876e-05,
+          "js_lag": {
+            "5": 4.037543742160876e-05,
+            "10": null
+          },
+          "survival_after": 1.0,
+          "base_entropy": 0.061808447978368826,
+          "base_maxp": 0.9896042346954346,
+          "entropy_after": 0.18635309557532004,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 34,
+          "rank": 4,
+          "token_id": 5871,
+          "token": " necessary",
+          "n_steps": 6,
+          "js_end": 1.4893920623927335e-05,
+          "js_lag": {
+            "5": 1.4893920623927335e-05,
+            "10": null
+          },
+          "survival_after": 1.0,
+          "base_entropy": 0.061808447978368826,
+          "base_maxp": 0.9896042346954346,
+          "entropy_after": 0.07976940498983034,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 34,
+          "rank": 5,
+          "token_id": 1052,
+          "token": " there",
+          "n_steps": 6,
+          "js_end": 0.6896469741879278,
+          "js_lag": {
+            "5": 0.6896469741879278,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.061808447978368826,
+          "base_maxp": 0.9896042346954346,
+          "entropy_after": 0.5108819295163413,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 34,
+          "rank": 6,
+          "token_id": 1184,
+          "token": " need",
+          "n_steps": 6,
+          "js_end": 0.00010817325555142653,
+          "js_lag": {
+            "5": 0.00010817325555142653,
+            "10": null
+          },
+          "survival_after": 1.0,
+          "base_entropy": 0.061808447978368826,
+          "base_maxp": 0.9896042346954346,
+          "entropy_after": 0.309349422108191,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 34,
+          "rank": 7,
+          "token_id": 807,
+          "token": " they",
+          "n_steps": 6,
+          "js_end": 0.6931485160383813,
+          "js_lag": {
+            "5": 0.6931485160383813,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.061808447978368826,
+          "base_maxp": 0.9896042346954346,
+          "entropy_after": 1.0720868578726117,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "In the garden",
+          "tstar": 34,
+          "rank": 8,
+          "token_id": 279,
+          "token": " the",
+          "n_steps": 6,
+          "js_end": 0.6931450681449849,
+          "js_lag": {
+            "5": 0.6931450681449849,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.061808447978368826,
+          "base_maxp": 0.9896042346954346,
+          "entropy_after": 0.9094550197646999,
+          "dom_share": 0.2,
+          "tail_period": 0
+        }
+      ]
+    },
+    {
+      "prompt": "She opened the door",
+      "base_tokens": [
+        323,
+        14858,
+        304,
+        11,
+        714,
+        1340,
+        572,
+        14453,
+        311,
+        1477,
+        279,
+        3054,
+        4287,
+        13,
+        2932,
+        1030,
+        3601,
+        311,
+        1490,
+        1059,
+        4238,
+        11,
+        714,
+        4518,
+        11,
+        1340,
+        1730,
+        11675,
+        304,
+        264,
+        3054,
+        429,
+        572,
+        6587,
+        2155,
+        504,
+        1128,
+        1340,
+        1030,
+        34606
+      ],
+      "base_entropy_mean": 2.466000553322577,
+      "cloud": {
+        "pr_p": 29.817987580313268,
+        "n": 256
+      },
+      "records": [
+        {
+          "prompt": "She opened the door",
+          "tstar": 2,
+          "rank": 2,
+          "token_id": 700,
+          "token": " out",
+          "n_steps": 38,
+          "js_end": 0.6857422532888862,
+          "js_lag": {
+            "5": 0.6074027385671141,
+            "10": 0.6430713131799524
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 2.25754859801122,
+          "base_maxp": 0.3004324734210968,
+          "entropy_after": 2.1270765629220447,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 2,
+          "rank": 3,
+          "token_id": 4766,
+          "token": " inside",
+          "n_steps": 38,
+          "js_end": 0.6921649686171447,
+          "js_lag": {
+            "5": 0.691080763937546,
+            "10": 0.6888308114929116
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 2.25754859801122,
+          "base_maxp": 0.3004324734210968,
+          "entropy_after": 1.5898201483276089,
+          "dom_share": 0.10810810810810811,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 2,
+          "rank": 4,
+          "token_id": 1119,
+          "token": " into",
+          "n_steps": 38,
+          "js_end": 0.6927642149774705,
+          "js_lag": {
+            "5": 0.5569640838452146,
+            "10": 0.6096421263460934
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.25754859801122,
+          "base_maxp": 0.3004324734210968,
+          "entropy_after": 2.2106779576569364,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 2,
+          "rank": 5,
+          "token_id": 1526,
+          "token": " through",
+          "n_steps": 38,
+          "js_end": 0.6931010179657593,
+          "js_lag": {
+            "5": 0.6210699924483043,
+            "10": 0.643866953351464
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 2.25754859801122,
+          "base_maxp": 0.3004324734210968,
+          "entropy_after": 2.0919756230280204,
+          "dom_share": 0.10810810810810811,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 2,
+          "rank": 6,
+          "token_id": 6974,
+          "token": " towards",
+          "n_steps": 38,
+          "js_end": 0.6930711575826911,
+          "js_lag": {
+            "5": 0.6339499175248711,
+            "10": 0.6330484310023876
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.25754859801122,
+          "base_maxp": 0.3004324734210968,
+          "entropy_after": 2.0928020112040784,
+          "dom_share": 0.13513513513513514,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 2,
+          "rank": 7,
+          "token_id": 4889,
+          "token": " outside",
+          "n_steps": 38,
+          "js_end": 0.6917922963208196,
+          "js_lag": {
+            "5": 0.6671733662403503,
+            "10": 0.6410545197437811
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 2.25754859801122,
+          "base_maxp": 0.3004324734210968,
+          "entropy_after": 2.065439682420848,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 2,
+          "rank": 8,
+          "token_id": 32671,
+          "token": " ______",
+          "n_steps": 38,
+          "js_end": 0.6931453515665742,
+          "js_lag": {
+            "5": 0.634299455898423,
+            "10": 0.6848683790564893
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.25754859801122,
+          "base_maxp": 0.3004324734210968,
+          "entropy_after": 1.5860341523650234,
+          "dom_share": 0.13513513513513514,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 10,
+          "rank": 2,
+          "token_id": 429,
+          "token": " that",
+          "n_steps": 30,
+          "js_end": 0.6926947151540381,
+          "js_lag": {
+            "5": 0.6768078975047909,
+            "10": 0.6822654401425097
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.4308938965725013,
+          "base_maxp": 0.28066280484199524,
+          "entropy_after": 2.320075760304324,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 10,
+          "rank": 3,
+          "token_id": 432,
+          "token": " it",
+          "n_steps": 30,
+          "js_end": 0.0009386819912032306,
+          "js_lag": {
+            "5": 0.0071078421404197345,
+            "10": 0.013443517420010567
+          },
+          "survival_after": 0.9655172413793104,
+          "base_entropy": 2.4308938965725013,
+          "base_maxp": 0.28066280484199524,
+          "entropy_after": 2.355925979363911,
+          "dom_share": 0.06896551724137931,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 10,
+          "rank": 4,
+          "token_id": 902,
+          "token": " no",
+          "n_steps": 30,
+          "js_end": 0.6894713746550916,
+          "js_lag": {
+            "5": 0.023617337384501266,
+            "10": 0.036309074041150934
+          },
+          "survival_after": 0.7241379310344828,
+          "base_entropy": 2.4308938965725013,
+          "base_maxp": 0.28066280484199524,
+          "entropy_after": 2.4216484836103085,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 10,
+          "rank": 5,
+          "token_id": 264,
+          "token": " a",
+          "n_steps": 30,
+          "js_end": 0.6927954730342989,
+          "js_lag": {
+            "5": 0.6287653446320136,
+            "10": 0.6699405114809884
+          },
+          "survival_after": 0.034482758620689655,
+          "base_entropy": 2.4308938965725013,
+          "base_maxp": 0.28066280484199524,
+          "entropy_after": 2.150104861803844,
+          "dom_share": 0.06896551724137931,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 10,
+          "rank": 6,
+          "token_id": 11675,
+          "token": " herself",
+          "n_steps": 30,
+          "js_end": 0.6922974911565856,
+          "js_lag": {
+            "5": 0.3926053692232677,
+            "10": 0.6497297832642768
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.4308938965725013,
+          "base_maxp": 0.28066280484199524,
+          "entropy_after": 2.0074228683028847,
+          "dom_share": 0.13793103448275862,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 10,
+          "rank": 7,
+          "token_id": 1059,
+          "token": " her",
+          "n_steps": 30,
+          "js_end": 0.6910536959551858,
+          "js_lag": {
+            "5": 0.02891096531712732,
+            "10": 0.15759346761250728
+          },
+          "survival_after": 0.3103448275862069,
+          "base_entropy": 2.4308938965725013,
+          "base_maxp": 0.28066280484199524,
+          "entropy_after": 2.114139746996777,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 10,
+          "rank": 8,
+          "token_id": 458,
+          "token": " an",
+          "n_steps": 30,
+          "js_end": 0.6919808139456097,
+          "js_lag": {
+            "5": 0.01583248563518485,
+            "10": 0.012357337945622313
+          },
+          "survival_after": 0.3103448275862069,
+          "base_entropy": 2.4308938965725013,
+          "base_maxp": 0.28066280484199524,
+          "entropy_after": 2.332070465648945,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 18,
+          "rank": 2,
+          "token_id": 1477,
+          "token": " find",
+          "n_steps": 22,
+          "js_end": 0.6857347294712534,
+          "js_lag": {
+            "5": 0.6493644316415017,
+            "10": 0.6755959040141091
+          },
+          "survival_after": 0.09523809523809523,
+          "base_entropy": 1.1879088792576917,
+          "base_maxp": 0.4841671288013458,
+          "entropy_after": 2.139426862884686,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 18,
+          "rank": 3,
+          "token_id": 387,
+          "token": " be",
+          "n_steps": 22,
+          "js_end": 0.6918769142357033,
+          "js_lag": {
+            "5": 0.6328359129037435,
+            "10": 0.6820770101219715
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.1879088792576917,
+          "base_maxp": 0.4841671288013458,
+          "entropy_after": 1.883764001846777,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 18,
+          "rank": 4,
+          "token_id": 6723,
+          "token": " hear",
+          "n_steps": 22,
+          "js_end": 0.692340596068439,
+          "js_lag": {
+            "5": 0.6604975458794968,
+            "10": 0.6738420330058293
+          },
+          "survival_after": 0.047619047619047616,
+          "base_entropy": 1.1879088792576917,
+          "base_maxp": 0.4841671288013458,
+          "entropy_after": 1.8533763210374012,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 18,
+          "rank": 5,
+          "token_id": 32671,
+          "token": " ______",
+          "n_steps": 22,
+          "js_end": 0.693145515948621,
+          "js_lag": {
+            "5": 0.5437708382796773,
+            "10": 0.6863355284767712
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.1879088792576917,
+          "base_maxp": 0.4841671288013458,
+          "entropy_after": 1.5857314769540563,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 18,
+          "rank": 6,
+          "token_id": 3367,
+          "token": " meet",
+          "n_steps": 22,
+          "js_end": 0.6930327807800671,
+          "js_lag": {
+            "5": 0.44967290735702226,
+            "10": 0.39383265745456014
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.1879088792576917,
+          "base_maxp": 0.4841671288013458,
+          "entropy_after": 1.6322947903221294,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 18,
+          "rank": 7,
+          "token_id": 3725,
+          "token": " enter",
+          "n_steps": 22,
+          "js_end": 0.6931463865504875,
+          "js_lag": {
+            "5": 0.6738016701992302,
+            "10": 0.6821578659498111
+          },
+          "survival_after": 0.047619047619047616,
+          "base_entropy": 1.1879088792576917,
+          "base_maxp": 0.4841671288013458,
+          "entropy_after": 1.9680526034759298,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 18,
+          "rank": 8,
+          "token_id": 65892,
+          "token": " _____",
+          "n_steps": 22,
+          "js_end": 0.6928544716823661,
+          "js_lag": {
+            "5": 0.6478498896968412,
+            "10": 0.6931427231430052
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.1879088792576917,
+          "base_maxp": 0.4841671288013458,
+          "entropy_after": 1.45608816872918,
+          "dom_share": 0.19047619047619047,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 26,
+          "rank": 2,
+          "token_id": 572,
+          "token": " was",
+          "n_steps": 14,
+          "js_end": 0.6927405030098561,
+          "js_lag": {
+            "5": 0.6914077560170782,
+            "10": 0.6927911367859443
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.6534466708056086,
+          "base_maxp": 0.5177187919616699,
+          "entropy_after": 1.2644661666173471,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 26,
+          "rank": 3,
+          "token_id": 5485,
+          "token": " saw",
+          "n_steps": 14,
+          "js_end": 0.6914707981242207,
+          "js_lag": {
+            "5": 0.6888505499743678,
+            "10": 0.42998656087263576
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.6534466708056086,
+          "base_maxp": 0.5177187919616699,
+          "entropy_after": 1.9805410870249152,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 26,
+          "rank": 4,
+          "token_id": 23057,
+          "token": " encountered",
+          "n_steps": 14,
+          "js_end": 0.6931442887660044,
+          "js_lag": {
+            "5": 0.6886827739661413,
+            "10": 0.692628363902454
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.6534466708056086,
+          "base_maxp": 0.5177187919616699,
+          "entropy_after": 2.4514089578429292,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 26,
+          "rank": 5,
+          "token_id": 11105,
+          "token": " discovered",
+          "n_steps": 14,
+          "js_end": 0.6921756894747634,
+          "js_lag": {
+            "5": 0.606523601844709,
+            "10": 0.6926497345777269
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.6534466708056086,
+          "base_maxp": 0.5177187919616699,
+          "entropy_after": 1.8657816185635023,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 26,
+          "rank": 6,
+          "token_id": 1172,
+          "token": " only",
+          "n_steps": 14,
+          "js_end": 0.6921751548401089,
+          "js_lag": {
+            "5": 0.6180677952236374,
+            "10": 0.6852290811492205
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.6534466708056086,
+          "base_maxp": 0.5177187919616699,
+          "entropy_after": 1.942251807510249,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 26,
+          "rank": 7,
+          "token_id": 6476,
+          "token": " felt",
+          "n_steps": 14,
+          "js_end": 0.6920536845415075,
+          "js_lag": {
+            "5": 0.640239038056321,
+            "10": 0.692929092536903
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.6534466708056086,
+          "base_maxp": 0.5177187919616699,
+          "entropy_after": 1.7837163169837607,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 26,
+          "rank": 8,
+          "token_id": 1030,
+          "token": " had",
+          "n_steps": 14,
+          "js_end": 0.5611922860198821,
+          "js_lag": {
+            "5": 0.6739324254259142,
+            "10": 0.6923006309501941
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.6534466708056086,
+          "base_maxp": 0.5177187919616699,
+          "entropy_after": 1.8293725951285362,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 34,
+          "rank": 2,
+          "token_id": 6319,
+          "token": " dark",
+          "n_steps": 6,
+          "js_end": 0.6924539463110289,
+          "js_lag": {
+            "5": 0.6924539463110289,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.4445099592749684,
+          "base_maxp": 0.3544333875179291,
+          "entropy_after": 1.7288224014903164,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 34,
+          "rank": 3,
+          "token_id": 4287,
+          "token": " empty",
+          "n_steps": 6,
+          "js_end": 0.6896098396115188,
+          "js_lag": {
+            "5": 0.6896098396115188,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.4445099592749684,
+          "base_maxp": 0.3544333875179291,
+          "entropy_after": 1.592870087399914,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 34,
+          "rank": 4,
+          "token_id": 49283,
+          "token": " unfamiliar",
+          "n_steps": 6,
+          "js_end": 0.6870890500647793,
+          "js_lag": {
+            "5": 0.6870890500647793,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.4445099592749684,
+          "base_maxp": 0.3544333875179291,
+          "entropy_after": 1.3600558249273584,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 34,
+          "rank": 5,
+          "token_id": 1304,
+          "token": " __",
+          "n_steps": 6,
+          "js_end": 0.6887947070052192,
+          "js_lag": {
+            "5": 0.6887947070052192,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.4445099592749684,
+          "base_maxp": 0.3544333875179291,
+          "entropy_after": 2.1186458137749358,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 34,
+          "rank": 6,
+          "token_id": 21059,
+          "token": " silent",
+          "n_steps": 6,
+          "js_end": 0.6880593340204663,
+          "js_lag": {
+            "5": 0.6880593340204663,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.4445099592749684,
+          "base_maxp": 0.3544333875179291,
+          "entropy_after": 1.9209776867136426,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 34,
+          "rank": 7,
+          "token_id": 75839,
+          "token": " devoid",
+          "n_steps": 6,
+          "js_end": 0.6920357013022771,
+          "js_lag": {
+            "5": 0.6920357013022771,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.4445099592749684,
+          "base_maxp": 0.3544333875179291,
+          "entropy_after": 1.6334924133545385,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "She opened the door",
+          "tstar": 34,
+          "rank": 8,
+          "token_id": 32671,
+          "token": " ______",
+          "n_steps": 6,
+          "js_end": 0.6926632685406615,
+          "js_lag": {
+            "5": 0.6926632685406615,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.4445099592749684,
+          "base_maxp": 0.3544333875179291,
+          "entropy_after": 2.4207939489224,
+          "dom_share": 0.2,
+          "tail_period": 0
+        }
+      ]
+    },
+    {
+      "prompt": "The scientist said",
+      "base_tokens": [
+        429,
+        279,
+        9315,
+        315,
+        279,
+        11580,
+        572,
+        220,
+        17,
+        15,
+        12348,
+        61347,
+        13,
+        1416,
+        279,
+        9315,
+        12226,
+        553,
+        220,
+        20,
+        12348,
+        61347,
+        11,
+        1128,
+        1035,
+        387,
+        279,
+        501,
+        9315,
+        315,
+        279,
+        11580,
+        30,
+        2014,
+        8253,
+        279,
+        501,
+        9315,
+        315,
+        279
+      ],
+      "base_entropy_mean": 1.6143349500466648,
+      "cloud": {
+        "pr_p": 21.434140989974082,
+        "n": 256
+      },
+      "records": [
+        {
+          "prompt": "The scientist said",
+          "tstar": 2,
+          "rank": 2,
+          "token_id": 501,
+          "token": " new",
+          "n_steps": 38,
+          "js_end": 0.6919902084161111,
+          "js_lag": {
+            "5": 0.6289289084768527,
+            "10": 0.6807267337486487
+          },
+          "survival_after": 0.05405405405405406,
+          "base_entropy": 6.643206661337629,
+          "base_maxp": 0.03315107151865959,
+          "entropy_after": 1.9960983272695458,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 2,
+          "rank": 3,
+          "token_id": 9342,
+          "token": " experiment",
+          "n_steps": 38,
+          "js_end": 0.6930980127351203,
+          "js_lag": {
+            "5": 0.59743048152721,
+            "10": 0.6497544557131893
+          },
+          "survival_after": 0.0,
+          "base_entropy": 6.643206661337629,
+          "base_maxp": 0.03315107151865959,
+          "entropy_after": 1.8013483010943434,
+          "dom_share": 0.10810810810810811,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 2,
+          "rank": 4,
+          "token_id": 9237,
+          "token": " Earth",
+          "n_steps": 38,
+          "js_end": 0.6931380602676254,
+          "js_lag": {
+            "5": 0.5789410893384844,
+            "10": 0.6852360056549139
+          },
+          "survival_after": 0.0,
+          "base_entropy": 6.643206661337629,
+          "base_maxp": 0.03315107151865959,
+          "entropy_after": 2.2895462193012155,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 2,
+          "rank": 5,
+          "token_id": 9393,
+          "token": " earth",
+          "n_steps": 38,
+          "js_end": 0.001398862470292122,
+          "js_lag": {
+            "5": 0.6377167184369128,
+            "10": 0.6663908248918533
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 6.643206661337629,
+          "base_maxp": 0.03315107151865959,
+          "entropy_after": 2.1671325570970126,
+          "dom_share": 0.1891891891891892,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 2,
+          "rank": 6,
+          "token_id": 17788,
+          "token": " moon",
+          "n_steps": 38,
+          "js_end": 0.6931494488254653,
+          "js_lag": {
+            "5": 0.6527991004839524,
+            "10": 0.6862982755410025
+          },
+          "survival_after": 0.0,
+          "base_entropy": 6.643206661337629,
+          "base_maxp": 0.03315107151865959,
+          "entropy_after": 1.9384735756729488,
+          "dom_share": 0.10810810810810811,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 2,
+          "rank": 7,
+          "token_id": 15494,
+          "token": " universe",
+          "n_steps": 38,
+          "js_end": 0.6902872475576544,
+          "js_lag": {
+            "5": 0.6184043381394875,
+            "10": 0.5375405024170068
+          },
+          "survival_after": 0.0,
+          "base_entropy": 6.643206661337629,
+          "base_maxp": 0.03315107151865959,
+          "entropy_after": 0.997640345495184,
+          "dom_share": 0.05405405405405406,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 2,
+          "rank": 8,
+          "token_id": 11580,
+          "token": " planet",
+          "n_steps": 38,
+          "js_end": 0.6931289912055825,
+          "js_lag": {
+            "5": 0.6590767587244408,
+            "10": 0.18783640552461928
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 6.643206661337629,
+          "base_maxp": 0.03315107151865959,
+          "entropy_after": 1.7948957710201692,
+          "dom_share": 0.10810810810810811,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 10,
+          "rank": 2,
+          "token_id": 15,
+          "token": "0",
+          "n_steps": 30,
+          "js_end": 0.6931471900451878,
+          "js_lag": {
+            "5": 0.6915271280656682,
+            "10": 0.6897501831435267
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.3808287230755985,
+          "base_maxp": 0.6532991528511047,
+          "entropy_after": 0.6939715318137479,
+          "dom_share": 0.06896551724137931,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 10,
+          "rank": 3,
+          "token_id": 30937,
+          "token": "°C",
+          "n_steps": 30,
+          "js_end": 0.6928553557919441,
+          "js_lag": {
+            "5": 0.18291884016417642,
+            "10": 0.6917689522427335
+          },
+          "survival_after": 0.06896551724137931,
+          "base_entropy": 1.3808287230755985,
+          "base_maxp": 0.6532991528511047,
+          "entropy_after": 1.6775268735037283,
+          "dom_share": 0.1724137931034483,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 10,
+          "rank": 4,
+          "token_id": 13,
+          "token": ".",
+          "n_steps": 30,
+          "js_end": 0.6926020784653064,
+          "js_lag": {
+            "5": 0.6895570880793382,
+            "10": 0.6693746962696878
+          },
+          "survival_after": 0.13793103448275862,
+          "base_entropy": 1.3808287230755985,
+          "base_maxp": 0.6532991528511047,
+          "entropy_after": 1.681694641897439,
+          "dom_share": 0.13793103448275862,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 10,
+          "rank": 5,
+          "token_id": 144105,
+          "token": "℃",
+          "n_steps": 30,
+          "js_end": 0.6931455522744483,
+          "js_lag": {
+            "5": 0.19714572961214197,
+            "10": 0.6916671115015701
+          },
+          "survival_after": 0.06896551724137931,
+          "base_entropy": 1.3808287230755985,
+          "base_maxp": 0.6532991528511047,
+          "entropy_after": 1.8192991359116848,
+          "dom_share": 0.1724137931034483,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 10,
+          "rank": 6,
+          "token_id": 4,
+          "token": "%",
+          "n_steps": 30,
+          "js_end": 0.6931289110158096,
+          "js_lag": {
+            "5": 0.22166762484723174,
+            "10": 0.6893648790889191
+          },
+          "survival_after": 0.06896551724137931,
+          "base_entropy": 1.3808287230755985,
+          "base_maxp": 0.6532991528511047,
+          "entropy_after": 1.0524349190380284,
+          "dom_share": 0.1724137931034483,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 10,
+          "rank": 7,
+          "token_id": 8381,
+          "token": " degree",
+          "n_steps": 30,
+          "js_end": 0.6931471575440298,
+          "js_lag": {
+            "5": 0.0015650003577919922,
+            "10": 0.6923771630264903
+          },
+          "survival_after": 0.1724137931034483,
+          "base_entropy": 1.3808287230755985,
+          "base_maxp": 0.6532991528511047,
+          "entropy_after": 1.0634354056873037,
+          "dom_share": 0.1724137931034483,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 10,
+          "rank": 8,
+          "token_id": 3039,
+          "token": " times",
+          "n_steps": 30,
+          "js_end": 0.6924764552200613,
+          "js_lag": {
+            "5": 0.6847284371743592,
+            "10": 0.6926525316892176
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.3808287230755985,
+          "base_maxp": 0.6532991528511047,
+          "entropy_after": 1.0191066156599493,
+          "dom_share": 0.1724137931034483,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 18,
+          "rank": 2,
+          "token_id": 264,
+          "token": " a",
+          "n_steps": 22,
+          "js_end": 0.6925585672817114,
+          "js_lag": {
+            "5": 0.6757097917284804,
+            "10": 0.6927492790332219
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.242148286798979,
+          "base_maxp": 0.9638411402702332,
+          "entropy_after": 0.8000960415640651,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 18,
+          "rank": 3,
+          "token_id": 1045,
+          "token": " some",
+          "n_steps": 22,
+          "js_end": 0.6931436417125081,
+          "js_lag": {
+            "5": 0.6766225065147078,
+            "10": 0.6929032705787914
+          },
+          "survival_after": 0.047619047619047616,
+          "base_entropy": 0.242148286798979,
+          "base_maxp": 0.9638411402702332,
+          "entropy_after": 0.8484196092179062,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 18,
+          "rank": 4,
+          "token_id": 481,
+          "token": " -",
+          "n_steps": 22,
+          "js_end": 1.2260110379473964e-08,
+          "js_lag": {
+            "5": 0.016487884651317068,
+            "10": 2.460293622011911e-05
+          },
+          "survival_after": 1.0,
+          "base_entropy": 0.242148286798979,
+          "base_maxp": 0.9638411402702332,
+          "entropy_after": 0.5364108286804891,
+          "dom_share": 0.19047619047619047,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 18,
+          "rank": 5,
+          "token_id": 856,
+          "token": " x",
+          "n_steps": 22,
+          "js_end": 0.693107204942871,
+          "js_lag": {
+            "5": 0.6805108152201907,
+            "10": 0.6923927393218767
+          },
+          "survival_after": 0.047619047619047616,
+          "base_entropy": 0.242148286798979,
+          "base_maxp": 0.9638411402702332,
+          "entropy_after": 0.44984019880221027,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 18,
+          "rank": 6,
+          "token_id": 458,
+          "token": " an",
+          "n_steps": 22,
+          "js_end": 0.6926082378378771,
+          "js_lag": {
+            "5": 0.6929783505960718,
+            "10": 0.6929477217884283
+          },
+          "survival_after": 0.047619047619047616,
+          "base_entropy": 0.242148286798979,
+          "base_maxp": 0.9638411402702332,
+          "entropy_after": 0.663893789917006,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 18,
+          "rank": 7,
+          "token_id": 4279,
+          "token": " half",
+          "n_steps": 22,
+          "js_end": 0.6931471634424735,
+          "js_lag": {
+            "5": 0.6795207478016763,
+            "10": 0.6930731194212227
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.242148286798979,
+          "base_maxp": 0.9638411402702332,
+          "entropy_after": 0.7079209463740211,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 18,
+          "rank": 8,
+          "token_id": 279,
+          "token": " the",
+          "n_steps": 22,
+          "js_end": 0.4967185315119931,
+          "js_lag": {
+            "5": 0.6914828232604013,
+            "10": 0.6923847588890546
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.242148286798979,
+          "base_maxp": 0.9638411402702332,
+          "entropy_after": 1.6830079868599594,
+          "dom_share": 0.23809523809523808,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 26,
+          "rank": 2,
+          "token_id": 1181,
+          "token": " its",
+          "n_steps": 14,
+          "js_end": 0.6931466966671643,
+          "js_lag": {
+            "5": 0.693123982456149,
+            "10": 0.6931465957650522
+          },
+          "survival_after": 0.23076923076923078,
+          "base_entropy": 0.05527541965686307,
+          "base_maxp": 0.9911594986915588,
+          "entropy_after": 0.5054466234445075,
+          "dom_share": 0.23076923076923078,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 26,
+          "rank": 3,
+          "token_id": 501,
+          "token": " new",
+          "n_steps": 14,
+          "js_end": 0.6931456248425014,
+          "js_lag": {
+            "5": 0.6929370756992216,
+            "10": 0.6930179561601568
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.05527541965686307,
+          "base_maxp": 0.9911594986915588,
+          "entropy_after": 0.46346661832200403,
+          "dom_share": 0.23076923076923078,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 26,
+          "rank": 4,
+          "token_id": 481,
+          "token": " -",
+          "n_steps": 14,
+          "js_end": 0.6931616156535949,
+          "js_lag": {
+            "5": 0.6931423059502413,
+            "10": 0.6931781770896783
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.05527541965686307,
+          "base_maxp": 0.9911594986915588,
+          "entropy_after": 2.9038402352889006,
+          "dom_share": 0.23076923076923078,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 26,
+          "rank": 5,
+          "token_id": 862,
+          "token": " their",
+          "n_steps": 14,
+          "js_end": 0.6931467291970778,
+          "js_lag": {
+            "5": 0.6931220892736143,
+            "10": 0.693146547582773
+          },
+          "survival_after": 0.23076923076923078,
+          "base_entropy": 0.05527541965686307,
+          "base_maxp": 0.9911594986915588,
+          "entropy_after": 0.5289754627782695,
+          "dom_share": 0.23076923076923078,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 26,
+          "rank": 6,
+          "token_id": 220,
+          "token": " ",
+          "n_steps": 14,
+          "js_end": 0.6931396004971841,
+          "js_lag": {
+            "5": 0.6927386977512411,
+            "10": 0.6931293978981268
+          },
+          "survival_after": 0.07692307692307693,
+          "base_entropy": 0.05527541965686307,
+          "base_maxp": 0.9911594986915588,
+          "entropy_after": 0.9425620633304669,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 26,
+          "rank": 7,
+          "token_id": 419,
+          "token": " this",
+          "n_steps": 14,
+          "js_end": 0.6931467090940062,
+          "js_lag": {
+            "5": 0.6931271067578213,
+            "10": 0.6931467007047538
+          },
+          "survival_after": 0.23076923076923078,
+          "base_entropy": 0.05527541965686307,
+          "base_maxp": 0.9911594986915588,
+          "entropy_after": 0.6118026471144475,
+          "dom_share": 0.23076923076923078,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 26,
+          "rank": 8,
+          "token_id": 429,
+          "token": " that",
+          "n_steps": 14,
+          "js_end": 0.6931472590814012,
+          "js_lag": {
+            "5": 0.6931267481763641,
+            "10": 0.6930211894459728
+          },
+          "survival_after": 0.07692307692307693,
+          "base_entropy": 0.05527541965686307,
+          "base_maxp": 0.9911594986915588,
+          "entropy_after": 0.6978997662062747,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 34,
+          "rank": 2,
+          "token_id": 1477,
+          "token": " find",
+          "n_steps": 6,
+          "js_end": 5.577524391232963e-06,
+          "js_lag": {
+            "5": 5.577524391232963e-06,
+            "10": null
+          },
+          "survival_after": 1.0,
+          "base_entropy": 0.43284159248681586,
+          "base_maxp": 0.8748921751976013,
+          "entropy_after": 0.16883606711238563,
+          "dom_share": 0.4,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 34,
+          "rank": 3,
+          "token_id": 11047,
+          "token": " calculate",
+          "n_steps": 6,
+          "js_end": 0.25367526075174335,
+          "js_lag": {
+            "5": 0.25367526075174335,
+            "10": null
+          },
+          "survival_after": 0.6,
+          "base_entropy": 0.43284159248681586,
+          "base_maxp": 0.8748921751976013,
+          "entropy_after": 0.33805927408712244,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 34,
+          "rank": 4,
+          "token_id": 11625,
+          "token": " solve",
+          "n_steps": 6,
+          "js_end": 0.00025474800052642846,
+          "js_lag": {
+            "5": 0.00025474800052642846,
+            "10": null
+          },
+          "survival_after": 0.4,
+          "base_entropy": 0.43284159248681586,
+          "base_maxp": 0.8748921751976013,
+          "entropy_after": 0.4826753295774851,
+          "dom_share": 0.4,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 34,
+          "rank": 5,
+          "token_id": 7071,
+          "token": " figure",
+          "n_steps": 6,
+          "js_end": 0.6923826590785042,
+          "js_lag": {
+            "5": 0.6923826590785042,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.43284159248681586,
+          "base_maxp": 0.8748921751976013,
+          "entropy_after": 0.49442412501155764,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 34,
+          "rank": 6,
+          "token_id": 7500,
+          "token": " adjust",
+          "n_steps": 6,
+          "js_end": 0.6931246832592051,
+          "js_lag": {
+            "5": 0.6931246832592051,
+            "10": null
+          },
+          "survival_after": 0.2,
+          "base_entropy": 0.43284159248681586,
+          "base_maxp": 0.8748921751976013,
+          "entropy_after": 0.8827994043632625,
+          "dom_share": 0.4,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 34,
+          "rank": 7,
+          "token_id": 3535,
+          "token": " understand",
+          "n_steps": 6,
+          "js_end": 0.01108626973309246,
+          "js_lag": {
+            "5": 0.01108626973309246,
+            "10": null
+          },
+          "survival_after": 0.6,
+          "base_entropy": 0.43284159248681586,
+          "base_maxp": 0.8748921751976013,
+          "entropy_after": 0.8624217975119647,
+          "dom_share": 0.4,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The scientist said",
+          "tstar": 34,
+          "rank": 8,
+          "token_id": 12564,
+          "token": " compute",
+          "n_steps": 6,
+          "js_end": 0.30942846012853453,
+          "js_lag": {
+            "5": 0.30942846012853453,
+            "10": null
+          },
+          "survival_after": 0.6,
+          "base_entropy": 0.43284159248681586,
+          "base_maxp": 0.8748921751976013,
+          "entropy_after": 0.5777677750576492,
+          "dom_share": 0.2,
+          "tail_period": 0
+        }
+      ]
+    },
+    {
+      "prompt": "Once upon a time",
+      "base_tokens": [
+        11,
+        1052,
+        572,
+        264,
+        3908,
+        3743,
+        6941,
+        47290,
+        879,
+        10245,
+        311,
+        1349,
+        13,
+        2932,
+        1035,
+        8329,
+        4115,
+        304,
+        1059,
+        3054,
+        11,
+        22865,
+        553,
+        6467,
+        11,
+        5558,
+        304,
+        279,
+        1879,
+        315,
+        7343,
+        13,
+        3776,
+        1899,
+        11,
+        1393,
+        1340,
+        572,
+        5290,
+        264
+      ],
+      "base_entropy_mean": 1.6318650605411207,
+      "cloud": {
+        "pr_p": 27.383701939645057,
+        "n": 256
+      },
+      "records": [
+        {
+          "prompt": "Once upon a time",
+          "tstar": 2,
+          "rank": 2,
+          "token_id": 12163,
+          "token": " lived",
+          "n_steps": 38,
+          "js_end": 0.47423882386458943,
+          "js_lag": {
+            "5": 0.5068402842233448,
+            "10": 0.6838622743103517
+          },
+          "survival_after": 0.10810810810810811,
+          "base_entropy": 0.9353673823201932,
+          "base_maxp": 0.7177972793579102,
+          "entropy_after": 1.9595482200479195,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 2,
+          "rank": 3,
+          "token_id": 1033,
+          "token": " were",
+          "n_steps": 38,
+          "js_end": 0.6701000035923258,
+          "js_lag": {
+            "5": 0.6927010459057567,
+            "10": 0.6718873877094074
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.9353673823201932,
+          "base_maxp": 0.7177972793579102,
+          "entropy_after": 1.639947770608558,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 2,
+          "rank": 4,
+          "token_id": 3055,
+          "token": " once",
+          "n_steps": 38,
+          "js_end": 0.6921361895409047,
+          "js_lag": {
+            "5": 0.6848859282504138,
+            "10": 0.6814852601830224
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.9353673823201932,
+          "base_maxp": 0.7177972793579102,
+          "entropy_after": 1.983983640518651,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 2,
+          "rank": 5,
+          "token_id": 374,
+          "token": " is",
+          "n_steps": 38,
+          "js_end": 0.6930915041131209,
+          "js_lag": {
+            "5": 0.681279433371204,
+            "10": 0.6891869688607122
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 0.9353673823201932,
+          "base_maxp": 0.7177972793579102,
+          "entropy_after": 2.3591680324025406,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 2,
+          "rank": 6,
+          "token_id": 24295,
+          "token": " existed",
+          "n_steps": 38,
+          "js_end": 0.688732389925696,
+          "js_lag": {
+            "5": 0.5651729868722548,
+            "10": 0.6596874853023379
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 0.9353673823201932,
+          "base_maxp": 0.7177972793579102,
+          "entropy_after": 1.99390224729871,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 2,
+          "rank": 7,
+          "token_id": 525,
+          "token": " are",
+          "n_steps": 38,
+          "js_end": 0.6921671545537589,
+          "js_lag": {
+            "5": 0.6920938930290919,
+            "10": 0.6907605093836833
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.9353673823201932,
+          "base_maxp": 0.7177972793579102,
+          "entropy_after": 1.499123306873202,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 2,
+          "rank": 8,
+          "token_id": 1483,
+          "token": " used",
+          "n_steps": 38,
+          "js_end": 0.640231848077256,
+          "js_lag": {
+            "5": 0.6891337784822282,
+            "10": 0.3182948524869069
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 0.9353673823201932,
+          "base_maxp": 0.7177972793579102,
+          "entropy_after": 1.8836148867558387,
+          "dom_share": 0.13513513513513514,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 10,
+          "rank": 2,
+          "token_id": 5619,
+          "token": " playing",
+          "n_steps": 30,
+          "js_end": 0.6567942540545656,
+          "js_lag": {
+            "5": 0.6928483131183694,
+            "10": 0.6915785218952322
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.6468941143527986,
+          "base_maxp": 0.7153291702270508,
+          "entropy_after": 1.3566355250066218,
+          "dom_share": 0.06896551724137931,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 10,
+          "rank": 3,
+          "token_id": 5290,
+          "token": " reading",
+          "n_steps": 30,
+          "js_end": 0.6920635474649426,
+          "js_lag": {
+            "5": 0.6929667049152124,
+            "10": 0.5292691836037773
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.6468941143527986,
+          "base_maxp": 0.7153291702270508,
+          "entropy_after": 1.3809189870455203,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 10,
+          "rank": 4,
+          "token_id": 9898,
+          "token": " animals",
+          "n_steps": 30,
+          "js_end": 0.6930230992234236,
+          "js_lag": {
+            "5": 0.6906664076113773,
+            "10": 0.601120801629343
+          },
+          "survival_after": 0.034482758620689655,
+          "base_entropy": 1.6468941143527986,
+          "base_maxp": 0.7153291702270508,
+          "entropy_after": 1.2590431923009193,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 10,
+          "rank": 5,
+          "token_id": 4302,
+          "token": " nothing",
+          "n_steps": 30,
+          "js_end": 0.3120466457009617,
+          "js_lag": {
+            "5": 0.6922328974979732,
+            "10": 0.6862895931058961
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.6468941143527986,
+          "base_maxp": 0.7153291702270508,
+          "entropy_after": 1.344065935719805,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 10,
+          "rank": 6,
+          "token_id": 23966,
+          "token": " exploring",
+          "n_steps": 30,
+          "js_end": 0.3913309433778686,
+          "js_lag": {
+            "5": 0.6929627488985034,
+            "10": 0.6922192483000897
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.6468941143527986,
+          "base_maxp": 0.7153291702270508,
+          "entropy_after": 1.371182001254008,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 10,
+          "rank": 7,
+          "token_id": 279,
+          "token": " the",
+          "n_steps": 30,
+          "js_end": 0.6907964188140818,
+          "js_lag": {
+            "5": 0.06114180013570101,
+            "10": 0.5823536341722966
+          },
+          "survival_after": 0.1724137931034483,
+          "base_entropy": 1.6468941143527986,
+          "base_maxp": 0.7153291702270508,
+          "entropy_after": 1.1406950611175537,
+          "dom_share": 0.13793103448275862,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 10,
+          "rank": 8,
+          "token_id": 2087,
+          "token": " going",
+          "n_steps": 30,
+          "js_end": 0.6929814081711799,
+          "js_lag": {
+            "5": 0.6929959864058847,
+            "10": 0.6924816506875567
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.6468941143527986,
+          "base_maxp": 0.7153291702270508,
+          "entropy_after": 1.2525191620579266,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 18,
+          "rank": 2,
+          "token_id": 279,
+          "token": " the",
+          "n_steps": 22,
+          "js_end": 0.680776625108336,
+          "js_lag": {
+            "5": 0.24645226036643536,
+            "10": 0.693071687338304
+          },
+          "survival_after": 0.14285714285714285,
+          "base_entropy": 0.5236967408654922,
+          "base_maxp": 0.841709554195404,
+          "entropy_after": 1.1180047483143094,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 18,
+          "rank": 3,
+          "token_id": 264,
+          "token": " a",
+          "n_steps": 22,
+          "js_end": 0.693100163686251,
+          "js_lag": {
+            "5": 0.6907896050960105,
+            "10": 0.6926860248492459
+          },
+          "survival_after": 0.047619047619047616,
+          "base_entropy": 0.5236967408654922,
+          "base_maxp": 0.841709554195404,
+          "entropy_after": 1.2543994482315373,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 18,
+          "rank": 4,
+          "token_id": 4065,
+          "token": " front",
+          "n_steps": 22,
+          "js_end": 0.6927577059446317,
+          "js_lag": {
+            "5": 0.6254717773942571,
+            "10": 0.6929593669800193
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.5236967408654922,
+          "base_maxp": 0.841709554195404,
+          "entropy_after": 1.156852664239695,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 18,
+          "rank": 5,
+          "token_id": 20186,
+          "token": " libraries",
+          "n_steps": 22,
+          "js_end": 0.6926905388635521,
+          "js_lag": {
+            "5": 0.678793471656479,
+            "10": 0.6923510514596154
+          },
+          "survival_after": 0.23809523809523808,
+          "base_entropy": 0.5236967408654922,
+          "base_maxp": 0.841709554195404,
+          "entropy_after": 1.1355995521557292,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 18,
+          "rank": 6,
+          "token_id": 4845,
+          "token": " bed",
+          "n_steps": 22,
+          "js_end": 0.6929525717271221,
+          "js_lag": {
+            "5": 0.4198073809335219,
+            "10": 0.6390091171264001
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.5236967408654922,
+          "base_maxp": 0.841709554195404,
+          "entropy_after": 1.4668034939388608,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 18,
+          "rank": 7,
+          "token_id": 11340,
+          "token": " quiet",
+          "n_steps": 22,
+          "js_end": 0.6930331826415911,
+          "js_lag": {
+            "5": 0.6922138258592446,
+            "10": 0.6840316232777669
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.5236967408654922,
+          "base_maxp": 0.841709554195404,
+          "entropy_after": 1.7380748822076741,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 18,
+          "rank": 8,
+          "token_id": 2311,
+          "token": " book",
+          "n_steps": 22,
+          "js_end": 0.3131701178447155,
+          "js_lag": {
+            "5": 0.6924799643240507,
+            "10": 0.6922922705156385
+          },
+          "survival_after": 0.047619047619047616,
+          "base_entropy": 0.5236967408654922,
+          "base_maxp": 0.841709554195404,
+          "entropy_after": 1.3139326736161345,
+          "dom_share": 0.19047619047619047,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 26,
+          "rank": 2,
+          "token_id": 3123,
+          "token": " away",
+          "n_steps": 14,
+          "js_end": 0.6773349885461817,
+          "js_lag": {
+            "5": 0.6892456962625232,
+            "10": 0.4648120837319316
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.004504443456135291,
+          "base_maxp": 0.999607503414154,
+          "entropy_after": 1.231554164950373,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 26,
+          "rank": 3,
+          "token_id": 323,
+          "token": " and",
+          "n_steps": 14,
+          "js_end": 0.5805406755639341,
+          "js_lag": {
+            "5": 0.3135749913526018,
+            "10": 0.6202795549548699
+          },
+          "survival_after": 0.07692307692307693,
+          "base_entropy": 0.004504443456135291,
+          "base_maxp": 0.999607503414154,
+          "entropy_after": 1.3556321633803528,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 26,
+          "rank": 4,
+          "token_id": 311,
+          "token": " to",
+          "n_steps": 14,
+          "js_end": 0.00128048829515709,
+          "js_lag": {
+            "5": 0.024649252948921525,
+            "10": 0.0027840185724471644
+          },
+          "survival_after": 0.9230769230769231,
+          "base_entropy": 0.004504443456135291,
+          "base_maxp": 0.999607503414154,
+          "entropy_after": 1.389458402764887,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 26,
+          "rank": 5,
+          "token_id": 5538,
+          "token": " deep",
+          "n_steps": 14,
+          "js_end": 0.6921427865032591,
+          "js_lag": {
+            "5": 0.6928495315423203,
+            "10": 0.6928209546516301
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.004504443456135291,
+          "base_maxp": 0.999607503414154,
+          "entropy_after": 1.2473884175291814,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 26,
+          "rank": 6,
+          "token_id": 4766,
+          "token": " inside",
+          "n_steps": 14,
+          "js_end": 0.6921316126240967,
+          "js_lag": {
+            "5": 0.6928630907737281,
+            "10": 0.6928388286844696
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.004504443456135291,
+          "base_maxp": 0.999607503414154,
+          "entropy_after": 1.2053028273170583,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 26,
+          "rank": 7,
+          "token_id": 2878,
+          "token": " within",
+          "n_steps": 14,
+          "js_end": 0.6930409527783532,
+          "js_lag": {
+            "5": 0.6929728302371072,
+            "10": 0.6920784078382478
+          },
+          "survival_after": 0.15384615384615385,
+          "base_entropy": 0.004504443456135291,
+          "base_maxp": 0.999607503414154,
+          "entropy_after": 1.1189595191328907,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 26,
+          "rank": 8,
+          "token_id": 369,
+          "token": " for",
+          "n_steps": 14,
+          "js_end": 0.6930062778051268,
+          "js_lag": {
+            "5": 0.5822749741287981,
+            "10": 0.6893136773022827
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.004504443456135291,
+          "base_maxp": 0.999607503414154,
+          "entropy_after": 1.369718740307636,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 34,
+          "rank": 2,
+          "token_id": 1393,
+          "token": " while",
+          "n_steps": 6,
+          "js_end": 0.5291815178835544,
+          "js_lag": {
+            "5": 0.5291815178835544,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.010112956745638281,
+          "base_maxp": 0.9989525079727173,
+          "entropy_after": 1.1889185365947488,
+          "dom_share": 0.4,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 34,
+          "rank": 3,
+          "token_id": 1340,
+          "token": " she",
+          "n_steps": 6,
+          "js_end": 0.6400011149760798,
+          "js_lag": {
+            "5": 0.6400011149760798,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.010112956745638281,
+          "base_maxp": 0.9989525079727173,
+          "entropy_after": 1.318533392962988,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 34,
+          "rank": 4,
+          "token_id": 438,
+          "token": " as",
+          "n_steps": 6,
+          "js_end": 0.5238788681454112,
+          "js_lag": {
+            "5": 0.5238788681454112,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.010112956745638281,
+          "base_maxp": 0.9989525079727173,
+          "entropy_after": 1.1966553254657302,
+          "dom_share": 0.4,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 34,
+          "rank": 5,
+          "token_id": 979,
+          "token": " when",
+          "n_steps": 6,
+          "js_end": 0.6918428939889754,
+          "js_lag": {
+            "5": 0.6918428939889754,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.010112956745638281,
+          "base_maxp": 0.9989525079727173,
+          "entropy_after": 1.5138108901641047,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 34,
+          "rank": 6,
+          "token_id": 47290,
+          "token": " Lily",
+          "n_steps": 6,
+          "js_end": 0.2022575021837581,
+          "js_lag": {
+            "5": 0.2022575021837581,
+            "10": null
+          },
+          "survival_after": 0.2,
+          "base_entropy": 0.010112956745638281,
+          "base_maxp": 0.9989525079727173,
+          "entropy_after": 1.3654342105631854,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 34,
+          "rank": 7,
+          "token_id": 3837,
+          "token": "，",
+          "n_steps": 6,
+          "js_end": 0.6813345299003357,
+          "js_lag": {
+            "5": 0.6813345299003357,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.010112956745638281,
+          "base_maxp": 0.9989525079727173,
+          "entropy_after": 1.8792990077867713,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Once upon a time",
+          "tstar": 34,
+          "rank": 8,
+          "token_id": 1059,
+          "token": " her",
+          "n_steps": 6,
+          "js_end": 0.5558880944712067,
+          "js_lag": {
+            "5": 0.5558880944712067,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.010112956745638281,
+          "base_maxp": 0.9989525079727173,
+          "entropy_after": 1.7571821244775712,
+          "dom_share": 0.2,
+          "tail_period": 0
+        }
+      ]
+    },
+    {
+      "prompt": "The machine",
+      "base_tokens": [
+        6832,
+        1614,
+        374,
+        16176,
+        389,
+        264,
+        10337,
+        315,
+        220,
+        16,
+        15,
+        15,
+        15,
+        5335,
+        11,
+        1817,
+        448,
+        220,
+        16,
+        15,
+        15,
+        15751,
+        304,
+        2374,
+        323,
+        220,
+        16,
+        15,
+        15,
+        15751,
+        304,
+        2608,
+        13,
+        576,
+        1614,
+        374,
+        6188,
+        311,
+        48129,
+        5335
+      ],
+      "base_entropy_mean": 1.5442807716856142,
+      "cloud": {
+        "pr_p": 21.641061351192104,
+        "n": 256
+      },
+      "records": [
+        {
+          "prompt": "The machine",
+          "tstar": 2,
+          "rank": 2,
+          "token_id": 55878,
+          "token": " predicts",
+          "n_steps": 38,
+          "js_end": 0.6927892816102881,
+          "js_lag": {
+            "5": 0.6888995273740081,
+            "10": 0.6931426230552812
+          },
+          "survival_after": 0.0,
+          "base_entropy": 4.231680590628241,
+          "base_maxp": 0.17881527543067932,
+          "entropy_after": 1.2527984643871943,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 2,
+          "rank": 3,
+          "token_id": 1483,
+          "token": " used",
+          "n_steps": 38,
+          "js_end": 0.6929213468331832,
+          "js_lag": {
+            "5": 0.2924425993450023,
+            "10": 0.6920178704567319
+          },
+          "survival_after": 0.08108108108108109,
+          "base_entropy": 4.231680590628241,
+          "base_maxp": 0.17881527543067932,
+          "entropy_after": 1.3458260085281868,
+          "dom_share": 0.10810810810810811,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 2,
+          "rank": 4,
+          "token_id": 11,
+          "token": ",",
+          "n_steps": 38,
+          "js_end": 0.6931132330670325,
+          "js_lag": {
+            "5": 0.6886020844051111,
+            "10": 0.6922653246125174
+          },
+          "survival_after": 0.0,
+          "base_entropy": 4.231680590628241,
+          "base_maxp": 0.17881527543067932,
+          "entropy_after": 2.5710966698184388,
+          "dom_share": 0.05405405405405406,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 2,
+          "rank": 5,
+          "token_id": 702,
+          "token": " has",
+          "n_steps": 38,
+          "js_end": 0.6924269085086034,
+          "js_lag": {
+            "5": 0.6870789455374726,
+            "10": 0.053200602925909724
+          },
+          "survival_after": 0.10810810810810811,
+          "base_entropy": 4.231680590628241,
+          "base_maxp": 0.17881527543067932,
+          "entropy_after": 1.3636436869076025,
+          "dom_share": 0.1891891891891892,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 2,
+          "rank": 6,
+          "token_id": 5711,
+          "token": " uses",
+          "n_steps": 38,
+          "js_end": 0.6634938358627854,
+          "js_lag": {
+            "5": 0.6923102726978094,
+            "10": 0.536329205391169
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 4.231680590628241,
+          "base_maxp": 0.17881527543067932,
+          "entropy_after": 1.4103738625711408,
+          "dom_share": 0.1891891891891892,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 2,
+          "rank": 7,
+          "token_id": 369,
+          "token": " for",
+          "n_steps": 38,
+          "js_end": 0.6109255514157867,
+          "js_lag": {
+            "5": 0.6874737631200317,
+            "10": 0.6676713495975651
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 4.231680590628241,
+          "base_maxp": 0.17881527543067932,
+          "entropy_after": 1.5083825428826563,
+          "dom_share": 0.10810810810810811,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 2,
+          "rank": 8,
+          "token_id": 304,
+          "token": " in",
+          "n_steps": 38,
+          "js_end": 0.6927643864764501,
+          "js_lag": {
+            "5": 0.6614227883135254,
+            "10": 0.6219333150360127
+          },
+          "survival_after": 0.0,
+          "base_entropy": 4.231680590628241,
+          "base_maxp": 0.17881527543067932,
+          "entropy_after": 1.7617445505477294,
+          "dom_share": 0.13513513513513514,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 10,
+          "rank": 2,
+          "token_id": 11,
+          "token": ",",
+          "n_steps": 30,
+          "js_end": 0.692836404015539,
+          "js_lag": {
+            "5": 0.5880316933462761,
+            "10": 0.12382681304640528
+          },
+          "survival_after": 0.13793103448275862,
+          "base_entropy": 0.7856420676039789,
+          "base_maxp": 0.819516658782959,
+          "entropy_after": 1.0779300873592532,
+          "dom_share": 0.2413793103448276,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 10,
+          "rank": 3,
+          "token_id": 3526,
+          "token": " million",
+          "n_steps": 30,
+          "js_end": 0.6930818254771147,
+          "js_lag": {
+            "5": 0.6732783633053138,
+            "10": 0.5857276247663445
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.7856420676039789,
+          "base_maxp": 0.819516658782959,
+          "entropy_after": 1.2437067455463173,
+          "dom_share": 0.06896551724137931,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 10,
+          "rank": 4,
+          "token_id": 17,
+          "token": "2",
+          "n_steps": 30,
+          "js_end": 0.39929676106024176,
+          "js_lag": {
+            "5": 0.020713451780616683,
+            "10": 0.01836776780440269
+          },
+          "survival_after": 0.3448275862068966,
+          "base_entropy": 0.7856420676039789,
+          "base_maxp": 0.819516658782959,
+          "entropy_after": 1.548123169136452,
+          "dom_share": 0.20689655172413793,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 10,
+          "rank": 5,
+          "token_id": 20,
+          "token": "5",
+          "n_steps": 30,
+          "js_end": 0.3955323136239369,
+          "js_lag": {
+            "5": 0.009249192320040636,
+            "10": 0.01808923073650641
+          },
+          "survival_after": 0.3448275862068966,
+          "base_entropy": 0.7856420676039789,
+          "base_maxp": 0.819516658782959,
+          "entropy_after": 1.5717668867903252,
+          "dom_share": 0.20689655172413793,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 10,
+          "rank": 6,
+          "token_id": 21,
+          "token": "6",
+          "n_steps": 30,
+          "js_end": 0.6902095938146697,
+          "js_lag": {
+            "5": 0.5600581260679154,
+            "10": 0.3152573632254423
+          },
+          "survival_after": 0.06896551724137931,
+          "base_entropy": 0.7856420676039789,
+          "base_maxp": 0.819516658782959,
+          "entropy_after": 1.4919508358244298,
+          "dom_share": 0.13793103448275862,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 10,
+          "rank": 7,
+          "token_id": 19,
+          "token": "4",
+          "n_steps": 30,
+          "js_end": 0.6900848993533205,
+          "js_lag": {
+            "5": 0.556686833334515,
+            "10": 0.30706355233212207
+          },
+          "survival_after": 0.06896551724137931,
+          "base_entropy": 0.7856420676039789,
+          "base_maxp": 0.819516658782959,
+          "entropy_after": 1.599649184906586,
+          "dom_share": 0.13793103448275862,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 10,
+          "rank": 8,
+          "token_id": 13,
+          "token": ".",
+          "n_steps": 30,
+          "js_end": 0.6904630227763697,
+          "js_lag": {
+            "5": 0.058590104183444396,
+            "10": 0.5892980611283437
+          },
+          "survival_after": 0.1724137931034483,
+          "base_entropy": 0.7856420676039789,
+          "base_maxp": 0.819516658782959,
+          "entropy_after": 1.388999140757439,
+          "dom_share": 0.13793103448275862,
+          "tail_period": 1
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 18,
+          "rank": 2,
+          "token_id": 17,
+          "token": "2",
+          "n_steps": 22,
+          "js_end": 0.6928062136049777,
+          "js_lag": {
+            "5": 0.6928164735452329,
+            "10": 0.6931414489360846
+          },
+          "survival_after": 0.14285714285714285,
+          "base_entropy": 1.7062361640382542,
+          "base_maxp": 0.3320218622684479,
+          "entropy_after": 1.537383769935807,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 18,
+          "rank": 3,
+          "token_id": 18,
+          "token": "3",
+          "n_steps": 22,
+          "js_end": 0.6930840076688828,
+          "js_lag": {
+            "5": 0.6901380923546285,
+            "10": 0.6931441080046724
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.7062361640382542,
+          "base_maxp": 0.3320218622684479,
+          "entropy_after": 1.0393850909951867,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 18,
+          "rank": 4,
+          "token_id": 20,
+          "token": "5",
+          "n_steps": 22,
+          "js_end": 0.6928091405405545,
+          "js_lag": {
+            "5": 0.6928526168608831,
+            "10": 0.6931415051761312
+          },
+          "survival_after": 0.14285714285714285,
+          "base_entropy": 1.7062361640382542,
+          "base_maxp": 0.3320218622684479,
+          "entropy_after": 1.5449860870164298,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 18,
+          "rank": 5,
+          "token_id": 21,
+          "token": "6",
+          "n_steps": 22,
+          "js_end": 0.6930801324338933,
+          "js_lag": {
+            "5": 0.6896516961150745,
+            "10": 0.6931439859766605
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.7062361640382542,
+          "base_maxp": 0.3320218622684479,
+          "entropy_after": 1.0525913137696468,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 18,
+          "rank": 6,
+          "token_id": 19,
+          "token": "4",
+          "n_steps": 22,
+          "js_end": 0.6904784357215523,
+          "js_lag": {
+            "5": 0.6928109884393039,
+            "10": 0.6930474304362717
+          },
+          "survival_after": 0.14285714285714285,
+          "base_entropy": 1.7062361640382542,
+          "base_maxp": 0.3320218622684479,
+          "entropy_after": 1.4133478343062766,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 18,
+          "rank": 7,
+          "token_id": 24,
+          "token": "9",
+          "n_steps": 22,
+          "js_end": 0.6905280991040612,
+          "js_lag": {
+            "5": 0.6927827518515463,
+            "10": 0.6930315662909612
+          },
+          "survival_after": 0.14285714285714285,
+          "base_entropy": 1.7062361640382542,
+          "base_maxp": 0.3320218622684479,
+          "entropy_after": 1.42954872703196,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 18,
+          "rank": 8,
+          "token_id": 22,
+          "token": "7",
+          "n_steps": 22,
+          "js_end": 0.542699606305646,
+          "js_lag": {
+            "5": 0.6927365950983322,
+            "10": 0.6931463732580144
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.7062361640382542,
+          "base_maxp": 0.3320218622684479,
+          "entropy_after": 1.1692386207344325,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 26,
+          "rank": 2,
+          "token_id": 20,
+          "token": "5",
+          "n_steps": 14,
+          "js_end": 0.690670765056855,
+          "js_lag": {
+            "5": 0.69314427663635,
+            "10": 0.5932341526641778
+          },
+          "survival_after": 0.07692307692307693,
+          "base_entropy": 0.3539369835463816,
+          "base_maxp": 0.9274892807006836,
+          "entropy_after": 0.9645544039008747,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 26,
+          "rank": 3,
+          "token_id": 23,
+          "token": "8",
+          "n_steps": 14,
+          "js_end": 0.6907248154291017,
+          "js_lag": {
+            "5": 0.6931442826352057,
+            "10": 0.5931872379195045
+          },
+          "survival_after": 0.07692307692307693,
+          "base_entropy": 0.3539369835463816,
+          "base_maxp": 0.9274892807006836,
+          "entropy_after": 0.9764445447262993,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 26,
+          "rank": 4,
+          "token_id": 17,
+          "token": "2",
+          "n_steps": 14,
+          "js_end": 0.0008988463753740752,
+          "js_lag": {
+            "5": 0.0002509647878720312,
+            "10": 0.0010467532506641829
+          },
+          "survival_after": 1.0,
+          "base_entropy": 0.3539369835463816,
+          "base_maxp": 0.9274892807006836,
+          "entropy_after": 0.9764342050331876,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 26,
+          "rank": 5,
+          "token_id": 22,
+          "token": "7",
+          "n_steps": 14,
+          "js_end": 0.6906959737608256,
+          "js_lag": {
+            "5": 0.6931438557198559,
+            "10": 0.5931682759983304
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.3539369835463816,
+          "base_maxp": 0.9274892807006836,
+          "entropy_after": 1.0358636537856831,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 26,
+          "rank": 6,
+          "token_id": 21,
+          "token": "6",
+          "n_steps": 14,
+          "js_end": 0.6906750878166785,
+          "js_lag": {
+            "5": 0.6931439873283161,
+            "10": 0.5931797813192297
+          },
+          "survival_after": 0.07692307692307693,
+          "base_entropy": 0.3539369835463816,
+          "base_maxp": 0.9274892807006836,
+          "entropy_after": 1.0266797159111176,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 26,
+          "rank": 7,
+          "token_id": 18,
+          "token": "3",
+          "n_steps": 14,
+          "js_end": 0.0009278158362824887,
+          "js_lag": {
+            "5": 0.00044935591025313125,
+            "10": 0.00211401493633394
+          },
+          "survival_after": 1.0,
+          "base_entropy": 0.3539369835463816,
+          "base_maxp": 0.9274892807006836,
+          "entropy_after": 1.06296516774215,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 26,
+          "rank": 8,
+          "token_id": 19,
+          "token": "4",
+          "n_steps": 14,
+          "js_end": 0.0007840291738523039,
+          "js_lag": {
+            "5": 0.0004738258812554935,
+            "10": 0.002238154965789713
+          },
+          "survival_after": 1.0,
+          "base_entropy": 0.3539369835463816,
+          "base_maxp": 0.9274892807006836,
+          "entropy_after": 1.0514920402665726,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 34,
+          "rank": 2,
+          "token_id": 5335,
+          "token": " images",
+          "n_steps": 6,
+          "js_end": 0.6931455898661159,
+          "js_lag": {
+            "5": 0.6931455898661159,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.5755839279028505,
+          "base_maxp": 0.6274613738059998,
+          "entropy_after": 1.4018202915677702,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 34,
+          "rank": 3,
+          "token_id": 10337,
+          "token": " dataset",
+          "n_steps": 6,
+          "js_end": 0.6931400757854342,
+          "js_lag": {
+            "5": 0.6931400757854342,
+            "10": null
+          },
+          "survival_after": 0.2,
+          "base_entropy": 1.5755839279028505,
+          "base_maxp": 0.6274613738059998,
+          "entropy_after": 1.210319175952643,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 34,
+          "rank": 4,
+          "token_id": 4862,
+          "token": " training",
+          "n_steps": 6,
+          "js_end": 0.6906119320750442,
+          "js_lag": {
+            "5": 0.6906119320750442,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.5755839279028505,
+          "base_maxp": 0.6274613738059998,
+          "entropy_after": 2.1045697908623633,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 34,
+          "rank": 5,
+          "token_id": 2168,
+          "token": " image",
+          "n_steps": 6,
+          "js_end": 0.6658492971158662,
+          "js_lag": {
+            "5": 0.6658492971158662,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.5755839279028505,
+          "base_maxp": 0.6274613738059998,
+          "entropy_after": 1.4553129168045,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 34,
+          "rank": 6,
+          "token_id": 15751,
+          "token": " pixels",
+          "n_steps": 6,
+          "js_end": 0.687767906728083,
+          "js_lag": {
+            "5": 0.687767906728083,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.5755839279028505,
+          "base_maxp": 0.6274613738059998,
+          "entropy_after": 1.5800312025671701,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 34,
+          "rank": 7,
+          "token_id": 5795,
+          "token": " goal",
+          "n_steps": 6,
+          "js_end": 0.6897052679996162,
+          "js_lag": {
+            "5": 0.6897052679996162,
+            "10": null
+          },
+          "survival_after": 0.2,
+          "base_entropy": 1.5755839279028505,
+          "base_maxp": 0.6274613738059998,
+          "entropy_after": 0.7261385110333344,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The machine",
+          "tstar": 34,
+          "rank": 8,
+          "token_id": 15336,
+          "token": " dimensions",
+          "n_steps": 6,
+          "js_end": 0.6643794371133407,
+          "js_lag": {
+            "5": 0.6643794371133407,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.5755839279028505,
+          "base_maxp": 0.6274613738059998,
+          "entropy_after": 1.6686362138553719,
+          "dom_share": 0.2,
+          "tail_period": 0
+        }
+      ]
+    },
+    {
+      "prompt": "Water is",
+      "base_tokens": [
+        279,
+        1429,
+        2989,
+        5810,
+        5101,
+        369,
+        3738,
+        19661,
+        13,
+        15920,
+        315,
+        279,
+        2701,
+        12239,
+        911,
+        3015,
+        374,
+        15114,
+        5267,
+        32,
+        13,
+        9959,
+        374,
+        23415,
+        315,
+        34684,
+        323,
+        23552,
+        5424,
+        624,
+        33,
+        13,
+        9959,
+        374,
+        1865,
+        705,
+        315,
+        3015,
+        34615,
+        624
+      ],
+      "base_entropy_mean": 1.2856369601382014,
+      "cloud": {
+        "pr_p": 22.343786428882137,
+        "n": 256
+      },
+      "records": [
+        {
+          "prompt": "Water is",
+          "tstar": 2,
+          "rank": 2,
+          "token_id": 43511,
+          "token": " abundant",
+          "n_steps": 38,
+          "js_end": 0.009568313848488183,
+          "js_lag": {
+            "5": 0.6682841619401063,
+            "10": 0.6929564983365534
+          },
+          "survival_after": 0.05405405405405406,
+          "base_entropy": 2.87622296326991,
+          "base_maxp": 0.25554829835891724,
+          "entropy_after": 1.3007221698544462,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 2,
+          "rank": 3,
+          "token_id": 7565,
+          "token": " essential",
+          "n_steps": 38,
+          "js_end": 0.6931476400919614,
+          "js_lag": {
+            "5": 0.6512947193306355,
+            "10": 0.6924283840453919
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.87622296326991,
+          "base_maxp": 0.25554829835891724,
+          "entropy_after": 1.0357652602415641,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 2,
+          "rank": 4,
+          "token_id": 26400,
+          "token": " precious",
+          "n_steps": 38,
+          "js_end": 0.6929065196853064,
+          "js_lag": {
+            "5": 0.6897130341791367,
+            "10": 0.6931172806927166
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.87622296326991,
+          "base_maxp": 0.25554829835891724,
+          "entropy_after": 0.9825798499688614,
+          "dom_share": 0.10810810810810811,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 2,
+          "rank": 5,
+          "token_id": 4185,
+          "token": " common",
+          "n_steps": 38,
+          "js_end": 0.6765193346739193,
+          "js_lag": {
+            "5": 0.690168096485703,
+            "10": 0.6930940202589515
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.87622296326991,
+          "base_maxp": 0.25554829835891724,
+          "entropy_after": 1.6460780428966852,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 2,
+          "rank": 6,
+          "token_id": 15811,
+          "token": " fundamental",
+          "n_steps": 38,
+          "js_end": 0.6931476773853711,
+          "js_lag": {
+            "5": 0.6467637896436595,
+            "10": 0.6924738600420712
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.87622296326991,
+          "base_maxp": 0.25554829835891724,
+          "entropy_after": 0.9376942571876735,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 2,
+          "rank": 7,
+          "token_id": 6770,
+          "token": " basic",
+          "n_steps": 38,
+          "js_end": 0.6931477271359368,
+          "js_lag": {
+            "5": 0.6457410034786146,
+            "10": 0.6924611106655933
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.87622296326991,
+          "base_maxp": 0.25554829835891724,
+          "entropy_after": 0.9461872166496232,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 2,
+          "rank": 8,
+          "token_id": 13570,
+          "token": " widely",
+          "n_steps": 38,
+          "js_end": 0.6892337221021232,
+          "js_lag": {
+            "5": 0.6688937756590374,
+            "10": 0.6930439342569727
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 2.87622296326991,
+          "base_maxp": 0.25554829835891724,
+          "entropy_after": 2.0513361414170204,
+          "dom_share": 0.10810810810810811,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 10,
+          "rank": 2,
+          "token_id": 3146,
+          "token": " country",
+          "n_steps": 30,
+          "js_end": 0.6931282236439769,
+          "js_lag": {
+            "5": 0.6421634484238208,
+            "10": 0.6930905055162183
+          },
+          "survival_after": 0.034482758620689655,
+          "base_entropy": 0.121351339706092,
+          "base_maxp": 0.988198459148407,
+          "entropy_after": 0.7928352060563997,
+          "dom_share": 0.13793103448275862,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 10,
+          "rank": 3,
+          "token_id": 943,
+          "token": " type",
+          "n_steps": 30,
+          "js_end": 0.6931476214279557,
+          "js_lag": {
+            "5": 0.6726085173552039,
+            "10": 0.6931246433411125
+          },
+          "survival_after": 0.034482758620689655,
+          "base_entropy": 0.121351339706092,
+          "base_maxp": 0.988198459148407,
+          "entropy_after": 1.1804836462464474,
+          "dom_share": 0.13793103448275862,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 10,
+          "rank": 4,
+          "token_id": 949,
+          "token": " part",
+          "n_steps": 30,
+          "js_end": 0.6931478426870937,
+          "js_lag": {
+            "5": 0.2554556097130267,
+            "10": 0.6931222967760331
+          },
+          "survival_after": 0.10344827586206896,
+          "base_entropy": 0.121351339706092,
+          "base_maxp": 0.988198459148407,
+          "entropy_after": 1.3548412627238997,
+          "dom_share": 0.06896551724137931,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 10,
+          "rank": 5,
+          "token_id": 31743,
+          "token": " continent",
+          "n_steps": 30,
+          "js_end": 0.6931435873300219,
+          "js_lag": {
+            "5": 0.6929005473476314,
+            "10": 0.6931248109054461
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.121351339706092,
+          "base_maxp": 0.988198459148407,
+          "entropy_after": 0.7930514574998149,
+          "dom_share": 0.13793103448275862,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 10,
+          "rank": 6,
+          "token_id": 1378,
+          "token": " two",
+          "n_steps": 30,
+          "js_end": 0.6929058187258119,
+          "js_lag": {
+            "5": 0.6923490653134221,
+            "10": 0.6930313576853742
+          },
+          "survival_after": 0.034482758620689655,
+          "base_entropy": 0.121351339706092,
+          "base_maxp": 0.988198459148407,
+          "entropy_after": 1.2052602333933833,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 10,
+          "rank": 7,
+          "token_id": 374,
+          "token": " is",
+          "n_steps": 30,
+          "js_end": 0.6923644813149046,
+          "js_lag": {
+            "5": 0.6803607736743755,
+            "10": 0.6929848830744914
+          },
+          "survival_after": 0.034482758620689655,
+          "base_entropy": 0.121351339706092,
+          "base_maxp": 0.988198459148407,
+          "entropy_after": 1.475217922607025,
+          "dom_share": 0.13793103448275862,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 10,
+          "rank": 8,
+          "token_id": 825,
+          "token": " one",
+          "n_steps": 30,
+          "js_end": 0.008014264171561251,
+          "js_lag": {
+            "5": 0.6916160046413302,
+            "10": 0.6929541700618107
+          },
+          "survival_after": 0.034482758620689655,
+          "base_entropy": 0.121351339706092,
+          "base_maxp": 0.988198459148407,
+          "entropy_after": 1.3000745828270506,
+          "dom_share": 0.13793103448275862,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 18,
+          "rank": 2,
+          "token_id": 30,
+          "token": "?",
+          "n_steps": 22,
+          "js_end": 0.693112123385325,
+          "js_lag": {
+            "5": 0.6657421109807105,
+            "10": 0.6931357829889926
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.7041730268575045,
+          "base_maxp": 0.7603406310081482,
+          "entropy_after": 1.0203910441027666,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 18,
+          "rank": 3,
+          "token_id": 1939,
+          "token": "?\n\n",
+          "n_steps": 22,
+          "js_end": 0.6923352091955703,
+          "js_lag": {
+            "5": 0.013536167500256931,
+            "10": 0.693103773946695
+          },
+          "survival_after": 0.14285714285714285,
+          "base_entropy": 0.7041730268575045,
+          "base_maxp": 0.7603406310081482,
+          "entropy_after": 1.190430278272872,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 18,
+          "rank": 4,
+          "token_id": 510,
+          "token": ":\n",
+          "n_steps": 22,
+          "js_end": 0.0007366240779300346,
+          "js_lag": {
+            "5": 0.0026754721771694414,
+            "10": 0.016775019812312896
+          },
+          "survival_after": 1.0,
+          "base_entropy": 0.7041730268575045,
+          "base_maxp": 0.7603406310081482,
+          "entropy_after": 0.9757972549432384,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 18,
+          "rank": 5,
+          "token_id": 25,
+          "token": ":",
+          "n_steps": 22,
+          "js_end": 0.6889788216815507,
+          "js_lag": {
+            "5": 0.692679423540054,
+            "10": 0.6931470822163951
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.7041730268575045,
+          "base_maxp": 0.7603406310081482,
+          "entropy_after": 1.2444545755224419,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 18,
+          "rank": 6,
+          "token_id": 32620,
+          "token": "?\\",
+          "n_steps": 22,
+          "js_end": 0.689617377764302,
+          "js_lag": {
+            "5": 0.6675297631123864,
+            "10": 0.693141791061384
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.7041730268575045,
+          "base_maxp": 0.7603406310081482,
+          "entropy_after": 1.307034095942095,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 18,
+          "rank": 7,
+          "token_id": 320,
+          "token": " (",
+          "n_steps": 22,
+          "js_end": 0.6931299021626709,
+          "js_lag": {
+            "5": 0.6931391584305566,
+            "10": 0.6928249566143333
+          },
+          "survival_after": 0.14285714285714285,
+          "base_entropy": 0.7041730268575045,
+          "base_maxp": 0.7603406310081482,
+          "entropy_after": 1.0804941140391031,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 18,
+          "rank": 8,
+          "token_id": 2130,
+          "token": "____",
+          "n_steps": 22,
+          "js_end": 0.6931010197160296,
+          "js_lag": {
+            "5": 0.6672366975113526,
+            "10": 0.6931350000349088
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.7041730268575045,
+          "base_maxp": 0.7603406310081482,
+          "entropy_after": 0.9813777247767108,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 26,
+          "rank": 2,
+          "token_id": 32199,
+          "token": " atoms",
+          "n_steps": 14,
+          "js_end": 0.693119192636114,
+          "js_lag": {
+            "5": 0.6931471488504668,
+            "10": 0.6615823999320769
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.5627519297492924,
+          "base_maxp": 0.8567934036254883,
+          "entropy_after": 0.6054386690529572,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 26,
+          "rank": 3,
+          "token_id": 6819,
+          "token": " gas",
+          "n_steps": 14,
+          "js_end": 0.6767833725215893,
+          "js_lag": {
+            "5": 0.6931472019963143,
+            "10": 0.6595200008819673
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.5627519297492924,
+          "base_maxp": 0.8567934036254883,
+          "entropy_after": 0.7973322305929241,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 26,
+          "rank": 4,
+          "token_id": 34615,
+          "token": " molecules",
+          "n_steps": 14,
+          "js_end": 0.6763075461491602,
+          "js_lag": {
+            "5": 0.6931471724735108,
+            "10": 0.6601586467538354
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.5627519297492924,
+          "base_maxp": 0.8567934036254883,
+          "entropy_after": 0.8046227931927642,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 26,
+          "rank": 5,
+          "token_id": 5424,
+          "token": " elements",
+          "n_steps": 14,
+          "js_end": 0.6721732778083603,
+          "js_lag": {
+            "5": 0.6931472409005819,
+            "10": 5.9715021474618775e-05
+          },
+          "survival_after": 0.15384615384615385,
+          "base_entropy": 0.5627519297492924,
+          "base_maxp": 0.8567934036254883,
+          "entropy_after": 0.7539246186573283,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 26,
+          "rank": 6,
+          "token_id": 320,
+          "token": " (",
+          "n_steps": 14,
+          "js_end": 0.6769389307521023,
+          "js_lag": {
+            "5": 0.6931419188486386,
+            "10": 0.6931474082920772
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.5627519297492924,
+          "base_maxp": 0.8567934036254883,
+          "entropy_after": 0.552664535823753,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 26,
+          "rank": 7,
+          "token_id": 81782,
+          "token": " chloride",
+          "n_steps": 14,
+          "js_end": 0.6931444927924385,
+          "js_lag": {
+            "5": 0.6931471577422638,
+            "10": 6.679647512770697e-05
+          },
+          "survival_after": 0.07692307692307693,
+          "base_entropy": 0.5627519297492924,
+          "base_maxp": 0.8567934036254883,
+          "entropy_after": 0.9540695127860114,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 26,
+          "rank": 8,
+          "token_id": 64025,
+          "token": " ions",
+          "n_steps": 14,
+          "js_end": 0.6930436559104358,
+          "js_lag": {
+            "5": 0.6931315791118999,
+            "10": 0.6928935558054135
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.5627519297492924,
+          "base_maxp": 0.8567934036254883,
+          "entropy_after": 0.6990085120228142,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 34,
+          "rank": 2,
+          "token_id": 23415,
+          "token": " composed",
+          "n_steps": 6,
+          "js_end": 0.6931403361712987,
+          "js_lag": {
+            "5": 0.6931403361712987,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.7217852832388854,
+          "base_maxp": 0.4879460334777832,
+          "entropy_after": 0.57185825688579,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 34,
+          "rank": 3,
+          "token_id": 264,
+          "token": " a",
+          "n_steps": 6,
+          "js_end": 0.693121229291976,
+          "js_lag": {
+            "5": 0.693121229291976,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.7217852832388854,
+          "base_maxp": 0.4879460334777832,
+          "entropy_after": 1.1999925898015544,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 34,
+          "rank": 4,
+          "token_id": 458,
+          "token": " an",
+          "n_steps": 6,
+          "js_end": 0.6931184178107457,
+          "js_lag": {
+            "5": 0.6931184178107457,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.7217852832388854,
+          "base_maxp": 0.4879460334777832,
+          "entropy_after": 0.9390604088310619,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 34,
+          "rank": 5,
+          "token_id": 279,
+          "token": " the",
+          "n_steps": 6,
+          "js_end": 0.6930486084965308,
+          "js_lag": {
+            "5": 0.6930486084965308,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.7217852832388854,
+          "base_maxp": 0.4879460334777832,
+          "entropy_after": 1.1887336033455662,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 34,
+          "rank": 6,
+          "token_id": 825,
+          "token": " one",
+          "n_steps": 6,
+          "js_end": 0.6804958646037466,
+          "js_lag": {
+            "5": 0.6804958646037466,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.7217852832388854,
+          "base_maxp": 0.4879460334777832,
+          "entropy_after": 1.2346183347065434,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 34,
+          "rank": 7,
+          "token_id": 5961,
+          "token": " directly",
+          "n_steps": 6,
+          "js_end": 0.6931466694437927,
+          "js_lag": {
+            "5": 0.6931466694437927,
+            "10": null
+          },
+          "survival_after": 0.2,
+          "base_entropy": 1.7217852832388854,
+          "base_maxp": 0.4879460334777832,
+          "entropy_after": 0.5277924718000113,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "Water is",
+          "tstar": 34,
+          "rank": 8,
+          "token_id": 537,
+          "token": " not",
+          "n_steps": 6,
+          "js_end": 0.6931474953491976,
+          "js_lag": {
+            "5": 0.6931474953491976,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.7217852832388854,
+          "base_maxp": 0.4879460334777832,
+          "entropy_after": 1.160893994736242,
+          "dom_share": 0.2,
+          "tail_period": 0
+        }
+      ]
+    },
+    {
+      "prompt": "The city of",
+      "base_tokens": [
+        4149,
+        7919,
+        374,
+        9115,
+        311,
+        1936,
+        264,
+        501,
+        6118,
+        13,
+        576,
+        6118,
+        686,
+        387,
+        304,
+        279,
+        6083,
+        315,
+        264,
+        22756,
+        11,
+        323,
+        279,
+        3283,
+        6801,
+        311,
+        5978,
+        429,
+        279,
+        6118,
+        374,
+        15614,
+        311,
+        678,
+        10826,
+        13,
+        2014,
+        11075,
+        419,
+        11
+      ],
+      "base_entropy_mean": 1.061662105109745,
+      "cloud": {
+        "pr_p": 29.954054602847474,
+        "n": 256
+      },
+      "records": [
+        {
+          "prompt": "The city of",
+          "tstar": 2,
+          "rank": 2,
+          "token_id": 702,
+          "token": " has",
+          "n_steps": 38,
+          "js_end": 0.6884444698904191,
+          "js_lag": {
+            "5": 0.6925217472228364,
+            "10": 0.6921510127089725
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.3669168964812057,
+          "base_maxp": 0.5413787364959717,
+          "entropy_after": 1.15624851919173,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 2,
+          "rank": 3,
+          "token_id": 6649,
+          "token": " plans",
+          "n_steps": 38,
+          "js_end": 0.693143100982325,
+          "js_lag": {
+            "5": 0.6241673900208555,
+            "10": 0.6930637277220577
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 1.3669168964812057,
+          "base_maxp": 0.5413787364959717,
+          "entropy_after": 0.7057731353544419,
+          "dom_share": 0.10810810810810811,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 2,
+          "rank": 4,
+          "token_id": 27627,
+          "token": " decides",
+          "n_steps": 38,
+          "js_end": 0.6928413377911427,
+          "js_lag": {
+            "5": 0.6926808048035651,
+            "10": 0.6879694064742323
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.3669168964812057,
+          "base_maxp": 0.5413787364959717,
+          "entropy_after": 0.9000259077365079,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 2,
+          "rank": 5,
+          "token_id": 6635,
+          "token": " decided",
+          "n_steps": 38,
+          "js_end": 0.6931422861820823,
+          "js_lag": {
+            "5": 0.6928192867167184,
+            "10": 0.6931359508200068
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 1.3669168964812057,
+          "base_maxp": 0.5413787364959717,
+          "entropy_after": 1.1412945685359046,
+          "dom_share": 0.10810810810810811,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 2,
+          "rank": 6,
+          "token_id": 17167,
+          "token": " consists",
+          "n_steps": 38,
+          "js_end": 0.6931372904446602,
+          "js_lag": {
+            "5": 0.6884013226901643,
+            "10": 0.6931093152680636
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.3669168964812057,
+          "base_maxp": 0.5413787364959717,
+          "entropy_after": 1.0244892110339552,
+          "dom_share": 0.10810810810810811,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 2,
+          "rank": 7,
+          "token_id": 5926,
+          "token": " recently",
+          "n_steps": 38,
+          "js_end": 0.6931432641622859,
+          "js_lag": {
+            "5": 0.6931421378241809,
+            "10": 0.6931314696324868
+          },
+          "survival_after": 0.02702702702702703,
+          "base_entropy": 1.3669168964812057,
+          "base_maxp": 0.5413787364959717,
+          "entropy_after": 1.4134035784743468,
+          "dom_share": 0.08108108108108109,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 2,
+          "rank": 8,
+          "token_id": 6801,
+          "token": " wants",
+          "n_steps": 38,
+          "js_end": 0.6918913638116365,
+          "js_lag": {
+            "5": 0.635000377918469,
+            "10": 0.693085040189959
+          },
+          "survival_after": 0.0,
+          "base_entropy": 1.3669168964812057,
+          "base_maxp": 0.5413787364959717,
+          "entropy_after": 0.8689446853008326,
+          "dom_share": 0.10810810810810811,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 10,
+          "rank": 2,
+          "token_id": 2379,
+          "token": " They",
+          "n_steps": 30,
+          "js_end": 0.001566081032371519,
+          "js_lag": {
+            "5": 0.6924854317526553,
+            "10": 0.6917765131951389
+          },
+          "survival_after": 0.034482758620689655,
+          "base_entropy": 0.3253746454484289,
+          "base_maxp": 0.9329378604888916,
+          "entropy_after": 0.9659296975431867,
+          "dom_share": 0.1724137931034483,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 10,
+          "rank": 3,
+          "token_id": 2014,
+          "token": " To",
+          "n_steps": 30,
+          "js_end": 0.6323322646129312,
+          "js_lag": {
+            "5": 0.6836288946777449,
+            "10": 0.6929538664661568
+          },
+          "survival_after": 0.034482758620689655,
+          "base_entropy": 0.3253746454484289,
+          "base_maxp": 0.9329378604888916,
+          "entropy_after": 1.1692858048859878,
+          "dom_share": 0.13793103448275862,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 10,
+          "rank": 4,
+          "token_id": 10548,
+          "token": " According",
+          "n_steps": 30,
+          "js_end": 0.6931386487636302,
+          "js_lag": {
+            "5": 0.6930217349273644,
+            "10": 0.6924573983941544
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.3253746454484289,
+          "base_maxp": 0.9329378604888916,
+          "entropy_after": 1.4967916391393814,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 10,
+          "rank": 5,
+          "token_id": 3776,
+          "token": " One",
+          "n_steps": 30,
+          "js_end": 0.6931417024290291,
+          "js_lag": {
+            "5": 0.6918816777253749,
+            "10": 0.6926776437031186
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.3253746454484289,
+          "base_maxp": 0.9329378604888916,
+          "entropy_after": 1.1781794189738286,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 10,
+          "rank": 6,
+          "token_id": 758,
+          "token": " In",
+          "n_steps": 30,
+          "js_end": 0.6931455442572274,
+          "js_lag": {
+            "5": 0.6931437247302019,
+            "10": 0.2928760169877014
+          },
+          "survival_after": 0.034482758620689655,
+          "base_entropy": 0.3253746454484289,
+          "base_maxp": 0.9329378604888916,
+          "entropy_after": 0.8875083193994422,
+          "dom_share": 0.10344827586206896,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 10,
+          "rank": 7,
+          "token_id": 1634,
+          "token": " As",
+          "n_steps": 30,
+          "js_end": 0.6931232126308384,
+          "js_lag": {
+            "5": 0.6931390274401295,
+            "10": 0.6930298997911382
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.3253746454484289,
+          "base_maxp": 0.9329378604888916,
+          "entropy_after": 0.8724646888948746,
+          "dom_share": 0.13793103448275862,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 10,
+          "rank": 8,
+          "token_id": 23662,
+          "token": " Due",
+          "n_steps": 30,
+          "js_end": 0.6931487224276949,
+          "js_lag": {
+            "5": 0.6927964632595698,
+            "10": 0.6931224965548384
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.3253746454484289,
+          "base_maxp": 0.9329378604888916,
+          "entropy_after": 0.9939802944240841,
+          "dom_share": 0.1724137931034483,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 18,
+          "rank": 2,
+          "token_id": 458,
+          "token": " an",
+          "n_steps": 22,
+          "js_end": 0.693147021879976,
+          "js_lag": {
+            "5": 0.572528680249117,
+            "10": 0.6931096377784499
+          },
+          "survival_after": 0.09523809523809523,
+          "base_entropy": 0.17586803409521548,
+          "base_maxp": 0.963306725025177,
+          "entropy_after": 0.7433577034203543,
+          "dom_share": 0.14285714285714285,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 18,
+          "rank": 3,
+          "token_id": 279,
+          "token": " the",
+          "n_steps": 22,
+          "js_end": 0.6931489703012454,
+          "js_lag": {
+            "5": 0.6916265387673493,
+            "10": 0.6931176462096621
+          },
+          "survival_after": 0.047619047619047616,
+          "base_entropy": 0.17586803409521548,
+          "base_maxp": 0.963306725025177,
+          "entropy_after": 0.8667846333598606,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 18,
+          "rank": 4,
+          "token_id": 1378,
+          "token": " two",
+          "n_steps": 22,
+          "js_end": 0.6931459994949607,
+          "js_lag": {
+            "5": 0.693063829562204,
+            "10": 0.6864146066674635
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.17586803409521548,
+          "base_maxp": 0.963306725025177,
+          "entropy_after": 0.6046862358958623,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 18,
+          "rank": 5,
+          "token_id": 57960,
+          "token": " $\\",
+          "n_steps": 22,
+          "js_end": 0.693138208370375,
+          "js_lag": {
+            "5": 0.6931445894257566,
+            "10": 0.46450856801396545
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.17586803409521548,
+          "base_maxp": 0.963306725025177,
+          "entropy_after": 1.39480811515893,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 18,
+          "rank": 6,
+          "token_id": 22756,
+          "token": " rectangle",
+          "n_steps": 22,
+          "js_end": 0.6931468377232752,
+          "js_lag": {
+            "5": 0.6234026683527212,
+            "10": 0.693136731853623
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.17586803409521548,
+          "base_maxp": 0.963306725025177,
+          "entropy_after": 0.797540510411154,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 18,
+          "rank": 7,
+          "token_id": 400,
+          "token": " $",
+          "n_steps": 22,
+          "js_end": 0.6927187614266836,
+          "js_lag": {
+            "5": 0.6931374510781176,
+            "10": 0.6105335549476958
+          },
+          "survival_after": 0.047619047619047616,
+          "base_entropy": 0.17586803409521548,
+          "base_maxp": 0.963306725025177,
+          "entropy_after": 1.2010974662389549,
+          "dom_share": 0.09523809523809523,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 18,
+          "rank": 8,
+          "token_id": 2326,
+          "token": " three",
+          "n_steps": 22,
+          "js_end": 0.26927097152487234,
+          "js_lag": {
+            "5": 0.6930014893050747,
+            "10": 0.6902253465110046
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.17586803409521548,
+          "base_maxp": 0.963306725025177,
+          "entropy_after": 1.112195619395292,
+          "dom_share": 0.19047619047619047,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 26,
+          "rank": 2,
+          "token_id": 34508,
+          "token": " maximize",
+          "n_steps": 14,
+          "js_end": 0.6909681035582416,
+          "js_lag": {
+            "5": 0.6624855461376626,
+            "10": 0.6931470155996236
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.0825625010452606,
+          "base_maxp": 0.359033465385437,
+          "entropy_after": 0.929413205538687,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 26,
+          "rank": 3,
+          "token_id": 6008,
+          "token": " plant",
+          "n_steps": 14,
+          "js_end": 0.693146541952128,
+          "js_lag": {
+            "5": 0.6842463734014017,
+            "10": 0.6931225680432374
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.0825625010452606,
+          "base_maxp": 0.359033465385437,
+          "entropy_after": 0.5882526119047238,
+          "dom_share": 0.23076923076923078,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 26,
+          "rank": 4,
+          "token_id": 1281,
+          "token": " make",
+          "n_steps": 14,
+          "js_end": 0.6931346036572623,
+          "js_lag": {
+            "5": 0.6896313013066913,
+            "10": 0.6931453838200197
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.0825625010452606,
+          "base_maxp": 0.359033465385437,
+          "entropy_after": 1.1454568816295225,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 26,
+          "rank": 5,
+          "token_id": 3209,
+          "token": " enc",
+          "n_steps": 14,
+          "js_end": 0.6931337026929318,
+          "js_lag": {
+            "5": 0.6834387467098264,
+            "10": 0.693146583104952
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.0825625010452606,
+          "base_maxp": 0.359033465385437,
+          "entropy_after": 0.536406105275726,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 26,
+          "rank": 6,
+          "token_id": 1414,
+          "token": " know",
+          "n_steps": 14,
+          "js_end": 0.6931477355034412,
+          "js_lag": {
+            "5": 0.693128146696851,
+            "10": 0.6931436959604016
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.0825625010452606,
+          "base_maxp": 0.359033465385437,
+          "entropy_after": 0.6684698067247695,
+          "dom_share": 0.07692307692307693,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 26,
+          "rank": 7,
+          "token_id": 24650,
+          "token": " fence",
+          "n_steps": 14,
+          "js_end": 0.5638372664315758,
+          "js_lag": {
+            "5": 0.6902170189970016,
+            "10": 0.6931283167771638
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.0825625010452606,
+          "base_maxp": 0.359033465385437,
+          "entropy_after": 0.8115204339487179,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 26,
+          "rank": 8,
+          "token_id": 1855,
+          "token": " create",
+          "n_steps": 14,
+          "js_end": 0.6891655554293235,
+          "js_lag": {
+            "5": 0.6821660992602427,
+            "10": 0.6931474613713492
+          },
+          "survival_after": 0.0,
+          "base_entropy": 2.0825625010452606,
+          "base_maxp": 0.359033465385437,
+          "entropy_after": 0.7810560541216882,
+          "dom_share": 0.15384615384615385,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 34,
+          "rank": 2,
+          "token_id": 1181,
+          "token": " its",
+          "n_steps": 6,
+          "js_end": 0.6931338363054117,
+          "js_lag": {
+            "5": 0.6931338363054117,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.9973500297648923,
+          "base_maxp": 0.8001073598861694,
+          "entropy_after": 0.6377275108330052,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 34,
+          "rank": 3,
+          "token_id": 10283,
+          "token": " citizens",
+          "n_steps": 6,
+          "js_end": 3.936276336035205e-06,
+          "js_lag": {
+            "5": 3.936276336035205e-06,
+            "10": null
+          },
+          "survival_after": 1.0,
+          "base_entropy": 0.9973500297648923,
+          "base_maxp": 0.8001073598861694,
+          "entropy_after": 0.6350493944920895,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 34,
+          "rank": 4,
+          "token_id": 279,
+          "token": " the",
+          "n_steps": 6,
+          "js_end": 0.6931345883754807,
+          "js_lag": {
+            "5": 0.6931345883754807,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.9973500297648923,
+          "base_maxp": 0.8001073598861694,
+          "entropy_after": 0.8759863486451689,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 34,
+          "rank": 5,
+          "token_id": 5479,
+          "token": " parts",
+          "n_steps": 6,
+          "js_end": 0.693148060495874,
+          "js_lag": {
+            "5": 0.693148060495874,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.9973500297648923,
+          "base_maxp": 0.8001073598861694,
+          "entropy_after": 0.40546672495516756,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 34,
+          "rank": 6,
+          "token_id": 3283,
+          "token": " city",
+          "n_steps": 6,
+          "js_end": 0.6931321947386513,
+          "js_lag": {
+            "5": 0.6931321947386513,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.9973500297648923,
+          "base_maxp": 0.8001073598861694,
+          "entropy_after": 0.5817772431376228,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 34,
+          "rank": 7,
+          "token_id": 14158,
+          "token": " sections",
+          "n_steps": 6,
+          "js_end": 0.6931480496350285,
+          "js_lag": {
+            "5": 0.6931480496350285,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.9973500297648923,
+          "base_maxp": 0.8001073598861694,
+          "entropy_after": 0.5519869808788715,
+          "dom_share": 0.2,
+          "tail_period": 0
+        },
+        {
+          "prompt": "The city of",
+          "tstar": 34,
+          "rank": 8,
+          "token_id": 4143,
+          "token": " students",
+          "n_steps": 6,
+          "js_end": 0.6931484970514269,
+          "js_lag": {
+            "5": 0.6931484970514269,
+            "10": null
+          },
+          "survival_after": 0.0,
+          "base_entropy": 0.9973500297648923,
+          "base_maxp": 0.8001073598861694,
+          "entropy_after": 1.170222370968695,
+          "dom_share": 0.2,
+          "tail_period": 0
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "class_end": {
+      "n": 280,
+      "frac_near0": 0.07142857142857142,
+      "frac_middle": 0.05,
+      "frac_high": 0.8785714285714286,
+      "frac_near_ln2": 0.75,
+      "mean": 0.6141216916171882,
+      "median": 0.692599892294989,
+      "ci": {
+        "frac_near0": [
+          0.04285714285714286,
+          0.10357142857142858
+        ],
+        "frac_middle": [
+          0.025,
+          0.075
+        ],
+        "frac_high": [
+          0.8392857142857143,
+          0.9142857142857143
+        ],
+        "frac_near_ln2": [
+          0.7,
+          0.8
+        ]
+      }
+    },
+    "by_rank": {
+      "2": {
+        "n": 40,
+        "rate": 0.125,
+        "ci": [
+          0.05459500250945401,
+          0.261121198388511
+        ]
+      },
+      "3": {
+        "n": 40,
+        "rate": 0.075,
+        "ci": [
+          0.025836025774588198,
+          0.19864233524310543
+        ]
+      },
+      "4": {
+        "n": 40,
+        "rate": 0.15,
+        "ci": [
+          0.07061187717320358,
+          0.2907232436648971
+        ]
+      },
+      "5": {
+        "n": 40,
+        "rate": 0.025,
+        "ci": [
+          0.0044268315026814095,
+          0.1288136896347409
+        ]
+      },
+      "6": {
+        "n": 40,
+        "rate": 0.05,
+        "ci": [
+          0.013820667386148344,
+          0.16503877369140962
+        ]
+      },
+      "7": {
+        "n": 40,
+        "rate": 0.025,
+        "ci": [
+          0.0044268315026814095,
+          0.1288136896347409
+        ]
+      },
+      "8": {
+        "n": 40,
+        "rate": 0.05,
+        "ci": [
+          0.013820667386148344,
+          0.16503877369140962
+        ]
+      }
+    },
+    "by_position": {
+      "2": {
+        "n": 56,
+        "rate": 0.03571428571428571,
+        "ci": [
+          0.00984942514823639,
+          0.12118780180490107
+        ]
+      },
+      "10": {
+        "n": 56,
+        "rate": 0.07142857142857142,
+        "ci": [
+          0.028126036578876953,
+          0.16975448060863452
+        ]
+      },
+      "18": {
+        "n": 56,
+        "rate": 0.03571428571428571,
+        "ci": [
+          0.00984942514823639,
+          0.12118780180490107
+        ]
+      },
+      "26": {
+        "n": 56,
+        "rate": 0.08928571428571429,
+        "ci": [
+          0.03874214844958693,
+          0.19256001385511162
+        ]
+      },
+      "34": {
+        "n": 56,
+        "rate": 0.125,
+        "ci": [
+          0.06189068695717122,
+          0.2362547655819014
+        ]
+      }
+    },
+    "rank_logistic": {
+      "n": 280,
+      "n_boot": 500,
+      "or_rank": 0.7752095391111806,
+      "or_ci": [
+        0.5319413695912143,
+        0.9688741305270842
+      ],
+      "excludes_one": true
+    },
+    "takeover": {
+      "n": 280,
+      "all": {
+        "n": 280,
+        "dom_share_mean": 0.1392109228808736,
+        "dom_share_ci": [
+          0.13216899262034731,
+          0.1470561587205676
+        ],
+        "frac_periodic": 0.0035714285714285713,
+        "frac_periodic_ci": [
+          0.0,
+          0.010714285714285714
+        ],
+        "entropy_after_mean": 1.2546072882606734
+      },
+      "reconverged": {
+        "n": 20,
+        "dom_share_mean": 0.17655254344909518,
+        "dom_share_ci": [
+          0.1423785106629934,
+          0.2169624755486824
+        ],
+        "frac_periodic": 0.0,
+        "frac_periodic_ci": [
+          0.0,
+          0.0
+        ],
+        "entropy_after_mean": 0.8441685797715245
+      },
+      "diverged": {
+        "n": 260,
+        "dom_share_mean": 0.13633849052947195,
+        "dom_share_ci": [
+          0.1297030580657902,
+          0.14365371997467488
+        ],
+        "frac_periodic": 0.0038461538461538464,
+        "frac_periodic_ci": [
+          0.0,
+          0.011538461538461539
+        ],
+        "entropy_after_mean": 1.2861794966059925
+      }
+    },
+    "class_lag5": {
+      "n": 280,
+      "frac_near0": 0.06428571428571428,
+      "frac_middle": 0.10714285714285714,
+      "frac_high": 0.8285714285714286,
+      "frac_near_ln2": 0.5607142857142857,
+      "mean": 0.5774488183093893,
+      "median": 0.687083997801126,
+      "ci": {
+        "frac_near0": [
+          0.03571428571428571,
+          0.09285714285714286
+        ],
+        "frac_middle": [
+          0.075,
+          0.14285714285714285
+        ],
+        "frac_high": [
+          0.7821428571428571,
+          0.8714285714285714
+        ],
+        "frac_near_ln2": [
+          0.5,
+          0.6214285714285714
+        ]
+      }
+    },
+    "by_rank_lag5": {
+      "2": {
+        "n": 40,
+        "rate": 0.075,
+        "ci": [
+          0.025836025774588198,
+          0.19864233524310543
+        ]
+      },
+      "3": {
+        "n": 40,
+        "rate": 0.075,
+        "ci": [
+          0.025836025774588198,
+          0.19864233524310543
+        ]
+      },
+      "4": {
+        "n": 40,
+        "rate": 0.125,
+        "ci": [
+          0.05459500250945401,
+          0.261121198388511
+        ]
+      },
+      "5": {
+        "n": 40,
+        "rate": 0.025,
+        "ci": [
+          0.0044268315026814095,
+          0.1288136896347409
+        ]
+      },
+      "6": {
+        "n": 40,
+        "rate": 0.05,
+        "ci": [
+          0.013820667386148344,
+          0.16503877369140962
+        ]
+      },
+      "7": {
+        "n": 40,
+        "rate": 0.05,
+        "ci": [
+          0.013820667386148344,
+          0.16503877369140962
+        ]
+      },
+      "8": {
+        "n": 40,
+        "rate": 0.05,
+        "ci": [
+          0.013820667386148344,
+          0.16503877369140962
+        ]
+      }
+    },
+    "by_position_lag5": {
+      "2": {
+        "n": 56,
+        "rate": 0.0,
+        "ci": [
+          6.938893903907228e-18,
+          0.06419393671876342
+        ]
+      },
+      "10": {
+        "n": 56,
+        "rate": 0.07142857142857142,
+        "ci": [
+          0.028126036578876953,
+          0.16975448060863452
+        ]
+      },
+      "18": {
+        "n": 56,
+        "rate": 0.017857142857142856,
+        "ci": [
+          0.0031592103419746734,
+          0.09445637149397576
+        ]
+      },
+      "26": {
+        "n": 56,
+        "rate": 0.10714285714285714,
+        "ci": [
+          0.05003935571117074,
+          0.21468445171071482
+        ]
+      },
+      "34": {
+        "n": 56,
+        "rate": 0.125,
+        "ci": [
+          0.06189068695717122,
+          0.2362547655819014
+        ]
+      }
+    },
+    "class_lag10": {
+      "n": 224,
+      "frac_near0": 0.04017857142857143,
+      "frac_middle": 0.09375,
+      "frac_high": 0.8660714285714286,
+      "frac_near_ln2": 0.6875,
+      "mean": 0.6097847098563884,
+      "median": 0.6920688329906974,
+      "ci": {
+        "frac_near0": [
+          0.017857142857142856,
+          0.06696428571428571
+        ],
+        "frac_middle": [
+          0.05803571428571429,
+          0.13392857142857142
+        ],
+        "frac_high": [
+          0.8169642857142857,
+          0.9107142857142857
+        ],
+        "frac_near_ln2": [
+          0.625,
+          0.7455357142857143
+        ]
+      }
+    },
+    "by_rank_lag10": {
+      "2": {
+        "n": 32,
+        "rate": 0.03125,
+        "ci": [
+          0.005537860164003122,
+          0.15744263820012558
+        ]
+      },
+      "3": {
+        "n": 32,
+        "rate": 0.0,
+        "ci": [
+          0.0,
+          0.1071791982550706
+        ]
+      },
+      "4": {
+        "n": 32,
+        "rate": 0.09375,
+        "ci": [
+          0.032401551298366194,
+          0.24218154728387864
+        ]
+      },
+      "5": {
+        "n": 32,
+        "rate": 0.03125,
+        "ci": [
+          0.005537860164003122,
+          0.15744263820012558
+        ]
+      },
+      "6": {
+        "n": 32,
+        "rate": 0.03125,
+        "ci": [
+          0.005537860164003122,
+          0.15744263820012558
+        ]
+      },
+      "7": {
+        "n": 32,
+        "rate": 0.0625,
+        "ci": [
+          0.017310567031640967,
+          0.2014712314415458
+        ]
+      },
+      "8": {
+        "n": 32,
+        "rate": 0.03125,
+        "ci": [
+          0.005537860164003122,
+          0.15744263820012558
+        ]
+      }
+    },
+    "by_position_lag10": {
+      "2": {
+        "n": 56,
+        "rate": 0.0,
+        "ci": [
+          6.938893903907228e-18,
+          0.06419393671876342
+        ]
+      },
+      "10": {
+        "n": 56,
+        "rate": 0.017857142857142856,
+        "ci": [
+          0.0031592103419746734,
+          0.09445637149397576
+        ]
+      },
+      "18": {
+        "n": 56,
+        "rate": 0.017857142857142856,
+        "ci": [
+          0.0031592103419746734,
+          0.09445637149397576
+        ]
+      },
+      "26": {
+        "n": 56,
+        "rate": 0.125,
+        "ci": [
+          0.06189068695717122,
+          0.2362547655819014
+        ]
+      },
+      "34": {
+        "n": 0,
+        "rate": NaN,
+        "ci": [
+          NaN,
+          NaN
+        ]
+      }
+    }
+  }
+}
