@@ -1,0 +1,525 @@
+pos	anchor_id	anchor	relation	word	zipf	n_chars
+noun	0	dog	self	dog	5.1	3
+noun	0	dog	sibling	bitch	4.76	5
+noun	0	dog	sibling	fox	4.66	3
+noun	0	dog	sibling	wild dog	4.62	8
+noun	0	dog	sibling	wolf	4.35	4
+noun	0	dog	hypernym	domestic animal	4.45	15
+noun	0	dog	hyponym	coach dog	4.72	9
+noun	0	dog	hyponym	hunting dog	4.34	11
+noun	0	dog	hyponym	puppy	4.0	5
+noun	0	dog	hyponym	toy	4.3	3
+noun	0	dog	synonym	domestic dog	4.55	12
+noun	0	dog	meronym	flag	4.58	4
+noun	0	dog	unrelated	auto	4.48	4
+noun	0	dog	unrelated	finger	4.48	6
+noun	0	dog	unrelated	guitar	4.48	6
+noun	0	dog	unrelated	heading	4.48	7
+noun	0	dog	unrelated_same	grey	4.48	4
+noun	0	dog	unrelated_same	relative	4.48	8
+noun	0	dog	unrelated_same	monster	4.49	7
+noun	0	dog	unrelated_same	killer	4.47	6
+noun	1	car	self	car	5.45	3
+noun	1	car	sibling	bike	4.53	4
+noun	1	car	sibling	motorcycle	4.07	10
+noun	1	car	sibling	truck	4.64	5
+noun	1	car	hypernym	motor vehicle	4.33	13
+noun	1	car	hyponym	ambulance	4.06	9
+noun	1	car	hyponym	bus	4.83	3
+noun	1	car	hyponym	compact	4.06	7
+noun	1	car	hyponym	compact car	4.04	11
+noun	1	car	synonym	auto	4.48	4
+noun	1	car	synonym	machine	4.9	7
+noun	1	car	meronym	air bag	4.69	7
+noun	1	car	meronym	car door	4.93	8
+noun	1	car	meronym	car horn	4.12	8
+noun	1	car	meronym	car mirror	4.43	10
+noun	1	car	unrelated	arrival	4.44	7
+noun	1	car	unrelated	assault	4.44	7
+noun	1	car	unrelated	awareness	4.44	9
+noun	1	car	unrelated	bath	4.44	4
+noun	1	car	unrelated_same	jimmy	4.44	5
+noun	1	car	unrelated_same	mini	4.44	4
+noun	1	car	unrelated_same	tape	4.44	4
+noun	1	car	unrelated_same	thread	4.44	6
+noun	2	tree	self	tree	4.85	4
+noun	2	tree	sibling	bush	4.49	4
+noun	2	tree	hyponym	american olive	4.07	14
+noun	2	tree	hyponym	ash	4.16	3
+noun	2	tree	hyponym	ash tree	4.08	8
+noun	2	tree	hyponym	blue fig	4.06	8
+noun	2	tree	meronym	crown	4.56	5
+noun	2	tree	meronym	tree branch	4.39	11
+noun	2	tree	meronym	trunk	4.03	5
+noun	2	tree	unrelated	aaron	4.23	5
+noun	2	tree	unrelated	afghanistan	4.23	11
+noun	2	tree	unrelated	ai	4.23	2
+noun	2	tree	unrelated	asset	4.23	5
+noun	2	tree	unrelated_same	pine	4.1	4
+noun	2	tree	unrelated_same	sang	4.1	4
+noun	2	tree	unrelated_same	bud	4.08	3
+noun	2	tree	unrelated_same	flower	4.42	6
+noun	3	bird	self	bird	4.63	4
+noun	3	bird	hyponym	bird of passage	4.11	15
+noun	3	bird	hyponym	cock	4.23	4
+noun	3	bird	hyponym	flying bird	4.37	11
+noun	3	bird	hyponym	night bird	4.59	10
+noun	3	bird	meronym	bill	5.15	4
+noun	3	bird	meronym	wing	4.61	4
+noun	3	bird	unrelated	aim	4.51	3
+noun	3	bird	unrelated	campus	4.51	6
+noun	3	bird	unrelated	cap	4.51	3
+noun	3	bird	unrelated	childhood	4.51	9
+noun	3	bird	unrelated_same	miller	4.5	6
+noun	3	bird	unrelated_same	monster	4.49	7
+noun	3	bird	unrelated_same	hide	4.54	4
+noun	3	bird	unrelated_same	grey	4.48	4
+noun	4	fish	self	fish	4.9	4
+noun	4	fish	hyponym	food fish	4.78	9
+noun	4	fish	hyponym	game fish	4.84	9
+noun	4	fish	hyponym	rough fish	4.35	10
+noun	4	fish	hyponym	sport fish	4.51	10
+noun	4	fish	meronym	fish scale	4.56	10
+noun	4	fish	unrelated	alcohol	4.61	7
+noun	4	fish	unrelated	assembly	4.61	8
+noun	4	fish	unrelated	breakfast	4.61	9
+noun	4	fish	unrelated	chosen	4.61	6
+noun	4	fish	unrelated_same	humans	4.61	6
+noun	4	fish	unrelated_same	wing	4.61	4
+noun	4	fish	unrelated_same	giant	4.62	5
+noun	4	fish	unrelated_same	bird	4.63	4
+noun	5	house	self	house	5.71	5
+noun	5	house	sibling	apartment building	4.56	18
+noun	5	house	sibling	apartment house	4.61	15
+noun	5	house	sibling	architecture	4.42	12
+noun	5	house	sibling	center	5.19	6
+noun	5	house	hypernym	building	5.29	8
+noun	5	house	hypernym	home	5.81	4
+noun	5	house	hyponym	beach house	4.85	11
+noun	5	house	hyponym	cabin	4.13	5
+noun	5	house	hyponym	cottage	4.0	7
+noun	5	house	hyponym	country house	5.28	13
+noun	5	house	meronym	library	4.86	7
+noun	5	house	meronym	study	5.26	5
+noun	5	house	unrelated	attempt	4.85	7
+noun	5	house	unrelated	channel	4.85	7
+noun	5	house	unrelated	distance	4.85	8
+noun	5	house	unrelated	eating	4.85	6
+noun	5	house	unrelated_same	glass	4.85	5
+noun	5	house	unrelated_same	mobile	4.85	6
+noun	5	house	unrelated_same	screen	4.85	6
+noun	5	house	unrelated_same	complex	4.86	7
+noun	6	chair	self	chair	4.69	5
+noun	6	chair	sibling	bench	4.39	5
+noun	6	chair	sibling	box	5.04	3
+noun	6	chair	sibling	box seat	4.61	8
+noun	6	chair	sibling	couch	4.17	5
+noun	6	chair	hypernym	seat	4.82	4
+noun	6	chair	hyponym	chair of state	4.66	14
+noun	6	chair	hyponym	feeding chair	4.14	13
+noun	6	chair	hyponym	fighting chair	4.49	14
+noun	6	chair	hyponym	garden chair	4.43	12
+noun	6	chair	meronym	back	6.04	4
+noun	6	chair	meronym	leg	4.66	3
+noun	6	chair	unrelated	ancient	4.68	7
+noun	6	chair	unrelated	communication	4.68	13
+noun	6	chair	unrelated	email	4.68	5
+noun	6	chair	unrelated	ending	4.68	6
+noun	6	chair	unrelated_same	restaurant	4.68	10
+noun	6	chair	unrelated_same	platform	4.67	8
+noun	6	chair	unrelated_same	route	4.67	5
+noun	6	chair	unrelated_same	hole	4.66	4
+noun	7	table	self	table	5.05	5
+noun	7	table	sibling	bank	5.16	4
+noun	7	table	sibling	column	4.33	6
+noun	7	table	sibling	matrix	4.07	6
+noun	7	table	sibling	row	4.6	3
+noun	7	table	hypernym	array	4.1	5
+noun	7	table	hyponym	calendar	4.3	8
+noun	7	table	hyponym	contents	4.18	8
+noun	7	table	hyponym	statistical table	4.09	17
+noun	7	table	hyponym	table of contents	4.12	17
+noun	7	table	unrelated	alert	4.33	5
+noun	7	table	unrelated	arena	4.33	5
+noun	7	table	unrelated	aug	4.33	3
+noun	7	table	unrelated	billy	4.33	5
+noun	7	table	unrelated_same	brave	4.33	5
+noun	7	table	unrelated_same	fleet	4.33	5
+noun	7	table	unrelated_same	wildlife	4.33	8
+noun	7	table	unrelated_same	rick	4.32	4
+noun	8	knife	self	knife	4.41	5
+noun	8	knife	sibling	pick	5.08	4
+noun	8	knife	sibling	plane	4.72	5
+noun	8	knife	hypernym	edge tool	4.34	9
+noun	8	knife	hyponym	bread knife	4.15	11
+noun	8	knife	hyponym	case knife	4.38	10
+noun	8	knife	hyponym	hunting knife	4.11	13
+noun	8	knife	hyponym	paper knife	4.32	11
+noun	8	knife	meronym	blade	4.19	5
+noun	8	knife	meronym	point	5.54	5
+noun	8	knife	unrelated	absolute	4.54	8
+noun	8	knife	unrelated	advertising	4.54	11
+noun	8	knife	unrelated	baseball	4.54	8
+noun	8	knife	unrelated	bible	4.54	5
+noun	8	knife	unrelated_same	bathroom	4.54	8
+noun	8	knife	unrelated_same	cable	4.54	5
+noun	8	knife	unrelated_same	client	4.54	6
+noun	8	knife	unrelated_same	print	4.54	5
+noun	9	hand	self	hand	5.41	4
+noun	9	hand	sibling	finger	4.48	6
+noun	9	hand	sibling	toe	4.07	3
+noun	9	hand	hyponym	left	5.62	4
+noun	9	hand	hyponym	left hand	5.2	9
+noun	9	hand	hyponym	right	5.96	5
+noun	9	hand	hyponym	right hand	5.3	10
+noun	9	hand	meronym	ball	5.04	4
+noun	9	hand	meronym	finger	4.48	6
+noun	9	hand	meronym	palm	4.23	4
+noun	9	hand	holonym	arm	4.73	3
+noun	9	hand	holonym	human	5.35	5
+noun	9	hand	holonym	human being	5.25	11
+noun	9	hand	holonym	man	5.82	3
+noun	9	hand	unrelated	box	5.04	3
+noun	9	hand	unrelated	build	5.04	5
+noun	9	hand	unrelated	card	5.04	4
+noun	9	hand	unrelated	dark	5.04	4
+noun	9	hand	unrelated_same	region	5.0	6
+noun	9	hand	unrelated_same	quick	4.98	5
+noun	9	hand	unrelated_same	o	5.12	1
+noun	9	hand	unrelated_same	brain	4.94	5
+noun	10	eye	self	eye	5.02	3
+noun	10	eye	sibling	ear	4.43	3
+noun	10	eye	sibling	inner ear	4.16	9
+noun	10	eye	sibling	internal ear	4.23	12
+noun	10	eye	sibling	organ of hearing	4.06	16
+noun	10	eye	hypernym	sense organ	4.1	11
+noun	10	eye	hyponym	compound eye	4.12	12
+noun	10	eye	hyponym	naked eye	4.33	9
+noun	10	eye	hyponym	os	4.1	2
+noun	10	eye	hyponym	simple eye	4.75	10
+noun	10	eye	meronym	eye muscle	4.34	10
+noun	10	eye	meronym	lens	4.17	4
+noun	10	eye	meronym	lens of the eye	4.11	15
+noun	10	eye	holonym	face	5.45	4
+noun	10	eye	holonym	human face	5.1	10
+noun	10	eye	holonym	visual system	4.46	13
+noun	10	eye	unrelated	arab	4.39	4
+noun	10	eye	unrelated	associate	4.39	9
+noun	10	eye	unrelated	atlantic	4.39	8
+noun	10	eye	unrelated	bench	4.39	5
+noun	10	eye	unrelated_same	root	4.41	4
+noun	10	eye	unrelated_same	seed	4.37	4
+noun	10	eye	unrelated_same	stomach	4.42	7
+noun	10	eye	unrelated_same	gene	4.36	4
+noun	11	river	self	river	5.03	5
+noun	11	river	sibling	branch	4.58	6
+noun	11	river	sibling	creek	4.37	5
+noun	11	river	sibling	run	5.49	3
+noun	11	river	hypernym	stream	4.62	6
+noun	11	river	meronym	falls	4.63	5
+noun	11	river	meronym	rapid	4.38	5
+noun	11	river	holonym	water system	5.24	12
+noun	11	river	unrelated	ad	4.76	2
+noun	11	river	unrelated	apple	4.76	5
+noun	11	river	unrelated	balance	4.76	7
+noun	11	river	unrelated	birthday	4.76	8
+noun	11	river	unrelated_same	charles	4.77	7
+noun	11	river	unrelated_same	mountain	4.73	8
+noun	11	river	unrelated_same	sky	4.72	3
+noun	11	river	unrelated_same	valley	4.72	6
+noun	12	mountain	self	mountain	4.73	8
+noun	12	mountain	sibling	head	5.51	4
+noun	12	mountain	sibling	hill	4.82	4
+noun	12	mountain	sibling	ridge	4.12	5
+noun	12	mountain	hyponym	ben	4.69	3
+noun	12	mountain	synonym	mount	4.47	5
+noun	12	mountain	meronym	mountain peak	4.32	13
+noun	12	mountain	unrelated	abuse	4.66	5
+noun	12	mountain	unrelated	actor	4.65	5
+noun	12	mountain	unrelated	advance	4.65	7
+noun	12	mountain	unrelated	apartment	4.65	9
+noun	12	mountain	unrelated_same	planet	4.68	6
+noun	12	mountain	unrelated_same	falls	4.63	5
+noun	12	mountain	unrelated_same	canadian	4.7	8
+noun	12	mountain	unrelated_same	essential	4.61	9
+noun	13	flower	self	flower	4.42	6
+noun	13	flower	sibling	wild flower	4.27	11
+noun	13	flower	hyponym	carolina spring beauty	4.22	22
+noun	13	flower	hyponym	cotton rose	4.22	11
+noun	13	flower	hyponym	garden pink	4.33	11
+noun	13	flower	hyponym	hot water plant	4.64	15
+noun	13	flower	unrelated	absence	4.34	7
+noun	13	flower	unrelated	asshole	4.34	7
+noun	13	flower	unrelated	ate	4.34	3
+noun	13	flower	unrelated	blues	4.34	5
+noun	13	flower	unrelated_same	oak	4.18	3
+noun	13	flower	unrelated_same	ash	4.16	3
+noun	13	flower	unrelated_same	pine	4.1	4
+noun	13	flower	unrelated_same	sang	4.1	4
+noun	14	book	self	book	5.43	4
+noun	14	book	sibling	collection	4.96	10
+noun	14	book	sibling	impression	4.35	10
+noun	14	book	sibling	magazine	4.74	8
+noun	14	book	sibling	new edition	4.78	11
+noun	14	book	hypernym	publication	4.45	11
+noun	14	book	hyponym	appointment book	4.44	16
+noun	14	book	hyponym	appointment calendar	4.08	20
+noun	14	book	hyponym	authority	4.81	9
+noun	14	book	hyponym	book of facts	4.64	13
+noun	14	book	meronym	running head	5.05	12
+noun	14	book	meronym	running headline	4.0	16
+noun	14	book	meronym	signature	4.25	9
+noun	14	book	unrelated	amazon	4.55	6
+noun	14	book	unrelated	arrest	4.55	6
+noun	14	book	unrelated	carbon	4.55	6
+noun	14	book	unrelated	catholic	4.55	8
+noun	14	book	unrelated_same	ban	4.55	3
+noun	14	book	unrelated_same	concert	4.55	7
+noun	14	book	unrelated_same	tip	4.55	3
+noun	14	book	unrelated_same	bible	4.54	5
+noun	15	computer	self	computer	4.97	8
+noun	15	computer	sibling	assembly	4.61	8
+noun	15	computer	sibling	cash machine	4.61	12
+noun	15	computer	sibling	coin machine	4.11	12
+noun	15	computer	sibling	farm machine	4.52	12
+noun	15	computer	hypernym	machine	4.9	7
+noun	15	computer	hyponym	client	4.54	6
+noun	15	computer	hyponym	digital computer	4.59	16
+noun	15	computer	hyponym	guest	4.58	5
+noun	15	computer	hyponym	home computer	4.91	13
+noun	15	computer	synonym	computing machine	4.01	17
+noun	15	computer	synonym	electronic computer	4.41	19
+noun	15	computer	synonym	information processing system	4.39	29
+noun	15	computer	meronym	bus	4.83	3
+noun	15	computer	meronym	central processing unit	4.27	23
+noun	15	computer	meronym	chip	4.31	4
+noun	15	computer	meronym	computer circuit	4.35	16
+noun	15	computer	holonym	platform	4.67	8
+noun	15	computer	unrelated	aim	4.51	3
+noun	15	computer	unrelated	campus	4.51	6
+noun	15	computer	unrelated	childhood	4.51	9
+noun	15	computer	unrelated	comedy	4.51	6
+noun	15	computer	unrelated_same	cap	4.51	3
+noun	15	computer	unrelated_same	nose	4.51	4
+noun	15	computer	unrelated_same	semi	4.51	4
+noun	15	computer	unrelated_same	tie	4.51	3
+noun	16	telephone	self	telephone	4.41	9
+noun	16	telephone	sibling	audio system	4.44	12
+noun	16	telephone	sibling	cd player	4.3	9
+noun	16	telephone	sibling	central processing unit	4.27	23
+noun	16	telephone	sibling	lens	4.17	4
+noun	16	telephone	hypernym	electronic equipment	4.38	20
+noun	16	telephone	hyponym	desk phone	4.37	10
+noun	16	telephone	hyponym	extension	4.46	9
+noun	16	telephone	hyponym	extension phone	4.4	15
+noun	16	telephone	hyponym	french telephone	4.33	16
+noun	16	telephone	synonym	phone	5.3	5
+noun	16	telephone	synonym	telephone set	4.38	13
+noun	16	telephone	meronym	receiver	4.09	8
+noun	16	telephone	holonym	phone system	5.11	12
+noun	16	telephone	holonym	telephone system	4.38	16
+noun	16	telephone	derivation	phone	5.3	5
+noun	16	telephone	unrelated	aim	4.51	3
+noun	16	telephone	unrelated	campus	4.51	6
+noun	16	telephone	unrelated	childhood	4.51	9
+noun	16	telephone	unrelated	comedy	4.51	6
+noun	16	telephone	unrelated_same	cap	4.51	3
+noun	16	telephone	unrelated_same	nose	4.51	4
+noun	16	telephone	unrelated_same	semi	4.51	4
+noun	16	telephone	unrelated_same	tie	4.51	3
+noun	17	shirt	self	shirt	4.63	5
+noun	17	shirt	sibling	body suit	4.62	9
+noun	17	shirt	sibling	cat suit	4.44	8
+noun	17	shirt	sibling	fur	4.03	3
+noun	17	shirt	sibling	head covering	4.41	13
+noun	17	shirt	hyponym	dress shirt	4.39	11
+noun	17	shirt	hyponym	evening shirt	4.43	13
+noun	17	shirt	hyponym	hair shirt	4.5	10
+noun	17	shirt	hyponym	jersey	4.66	6
+noun	17	shirt	meronym	shirt button	4.29	12
+noun	17	shirt	unrelated	anger	4.42	5
+noun	17	shirt	unrelated	architecture	4.42	12
+noun	17	shirt	unrelated	assist	4.42	6
+noun	17	shirt	unrelated	behalf	4.42	6
+noun	17	shirt	unrelated_same	android	4.42	7
+noun	17	shirt	unrelated_same	diamond	4.42	7
+noun	17	shirt	unrelated_same	lab	4.42	3
+noun	17	shirt	unrelated_same	ordinary	4.42	8
+noun	18	shoe	self	shoe	4.24	4
+noun	18	shoe	sibling	boot	4.19	4
+noun	18	shoe	hyponym	baby shoe	4.2	9
+noun	18	shoe	hyponym	congress boot	4.11	13
+noun	18	shoe	hyponym	congress shoe	4.16	13
+noun	18	shoe	hyponym	gym shoe	4.03	8
+noun	18	shoe	meronym	collar	4.04	6
+noun	18	shoe	meronym	counter	4.56	7
+noun	18	shoe	meronym	shoe string	4.01	11
+noun	18	shoe	meronym	throat	4.3	6
+noun	18	shoe	unrelated	advisory	4.18	8
+noun	18	shoe	unrelated	animation	4.18	9
+noun	18	shoe	unrelated	assignment	4.18	10
+noun	18	shoe	unrelated	bias	4.18	4
+noun	18	shoe	unrelated_same	basement	4.18	8
+noun	18	shoe	unrelated_same	carpet	4.18	6
+noun	18	shoe	unrelated_same	ceiling	4.18	7
+noun	18	shoe	unrelated_same	compound	4.18	8
+noun	19	bicycle	self	bicycle	3.98	7
+noun	19	bicycle	sibling	car	5.45	3
+noun	19	bicycle	sibling	house trailer	4.3	13
+noun	19	bicycle	sibling	railroad car	4.29	12
+noun	19	bicycle	sibling	railway car	4.42	11
+noun	19	bicycle	hyponym	mountain bike	4.32	13
+noun	19	bicycle	hyponym	ordinary	4.42	8
+noun	19	bicycle	hyponym	safety bike	4.4	11
+noun	19	bicycle	synonym	bike	4.53	4
+noun	19	bicycle	synonym	cycle	4.6	5
+noun	19	bicycle	synonym	wheel	4.5	5
+noun	19	bicycle	meronym	chain	4.65	5
+noun	19	bicycle	derivation	bike	4.53	4
+noun	19	bicycle	unrelated	anniversary	4.53	11
+noun	19	bicycle	unrelated	broad	4.53	5
+noun	19	bicycle	unrelated	burn	4.53	4
+noun	19	bicycle	unrelated	causing	4.53	7
+noun	19	bicycle	unrelated_same	cake	4.53	4
+noun	19	bicycle	unrelated_same	motor	4.53	5
+noun	19	bicycle	unrelated_same	pc	4.53	2
+noun	19	bicycle	unrelated_same	peak	4.53	4
+adjective	0	hot	self	hot	5.16	3
+adjective	0	hot	antonym	cold	5.02	4
+adjective	0	hot	similar	heated	4.09	6
+adjective	0	hot	similar	heated up	4.09	9
+adjective	0	hot	similar	thermal	4.04	7
+adjective	0	hot	similar	tropical	4.18	8
+adjective	0	hot	unrelated	nazi	4.28	4
+adjective	0	hot	unrelated	turkish	4.28	7
+adjective	0	hot	unrelated	polish	4.29	6
+adjective	0	hot	unrelated	gathered	4.27	8
+adjective	0	hot	unrelated_same	bass	4.28	4
+adjective	0	hot	unrelated_same	bloody	4.28	6
+adjective	0	hot	unrelated_same	breathing	4.28	9
+adjective	0	hot	unrelated_same	crucial	4.28	7
+adjective	1	big	self	big	5.67	3
+adjective	1	big	antonym	little	5.75	6
+adjective	1	big	antonym	small	5.51	5
+adjective	1	big	synonym	large	5.39	5
+adjective	1	big	similar	bigger	4.74	6
+adjective	1	big	similar	broad	4.53	5
+adjective	1	big	similar	deep	5.05	4
+adjective	1	big	similar	double	5.01	6
+adjective	1	big	derivation	large	5.39	5
+adjective	1	big	unrelated	british	5.18	7
+adjective	1	big	unrelated	english	5.19	7
+adjective	1	big	unrelated	played	5.23	6
+adjective	1	big	unrelated	held	5.24	4
+adjective	1	big	unrelated_same	gold	5.17	4
+adjective	1	big	unrelated_same	gone	5.17	4
+adjective	1	big	unrelated_same	higher	5.18	6
+adjective	1	big	unrelated_same	l	5.18	1
+adjective	2	fast	self	fast	5.13	4
+adjective	2	fast	antonym	slow	4.85	4
+adjective	2	fast	similar	express	4.68	7
+adjective	2	fast	similar	fleet	4.33	5
+adjective	2	fast	similar	hot	5.16	3
+adjective	2	fast	similar	immediate	4.52	9
+adjective	2	fast	unrelated	canadian	4.7	8
+adjective	2	fast	unrelated	environmental	4.7	13
+adjective	2	fast	unrelated	asian	4.69	5
+adjective	2	fast	unrelated	spanish	4.73	7
+adjective	2	fast	unrelated_same	advanced	4.71	8
+adjective	2	fast	unrelated_same	alternative	4.71	11
+adjective	2	fast	unrelated_same	cheap	4.71	5
+adjective	2	fast	unrelated_same	fantastic	4.71	9
+adjective	3	happy	self	happy	5.35	5
+adjective	3	happy	antonym	unhappy	4.06	7
+adjective	3	happy	similar	blessed	4.23	7
+adjective	3	happy	similar	bright	4.61	6
+adjective	3	happy	similar	golden	4.67	6
+adjective	3	happy	similar	laughing	4.61	8
+adjective	3	happy	derivation	happiness	4.44	9
+adjective	3	happy	unrelated	islamic	4.44	7
+adjective	3	happy	unrelated	administrative	4.45	14
+adjective	3	happy	unrelated	electrical	4.42	10
+adjective	3	happy	unrelated	dutch	4.41	5
+adjective	3	happy	unrelated_same	concrete	4.44	8
+adjective	3	happy	unrelated_same	featured	4.44	8
+adjective	3	happy	unrelated_same	horrible	4.44	8
+adjective	3	happy	unrelated_same	ideal	4.44	5
+adjective	4	bright	self	bright	4.61	6
+adjective	4	bright	similar	brilliant	4.55	9
+adjective	4	bright	similar	silver	4.81	6
+adjective	4	bright	unrelated	muslim	4.67	6
+adjective	4	bright	unrelated	asian	4.69	5
+adjective	4	bright	unrelated	italian	4.66	7
+adjective	4	bright	unrelated	canadian	4.7	8
+adjective	4	bright	unrelated_same	ancient	4.68	7
+adjective	4	bright	unrelated_same	combined	4.68	8
+adjective	4	bright	unrelated_same	connected	4.68	9
+adjective	4	bright	unrelated_same	express	4.68	7
+adjective	5	young	self	young	5.43	5
+adjective	5	young	antonym	old	5.75	3
+adjective	5	young	similar	early	5.43	5
+adjective	5	young	similar	junior	4.49	6
+adjective	5	young	similar	little	5.75	6
+adjective	5	young	similar	small	5.51	5
+adjective	5	young	unrelated	american	5.49	8
+adjective	5	young	unrelated	self	5.25	4
+adjective	5	young	unrelated	held	5.24	4
+adjective	5	young	unrelated	played	5.23	6
+adjective	5	young	unrelated_same	known	5.39	5
+adjective	5	young	unrelated_same	large	5.39	5
+adjective	5	young	unrelated_same	lost	5.39	4
+adjective	5	young	unrelated_same	m	5.39	1
+adjective	6	strong	self	strong	5.22	6
+adjective	6	strong	antonym	weak	4.66	4
+adjective	6	strong	similar	hard	5.53	4
+adjective	6	strong	similar	powerful	4.85	8
+adjective	6	strong	similar	severe	4.56	6
+adjective	6	strong	unrelated	indian	4.91	6
+adjective	6	strong	unrelated	australian	4.93	10
+adjective	6	strong	unrelated	executive	4.87	9
+adjective	6	strong	unrelated	growing	4.94	7
+adjective	6	strong	unrelated_same	closed	4.9	6
+adjective	6	strong	unrelated_same	driving	4.9	7
+adjective	6	strong	unrelated_same	established	4.9	11
+adjective	6	strong	unrelated_same	gay	4.9	3
+adjective	7	clean	self	clean	4.97	5
+adjective	7	clean	antonym	dirty	4.55	5
+adjective	7	clean	similar	fresh	4.83	5
+adjective	7	clean	similar	washed	4.1	6
+adjective	7	clean	unrelated	korean	4.49	6
+adjective	7	clean	unrelated	olympic	4.49	7
+adjective	7	clean	unrelated	greek	4.5	5
+adjective	7	clean	unrelated	roman	4.5	5
+adjective	7	clean	unrelated_same	bush	4.49	4
+adjective	7	clean	unrelated_same	colour	4.49	6
+adjective	7	clean	unrelated_same	contemporary	4.49	12
+adjective	7	clean	unrelated_same	extensive	4.49	9
+adjective	8	empty	self	empty	4.59	5
+adjective	8	empty	antonym	full	5.54	4
+adjective	8	empty	similar	bare	4.18	4
+adjective	8	empty	similar	blank	4.14	5
+adjective	8	empty	similar	clean	4.97	5
+adjective	8	empty	similar	void	4.01	4
+adjective	8	empty	unrelated	chemical	4.57	8
+adjective	8	empty	unrelated	electronic	4.55	10
+adjective	8	empty	unrelated	irish	4.54	5
+adjective	8	empty	unrelated	soviet	4.54	6
+adjective	8	empty	unrelated_same	academic	4.57	8
+adjective	8	empty	unrelated_same	accurate	4.57	8
+adjective	8	empty	unrelated_same	competitive	4.57	11
+adjective	8	empty	unrelated_same	favourite	4.57	9
+adjective	9	near	self	near	5.29	4
+adjective	9	near	antonym	far	5.5	3
+adjective	9	near	synonym	close	5.36	5
+adjective	9	near	similar	adjacent	4.12	8
+adjective	9	near	similar	hot	5.16	3
+adjective	9	near	similar	nearby	4.55	6
+adjective	9	near	similar	warm	4.71	4
+adjective	9	near	unrelated	indian	4.91	6
+adjective	9	near	unrelated	australian	4.93	10
+adjective	9	near	unrelated	executive	4.87	9
+adjective	9	near	unrelated	growing	4.94	7
+adjective	9	near	unrelated_same	closed	4.9	6
+adjective	9	near	unrelated_same	driving	4.9	7
+adjective	9	near	unrelated_same	established	4.9	11
+adjective	9	near	unrelated_same	gay	4.9	3
