@@ -1,0 +1,212 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "frame": "You can describe {x} as",
+  "frame_b": "{x} can be described as",
+  "n_items": 100,
+  "n_concepts": 20,
+  "n_slots": 5,
+  "V": 151936,
+  "concepts": [
+    "dog",
+    "bear",
+    "owl",
+    "eagle",
+    "apple",
+    "banana",
+    "carrot",
+    "onion",
+    "bed",
+    "couch",
+    "car",
+    "boat",
+    "screwdriver",
+    "broom",
+    "spear",
+    "whip",
+    "jeans",
+    "sweater",
+    "guitar",
+    "violin"
+  ],
+  "chance": 0.05,
+  "accuracy_by_k": {
+    "5": 0.57,
+    "10": 0.69,
+    "15": 0.76,
+    "19": 0.8
+  },
+  "primary_k": 10,
+  "primary_accuracy": 0.69,
+  "raw_pca_baseline": 0.44,
+  "hellinger_centroid_baseline": 0.6,
+  "tfidf_baseline": 0.05,
+  "null": {
+    "observed": 0.69,
+    "mean": 0.03935,
+    "p": 0.004975124378109453,
+    "n_perm": 200
+  },
+  "anchor_diagnostic": [
+    {
+      "concept": "dog",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "bear",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "owl",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "eagle",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "apple",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "banana",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "carrot",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "onion",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "bed",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "couch",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "car",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "boat",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "screwdriver",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "broom",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "spear",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "whip",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "jeans",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "sweater",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "guitar",
+      "shared_all": [],
+      "anchors": []
+    },
+    {
+      "concept": "violin",
+      "shared_all": [],
+      "anchors": []
+    }
+  ],
+  "lexical_overlap": {
+    "within_mean": 0.003214285714285714,
+    "between_mean": 0.0018882205513784463,
+    "gap": 0.0013260651629072675
+  },
+  "tfidf_fisher": {
+    "10": 0.08,
+    "15": 0.07
+  },
+  "residualized_fisher": {
+    "10": 0.48,
+    "15": 0.56
+  },
+  "null_residualized": {
+    "observed": 0.48,
+    "mean": 0.0479,
+    "p": 0.004975124378109453,
+    "n_perm": 200,
+    "n_lex": 10
+  },
+  "frequency_length_residual": 0.72,
+  "cross_frame": {
+    "accuracy_A_to_B": 0.51,
+    "accuracy_B_to_A": 0.83,
+    "rdm_corr_A_to_B": 0.6351821963285178,
+    "rdm_corr_B_to_A": 0.6885914612009956,
+    "chance": 0.05
+  },
+  "rdm": {
+    "rho_model_concept": 0.1627035210684499,
+    "rho_model_lexical": 0.17686327221171855,
+    "partial_model_concept_given_lexical": 0.022364402202161866
+  },
+  "folds": [
+    {
+      "slot": 0,
+      "accuracy": 0.7,
+      "n_test": 20
+    },
+    {
+      "slot": 1,
+      "accuracy": 0.75,
+      "n_test": 20
+    },
+    {
+      "slot": 2,
+      "accuracy": 0.9,
+      "n_test": 20
+    },
+    {
+      "slot": 3,
+      "accuracy": 0.5,
+      "n_test": 20
+    },
+    {
+      "slot": 4,
+      "accuracy": 0.6,
+      "n_test": 20
+    }
+  ],
+  "dtype": "bfloat16"
+}
